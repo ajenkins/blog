@@ -13,11 +13,10 @@ module.exports = function (eleventyConfig) {
     'woff',
     'woff2',
   ]);
-  eleventyConfig.addPassthroughCopy('static');
 
   return {
     dir: {
-      input: '_template',
+      input: '_pages',
       includes: '../_includes',
       output: '_output',
     },
