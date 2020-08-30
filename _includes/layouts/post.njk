@@ -4,6 +4,8 @@ templateClass: tmpl-post
 ---
 <h1>{{ title }}</h1>
 
-{{ content | safe }}
+<article>
+  {{ content | safe }}
+</article>
 
 <p><a href="{{ '/' | url }}">Back to Home</a></p>
