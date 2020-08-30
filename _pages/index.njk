@@ -3,7 +3,8 @@ layout: layouts/base.njk
 title: Home
 ---
 
-<h1>This is the home page</h1>
+<h1>Home</h1>
+<h2>All posts:</h2>
 {% for post in collections.post %}
   <p><a href="{{ post.url | url }}">{{ post.data.title }}</a></p>
 {% endfor %}

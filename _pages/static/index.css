@@ -1,11 +1,22 @@
+* {
+  line-height: 1.5em;
+}
+
 body {
-  background: #222;
-  color: #eee;
+  background: #ffffff;
+  color: #1C1C1C;
   font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  padding: 2rem 20rem;
 }
 
 a {
-  color: #aaa;
+  color: #0E3CBD;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
 }
 
 a.footnote {
