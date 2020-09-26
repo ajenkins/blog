@@ -50,6 +50,7 @@ time {
   color: #555;
 }
 
+/* Navbar */
 nav {
   display: flex;
   align-items: center;
@@ -71,6 +72,12 @@ nav {
   font-size: 2rem;
 }
 
+/* Home Page */
+.publication-date {
+  color: #555;
+}
+
+/* About Page */
 #about-photo {
   width: 20rem;
   margin: auto;
