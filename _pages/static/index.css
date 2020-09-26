@@ -65,3 +65,10 @@ nav {
   width: 3rem;
   margin: 0 1rem;
 }
+
+#about-photo {
+  width: 20rem;
+  margin: auto;
+  display: block;
+  border-radius: 50%;
+}
