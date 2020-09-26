@@ -100,11 +100,27 @@
     <li>Zeds Dead</li>
   </ul>
 
-  <h1>Contact</h1>
-  I don't really use social media, so the best way to get in touch with me is email.
-  My email address is <a href="mailto:aj.jenkins123@gmail.com">aj.jenkins123@gmail.com</a>.
-  Get at me webcrawlers 😜
+  <h1>Contact Info</h1>
+  <p>
+    I don't really use social media, so the best way to get in touch with me is email.
+    My email address is <a href="mailto:aj.jenkins123@gmail.com">aj.jenkins123@gmail.com</a>.
+    Get at me webcrawlers 😜
+  </p>
 <div>
+
+<script>
+  // https://stackoverflow.com/a/21984136/1494777
+  function whatsMyAgeAgain(dob) {
+    var ageDiffMs = Date.now() - dob.getTime();
+    var ageDate = new Date(ageDiffMs); // miliseconds from epoch
+    return Math.abs(ageDate.getUTCFullYear() - 1970);
+  }
+
+  var dob = new Date('1992-04-16');
+  var myAge = whatsMyAgeAgain(dob);
+
+  document.getElementById('my-age').innerHTML = myAge;
+</script>
     </main>
   </body>
 </html>
