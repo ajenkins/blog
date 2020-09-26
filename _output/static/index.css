@@ -66,6 +66,11 @@ nav {
   margin: 0 1rem;
 }
 
+#about-link {
+  margin: 0 1rem;
+  font-size: 2rem;
+}
+
 #about-photo {
   width: 20rem;
   margin: auto;
