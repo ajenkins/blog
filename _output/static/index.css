@@ -24,8 +24,9 @@ p.subtitle {
   font-weight: 200;
 }
 
-img {
+img, iframe {
   max-width: 40rem;
+  width: 100%;
 }
 
 h1 {
