@@ -6,7 +6,7 @@ tags: ['story', 'video games']
 date: 2020-09-27
 ---
 
-### Rewinding to 2007
+## Rewinding to 2007
 
 This is the story of the first and hopefully last time in my life I did something just to get
 approval from strangers on the internet.
@@ -49,7 +49,7 @@ exclusive unlock which could not be earned by conventional means. The combined e
 that I decided that I had to do whatever it took to get this armor. Getting Recon Armor became my
 life mission.
 
-### Becoming worthy
+## Becoming worthy
 
 So, my first step was to brainstorm what I could do that would get the attention of a Bungie dev and
 be deemed worthy of receiving Recon Armor. It was obvious that making a video of me getting killed
@@ -89,7 +89,7 @@ of the ridges in the sand.
 When I was done, I was very proud of my creation. To date, I think it's the most artistic thing
 I've ever done. My friends were all impressed when I showed it to them.
 
-### Getting Recon
+## Getting Recon
 
 I was certain that if a Bungie employee saw the screenshot of what I had built in Forge, I would get
 the Recon Armor for sure. So all I had to do was get their attention.
@@ -128,7 +128,7 @@ just for trying to highlight my accomplishment. _Apparently_, "bumping" was agai
 forum, which I guess I neglected to read. I asked my brother if he knew "bumping" was against the rules.
 He said something like "Yeah, of course it's against the rules. I thought that was obvious." 😖
 
-### Looking back
+## Looking back
 
 Throughout my life, I've thought about this experience a lot. Any time I'm thinking about doing something
 that will require me to get approval or validation from strangers on the internet, I remember my Halo 3 logo.
@@ -153,7 +153,7 @@ getting that dopamine hit when I see the page view count go up on Google Analyti
 
 Anyway, thanks for reading. If you notice any typos or historical inaccuracies, please leave a comment.
 
-### Bonus: Actually getting Recon
+## Bonus: Actually getting Recon
 
 Eventually I _did_ get the Recon Armor in Halo 3. Everyone did. In 2008 Bungie released an update
 which included the [Vidmaster Challenges](https://www.halopedia.org/Vidmaster_Challenges),
