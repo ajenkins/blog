@@ -138,15 +138,6 @@ I don't use social media. It often feels like it's less about sharing text and m
 as possible on what you post. I've had friends demand that I Like their post and I reply
 "Why do I have to Like your post? Isn't enough that I _like_ it?"
 
-For this reason, the only social media I use is Snapchat.
-Snapchat gets a bad rap because of its association with sending nudes,
-but for me what stands out is the ephemeral nature of the content. By making all content ephemeral, there's
-no "thing" for people to Like and no way to look back and see how many Likes something got. The only way to
-Like something is reply to the person who sent you the picture telling them you liked it. Because there's no
-mechanism for "winning" at Snapchat like on other social media services, I only share things on Snapchat
-because I think that people might appreciate receiving the picture, which I think was the original intent
-of social media.
-
 The Halo 3 experience is also one of the reasons I don't have analytics on my blog. By not knowing how many people
 are reading my blog posts, it lets me continue writing because I enjoy it instead of writing clickbait and
 getting that dopamine hit when I see the page view count go up on Google Analytics.
