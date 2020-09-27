@@ -30,9 +30,9 @@ In this essay I'll explain what Ranked Choice
 Voting is, how it works, and how it could save our political system.
 
 Ranked Choice Voting (RCV) is an alternative method for electing political candidates that 
-replaces plurality voting.<a href="#f1" class="footnote">[1]</a> If you've never heard of plurality voting, it's the basic voting system that you 
+replaces plurality voting.<a href="#footnote-1" class="footnote">[1]</a> If you've never heard of plurality voting, it's the basic voting system that you 
 probably just think of as "voting." First I'll explain how plurality voting works so you can see how RCV is different. 
-In plurality voting voters pick their one, favorite<a href="#f2" class="footnote">[2]</a> candidate from a list of possible candidates. The winner is whoever
+In plurality voting voters pick their one, favorite<a href="#footnote-2" class="footnote">[2]</a> candidate from a list of possible candidates. The winner is whoever
 receives the most votes (a plurality of the votes), but they don't need a majority (more than half).
 
 RCV works a little bit differently. Instead of only choosing your one, favorite candidate, you rank all (or some) of the
@@ -71,7 +71,7 @@ process.
 
 So, why is Ranked Choice Voting better than plurality voting? Rather than go into a technical deep dive of all the
 benefits of RCV, in this article I'll just talk about the biggest advantage: it eliminates the "spoiler effect"
-when similar candidates run against each other.<a href="#f3" class="footnote">[3]</a>
+when similar candidates run against each other.<a href="#footnote-3" class="footnote">[3]</a>
 When political pundits talk about a "spoiler candidate", they
 mean a candidate that runs in an election (usually a third-candidate entering a two-candidate race) and then
 "spoiling" the election for whichever candidate they're more similar to, thus handing the election to the
@@ -117,7 +117,8 @@ thus clearing the way for Trump to take the nomination. I believe that if voters
 using RCV, many would have ranked Trump last on their ballot (I'm thinking of the "never Trumpers") and perhaps a
 candidate that was actually preferred by a majority of Republican voters would've been nominated instead.
 
-Another cool thing about RCV is that primaries themselves are actually unnecessary.<a href="#f4" class="footnote">[4]</a> If you've ever wondered why we
+Another cool thing about RCV is that primaries themselves are actually unnecessary.<a href="#footnote-4" class="footnote">[4]</a>
+If you've ever wondered why we
 have to have primary elections before the main election, the main reason is because if multiple candidates from
 the same party ran against each other in the main election, the vote would be split across all of the candidates in
 that party. But imagine if RCV had been used in the 2016 presidential election without primaries. Voters would have had
@@ -141,7 +142,7 @@ Here's how RCV will address the issues I mentioned in the introduction:
    who is capable of winning.
 1. **The country is more divided than ever** - I actually don't believe this is true. I think that most of the
    country falls somewhere in the middle on most issues, but people are forced to pick a side in the battle
-   between Democrats and Republicans which makes us feel divided.<a href="#f5" class="footnote">[5]</a>
+   between Democrats and Republicans which makes us feel divided.<a href="#footnote-5" class="footnote">[5]</a>
    I know many Democrats who can't imagine how
    someone could have voted for Trump, but I bet that many Trump voters are more moderate than they might expect.
    I think many people voted for Trump, not because they support his agenda or even like him, but because they
@@ -173,26 +174,26 @@ involved with
 
 ---
 
-<a name="f1"></a>
+<a name="footnote-1"></a>
 [1]: Technically RCV and plurality voting can be used for voting on anything, not just candidates.
      But for simplicity, I only mention voting on political representatives since that's what people
      are most used to voting on in elections.
 
-<a name="f2"></a>
+<a name="footnote-2"></a>
 [2]: People often _don't_ vote for their favorite candidate, but instead vote for different candidate.
      This is known as tactical voting, which is explained later.
 
-<a name="f3"></a>
+<a name="footnote-3"></a>
 [3]: This is known also known as
      [the "clone" problem](https://en.wikipedia.org/wiki/Independence_of_clones_criterion)
      by mathematicians who study electoral systems. The idea is that similar candidates (i.e., clones) won't
      steal votes from each other.
 
-<a name="f4"></a>
+<a name="footnote-4"></a>
 [4]: Of course, you would still need some way of qualifying candidates for the election so voters
      aren't overwhelmed with too many options. Ranking more than 5 or so candidates would probably
      be tough for most voters.
 
-<a name="f5"></a>
+<a name="footnote-5"></a>
 [5]: This isn't something I came up with own my own.
      [You can read more about the theory here](https://en.wikipedia.org/wiki/Political_polarization_in_the_United_States#Party_polarization).
