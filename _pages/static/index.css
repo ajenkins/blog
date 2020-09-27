@@ -17,6 +17,10 @@ article, #container {
   margin: 0 auto;
 }
 
+img {
+  max-width: 40rem;
+}
+
 h1 {
   margin-bottom: 0.5rem;
 }

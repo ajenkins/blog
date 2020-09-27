@@ -1,7 +1,7 @@
 ---
 layout: layouts/post.njk
 title: Doing It for the Likes
-subtitle: A story about Halo 3, art, and "bumping"
+subtitle: Trying to get Recon Armor in 2007
 tags: ['story', 'video games']
 date: 2020-09-27
 ---
@@ -12,7 +12,8 @@ This is the story of the first and hopefully last time in my life I did somethin
 approval from strangers on the internet.
 
 In 2007 I was 15 years old and Halo 3 was my favorite video game. The campaign mode wasn't great
-(especially compared to Halo 2), but it was the best multiplayer experience I had ever played.
+(especially compared to Halo 2),
+but it was the best multiplayer experience I had ever played.<a href="#footnote-1" class="footnote">[1]</a>
 I spent almost every afternoon after school playing local multiplayer with my friends, and I spent
 a bit of time playing online too. I was the worst player among my friends, but I still loved it.
 
@@ -21,7 +22,8 @@ stuff was by playing the game. In Halo 3 when it launched there wasn't much to u
 could unlock a few different armor variants for your Spartan in multiplayer. However, there
 was one armor variant that you couldn't unlock just by playing the game: the Recon Armor.
 
--picture of recon armor-
+![Halo 3 Recon Armor variant](/static/ReconArmor.png)
+[Image source](https://halo.fandom.com/wiki/Mjolnir_Powered_Assault_Armor/R_variant?file=ReconArmor.png)
 
 Originally, Recon Armor was only available to Bungie employees, the developer of the game.
 So on the rare occasion when you saw someone with Recon Armor in the online multiplayer mode,
@@ -39,7 +41,8 @@ exploding barrel, which caused a nearby traffic cone to fly towards him so fast 
 If not the first documented occurrence, it was definitely the most famous case of someone killing themselves
 with a traffic cone in the game. Here's the original video:
 
--video of traffic cone kill-
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/ym0BtwmCvoc" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+</iframe>
 
 So, to summarize, I was a teenager and my favorite game was Halo 3. The developers created an extremely
 exclusive unlock which could not be earned by conventional means. The combined effect of these was
@@ -73,7 +76,7 @@ Here's what I made. I decided to recreate the Halo 3 logo in Forge using every s
 in the game. I don't think I was the first person with this concept, but I remember my version
 being better than anything else I had seen.
 
--image of my halo 3 logo-
+![My recreation of the Halo 3 logo in Forge](/static/halo3_logo_forge.jpg)
 
 It took about two days to make (less than 10 hrs). I used the box that the game came in as a reference
 and dropped the weapons wherever I thought would look good. My younger brother was helping me by controlling
@@ -148,5 +151,24 @@ The Halo 3 experience is also one of the reasons I don't have analytics on my bl
 are reading my blog posts, it lets me continue writing because I enjoy it instead of writing clickbait and
 getting that dopamine hit when I see the page view count go up on Google Analytics.
 
-Anyway, thanks for reading. If you notice any typos or historical inaccuracies, you can create a PR or issue on
-my GitHub page, or email me (contact info is on the About page).
+Anyway, thanks for reading. If you notice any typos or historical inaccuracies, please leave a comment.
+
+### Bonus: Actually getting Recon
+
+Eventually I _did_ get the Recon Armor in Halo 3. Everyone did. In 2008 Bungie released an update
+which included the [Vidmaster Challenges](https://www.halopedia.org/Vidmaster_Challenges),
+which upon completion would unlock the Recon Armor.
+Getting the armor was still difficult, but now there was a clear path anyone could follow to get the armor.
+This made the armor much less exclusive, so I stopped caring about getting it. I'm not even sure if
+I tried to complete the challenges. But in 2012 another update for the game was released which gave
+the Recon Armor to _all_ players. But since my obsession with the armor stemmed only from its
+exclusivity not the actual aesthetics, I don't think I even used the Recon Armor at that point.
+I had moved on to caring about other things.
+
+---
+
+<p id="footnote-1">
+[1]: Not only did Halo 3 have the best multiplayer of any Halo game yet, but I think
+     it has the best multiplayer of any Halo game ever made. To this day, my friends
+     and I still play Team Slayer on Guardian whenever we're together.
+</p>
