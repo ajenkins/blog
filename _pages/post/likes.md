@@ -25,7 +25,7 @@ was one armor variant that you couldn't unlock just by playing the game: the Rec
 ![Halo 3 Recon Armor variant](/static/ReconArmor.png)
 [Image source](https://halo.fandom.com/wiki/Mjolnir_Powered_Assault_Armor/R_variant?file=ReconArmor.png)
 
-Originally, Recon Armor was only available to Bungie employees, the developer of the game.
+Originally, Recon Armor was only available to employees of Bungie, the developer of the game.
 So on the rare occasion when you saw someone with Recon Armor in the online multiplayer mode,
 it was really exciting because you knew you were playing with someone who actually helped make
 the game. But shortly after it was available to Bungie employees, they decided to start gifting
@@ -59,7 +59,7 @@ keep playing and hope something crazy like that happened while I was playing, bu
 something I had control over, so that plan was out.
 
 Here's what I settled on. In Halo 3 they had added a new game mode called Forge. It was basically
-just a custom level builder. The way it worked is you controlled a little flying robot called a
+just a custom level editor. The way it worked is you controlled a little flying robot called a
 Sentinel and you could create and drop any object in the game (structures, vehicles, weapons, etc.).
 There was also local multiplayer so you could have multiple people all working together on the same
 creation at the same time. It was kind of like Minecraft, but 4 years earlier and you used objects
@@ -79,7 +79,7 @@ being better than anything else I had seen.
 ![My recreation of the Halo 3 logo in Forge](/static/halo3_logo_forge.jpg)
 
 It took about two days to make (less than 10 hrs). I used the box that the game came in as a reference
-and dropped the weapons wherever I thought would look good. My younger brother was helping me by controlling
+and dropped the weapons wherever I thought they would look good. My younger brother was helping me by controlling
 a second Sentinel so I could see what I was doing from multiple perspectives.
 The hardest part was I couldn't freeze the weapons in place once I placed them. I had to carefully
 drop them on top of each other and hope that the weight of each weapon wouldn't disturb the position
@@ -91,7 +91,7 @@ I've ever done. My friends were all impressed when I showed it to them.
 
 ## Getting Recon
 
-I was certain that if a Bungie employee saw the screenshot of what I had built in Forge, I would get
+I thought that if a Bungie employee saw the screenshot of what I had built in Forge, I would get
 the Recon Armor for sure. So all I had to do was get their attention.
 
 Bungie had a forum where players could talk about the Halo games. I decided that my best bet was to upload
@@ -111,19 +111,19 @@ my picture again and hope for a better outcome. Also, I didn't want to lose the 
 earned on my first post.
 
 So I asked my younger brother what I should do. He had a simple suggestion: "bump" it. I asked
-what "bumping" meant. He said that all I need to do to get back on the first page is reply to my own
-thread (even just with the single word "bump") so my post would again be the first, and most recently
+what "bumping" meant. He said that all I needed to do to get back on the first page is reply to my own
+thread (even just with the single word "bump") so my post would again be the first and most recently
 updated thread on the board. I'm not sure how my 12 year old brother knew about this trick, but it
 seemed like a great idea.
 
 So, every day after school I would look at where my post was positioned in the board, and if I wasn't satisfied
 I would write a reply to my post. Sometimes I would try to write something that looked meaningful, like
-tagging someone who had previously commented and asked them some question. But I also remember sometimes
+tagging someone who had previously commented and ask them some question. But I also remember sometimes
 just writing the word "bump" if I couldn't think of anything.
 
-This went on for about a week, until I received an email from a forum moderator saying that I had been
+This went on for about a week until I received an email from a forum moderator saying that I had been
 banned from the forum (I can't remember if it was temporary or permanent). I was shocked. Not only
-did I not receive Recon Armor (which I had "earned"), but they were actually banning me from the forum
+did I not receive Recon Armor (which I felt I deserved), but they were actually banning me from the forum
 just for trying to highlight my accomplishment. _Apparently_, "bumping" was against the rules of the
 forum, which I guess I neglected to read. I asked my brother if he knew "bumping" was against the rules.
 He said something like "Yeah, of course it's against the rules. I thought that was obvious." 😖
@@ -136,7 +136,7 @@ What I learned is that if you're creating or doing something just because you wa
 you're doing it for the wrong reason and you'll probably end up disappointed. This is one of the main reasons
 I don't use social media. It often feels like it's less about sharing text and media, but getting as many Likes
 as possible on what you post. I've had friends demand that I Like their post and I reply
-"Why do I have to Like your post. Isn't enough that I _like_ it?"
+"Why do I have to Like your post? Isn't enough that I _like_ it?"
 
 For this reason, the only social media I use is Snapchat.
 Snapchat gets a bad rap because of its association with sending nudes,
@@ -162,7 +162,7 @@ Getting the armor was still difficult, but now there was a clear path anyone cou
 This made the armor much less exclusive, so I stopped caring about getting it. I'm not even sure if
 I tried to complete the challenges. But in 2012 another update for the game was released which gave
 the Recon Armor to _all_ players. But since my obsession with the armor stemmed only from its
-exclusivity not the actual aesthetics, I don't think I even used the Recon Armor at that point.
+exclusivity and not the actual aesthetics, I don't think I even used the Recon Armor at that point.
 I had moved on to caring about other things.
 
 ---
