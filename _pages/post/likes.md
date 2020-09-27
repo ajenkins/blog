@@ -151,7 +151,7 @@ The Halo 3 experience is also one of the reasons I don't have analytics on my bl
 are reading my blog posts, it lets me continue writing because I enjoy it instead of writing clickbait and
 getting that dopamine hit when I see the page view count go up on Google Analytics.
 
-Anyway, thanks for reading. If you notice any typos or historical inaccuracies, please leave a comment.
+Anyway, thanks for reading.
 
 ## Bonus: Actually getting Recon
 

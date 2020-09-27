@@ -1,6 +1,7 @@
 ---
 layout: layouts/post.njk
 title: Why you should care about Ranked Choice Voting
+tags: ['essay', 'politics', 'voting']
 date: 2020-08-29
 ---
 

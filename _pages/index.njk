@@ -5,7 +5,7 @@ title: AJ's Blog
 
 <div id="container">
   <h1>All posts</h1>
-  {% for post in collections.post %}
+  {% for post in collections.post | reverse %}
     <p><a href="{{ post.url | url }}">{{ post.data.title }}</a>
     <span class="publication-date">({{ post.date.toDateString() }})</span></p>
   {% endfor %}

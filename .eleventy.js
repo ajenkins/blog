@@ -14,6 +14,8 @@ module.exports = function (eleventyConfig) {
     'woff2',
   ]);
 
+  eleventyConfig.setDataDeepMerge(true);
+
   return {
     dir: {
       input: '_pages',
