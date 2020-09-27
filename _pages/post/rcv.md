@@ -174,26 +174,31 @@ involved with
 
 ---
 
-<a name="footnote-1"></a>
+<p id="footnote-1">
 [1]: Technically RCV and plurality voting can be used for voting on anything, not just candidates.
      But for simplicity, I only mention voting on political representatives since that's what people
      are most used to voting on in elections.
+</p>
 
-<a name="footnote-2"></a>
+<p id="footnote-2">
 [2]: People often _don't_ vote for their favorite candidate, but instead vote for different candidate.
      This is known as tactical voting, which is explained later.
+</p>
 
-<a name="footnote-3"></a>
+<p name="footnote-3">
 [3]: This is known also known as
      [the "clone" problem](https://en.wikipedia.org/wiki/Independence_of_clones_criterion)
      by mathematicians who study electoral systems. The idea is that similar candidates (i.e., clones) won't
      steal votes from each other.
+</p>
 
-<a name="footnote-4"></a>
+<p id="footnote-4">
 [4]: Of course, you would still need some way of qualifying candidates for the election so voters
      aren't overwhelmed with too many options. Ranking more than 5 or so candidates would probably
      be tough for most voters.
+</p>
 
-<a name="footnote-5"></a>
+<p name="footnote-5">
 [5]: This isn't something I came up with own my own.
      [You can read more about the theory here](https://en.wikipedia.org/wiki/Political_polarization_in_the_United_States#Party_polarization).
+</p>
