@@ -182,13 +182,13 @@ involved with
 </p>
 
 <p id="footnote-2">
-[2]: People often _don't_ vote for their favorite candidate, but instead vote for different candidate.
+[2]: People often <em>don't</em> vote for their favorite candidate, but instead vote for different candidate.
      This is known as tactical voting, which is explained later.
 </p>
 
 <p name="footnote-3">
 [3]: This is known also known as
-     [the "clone" problem](https://en.wikipedia.org/wiki/Independence_of_clones_criterion)
+     <a href="https://en.wikipedia.org/wiki/Independence_of_clones_criterion">the "clone" problem</a>
      by mathematicians who study electoral systems. The idea is that similar candidates (i.e., clones) won't
      steal votes from each other.
 </p>
@@ -201,5 +201,5 @@ involved with
 
 <p name="footnote-5">
 [5]: This isn't something I came up with own my own.
-     [You can read more about the theory here](https://en.wikipedia.org/wiki/Political_polarization_in_the_United_States#Party_polarization).
+     <a href="https://en.wikipedia.org/wiki/Political_polarization_in_the_United_States#Party_polarization">You can read more about the theory here</a>.
 </p>
