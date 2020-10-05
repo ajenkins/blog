@@ -2,7 +2,7 @@
 layout: layouts/post.njk
 title: Why I don't have analytics on my website
 tags: ['opinion', 'technology', 'privacy', 'web design']
-date: 2020-10-04
+date: 2020-10-04 12:00:00 -04:00
 ---
 
 Originally I was planning on writing a blog post about how I chose "X" service

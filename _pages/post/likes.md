@@ -3,7 +3,7 @@ layout: layouts/post.njk
 title: Doing It for the Likes
 subtitle: Trying to get Recon Armor in 2007
 tags: ['story', 'video games']
-date: 2020-09-27
+date: 2020-09-27 12:00:00 -04:00
 ---
 
 ## Rewinding to 2007

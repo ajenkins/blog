@@ -2,7 +2,7 @@
 layout: layouts/post.njk
 title: Why you should care about Ranked Choice Voting
 tags: ['essay', 'politics', 'voting']
-date: 2020-08-29
+date: 2020-08-29 12:00:00 -04:00
 ---
 
 This November Americans will be voting on who will be our next president for the next four years.
