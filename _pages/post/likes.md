@@ -2,6 +2,10 @@
 layout: layouts/post.njk
 title: Doing It for the Likes
 subtitle: Trying to get Recon Armor in 2007
+description: >-
+    A personal story of how I tried (and failed) to earn Recon Armor in Halo 3 in 2007.
+    I also talk about how this experience has shaped me as a person and has made me wary
+    of activities that feel like a popularity contest, such as social media.
 tags: ['story', 'video games']
 date: 2020-09-27 12:00:00 -04:00
 ---

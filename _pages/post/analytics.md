@@ -1,6 +1,9 @@
 ---
 layout: layouts/post.njk
 title: Why I don't have analytics on my website
+description: >-
+    An explanation for why I don't use Google Analytics or any other analytics tool
+    (even a privacy-focused analytics tools) on my website.
 tags: ['opinion', 'technology', 'privacy', 'web design']
 date: 2020-10-04 12:00:00 -04:00
 ---

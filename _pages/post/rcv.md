@@ -1,6 +1,11 @@
 ---
 layout: layouts/post.njk
 title: Why you should care about Ranked Choice Voting
+description: >-
+    An assessment of why our current political system in the United States is broken,
+    an explanation of ranked choice voting (RCV) and how it works,
+    and an explanation of how ranked choice voting would fix the problems we're currently facing
+    in our political system.
 tags: ['essay', 'politics', 'voting']
 date: 2020-08-29 12:00:00 -04:00
 ---
