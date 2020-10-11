@@ -49,7 +49,7 @@ module.exports = function (eleventyConfig) {
 
     let props = stats[outputFormat].pop();
 
-    return `<img src="${props.url}" width="${props.width}" height="${props.height}" alt="${alt}">`;
+    return `<img src="${props.url}" width="${props.width}" alt="${alt}">`;
   });
 
   // Lazy-load YouTube videos
