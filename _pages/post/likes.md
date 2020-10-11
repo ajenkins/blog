@@ -26,8 +26,12 @@ stuff was by playing the game. In Halo 3 when it launched there wasn't much to u
 could unlock a few different armor variants for your Spartan in multiplayer. However, there
 was one armor variant that you couldn't unlock just by playing the game: the Recon Armor.
 
-![Halo 3 Recon Armor variant](/static/ReconArmor.png)
-[Image source](https://halo.fandom.com/wiki/Mjolnir_Powered_Assault_Armor/R_variant?file=ReconArmor.png)
+<p>
+    {% myImage "./_pages/static/ReconArmor.png", "Halo 3 Recon Armor variant", "png" %}
+    <a href="https://halo.fandom.com/wiki/Mjolnir_Powered_Assault_Armor/R_variant?file=ReconArmor.png">
+        Image source
+    </a>
+</p>
 
 Originally, Recon Armor was only available to employees of Bungie, the developer of the game.
 So on the rare occasion when you saw someone with Recon Armor in the online multiplayer mode,
@@ -80,7 +84,9 @@ Here's what I made. I decided to recreate the Halo 3 logo in Forge using every s
 in the game. I don't think I was the first person with this concept, but I remember my version
 being better than anything else I had seen.
 
-![My recreation of the Halo 3 logo in Forge](/static/halo3_logo_forge.jpg)
+<p>
+    {% myImage "./_pages/static/halo3_logo_forge.jpg", "My recreation of the Halo 3 logo in Forge" %}
+</p>
 
 It took about two days to make (less than 10 hrs). I used the box that the game came in as a reference
 and dropped the weapons wherever I thought they would look good. My younger brother was helping me by controlling
