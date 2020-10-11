@@ -11,6 +11,7 @@
     "@11ty/eleventy-img": "^0.3.0",
     "@snowpack/plugin-run-script": "^2.1.1",
     "clean-css": "^4.2.3",
+    "eleventy-plugin-youtube-embed": "^1.4.6",
     "prettier": "^2.0.5",
     "snowpack": "^2.9.0"
   }

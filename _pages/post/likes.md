@@ -27,7 +27,7 @@ could unlock a few different armor variants for your Spartan in multiplayer. How
 was one armor variant that you couldn't unlock just by playing the game: the Recon Armor.
 
 <p>
-    {% myImage "./_pages/static/ReconArmor.png", "Halo 3 Recon Armor variant", "png" %}
+    {% image "./_pages/static/ReconArmor.png", "Halo 3 Recon Armor variant", "png" %}
     <a href="https://halo.fandom.com/wiki/Mjolnir_Powered_Assault_Armor/R_variant?file=ReconArmor.png">
         Image source
     </a>
@@ -49,8 +49,7 @@ exploding barrel, which caused a nearby traffic cone to fly towards him so fast 
 If not the first documented occurrence, it was definitely the most famous case of someone killing themselves
 with a traffic cone in the game. Here's the original video:
 
-<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/ym0BtwmCvoc" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
-</iframe>
+https://www.youtube.com/watch?v=ym0BtwmCvoc
 
 So, to summarize, I was a teenager and my favorite game was Halo 3. The developers created an extremely
 exclusive unlock which could not be earned by conventional means. The combined effect of these was
@@ -85,7 +84,7 @@ in the game. I don't think I was the first person with this concept, but I remem
 being better than anything else I had seen.
 
 <p>
-    {% myImage "./_pages/static/halo3_logo_forge.jpg", "My recreation of the Halo 3 logo in Forge" %}
+    {% image "./_pages/static/halo3_logo_forge.jpg", "My recreation of the Halo 3 logo in Forge" %}
 </p>
 
 It took about two days to make (less than 10 hrs). I used the box that the game came in as a reference
