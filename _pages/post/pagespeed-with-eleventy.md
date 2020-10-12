@@ -2,12 +2,17 @@
 layout: layouts/post.njk
 title: Achieving a perfect PageSpeed score with Eleventy
 description: >-
-    A guide on how to optimize page load times for an Eleventy website.
-tags: ['guide', 'web development', 'eleventy', '11ty', 'software engineering']
+    How I optimized page load times for my Eleventy website.
+tags: ['story', 'web development', 'eleventy', '11ty', 'software engineering']
 date: 2020-10-11 15:34:00 -04:00
 ---
 
 {% image "./_pages/static/pagespeed_before-after.jpg", "PageSpeed score increased from 86 to 100" %}
+
+**Update:** I decided to rewrite this post as a guide instead of a story. If you want
+the full story of how I improved the performance of my website, keep reading. But if
+you just want the quick tips on how to make your Eleventy website faster,
+[read this post instead](/post/three-tricks-for-eleventy-speed).
 
 ## Intro
 
