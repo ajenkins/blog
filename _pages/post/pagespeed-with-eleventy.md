@@ -185,7 +185,7 @@ To try and help anyone else struggling with this plugin, I'll explain what I _th
    (the default output directory is `_site`).
 1. When you're using your newly created shortcode, the path to the file you should use
    is the full path from your project root to wherever the _source_ image is (including its file extension).
-   So it will look something like `./{inputDir}/{folderInInputDirWhereYourImagesAre}/{ImageWithExtension}`.
+   So it will look something like `./{inputDir}` `/{pathToImages}/` `{ImageWithExtension}`.
 
 After I got that working, I decided to go back and see if I could get the plugin to work with a Markdown file.
 If I couldn't, I would either need to find a totally new solution, or commit to writing all of my future blog posts
@@ -282,7 +282,7 @@ but that's only slightly worse and it's still in the green.
 Now the only suggestion I get is to use those fancy "next-gen" image formats. Which I'll do at some point,
 but not until Safari adds support for WebP as I discussed above.
 
-## Bonus: eleventyConfig.addPassthroughCopy()
+## Bonus: addPassthroughCopy
 
 This doesn't have anything to do with performance, but it's a really useful Eleventy feature
 that I discovered while configuring the YouTube embed stuff, and I wish I had known about it earlier.
