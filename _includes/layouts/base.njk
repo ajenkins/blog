@@ -15,6 +15,12 @@
     <style>
       {{ css | cssmin | safe }}
     </style>
+    <link
+      rel="preload"
+      href="/static/prism.css"
+      as="style"
+      onload="this.onload=null;this.rel='stylesheet'"
+    >
   </head>
   <body>
     <nav>

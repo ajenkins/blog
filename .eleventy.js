@@ -1,6 +1,7 @@
 const CleanCSS = require('clean-css');
 const Image = require('@11ty/eleventy-img');
 const embedYouTube = require('eleventy-plugin-youtube-embed');
+const syntaxHighlight = require('@11ty/eleventy-plugin-syntaxhighlight');
 
 module.exports = function (eleventyConfig) {
   // The file types that eleventy will look at and copy into _output/
@@ -63,6 +64,9 @@ module.exports = function (eleventyConfig) {
       }
     }
   });
+
+  // Syntax highlighting for code-blocks
+  eleventyConfig.addPlugin(syntaxHighlight);
 
   return {
     // Enables the use of shortcodes within Markdown

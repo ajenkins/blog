@@ -13,6 +13,12 @@
     <style>
       body{background:#fff;color:#111;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;-webkit-font-smoothing:antialiased;margin:0 auto}main{margin:1.5rem}#container,article{width:100%;max-width:40rem;margin:0 auto}p.subtitle{margin-top:0;margin-bottom:.5rem;font-size:1.5rem;font-weight:200}iframe,img{max-width:40rem;width:100%}h1{margin-bottom:.5rem;font-size:2rem}p{margin-top:1.5rem;margin-bottom:0;line-height:1.5rem}li{line-height:1.5rem}a{color:-webkit-link;text-decoration:none}a:hover{text-decoration:underline}a.footnote{vertical-align:super;font-size:.8em}time{font-size:.8em;color:#555}nav{display:flex;align-items:center;margin:1rem}#main-logo{width:8rem;margin:0 1rem}#github-mark{width:3rem;margin:0 1rem}#about-link{margin:0 1rem;font-size:2rem}.publication-date{color:#555}#about-photo{width:20rem;margin:auto;display:block;border-radius:50%}
     </style>
+    <link
+      rel="preload"
+      href="/static/prism.css"
+      as="style"
+      onload="this.onload=null;this.rel='stylesheet'"
+    >
   </head>
   <body>
     <nav>
@@ -71,21 +77,7 @@ issues I was seeing in my PageSpeed Insights report.</p>
 <p>The documentation for the plugin is really good, and I didn't have any issues getting it
 to work, but if you really want to see the code I used, here it is
 (<a href="https://github.com/ajenkins/blog/blob/master/.eleventy.js">full code on Github</a>):</p>
-<pre><code class="language-js">const embedYouTube = require('eleventy-plugin-youtube-embed');
-
-module.exports = function (eleventyConfig) {
-
-    // Lots of other configuration stuff here...
-
-    eleventyConfig.addPlugin(embedYouTube, {
-        lite: true
-    });
-
-    return {
-        // No need to make any changes here
-    };
-};
-</code></pre>
+<pre class="language-js"><code class="language-js"><span class="token keyword">const</span> embedYouTube <span class="token operator">=</span> <span class="token function">require</span><span class="token punctuation">(</span><span class="token string">'eleventy-plugin-youtube-embed'</span><span class="token punctuation">)</span><span class="token punctuation">;</span><br><br>module<span class="token punctuation">.</span><span class="token function-variable function">exports</span> <span class="token operator">=</span> <span class="token keyword">function</span> <span class="token punctuation">(</span><span class="token parameter">eleventyConfig</span><span class="token punctuation">)</span> <span class="token punctuation">{</span><br><br>    <span class="token comment">// Lots of other configuration stuff here...</span><br><br>    eleventyConfig<span class="token punctuation">.</span><span class="token function">addPlugin</span><span class="token punctuation">(</span>embedYouTube<span class="token punctuation">,</span> <span class="token punctuation">{</span><br>        lite<span class="token operator">:</span> <span class="token boolean">true</span><br>    <span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span><br><br>    <span class="token keyword">return</span> <span class="token punctuation">{</span><br>        <span class="token comment">// No need to make any changes here</span><br>    <span class="token punctuation">}</span><span class="token punctuation">;</span><br><span class="token punctuation">}</span><span class="token punctuation">;</span></code></pre>
 <p>(I actually decided to host the lite JS and CSS files myself, so this isn't exactly what my config
 looks like. For more info, see my Bonus Trick at the end of this post.)</p>
 <h2>Resizing images (@11ty/eleventy-img)</h2>
@@ -142,28 +134,10 @@ to use Nunjucks for parsing your Markdown templates.
 <a href="https://www.11ty.dev/docs/config/#default-template-engine-for-markdown-files">Here's the official doc</a>
 on how to configure that. If it's not clear from the docs, you need to add a new property
 to the return object in your Eleventy config function. Like this:</p>
-<pre><code class="language-js">module.exports = function (eleventyConfig) {
-
-    // Lots of other configuration stuff here...
-
-    return {
-        // Enables the use of Nunjucks shortcodes within Markdown
-        markdownTemplateEngine: 'njk',
-        dir: {
-            // You don't need to change this part
-        }
-    };
-};
-</code></pre>
+<pre class="language-js"><code class="language-js">module<span class="token punctuation">.</span><span class="token function-variable function">exports</span> <span class="token operator">=</span> <span class="token keyword">function</span> <span class="token punctuation">(</span><span class="token parameter">eleventyConfig</span><span class="token punctuation">)</span> <span class="token punctuation">{</span><br><br>    <span class="token comment">// Lots of other configuration stuff here...</span><br><br>    <span class="token keyword">return</span> <span class="token punctuation">{</span><br>        <span class="token comment">// Enables the use of Nunjucks shortcodes within Markdown</span><br>        markdownTemplateEngine<span class="token operator">:</span> <span class="token string">'njk'</span><span class="token punctuation">,</span><br>        dir<span class="token operator">:</span> <span class="token punctuation">{</span><br>            <span class="token comment">// You don't need to change this part</span><br>        <span class="token punctuation">}</span><br>    <span class="token punctuation">}</span><span class="token punctuation">;</span><br><span class="token punctuation">}</span><span class="token punctuation">;</span></code></pre>
 <p>Then in your Markdown files you can use the <code>myImage</code> shortcode, exactly the same
 way it's used in the examples in the plugin README. Like so:</p>
-<pre><code class="language-markdown">This will be interpreted as normal Markdown.
-
-&lt;!-- Ignore the backslashes --&gt;
-\{\% myImage &quot;./src/images/cat.jpg&quot;, &quot;photo of my cat&quot; \%\}
-
-This will _also_ be interpreted as normal Markdown.
-</code></pre>
+<pre class="language-markdown"><code class="language-markdown">This will be interpreted as normal Markdown.<br><br><span class="token comment">&lt;!-- Ignore the backslashes --></span><br>\{\% myImage "./src/images/cat.jpg", "photo of my cat" \%\}<br><br>This will <span class="token italic"><span class="token punctuation">_</span><span class="token content">also</span><span class="token punctuation">_</span></span> be interpreted as normal Markdown.</code></pre>
 <h3>Converting your images to WebP</h3>
 <p>I actually decided against this because Mac OS Safari doesn't support WebP images yet
 (they're adding support in Mac OS Big Sur which should be released soon). If you want
@@ -171,27 +145,7 @@ to be fancy, you can use a &lt;picture&gt; tag to load either a WebP or other im
 format, depending on what the browser supports. I decided to keep things simple though
 and just use JPEG images for most things, and use PNGs for images that needed transparency.</p>
 <p>But if you'd rather use WebP images, here's how you set that in the config:</p>
-<pre><code class="language-js">eleventyConfig.addNunjucksAsyncShortcode('image', async function (
-    src,
-    alt,
-    outputFormat = 'webp' // This is the only line you have to change
-) {
-    if (alt === undefined) {
-        throw new Error(`Missing \`alt\` on image from: ${src}`);
-    }
-
-    let stats = await Image(src, {
-        widths: [640],
-        formats: [outputFormat],
-        urlPath: '/static/',
-        outputDir: './_output/static/'
-    });
-
-    let props = stats[outputFormat].pop();
-
-    return `&lt;img src=&quot;${props.url}&quot; width=&quot;${props.width}&quot; alt=&quot;${alt}&quot;&gt;`;
-});
-</code></pre>
+<pre class="language-js"><code class="language-js">eleventyConfig<span class="token punctuation">.</span><span class="token function">addNunjucksAsyncShortcode</span><span class="token punctuation">(</span><span class="token string">'image'</span><span class="token punctuation">,</span> <span class="token keyword">async</span> <span class="token keyword">function</span> <span class="token punctuation">(</span><br>    src<span class="token punctuation">,</span><br>    alt<span class="token punctuation">,</span><br>    outputFormat <span class="token operator">=</span> <span class="token string">'webp'</span> <span class="token comment">// This is the only line you have to change</span><br><span class="token punctuation">)</span> <span class="token punctuation">{</span><br>    <span class="token keyword">if</span> <span class="token punctuation">(</span>alt <span class="token operator">===</span> <span class="token keyword">undefined</span><span class="token punctuation">)</span> <span class="token punctuation">{</span><br>        <span class="token keyword">throw</span> <span class="token keyword">new</span> <span class="token class-name">Error</span><span class="token punctuation">(</span><span class="token template-string"><span class="token template-punctuation string">`</span><span class="token string">Missing \`alt\` on image from: </span><span class="token interpolation"><span class="token interpolation-punctuation punctuation">${</span>src<span class="token interpolation-punctuation punctuation">}</span></span><span class="token template-punctuation string">`</span></span><span class="token punctuation">)</span><span class="token punctuation">;</span><br>    <span class="token punctuation">}</span><br><br>    <span class="token keyword">let</span> stats <span class="token operator">=</span> <span class="token keyword">await</span> <span class="token function">Image</span><span class="token punctuation">(</span>src<span class="token punctuation">,</span> <span class="token punctuation">{</span><br>        widths<span class="token operator">:</span> <span class="token punctuation">[</span><span class="token number">640</span><span class="token punctuation">]</span><span class="token punctuation">,</span><br>        formats<span class="token operator">:</span> <span class="token punctuation">[</span>outputFormat<span class="token punctuation">]</span><span class="token punctuation">,</span><br>        urlPath<span class="token operator">:</span> <span class="token string">'/static/'</span><span class="token punctuation">,</span><br>        outputDir<span class="token operator">:</span> <span class="token string">'./_output/static/'</span><br>    <span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span><br><br>    <span class="token keyword">let</span> props <span class="token operator">=</span> stats<span class="token punctuation">[</span>outputFormat<span class="token punctuation">]</span><span class="token punctuation">.</span><span class="token function">pop</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span><br><br>    <span class="token keyword">return</span> <span class="token template-string"><span class="token template-punctuation string">`</span><span class="token string">&lt;img src="</span><span class="token interpolation"><span class="token interpolation-punctuation punctuation">${</span>props<span class="token punctuation">.</span>url<span class="token interpolation-punctuation punctuation">}</span></span><span class="token string">" width="</span><span class="token interpolation"><span class="token interpolation-punctuation punctuation">${</span>props<span class="token punctuation">.</span>width<span class="token interpolation-punctuation punctuation">}</span></span><span class="token string">" alt="</span><span class="token interpolation"><span class="token interpolation-punctuation punctuation">${</span>alt<span class="token interpolation-punctuation punctuation">}</span></span><span class="token string">"></span><span class="token template-punctuation string">`</span></span><span class="token punctuation">;</span><br><span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span></code></pre>
 <h3>Making your images scale proportionally on mobile</h3>
 <p>Using the &lt;picture&gt; tag, you can actually load a lower resolution image
 on mobile devices to save even more bandwidth. I decided not to bother with that though,
@@ -199,12 +153,7 @@ and just use a normal &lt;img&gt; tag and scale the image based on the width of 
 <p>The first time I tried this using the example code from the README, my images looked
 stretched when viewed on a mobile device. To fix it, all I had to do was remove
 the <code>height</code> property from the &lt;img&gt; markup I was returning from the plugin function.</p>
-<pre><code class="language-js">// Change this...
-return `&lt;img src=&quot;${props.url}&quot; width=&quot;${props.width}&quot; alt=&quot;${alt}&quot;&gt;`;
-
-// To this.
-return `&lt;img src=&quot;${props.url}&quot; width=&quot;${props.width}&quot; height=&quot;${props.height}&quot; alt=&quot;${alt}&quot;&gt;`;
-</code></pre>
+<pre class="language-js"><code class="language-js"><span class="token comment">// Change this...</span><br><span class="token keyword">return</span> <span class="token template-string"><span class="token template-punctuation string">`</span><span class="token string">&lt;img src="</span><span class="token interpolation"><span class="token interpolation-punctuation punctuation">${</span>props<span class="token punctuation">.</span>url<span class="token interpolation-punctuation punctuation">}</span></span><span class="token string">" width="</span><span class="token interpolation"><span class="token interpolation-punctuation punctuation">${</span>props<span class="token punctuation">.</span>width<span class="token interpolation-punctuation punctuation">}</span></span><span class="token string">" alt="</span><span class="token interpolation"><span class="token interpolation-punctuation punctuation">${</span>alt<span class="token interpolation-punctuation punctuation">}</span></span><span class="token string">"></span><span class="token template-punctuation string">`</span></span><span class="token punctuation">;</span><br><br><span class="token comment">// To this.</span><br><span class="token keyword">return</span> <span class="token template-string"><span class="token template-punctuation string">`</span><span class="token string">&lt;img src="</span><span class="token interpolation"><span class="token interpolation-punctuation punctuation">${</span>props<span class="token punctuation">.</span>url<span class="token interpolation-punctuation punctuation">}</span></span><span class="token string">" width="</span><span class="token interpolation"><span class="token interpolation-punctuation punctuation">${</span>props<span class="token punctuation">.</span>width<span class="token interpolation-punctuation punctuation">}</span></span><span class="token string">" height="</span><span class="token interpolation"><span class="token interpolation-punctuation punctuation">${</span>props<span class="token punctuation">.</span>height<span class="token interpolation-punctuation punctuation">}</span></span><span class="token string">" alt="</span><span class="token interpolation"><span class="token interpolation-punctuation punctuation">${</span>alt<span class="token interpolation-punctuation punctuation">}</span></span><span class="token string">"></span><span class="token template-punctuation string">`</span></span><span class="token punctuation">;</span></code></pre>
 <h2>Inlining CSS (clean-css)</h2>
 <p>My CSS file was already pretty small to begin with (1 kb), so originally I wasn't worried about it.
 But according to my PageSpeed report, the extra network request required to download my CSS file
