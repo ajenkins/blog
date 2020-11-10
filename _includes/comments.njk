@@ -1,5 +1,5 @@
 <section id="comments-section">
-<h1>Comments</h1>
+<h1>Comments ✍️</h1>
 
 <div class="comment">
   <h4 class="comment-author">Test Name</h4>
@@ -13,20 +13,20 @@
 </div>
 
 <h2>Leave a comment</h2>
-<form id="comment-form" name="comment-form" method="POST">
-  <div id="required-input-control">
-    <label for="required-input">Required</label>
-    <input type="text" id="required-input" name="required-input" tabindex="-1" autocomplete="off">
+<form id="comment-form" name="comment-form" method="POST" action="{{ staticman_url }}">
+  <div id="required-control">
+    <label for="required">Required</label>
+    <input type="text" id="required" name="required" tabindex="-1" autocomplete="off">
   </div>
 
-  <div id="name-input-control">
-    <label for="name-input">Name</label>
-    <input type="text" id="name-input" name="name-input" placeholder="Anonymous" maxlength="1000" size="32">
+  <div id="name-control">
+    <label for="name">Name</label>
+    <input type="text" id="name" name="name" placeholder="Anonymous" maxlength="1000" size="32">
   </div>
 
-  <div id="comment-input-control">
-    <label for="comment-input">Comment</label>
-    <textarea id="comment-input" name="comment-input" required maxlength="10000" rows="10"></textarea>
+  <div id="comment-control">
+    <label for="comment">Comment</label>
+    <textarea id="comment" name="comment" required maxlength="10000" rows="10"></textarea>
   </div>
 
   <div id="submit-button-control">
