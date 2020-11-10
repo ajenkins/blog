@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -267,6 +268,8 @@ And that's something that no analytics tool can help me with.</p>
 <section id="comments-section">
 <h1>Comments ✍️</h1>
 
+
+
 <div class="comment">
   <h4 class="comment-author">Test Name</h4>
   <time class="comment-submitted-at">2020-01-01</time>
@@ -280,19 +283,22 @@ And that's something that no analytics tool can help me with.</p>
 
 <h2>Leave a comment</h2>
 <form id="comment-form" name="comment-form" method="POST" action="https://aj-blog-comments.herokuapp.com/v2/entry/ajenkins/blog/master/comments">
+  <input name="options[redirect]" type="hidden" value="https://ajenkins.me/post/analytics/">
+  <input name="options[slug]" type="hidden" value="analytics">
+
   <div id="required-control">
-    <label for="required">Required</label>
-    <input type="text" id="required" name="required" tabindex="-1" autocomplete="off">
+    <label for="fields[required]">Required</label>
+    <input type="text" id="fields[required]" name="fields[required]" tabindex="-1" autocomplete="off">
   </div>
 
   <div id="name-control">
-    <label for="name">Name</label>
-    <input type="text" id="name" name="name" placeholder="Anonymous" maxlength="1000" size="32">
+    <label for="fields[name]">Name</label>
+    <input type="text" id="fields[name]" name="fields[name]" placeholder="Anonymous" maxlength="1000" size="32">
   </div>
 
   <div id="comment-control">
-    <label for="comment">Comment</label>
-    <textarea id="comment" name="comment" required maxlength="10000" rows="10"></textarea>
+    <label for="fields[comment]">Comment</label>
+    <textarea id="fields[comment]" name="fields[comment]" required maxlength="10000" rows="10"></textarea>
   </div>
 
   <div id="submit-button-control">
