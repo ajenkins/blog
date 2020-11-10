@@ -73,6 +73,27 @@ module.exports = function (eleventyConfig) {
     return new Date(dateStr);
   });
 
+  // Pretty-print date
+  eleventyConfig.addFilter('formatDate', function (date) {
+    return date.toLocaleDateString('en-US', {
+      year: 'numeric',
+      month: 'long',
+      day: 'numeric'
+    });
+  });
+
+  // Pretty-print date and time
+  eleventyConfig.addFilter('formatDateTime', function (date) {
+    return date.toLocaleDateString('en-US', {
+      year: 'numeric',
+      month: 'long',
+      day: 'numeric',
+      hour: 'numeric',
+      minute: 'numeric',
+      timeZoneName: 'short'
+    });
+  });
+
   return {
     // Enables the use of shortcodes within Markdown
     markdownTemplateEngine: 'njk',

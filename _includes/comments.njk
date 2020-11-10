@@ -4,9 +4,9 @@
 {% if comments[page.fileSlug] %}
   {% for comment in comments[page.fileSlug] | list %}
     <div class="comment">
-      <h4 class="comment-author">By: {{ comment.value.name }}</h4>
-      <time class="comment-date" datetime="{{ comment.value.date | date }}">
-        {{ comment.value.date | date }}
+      <h4 class="comment-author">By: {{ comment.value.name or "Anonymous" }}</h4>
+      <time class="comment-date" datetime="{{ (comment.value.date | date).toISOString() }}">
+        {{ comment.value.date | date | formatDateTime }}
       </time>
       <p class="comment-body">{{ comment.value.body }}</p>
     </div>
