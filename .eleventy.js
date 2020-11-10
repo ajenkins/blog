@@ -68,6 +68,11 @@ module.exports = function (eleventyConfig) {
   // Syntax highlighting for code-blocks
   eleventyConfig.addPlugin(syntaxHighlight);
 
+  // Convert string to date
+  eleventyConfig.addFilter('date', function (dateStr) {
+    return new Date(dateStr);
+  });
+
   return {
     // Enables the use of shortcodes within Markdown
     markdownTemplateEngine: 'njk',

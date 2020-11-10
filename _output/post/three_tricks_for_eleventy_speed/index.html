@@ -11,7 +11,7 @@
     <meta name="description" content="A guide on how to optimize your Eleventy website page load times." />
     
     <style>
-      body{background:#fff;color:#111;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;-webkit-font-smoothing:antialiased;margin:0 auto}main{margin:1.5rem}#comments-section,#container,article{width:100%;max-width:40rem;margin:0 auto}p.subtitle{margin-top:0;margin-bottom:.5rem;font-size:1.5rem;font-weight:200}iframe,img{max-width:40rem;width:100%}h1{margin-bottom:.5rem;font-size:2rem}p{margin-top:1.5rem;margin-bottom:0;line-height:1.5rem}li{line-height:1.5rem}a{color:-webkit-link;text-decoration:none}a:hover{text-decoration:underline}a.footnote{vertical-align:super;font-size:.8em}time{font-size:.8em;color:#555}nav{display:flex;align-items:center;margin:1rem}#main-logo{width:8rem;margin:0 1rem}#github-mark{width:3rem;margin:0 1rem}#about-link{margin:0 1rem;font-size:2rem}.comment{margin-top:1.5rem}.comment-author,.comment-body,.comment-submitted-at{margin:.5rem 0}#comment-form>div{margin-bottom:1rem}label{display:block;margin-bottom:.5rem;font-weight:600}#comment{box-sizing:border-box;width:100%;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;-webkit-font-smoothing:antialiased}#required-control{display:none}.publication-date{color:#555}#about-photo{width:20rem;margin:auto;display:block;border-radius:50%}
+      body{background:#fff;color:#111;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;-webkit-font-smoothing:antialiased;margin:0 auto}main{margin:1.5rem}#comments-section,#container,article{width:100%;max-width:40rem;margin:0 auto}p.subtitle{margin-top:0;margin-bottom:.5rem;font-size:1.5rem;font-weight:200}iframe,img{max-width:40rem;width:100%}h1{margin-bottom:.5rem;font-size:2rem}p{margin-top:1.5rem;margin-bottom:0;line-height:1.5rem}li{line-height:1.5rem}a{color:-webkit-link;text-decoration:none}a:hover{text-decoration:underline}a.footnote{vertical-align:super;font-size:.8em}time{font-size:.8em;color:#555}nav{display:flex;align-items:center;margin:1rem}#main-logo{width:8rem;margin:0 1rem}#github-mark{width:3rem;margin:0 1rem}#about-link{margin:0 1rem;font-size:2rem}.comment{margin-top:1.5rem;border:1px solid #ccc;border-radius:16px;padding:1rem}.comment-author,.comment-body,.comment-submitted-at{margin:.5rem 0}#comment-form>div{margin-bottom:1rem}label{display:block;margin-bottom:.5rem;font-weight:600}#comment-body-input{box-sizing:border-box;width:100%;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;-webkit-font-smoothing:antialiased}#required-control{display:none}.publication-date{color:#555}#about-photo{width:20rem;margin:auto;display:block;border-radius:50%}
     </style>
     <link
       rel="preload"
@@ -216,38 +216,30 @@ some of my favicon files not being copied over correctly 🎉</p>
 <h1>Comments ✍️</h1>
 
 
-  <h2>I didn't find a comment :(</h2>
+  <p>No comments yet. Be the first!</p>
 
-
-<div class="comment">
-  <h4 class="comment-author">Test Name</h4>
-  <time class="comment-submitted-at">2020-01-01</time>
-  <p class="comment-body">
-    I thought that was a really good article. I enjoyed reading it!
-    I hope in your next article you talk about more cool stuff. Please
-    write an article about your favorite movies. Everyone would love
-    to know what your favorite movies are. I bet they're really funny!
-  </p>
-</div>
 
 <h2>Leave a comment</h2>
 <form id="comment-form" name="comment-form" method="POST" action="https://aj-blog-comments.herokuapp.com/v2/entry/ajenkins/blog/master/comments">
-  <input name="options[redirect]" type="hidden" value="https://ajenkins.me/post/three-tricks-for-eleventy-speed/">
-  <input name="options[slug]" type="hidden" value="three-tricks-for-eleventy-speed">
+  <input name="options[redirect]" type="hidden" value="https://ajenkins.me/post/three_tricks_for_eleventy_speed/">
+  <input name="options[slug]" type="hidden" value="three_tricks_for_eleventy_speed">
 
   <div id="required-control">
-    <label for="fields[required]">Required</label>
-    <input type="text" id="fields[required]" name="fields[required]" tabindex="-1" autocomplete="off">
+    <label>Required
+      <input type="text" name="fields[required]" tabindex="-1" autocomplete="off">
+    </label>
   </div>
 
   <div id="name-control">
-    <label for="fields[name]">Name</label>
-    <input type="text" id="fields[name]" name="fields[name]" placeholder="Anonymous" maxlength="1000" size="32">
+    <label>Name
+      <input type="text" name="fields[name]" placeholder="Anonymous" maxlength="1000" size="32">
+    </label>
   </div>
 
-  <div id="comment-control">
-    <label for="fields[comment]">Comment</label>
-    <textarea id="fields[comment]" name="fields[comment]" required maxlength="10000" rows="10"></textarea>
+  <div id="body-control">
+    <label>Comment
+      <textarea id="comment-body-input" name="fields[body]" required maxlength="10000" rows="10"></textarea>
+    </label>
   </div>
 
   <div id="submit-button-control">

@@ -2,19 +2,18 @@
 <h1>Comments ✍️</h1>
 
 {% if comments[page.fileSlug] %}
-  I found a comment
+  {% for comment in comments[page.fileSlug] | list %}
+    <div class="comment">
+      <h4 class="comment-author">By: {{ comment.value.name }}</h4>
+      <time class="comment-date" datetime="{{ comment.value.date | date }}">
+        {{ comment.value.date | date }}
+      </time>
+      <p class="comment-body">{{ comment.value.body }}</p>
+    </div>
+  {% endfor %}
+{% else %}
+  <p>No comments yet. Be the first!</p>
 {% endif %}
-
-<div class="comment">
-  <h4 class="comment-author">Test Name</h4>
-  <time class="comment-submitted-at">2020-01-01</time>
-  <p class="comment-body">
-    I thought that was a really good article. I enjoyed reading it!
-    I hope in your next article you talk about more cool stuff. Please
-    write an article about your favorite movies. Everyone would love
-    to know what your favorite movies are. I bet they're really funny!
-  </p>
-</div>
 
 <h2>Leave a comment</h2>
 <form id="comment-form" name="comment-form" method="POST" action="{{ staticman_url }}">
@@ -22,18 +21,21 @@
   <input name="options[slug]" type="hidden" value="{{ page.fileSlug }}">
 
   <div id="required-control">
-    <label for="fields[required]">Required</label>
-    <input type="text" id="fields[required]" name="fields[required]" tabindex="-1" autocomplete="off">
+    <label>Required
+      <input type="text" name="fields[required]" tabindex="-1" autocomplete="off">
+    </label>
   </div>
 
   <div id="name-control">
-    <label for="fields[name]">Name</label>
-    <input type="text" id="fields[name]" name="fields[name]" placeholder="Anonymous" maxlength="1000" size="32">
+    <label>Name
+      <input type="text" name="fields[name]" placeholder="Anonymous" maxlength="1000" size="32">
+    </label>
   </div>
 
-  <div id="comment-control">
-    <label for="fields[comment]">Comment</label>
-    <textarea id="fields[comment]" name="fields[comment]" required maxlength="10000" rows="10"></textarea>
+  <div id="body-control">
+    <label>Comment
+      <textarea id="comment-body-input" name="fields[body]" required maxlength="10000" rows="10"></textarea>
+    </label>
   </div>
 
   <div id="submit-button-control">
