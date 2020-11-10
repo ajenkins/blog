@@ -12,7 +12,7 @@ date: 2020-10-11 15:34:00 -04:00
 **Update:** I decided to rewrite this post as a guide instead of a story. If you want
 the full story of how I improved the performance of my website, keep reading. But if
 you just want the quick tips on how to make your Eleventy website faster,
-[read this post instead](/post/three-tricks-for-eleventy-speed).
+[read this post instead](/post/three_tricks_for_eleventy_speed).
 
 ## Intro
 

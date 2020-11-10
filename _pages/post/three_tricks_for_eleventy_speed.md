@@ -10,7 +10,7 @@ date: 2020-10-12 09:44:00 -04:00
 Originally I wrote this guide as a story, but I thought some people would prefer a condensed
 version that just teaches you the three tricks I used for making my website faster. If you'd
 rather read the original version of this post,
-[you can read it here](/post/pagespeed-with-eleventy).
+[you can read it here](/post/pagespeed_with_eleventy).
 
 Using the three tricks I'll show you in this guide, I was able to improve my
 [PageSpeed Insights](https://developers.google.com/speed/pagespeed/insights/)

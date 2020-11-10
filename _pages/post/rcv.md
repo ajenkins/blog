@@ -10,8 +10,8 @@ tags: ['essay', 'politics', 'voting']
 date: 2020-08-29 12:00:00 -04:00
 ---
 
-<i>UPDATE (11/4/20): The ballot initiative for ranked choice voting in Massachusetts has failed.
-<a href="/post/rcv-2020-loss">You can read my thoughts on the outcome here.</a></i>
+_UPDATE (11/4/20): The ballot initiative for ranked choice voting in Massachusetts has failed.
+[You can read my thoughts on the outcome here](/post/rcv_2020_loss)._
 
 This November Americans will be voting on who will be our next president for the next four years.
 If you're like many voters, the choice between Biden and Trump feels like choosing between the lesser of two evils.

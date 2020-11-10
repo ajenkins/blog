@@ -3,7 +3,7 @@
 
 {% if comments[page.fileSlug] %}
   {% for comment in comments[page.fileSlug] | list %}
-    <div class="comment">
+    <div class="comment-entry">
       <h4 class="comment-author">By: {{ comment.value.name or "Anonymous" }}</h4>
       <time class="comment-date" datetime="{{ (comment.value.date | date).toISOString() }}">
         {{ comment.value.date | date | formatDateTime }}
