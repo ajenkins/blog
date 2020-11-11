@@ -1273,4 +1273,56 @@ it will address some of these problems. I&#39;ll link to it here once I&#39;ve w
      but that&#39;s not a well-known book outside of software engineering.
 &lt;/p&gt;</content>
   </entry>
+  
+  <entry>
+    <title>New features: Comments and RSS feed</title>
+    <link href="https://ajenkins.me/post/rss_and_comments/" />
+    <updated>2020-11-08T16:00:00-05:00</updated>
+    <id>https://ajenkins.me/post/rss_and_comments/</id>
+    <content type="html">&lt;h2&gt;New features on the blog&lt;/h2&gt;
+&lt;h3&gt;Comments&lt;/h3&gt;
+&lt;p&gt;You can now add comments to any blog post I&#39;ve written, old or new.
+Just scroll down to the bottom of the page and put your name and comment.
+Feel free to make up a name or leave it blank.&lt;/p&gt;
+&lt;p&gt;I&#39;m not doing any moderation of the comments because I&#39;m hoping it won&#39;t
+be necessary, so don&#39;t make me regret it 😅&lt;/p&gt;
+&lt;p&gt;I&#39;m using &lt;a href=&quot;https://staticman.net/&quot;&gt;Staticman&lt;/a&gt; for the comments.
+This lets me have comments without adding a database to my site.
+Setting it up wasn&#39;t as straightforward as I expected, so maybe
+I&#39;ll write a post about it later.&lt;/p&gt;
+&lt;h3&gt;RSS feed&lt;/h3&gt;
+&lt;p&gt;You can now subscribe to get every update to my blog
+by adding &lt;a href=&quot;https://ajenkins.me/feed.xml&quot;&gt;https://ajenkins.me/feed.xml&lt;/a&gt;
+to your RSS reader of choice. If you don&#39;t know what an RSS feed
+or reader is, it&#39;s a way to get updates from different websites
+aggregated in a single place. It&#39;s like subscribing to a website&#39;s
+newsletter, except the updates get pushed to a special app instead
+of your email inbox.&lt;/p&gt;
+&lt;p&gt;If you&#39;re looking for a recommendation for an RSS reader app,
+I use &lt;a href=&quot;https://feedly.com/&quot;&gt;Feedly&lt;/a&gt; which has been working
+pretty well for me.&lt;/p&gt;
+&lt;h2&gt;More features coming soon&lt;/h2&gt;
+&lt;h3&gt;Email updates&lt;/h3&gt;
+&lt;p&gt;I wouldn&#39;t call it a newsletter, but for people who don&#39;t want to
+use an RSS reader, I&#39;d like to offer the option to get an email
+every time I publish a new post.&lt;/p&gt;
+&lt;p&gt;Rather than use some fancy service like MailChimp, my plan is
+to just put a form on my home page where you can give me your email
+address, which would then be added to a list of email subscribers.
+And whenever I publish a new post, I would just use my personal email
+to inform everyone on the list.&lt;/p&gt;
+&lt;p&gt;I wanted to do it this way because MailChimp and its competitors
+brag about all of the insights you get into your newsletter&#39;s performance,
+but it just sounds like an invasion of privacy to me.
+&lt;a href=&quot;https://ajenkins.me/post/analytics&quot;&gt;See my post on why I don&#39;t have analytics on my site.&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;By the way, if this sounds like a terrible idea to you, please let me
+know... in the comments! 😉&lt;/p&gt;
+&lt;h3&gt;Table of Contents&lt;/h3&gt;
+&lt;p&gt;This might be a bit farther out because I don&#39;t think it&#39;s as important.
+But it would be nice on some of my longer posts to be able to jump
+to a particular heading.&lt;/p&gt;
+&lt;h2&gt;...And more&lt;/h2&gt;
+&lt;p&gt;I have a few other ideas, but that covers the major ones. Thanks for reading!&lt;/p&gt;
+</content>
+  </entry>
 </feed>

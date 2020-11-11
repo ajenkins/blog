@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/static/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/static/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/static/favicon-16x16.png" />
+    <link rel="manifest" href="/static/site.webmanifest" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>New features: Comments and RSS feed</title>
+    <meta name="description" content="" />
+    
+    <style>
+      body{background:#fff;color:#111;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;-webkit-font-smoothing:antialiased;margin:0 auto}main{margin:1.5rem}#comments-section,#container,article{width:100%;max-width:40rem;margin:0 auto}p.subtitle{margin-top:0;margin-bottom:.5rem;font-size:1.5rem;font-weight:200}iframe,img{max-width:40rem;width:100%}h1{margin-bottom:.5rem;font-size:2rem}p{margin-top:1.5rem;margin-bottom:0;line-height:1.5rem}li{line-height:1.5rem}a{color:-webkit-link;text-decoration:none}a:hover{text-decoration:underline}a.footnote{vertical-align:super;font-size:.8em}time{font-size:.8em;color:#555}nav{display:flex;align-items:center;margin:1rem}#main-logo{width:8rem;margin:0 1rem}#github-mark{width:3rem;margin:0 1rem}#about-link{margin:0 1rem;font-size:2rem}.comment-entry{margin-top:1.5rem;border:1px solid #ccc;border-radius:16px;padding:1rem}.comment-author,.comment-body,.comment-submitted-at{margin:.5rem 0}#comment-form>div{margin-bottom:1rem}label{display:block;margin-bottom:.5rem;font-weight:600}#comment-body-input{box-sizing:border-box;width:100%;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;-webkit-font-smoothing:antialiased}#required-control{display:none}.publication-date{color:#555}#about-photo{width:20rem;margin:auto;display:block;border-radius:50%}
+    </style>
+    <link
+      rel="preload"
+      href="/static/prism.css"
+      as="style"
+      onload="this.onload=null;this.rel='stylesheet'"
+    >
+  </head>
+  <body>
+    <nav>
+      <a href="/"><img id="main-logo" src="/static/aj_logo.svg" alt="AJ" /></a>
+      <a href="https://github.com/ajenkins/blog">
+        <img id="github-mark" src="/static/GitHub-Mark.png" alt="Link to GitHub repo">
+      </a>
+      <a href="/about" id="about-link">
+        About
+      </a>
+    </nav>
+    <main>
+      
+<article>
+  <header>
+    <h1>New features: Comments and RSS feed</h1>
+    
+    <time datetime="2020-11-08T21:00:00.000Z">
+      November 8, 2020
+    </time>
+  </header>
+  <h2>New features on the blog</h2>
+<h3>Comments</h3>
+<p>You can now add comments to any blog post I've written, old or new.
+Just scroll down to the bottom of the page and put your name and comment.
+Feel free to make up a name or leave it blank.</p>
+<p>I'm not doing any moderation of the comments because I'm hoping it won't
+be necessary, so don't make me regret it 😅</p>
+<p>I'm using <a href="https://staticman.net">Staticman</a> for the comments.
+This lets me have comments without adding a database to my site.
+Setting it up wasn't as straightforward as I expected, so maybe
+I'll write a post about it later.</p>
+<h3>RSS feed</h3>
+<p>You can now subscribe to get every update to my blog
+by adding <a href="https://ajenkins.me/feed.xml">https://ajenkins.me/feed.xml</a>
+to your RSS reader of choice. If you don't know what an RSS feed
+or reader is, it's a way to get updates from different websites
+aggregated in a single place. It's like subscribing to a website's
+newsletter, except the updates get pushed to a special app instead
+of your email inbox.</p>
+<p>If you're looking for a recommendation for an RSS reader app,
+I use <a href="https://feedly.com">Feedly</a> which has been working
+pretty well for me.</p>
+<h2>More features coming soon</h2>
+<h3>Email updates</h3>
+<p>I wouldn't call it a newsletter, but for people who don't want to
+use an RSS reader, I'd like to offer the option to get an email
+every time I publish a new post.</p>
+<p>Rather than use some fancy service like MailChimp, my plan is
+to just put a form on my home page where you can give me your email
+address, which would then be added to a list of email subscribers.
+And whenever I publish a new post, I would just use my personal email
+to inform everyone on the list.</p>
+<p>I wanted to do it this way because MailChimp and its competitors
+brag about all of the insights you get into your newsletter's performance,
+but it just sounds like an invasion of privacy to me.
+<a href="/post/analytics">See my post on why I don't have analytics on my site.</a></p>
+<p>By the way, if this sounds like a terrible idea to you, please let me
+know... in the comments! 😉</p>
+<h3>Table of Contents</h3>
+<p>This might be a bit farther out because I don't think it's as important.
+But it would be nice on some of my longer posts to be able to jump
+to a particular heading.</p>
+<h2>...And more</h2>
+<p>I have a few other ideas, but that covers the major ones. Thanks for reading!</p>
+
+</article>
+
+<section id="comments-section">
+<h1>Comments ✍️</h1>
+
+
+  <p>No comments yet. Be the first!</p>
+
+
+<h2>Leave a comment</h2>
+<form id="comment-form" name="comment-form" method="POST" action="https://aj-blog-comments.herokuapp.com/v2/entry/ajenkins/blog/master/comments">
+  <input name="options[redirect]" type="hidden" value="https://ajenkins.me/post/rss_and_comments/">
+  <input name="options[slug]" type="hidden" value="rss_and_comments">
+
+  <div id="required-control">
+    <label>Required
+      <input type="text" name="fields[required]" tabindex="-1" autocomplete="off">
+    </label>
+  </div>
+
+  <div id="name-control">
+    <label>Name
+      <input type="text" name="fields[name]" placeholder="Anonymous" maxlength="1000" size="32">
+    </label>
+  </div>
+
+  <div id="body-control">
+    <label>Comment
+      <textarea id="comment-body-input" name="fields[body]" required maxlength="10000" rows="10"></textarea>
+    </label>
+  </div>
+
+  <div id="submit-button-control">
+    <input type="submit" value="Submit">
+    <em>Your comment will appear a few minutes after it's been submitted.</em>
+  </div>
+</form>
+</section>
+
+<p><a href="/">More posts</a></p>
+    </main>
+  </body>
+</html>
