@@ -1,0 +1,1276 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>The personal blog of AJ Jenkins</title>
+  <subtitle>A blog about technology, politics, video games, and movies</subtitle>
+  <link href="https://ajenkins.me/feed.xml" rel="self" />
+  <link href="https://ajenkins.me/" />
+  <updated>2020-11-08T16:00:00-05:00</updated>
+  <id>https://ajenkins.me/</id>
+  <author>
+    <name>AJ Jenkins</name>
+    <email>aj.jenkins123@gmail.com</email>
+  </author>
+  
+  <entry>
+    <title>Why you should care about Ranked Choice Voting</title>
+    <link href="https://ajenkins.me/post/rcv/" />
+    <updated>2020-08-29T12:00:00-04:00</updated>
+    <id>https://ajenkins.me/post/rcv/</id>
+    <content type="html">&lt;p&gt;&lt;em&gt;UPDATE (11/4/20): The ballot initiative for ranked choice voting in Massachusetts has failed.
+&lt;a href=&quot;https://ajenkins.me/post/rcv_2020_loss&quot;&gt;You can read my thoughts on the outcome here&lt;/a&gt;.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;This November Americans will be voting on who will be our next president for the next four years.
+If you&#39;re like many voters, the choice between Biden and Trump feels like choosing between the lesser of two evils.
+Many Americans will not be voting for the candidate that they want to be President, but instead voting &lt;em&gt;against&lt;/em&gt;
+the candidate that they &lt;em&gt;don&#39;t&lt;/em&gt; want to be President. At the same time, many have observed that the country feels
+more divided than it&#39;s ever been since the Civil War. The solution I&#39;ve heard most often is &amp;quot;a call for unity.&amp;quot;
+But politicians have been calling for unity since our nation&#39;s founding, and &amp;quot;calling&amp;quot; for unity doesn&#39;t accomplish
+anything. Unfortunately, our political system doesn&#39;t allow for unity. The systems of checks &amp;amp; balances laid out
+by our founding leaders have proven utterly useless in the face of the eternal war between Democrats and Republicans.
+Instead of the three branches of government keeping each other in line like you learned in your social studies class,
+Democrats and Republicans are engaged in a tug-of-war that has infected the entire government and has no winners.
+Our founding leaders thought they had given us a tool to get us out of any mess: the constitutional amendment.
+Unfortunately, passing a constitutional amendment requires a two-thirds majority in &lt;em&gt;both&lt;/em&gt; houses of Congress
+as well as ratification by three-fourth of the states. Given the current deadlock between the Democratic and
+Republican Party at both the federal and state levels, passing a constitutional amendment on anything is a pipe
+dream.&lt;/p&gt;
+&lt;p&gt;It sounds hopeless. But it&#39;s not. In November voters in Massachusetts will have the chance to vote on something
+that I genuinely believe can cure America of the illnesses that I described. I&#39;m referring to Choice 2,
+which, if passed, would adopt Ranked Choice Voting for most state and federal elections in the state.
+You&#39;re probably wondering how changing the way we elect candidates could possibly fix all of those problems.
+Or you might not even know what Ranked Choice Voting is
+(&lt;a href=&quot;https://www.wbur.org/news/2020/08/12/wbur-poll-ranked-choice-voting-ballot-question&quot;&gt;according to a recent poll, 32% of MA residents don&#39;t understand it&lt;/a&gt;).
+In this essay I&#39;ll explain what Ranked Choice
+Voting is, how it works, and how it could save our political system.&lt;/p&gt;
+&lt;p&gt;Ranked Choice Voting (RCV) is an alternative method for electing political candidates that
+replaces plurality voting.&lt;a href=&quot;#footnote-1&quot; class=&quot;footnote&quot;&gt;[1]&lt;/a&gt; If you&#39;ve never heard of plurality voting, it&#39;s the basic voting system that you
+probably just think of as &amp;quot;voting.&amp;quot; First I&#39;ll explain how plurality voting works so you can see how RCV is different.
+In plurality voting voters pick their one, favorite&lt;a href=&quot;#footnote-2&quot; class=&quot;footnote&quot;&gt;[2]&lt;/a&gt; candidate from a list of possible candidates. The winner is whoever
+receives the most votes (a plurality of the votes), but they don&#39;t need a majority (more than half).&lt;/p&gt;
+&lt;p&gt;RCV works a little bit differently. Instead of only choosing your one, favorite candidate, you rank all (or some) of the
+candidates in the order of who you most want to win. So you would rank your first-choice candidate first, your
+second-choice candidate second, etc. and finally your least-desired candidate last.&lt;/p&gt;
+&lt;p&gt;Once everyone&#39;s ranked ballots have been collected, it&#39;s time to pick the winner. Unlike plurality voting where
+you just count up the votes and you&#39;re done, to determine the winner in RCV you need to analyze the ballots repeatedly
+over several rounds. Don&#39;t worry, it&#39;s easier than it sounds.&lt;/p&gt;
+&lt;p&gt;Ok, so here are the steps for figuring out the winner:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;In the first round you only look at voters&#39; first-choice candidate.
+If one candidate receives more than half of all of the first-choice votes, that candidate is declared the winner!&lt;/li&gt;
+&lt;li&gt;However, if there are more than two candidates running, there probably won&#39;t be a single candidate with more
+than half the votes. In this case, there&#39;s no clear winner after Round 1 and it&#39;s time for Round 2.&lt;/li&gt;
+&lt;li&gt;Before Round 2 begins, one candidate is eliminated from the running. The candidate who received the fewest votes
+in Round 1 is eliminated.&lt;/li&gt;
+&lt;li&gt;Now that there&#39;s one fewer candidate, Round 2 can begin. Round 2 works exactly like Round 1 – only the first-choice
+of each voter is used and if one candidate receives a majority of the votes, they win – but with one exception.
+This is the cool part of RCV. For the voters who had picked as their first-choice
+the candidate that was just eliminated, instead of counting their &lt;em&gt;first&lt;/em&gt;-choice candidate, you count their
+&lt;em&gt;second&lt;/em&gt;-choice candidate.&lt;/li&gt;
+&lt;li&gt;So in Round 2 you count up the first-choice votes from everyone whose top-choice is still in the running,
+and the second-choice vote from everyone whose top-choice was eliminated.&lt;/li&gt;
+&lt;li&gt;If there&#39;s one candidate who now has more than half of the total votes, that candidate is the winner!&lt;/li&gt;
+&lt;li&gt;If there&#39;s still no candidate with a clear majority, you eliminate the candidate with the fewest
+votes like we did before Round 2. Then you count everyone&#39;s votes again, but always using
+voters&#39; top-candidate who hasn&#39;t been eliminated yet as their vote.&lt;/li&gt;
+&lt;li&gt;Eventually you&#39;re guaranteed to have a winner, at least by the time when all but two candidates have been eliminated.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;And that&#39;s it! Sorry if that wasn&#39;t as simple as I promised. But to summarize, in each round you count up everyone&#39;s
+votes using their top-choice that&#39;s still in the running. If one candidate has more than half the votes, they win.
+If not, the candidate with the fewest votes is eliminated and then you repeat the process with the new set of candidates.
+Tallying the votes by hand is a little tedious, but should be something that anyone with basic math skills could do. But luckily, computers can calculate the winner very quickly so RCV shouldn&#39;t cause any delays in the election
+process.&lt;/p&gt;
+&lt;p&gt;So, why is Ranked Choice Voting better than plurality voting? Rather than go into a technical deep dive of all the
+benefits of RCV, in this article I&#39;ll just talk about the biggest advantage: it eliminates the &amp;quot;spoiler effect&amp;quot;
+when similar candidates run against each other.&lt;a href=&quot;#footnote-3&quot; class=&quot;footnote&quot;&gt;[3]&lt;/a&gt;
+When political pundits talk about a &amp;quot;spoiler candidate&amp;quot;, they
+mean a candidate that runs in an election (usually a third-candidate entering a two-candidate race) and then
+&amp;quot;spoiling&amp;quot; the election for whichever candidate they&#39;re more similar to, thus handing the election to the
+candidate that neither of them are similar to. For a real-world example of this, in 2000
+&lt;a href=&quot;https://en.wikipedia.org/wiki/Ralph_Nader_2000_presidential_campaign#The_%22spoiler%22_controversy&quot;&gt;many people blamed the loss of Al Gore to George W. Bush on Ralph Nader&lt;/a&gt;,
+who ran as a Green Party candidate
+in the presidential election. Basically, people believe that if Ralph Nader hadn&#39;t run, the people who voted
+for Nader would&#39;ve instead voted for Gore (since the two ran on relatively similar platforms),
+thus securing the win for Gore instead of Bush. Of course, it&#39;s impossible to say what Nader voters
+would have done had Nader not been a candidate, but it&#39;s certainly plausible that his presence resulted in Bush
+winning.&lt;/p&gt;
+&lt;p&gt;Let&#39;s imagine how things might&#39;ve played out if RCV was used in the 2000 election. For simplicity, let&#39;s pretend
+that Bush, Gore, and Nader were the only candidates in the election, even though there were actually other
+candidates. Instead of voters being forced to choose one candidate, they would instead rank all three candidates
+in order of preference. Let&#39;s assume that 80% of Nader supporters rank the candidates Nader → Gore → Bush,
+and 20% of his supporters rank them Nader → Bush → Gore. Since
+&lt;a href=&quot;https://en.wikipedia.org/wiki/Ralph_Nader_2000_presidential_campaign&quot;&gt;Nader only received 2.74% of the popular vote&lt;/a&gt;,
+we can assume that he would have been eliminated from the running before Bush or Gore. Therefore, the votes for
+Nader would then be distributed to the second-choice candidate of his voters. So 80% of the Nader supporter votes would
+go to Gore, and 20% would go to Bush. In this scenario, Nader was able to safely run without spoiling the election
+for either candidate, so maybe Gore would&#39;ve won the election. Of course, if you&#39;re glad that Bush won the election
+in 2000, maybe you&#39;re thinking that it&#39;s good that we didn&#39;t use RCV. But if a majority of the nation
+(technically, electors in the Electoral College) would&#39;ve preferred Gore over Bush as president, don&#39;t you think
+he deserved to win?&lt;/p&gt;
+&lt;p&gt;I want to make it clear that RCV is not a partisan issue. RCV will benefit conservatives and liberals alike
+because it will empower people to vote for the candidate that they actually want to win the election, not
+just the candidate who they think has the best chance of beating the person they &lt;em&gt;don&#39;t&lt;/em&gt; want to win.&lt;/p&gt;
+&lt;p&gt;Here&#39;s another example from more recent history, that I hope will show how RCV could benefit Republican voters too.
+This is based on my own speculation, but I don&#39;t think it&#39;s too farfetched. If you remember the 2016 Republican Primary
+process, there were initially a sea of candidates and Trump was not considered a serious candidate
+(&lt;a href=&quot;https://en.wikipedia.org/wiki/2016_Republican_Party_presidential_primaries&quot;&gt;more details on the primary&lt;/a&gt;).
+Let&#39;s fast-forward to the end of that primary. At the end, four front-runners emerged: Donald Trump, Marco Rubio,
+John Kasich, and Ted Cruz. Donald Trump ended up getting 44.9% of the popular vote and clinching the nomination.
+But another way of saying that is 55.1% of Republicans voted for &lt;em&gt;not&lt;/em&gt; Trump. Yet since Trump had the &lt;em&gt;most&lt;/em&gt; votes
+(not a majority though), he ended up winning the primary and going on to be President. Now, I don&#39;t have any hard
+evidence supporting this theory, but I believe that many of the Republicans who didn&#39;t vote for Trump would&#39;ve
+actually preferred any of the candidates over Trump. Unfortunately, voters couldn&#39;t agree on which of the samey
+Republicans to throw their weight behind to beat Trump, so their votes were split across Rubio, Cruz, Kasich and others,
+thus clearing the way for Trump to take the nomination. I believe that if voters were able to vote in that primary
+using RCV, many would have ranked Trump last on their ballot (I&#39;m thinking of the &amp;quot;never Trumpers&amp;quot;) and perhaps a
+candidate that was actually preferred by a majority of Republican voters would&#39;ve been nominated instead.&lt;/p&gt;
+&lt;p&gt;Another cool thing about RCV is that primaries themselves are actually unnecessary.&lt;a href=&quot;#footnote-4&quot; class=&quot;footnote&quot;&gt;[4]&lt;/a&gt;
+If you&#39;ve ever wondered why we
+have to have primary elections before the main election, the main reason is because if multiple candidates from
+the same party ran against each other in the main election, the vote would be split across all of the candidates in
+that party. But imagine if RCV had been used in the 2016 presidential election without primaries. Voters would have had
+the opportunity to rank Trump, Clinton, Sanders, Rubio, Kasich, and Cruz in a single ballot. I have no idea who would&#39;ve
+won that election, but I wouldn&#39;t necessarily assume that it would have been Trump or even Clinton. For Americans
+who felt dissatisfied with their choices in that election, that should be great news.&lt;/p&gt;
+&lt;p&gt;I promised that I would tell you how Ranked Choice Voting would fix the political problems I described in the first
+paragraph. To be clear, I&#39;m not saying that adopting RCV in MA will be sufficient to save democracy in America. But I
+hope that if we adopt it in MA, we can serve as a model for the other states who will follow suit. And as more and more
+states start using RCV to elect members of Congress, I believe that we&#39;ll start electing representatives who actually
+represent &lt;em&gt;us&lt;/em&gt; instead of their party. Anyway, time to deliver on that promise.&lt;/p&gt;
+&lt;p&gt;Here&#39;s how RCV will address the issues I mentioned in the introduction:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;Voters are forced to vote for the &amp;quot;lesser of two evils&amp;quot;&lt;/strong&gt; - Plurality voting does not permit more than
+two candidates to run in a general election because other candidates could &amp;quot;spoil&amp;quot; the election. Voters must
+vote tactically in a primary, and vote for the candidate they think is most likely to beat their opponent rather
+than voting for their true favorite candidate. But with RCV, more than two candidates can run without fear of
+similar candidates spoiling the election for each other. With RCV, voters can rank the candidates according
+to their true preferences and feel confident that their vote will automatically go to their preferred candidate
+who is capable of winning.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;The country is more divided than ever&lt;/strong&gt; - I actually don&#39;t believe this is true. I think that most of the
+country falls somewhere in the middle on most issues, but people are forced to pick a side in the battle
+between Democrats and Republicans which makes us feel divided.&lt;a href=&quot;#footnote-5&quot; class=&quot;footnote&quot;&gt;[5]&lt;/a&gt;
+I know many Democrats who can&#39;t imagine how
+someone could have voted for Trump, but I bet that many Trump voters are more moderate than they might expect.
+I think many people voted for Trump, not because they support his agenda or even like him, but because they
+just happened to not want Clinton to be president for some reason.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Congress is locked in a stalemate where everyone loses&lt;/strong&gt; - Our government is currently controlled by a duopoly:
+the Republican and Democratic parties. I believe that RCV has the potential to disrupt this power dynamic by helping
+other political parties put representatives in Congress and end the tug-of-war. RCV would make it more likely for
+third-party candidates to win elections because voters could safely vote for those candidates without feeling like
+they&#39;re throwing away their vote. As an example, many Americans politically identify as libertarian, but
+neither of the main parties fully supports a libertarian agenda. With RCV, true libertarian candidates would likely
+be elected to office in some races. If there were true libertarians in Congress, they could vote with Democrats
+in some votes while voting with Republicans in others. This would make it easier for a majority vote to be achieved
+(even overcome a &lt;a href=&quot;https://en.wikipedia.org/wiki/Filibuster_in_the_United_States_Senate&quot;&gt;filibuster&lt;/a&gt;)
+and would also better reflect the true preferences of the constituents.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;The checks &amp;amp; balances described in the Constitution are not working&lt;/strong&gt; - I think one mistake that our founding
+leaders made when writing the Constitution is that they assumed that politicians would act honorably and behave
+like proper gentlemen. Unfortunately, civility has been abandoned over the course of our nation&#39;s history as a result
+of the bitter struggle between the Democrats and Republicans. In 2019 when President Donald Trump was impeached,
+it was a forgone conclusion that nothing would happen to Trump as long as Republicans held a majority in the Senate.
+Congress is supposed to act as a check on the president&#39;s power, and one of their strongest checks is the power of
+impeachment. But instead of carrying out an unbiased investigation into the crimes alleged against the president,
+the impeachment process devolved into another tug-of-war between the Republicans and Democrats. Just like in my last
+point, I believe that RCV can fix this problem by injecting representatives from third-parties into Congress, and
+also by ensuring that the representatives who get elected actually reflect the preferences of their constituents.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Thanks for reading, and if you live in MA I hope you vote YES on Choice 2 on November 3! If you&#39;d like to get
+involved with
+&lt;a href=&quot;https://www.yeson2rcv.com/&quot;&gt;the RCV campaign in MA, you can learn more here&lt;/a&gt;.&lt;/p&gt;
+&lt;hr&gt;
+&lt;p id=&quot;footnote-1&quot;&gt;
+[1]: Technically RCV and plurality voting can be used for voting on anything, not just candidates.
+     But for simplicity, I only mention voting on political representatives since that&#39;s what people
+     are most used to voting on in elections.
+&lt;/p&gt;
+&lt;p id=&quot;footnote-2&quot;&gt;
+[2]: People often &lt;em&gt;don&#39;t&lt;/em&gt; vote for their favorite candidate, but instead vote for different candidate.
+     This is known as tactical voting, which is explained later.
+&lt;/p&gt;
+&lt;p name=&quot;footnote-3&quot;&gt;
+[3]: This is known also known as
+     &lt;a href=&quot;https://en.wikipedia.org/wiki/Independence_of_clones_criterion&quot;&gt;the &quot;clone&quot; problem&lt;/a&gt;
+     by mathematicians who study electoral systems. The idea is that similar candidates (i.e., clones) won&#39;t
+     steal votes from each other.
+&lt;/p&gt;
+&lt;p id=&quot;footnote-4&quot;&gt;
+[4]: Of course, you would still need some way of qualifying candidates for the election so voters
+     aren&#39;t overwhelmed with too many options. Ranking more than 5 or so candidates would probably
+     be tough for most voters.
+&lt;/p&gt;
+&lt;p name=&quot;footnote-5&quot;&gt;
+[5]: This isn&#39;t something I came up with own my own.
+     &lt;a href=&quot;https://en.wikipedia.org/wiki/Political_polarization_in_the_United_States#Party_polarization&quot;&gt;You can read more about the theory here&lt;/a&gt;.
+&lt;/p&gt;
+</content>
+  </entry>
+  
+  <entry>
+    <title>Doing It for the Likes</title>
+    <link href="https://ajenkins.me/post/likes/" />
+    <updated>2020-09-27T12:00:00-04:00</updated>
+    <id>https://ajenkins.me/post/likes/</id>
+    <content type="html">&lt;h2&gt;Rewinding to 2007&lt;/h2&gt;
+&lt;p&gt;This is the story of the first and hopefully last time in my life I did something just to get
+approval from strangers on the internet.&lt;/p&gt;
+&lt;p&gt;In 2007 I was 15 years old and Halo 3 was my favorite video game. The campaign mode wasn&#39;t great
+(especially compared to Halo 2),
+but it was the best multiplayer experience I had ever played.&lt;a href=&quot;#footnote-1&quot; class=&quot;footnote&quot;&gt;[1]&lt;/a&gt;
+I spent almost every afternoon after school playing local multiplayer with my friends, and I spent
+a bit of time playing online too. I was the worst player among my friends, but I still loved it.&lt;/p&gt;
+&lt;p&gt;Back in 2007, micro-transactions weren&#39;t a thing yet in video games, so the only way to unlock
+stuff was by playing the game. In Halo 3 when it launched there wasn&#39;t much to unlock, but you
+could unlock a few different armor variants for your Spartan in multiplayer. However, there
+was one armor variant that you couldn&#39;t unlock just by playing the game: the Recon Armor.&lt;/p&gt;
+&lt;p&gt;
+    &lt;img src=&quot;https://ajenkins.me/static/6709cee2-640.png&quot; width=&quot;640&quot; alt=&quot;Halo 3 Recon Armor variant&quot;&gt;
+    &lt;a href=&quot;https://halo.fandom.com/wiki/Mjolnir_Powered_Assault_Armor/R_variant?file=ReconArmor.png&quot;&gt;
+        Image source
+    &lt;/a&gt;
+&lt;/p&gt;
+&lt;p&gt;Originally, Recon Armor was only available to employees of Bungie, the developer of the game.
+So on the rare occasion when you saw someone with Recon Armor in the online multiplayer mode,
+it was really exciting because you knew you were playing with someone who actually helped make
+the game. But shortly after it was available to Bungie employees, they decided to start gifting
+the armor to a handful of members of the community. Getting the armor wasn&#39;t a matter of skill
+or level of commitment – the only way to get the armor was to catch the eye of a Bungie employee
+and hope that they deemed you worthy of the Recon Armor. I remember reading
+&lt;a href=&quot;http://halo.bungie.org/bwu/index.html?item=151&quot;&gt;this blog post from Bungie&lt;/a&gt; where they
+talked about how to get Recon Armor. They made it very clear that you would not get it by
+nagging them, and they also highlighted two members of the community who they had given it to.&lt;/p&gt;
+&lt;p&gt;The one I remember is this player, who uploaded a video to YouTube of him shooting an
+exploding barrel, which caused a nearby traffic cone to fly towards him so fast that it killed him.
+If not the first documented occurrence, it was definitely the most famous case of someone killing themselves
+with a traffic cone in the game. Here&#39;s the original video:&lt;/p&gt;
+&lt;p&gt;https://www.youtube.com/watch?v=ym0BtwmCvoc&lt;/p&gt;
+&lt;p&gt;So, to summarize, I was a teenager and my favorite game was Halo 3. The developers created an extremely
+exclusive unlock which could not be earned by conventional means. The combined effect of these was
+that I decided that I had to do whatever it took to get this armor. Getting Recon Armor became my
+life mission.&lt;/p&gt;
+&lt;h2&gt;Becoming worthy&lt;/h2&gt;
+&lt;p&gt;So, my first step was to brainstorm what I could do that would get the attention of a Bungie dev and
+be deemed worthy of receiving Recon Armor. It was obvious that making a video of me getting killed
+by a traffic cone wouldn&#39;t work, because that was only funny the first time it happened. Also, the
+reason that video was funny was because it was (presumably) completely unplanned. So I could just
+keep playing and hope something crazy like that happened while I was playing, but I wanted to do
+something I had control over, so that plan was out.&lt;/p&gt;
+&lt;p&gt;Here&#39;s what I settled on. In Halo 3 they had added a new game mode called Forge. It was basically
+just a custom level editor. The way it worked is you controlled a little flying robot called a
+Sentinel and you could create and drop any object in the game (structures, vehicles, weapons, etc.).
+There was also local multiplayer so you could have multiple people all working together on the same
+creation at the same time. It was kind of like Minecraft, but 4 years earlier and you used objects
+from Halo instead of blocks.&lt;/p&gt;
+&lt;p&gt;On the internet I had seen people who had creatively used Forge Mode for drawing things. They
+would drop weapons around a flat part of the map, then fly up to take a birds-eye-view photo
+of their drawing. People would draw things like an outline of Master Chief, but most of what
+I saw wasn&#39;t very good. I believed that I could create something much better than what I had
+seen so far. And of course, my hope was that if my creation was good enough and it got enough
+traction on the internet, Bungie would see my work and grant me Recon Armor.&lt;/p&gt;
+&lt;p&gt;Here&#39;s what I made. I decided to recreate the Halo 3 logo in Forge using every single weapon
+in the game. I don&#39;t think I was the first person with this concept, but I remember my version
+being better than anything else I had seen.&lt;/p&gt;
+&lt;p&gt;
+    &lt;img src=&quot;https://ajenkins.me/static/fc4741bb-640.jpeg&quot; width=&quot;640&quot; alt=&quot;My recreation of the Halo 3 logo in Forge&quot;&gt;
+&lt;/p&gt;
+&lt;p&gt;It took about two days to make (less than 10 hrs). I used the box that the game came in as a reference
+and dropped the weapons wherever I thought they would look good. My younger brother was helping me by controlling
+a second Sentinel so I could see what I was doing from multiple perspectives.
+The hardest part was I couldn&#39;t freeze the weapons in place once I placed them. I had to carefully
+drop them on top of each other and hope that the weight of each weapon wouldn&#39;t disturb the position
+of the other weapons. The ground also wasn&#39;t perfectly flat, so I had to balance things on top
+of the ridges in the sand.&lt;/p&gt;
+&lt;p&gt;When I was done, I was very proud of my creation. To date, I think it&#39;s the most artistic thing
+I&#39;ve ever done. My friends were all impressed when I showed it to them.&lt;/p&gt;
+&lt;h2&gt;Getting Recon&lt;/h2&gt;
+&lt;p&gt;I thought that if a Bungie employee saw the screenshot of what I had built in Forge, I would get
+the Recon Armor for sure. So all I had to do was get their attention.&lt;/p&gt;
+&lt;p&gt;Bungie had a forum where players could talk about the Halo games. I decided that my best bet was to upload
+my screenshot there and catch the eye of one of the community moderators. Which I did, but not in the way
+I had hoped, unfortunately.&lt;/p&gt;
+&lt;p&gt;The way forums work is the most recently updated post is displayed at the top of the board. I created a new post
+and my creation was at the top of the board for all of the world to see. Pretty quickly, I got some positive
+responses from other community members, but no word on Recon Armor. As the days passed, people stopped
+replying to my post so my post started falling down in the board, until it was no longer on the first page.
+And once your post isn&#39;t on the first page, it&#39;s very unlikely that people will see your post and reply to it,
+thus beginning the downward spiral into obscurity.&lt;/p&gt;
+&lt;p&gt;Now what? I wasn&#39;t ready to give up yet. I was still convinced that my art piece was worthy of Recon Armor.
+It was just a matter of getting the right person to see it. But what should I do? I couldn&#39;t just upload
+my picture again and hope for a better outcome. Also, I didn&#39;t want to lose the goodwill I had already
+earned on my first post.&lt;/p&gt;
+&lt;p&gt;So I asked my younger brother what I should do. He had a simple suggestion: &amp;quot;bump&amp;quot; it. I asked
+what &amp;quot;bumping&amp;quot; meant. He said that all I needed to do to get back on the first page is reply to my own
+thread (even just with the single word &amp;quot;bump&amp;quot;) so my post would again be the first and most recently
+updated thread on the board. I&#39;m not sure how my 12 year old brother knew about this trick, but it
+seemed like a great idea.&lt;/p&gt;
+&lt;p&gt;So, every day after school I would look at where my post was positioned in the board, and if I wasn&#39;t satisfied
+I would write a reply to my post. Sometimes I would try to write something that looked meaningful, like
+tagging someone who had previously commented and ask them some question. But I also remember sometimes
+just writing the word &amp;quot;bump&amp;quot; if I couldn&#39;t think of anything.&lt;/p&gt;
+&lt;p&gt;This went on for about a week until I received an email from a forum moderator saying that I had been
+banned from the forum (I can&#39;t remember if it was temporary or permanent). I was shocked. Not only
+did I not receive Recon Armor (which I felt I deserved), but they were actually banning me from the forum
+just for trying to highlight my accomplishment. &lt;em&gt;Apparently&lt;/em&gt;, &amp;quot;bumping&amp;quot; was against the rules of the
+forum, which I guess I neglected to read. I asked my brother if he knew &amp;quot;bumping&amp;quot; was against the rules.
+He said something like &amp;quot;Yeah, of course it&#39;s against the rules. I thought that was obvious.&amp;quot; 😖&lt;/p&gt;
+&lt;h2&gt;Looking back&lt;/h2&gt;
+&lt;p&gt;Throughout my life, I&#39;ve thought about this experience a lot. Any time I&#39;m thinking about doing something
+that will require me to get approval or validation from strangers on the internet, I remember my Halo 3 logo.
+What I learned is that if you&#39;re creating or doing something just because you want to impress other people,
+you&#39;re doing it for the wrong reason and you&#39;ll probably end up disappointed. This is one of the main reasons
+I don&#39;t use social media. It often feels like it&#39;s less about sharing text and media, but getting as many Likes
+as possible on what you post. I&#39;ve had friends demand that I Like their post and I reply
+&amp;quot;Why do I have to Like your post? Isn&#39;t enough that I &lt;em&gt;like&lt;/em&gt; it?&amp;quot;&lt;/p&gt;
+&lt;p&gt;The Halo 3 experience is also one of the reasons I don&#39;t have analytics on my blog. By not knowing how many people
+are reading my blog posts, it lets me continue writing because I enjoy it instead of writing clickbait and
+getting that dopamine hit when I see the page view count go up on Google Analytics.&lt;/p&gt;
+&lt;p&gt;Anyway, thanks for reading.&lt;/p&gt;
+&lt;h2&gt;Bonus: Actually getting Recon&lt;/h2&gt;
+&lt;p&gt;Eventually I &lt;em&gt;did&lt;/em&gt; get the Recon Armor in Halo 3. Everyone did. In 2008 Bungie released an update
+which included the &lt;a href=&quot;https://www.halopedia.org/Vidmaster_Challenges&quot;&gt;Vidmaster Challenges&lt;/a&gt;,
+which upon completion would unlock the Recon Armor.
+Getting the armor was still difficult, but now there was a clear path anyone could follow to get the armor.
+This made the armor much less exclusive, so I stopped caring about getting it. I&#39;m not even sure if
+I tried to complete the challenges. But in 2012 another update for the game was released which gave
+the Recon Armor to &lt;em&gt;all&lt;/em&gt; players. But since my obsession with the armor stemmed only from its
+exclusivity and not the actual aesthetics, I don&#39;t think I even used the Recon Armor at that point.
+I had moved on to caring about other things.&lt;/p&gt;
+&lt;hr&gt;
+&lt;p id=&quot;footnote-1&quot;&gt;
+[1]: Not only did Halo 3 have the best multiplayer of any Halo game yet, but I think
+     it has the best multiplayer of any Halo game ever made. To this day, my friends
+     and I still play Team Slayer on Guardian whenever we&#39;re together.
+&lt;/p&gt;</content>
+  </entry>
+  
+  <entry>
+    <title>Why I don&#39;t have analytics on my website</title>
+    <link href="https://ajenkins.me/post/analytics/" />
+    <updated>2020-10-04T12:00:00-04:00</updated>
+    <id>https://ajenkins.me/post/analytics/</id>
+    <content type="html">&lt;p&gt;Originally I was planning on writing a blog post about how I chose &amp;quot;X&amp;quot; service
+for analytics on my website. I was going to go over the pros and cons of each service
+I considered and then dramatically tell you the one, best web analytics service.&lt;/p&gt;
+&lt;p&gt;But after a lot of thought, I made the unconventional decision to not use any
+analytics service &lt;em&gt;at all&lt;/em&gt; for my website. I haven&#39;t heard of anyone else who&#39;s
+done this, so I decided to write why &lt;em&gt;I&lt;/em&gt; decided to do this.&lt;a href=&quot;#footnote-1&quot; class=&quot;footnote&quot;&gt;[1]&lt;/a&gt;&lt;/p&gt;
+&lt;h2&gt;Wait, what do you mean &amp;quot;analytics&amp;quot;?&lt;/h2&gt;
+&lt;p&gt;&lt;em&gt;If the title of my post is self-explanatory to you, feel free to skip this section.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;So, here&#39;s the deal: on basically every single website you visit
+there&#39;s code embedded on the website used to track how you use the website.
+This code can track how many users view each page, what other website they were
+referred from, and what they click on in each page.&lt;/p&gt;
+&lt;p&gt;By far, the most popular user analytics tool is Google Analytics.
+Not only is Google Analytics one of the most advanced user analytics tools available,
+it&#39;s also very easy to set up and completely free
+(at least the basic version).&lt;a href=&quot;#footnote-2&quot; class=&quot;footnote&quot;&gt;[2]&lt;/a&gt;
+Google makes this free because when a website uses Google Analytics, they agree
+to share all of their usage data and traffic patterns with Google, and the more Google
+knows about how people use the internet,
+the better they can serve targeted ads.&lt;a href=&quot;#footnote-3&quot; class=&quot;footnote&quot;&gt;[3]&lt;/a&gt;
+One cool/creepy feature of Google Analytics is it gives you very detailed information
+about the demographics of your users. It will show you the age, gender, and location
+of everyone who visits your website. It can even show you what types of things they&#39;re
+interested in, like sports, travel, food &amp;amp; drinks, etc. If you&#39;re a marketer, this
+data is invaluable because you can ensure that your content and marketing is optimized
+to appeal to the demographics of your users. It&#39;s also very useful for showing targeted
+ads on your site if you use ads to generate revenue. And of course Google offers a companion service,
+Google AdSense, which is used for serving ads from Google and integrates with Google Analytics.&lt;/p&gt;
+&lt;p&gt;One tool that Google uses to learn all of this detailed information about you
+is &lt;a href=&quot;https://en.wikipedia.org/wiki/HTTP_cookie&quot;&gt;the cookie&lt;/a&gt;. Cookies have been a feature
+of web browsers since the 90s, and allow websites to store information specific to you in
+your browser that can persist even after you leave the website or close your browser.
+Cookies can be used for lots of different purposes, such as keeping you
+signed into a website so you don&#39;t need to reenter your username and password every time you
+visit the site.&lt;/p&gt;
+&lt;p&gt;Typically, the &amp;quot;benign&amp;quot; cookies (i.e., not a privacy concern) are ones that are implemented
+by the website you&#39;re using, like the aforementioned cookie used for keeping you signed in.
+These are &amp;quot;first-party&amp;quot; cookies since they come from the website itself. But
+there are also &amp;quot;third-party&amp;quot; cookies, which are set and used by companies external to the
+website you&#39;re on. One of the most common third-party cookies on the web is the Google
+Analytics user token, which is automatically set by Google Analytics as soon as you visit
+the website and is used to track your entire history of actions across all your sessions
+on that site. Third-party cookies are &amp;quot;bad&amp;quot;, because when you use a website your data
+is not only shared with the website you&#39;re on, but also with third-parties that you may not
+want your data shared with, like Google. Websites used to do this all the time
+without telling you, but now with regulations like
+&lt;a href=&quot;https://en.wikipedia.org/wiki/General_Data_Protection_Regulation&quot;&gt;GDPR&lt;/a&gt;,
+websites are required to inform
+you about how they share your data with third-parties and give you the option to opt-out.&lt;/p&gt;
+&lt;p&gt;The passage of GDPR is the reason that all websites you visit now have that annoying
+banner at the bottom with some fine print about sharing data with third-parties
+and a giant button that usually says ACCEPT ALL COOKIES, which most people click because
+it&#39;s the easiest way to make it go away.&lt;a href=&quot;#footnote-4&quot; class=&quot;footnote&quot;&gt;[4]&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Ok, that&#39;s pretty much everything you need to know about web analytics. Now I&#39;ll
+explain why I decided not to add analytics to my website. Before that though,
+I&#39;ll briefly go over why I would even want analytics on my personal blog to begin with.&lt;/p&gt;
+&lt;h2&gt;Why I &lt;em&gt;considered&lt;/em&gt; adding analytics to my blog&lt;/h2&gt;
+&lt;h3&gt;It&#39;s just how you do things&lt;/h3&gt;
+&lt;p&gt;As I mentioned above, pretty much all websites have some kind of user tracking built into
+them. Adding analytics to your website is definitely the default decision. In fact, in
+every website I&#39;ve made previously, adding Google Analytics was one of the first things
+I did. It&#39;s also incredibly easy to do – adding analytics (at least, Google Analytics)
+takes only 5 minutes and is simple enough that anyone can do it.&lt;/p&gt;
+&lt;p&gt;So not only is omitting
+analytics an unusual decision &lt;em&gt;in general&lt;/em&gt;, but it&#39;s even an unusual decision &lt;em&gt;for me&lt;/em&gt;.&lt;/p&gt;
+&lt;h3&gt;Tailoring my content based on what&#39;s popular&lt;/h3&gt;
+&lt;p&gt;This was my original reason for wanting to use analytics on my website, and probably
+the main reason why most blogs use analytics. It&#39;s not uncommon for a single blog
+post to &amp;quot;go viral&amp;quot; and be the most-read post on the site by a significant margin.
+And if one of your posts goes viral, you probably want to make your future blog posts
+more similar to that post. Or maybe you&#39;ll write a follow-up post to try to entice
+the people who read your first post back onto your blog.&lt;/p&gt;
+&lt;p&gt;A less extreme possibility is that certain types of posts attract more readers,
+so it would make sense to mostly write those kinds of posts going forward. For example,
+if my posts about software engineering are getting more views than my posts about
+video games, maybe I&#39;ll want to focus my blog on software engineering instead of
+just writing about whatever I feel like.&lt;/p&gt;
+&lt;h3&gt;Knowing if I&#39;m famous yet&lt;/h3&gt;
+&lt;p&gt;Another thing I worried about was how will I know if I&#39;m &amp;quot;famous&amp;quot; if I don&#39;t know
+people are reading my blog posts? A million people could be reading
+this right now, but I&#39;d have no idea.&lt;/p&gt;
+&lt;h2&gt;Why I decided against adding analytics to my blog&lt;/h2&gt;
+&lt;h3&gt;I hate cookie banners with a passion&lt;/h3&gt;
+&lt;p&gt;Just to make sure we&#39;re on the same page, I&#39;m talking about
+those banners at the bottom of basically all websites that mentions something about sharing
+data with third-parties and has a big button with the text ACCEPT ALL COOKIES.&lt;/p&gt;
+&lt;p&gt;Yeah, I hate those things. Websites added them in response to the passage of GDPR, which
+was a law designed to protect the privacy of EU citizens while browsing the web. But as
+far as I&#39;m concerned, all it did was add another annoying thing to
+websites that you have to click on before you can use it.
+I &lt;a href=&quot;https://silktide.com/blog/sick-of-cookie-banners-and-popups-theyre-all-changing-again/&quot;&gt;read that some updated regulations&lt;/a&gt;
+will eventually make these banners
+useful and more than just a nuisance, but it doesn&#39;t seem like that&#39;s happened yet.&lt;/p&gt;
+&lt;p&gt;As someone who hates these banners, I decided that there was no way I would put
+one of these things onto my website. Theoretically, I bet I could get away
+with using third-party tracking cookies &lt;em&gt;without&lt;/em&gt; displaying the legally required banner,
+because I doubt EU regulators would bother coming after me. But I&#39;d prefer to do things
+the right way.&lt;/p&gt;
+&lt;p&gt;So, if I did want analytics on my website, I would need to find a privacy-focused analytics
+service that would be GDPR compliant and exempt me from needing to display the dreaded cookie banner.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Note&lt;/strong&gt;: Although I&#39;m a big proponent of online privacy, I have to be honest – the main reason I was
+looking at privacy-focused analytics solutions was so I wouldn&#39;t have to put that stupid banner
+on my website. Protecting your privacy as a visitor to this website was just an added bonus.
+Sorry 😞&lt;/p&gt;
+&lt;h4&gt;Privacy-focused analytics services that I considered&lt;/h4&gt;
+&lt;p&gt;&lt;em&gt;To some people, this will be the most interesting part of the blog post. To others, it will
+be useless and boring. Feel free to skip this.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Here&#39;s &lt;a href=&quot;https://www.fastcompany.com/90300072/its-time-to-ditch-google-analytics&quot;&gt;the best list of privacy-focused analytics services&lt;/a&gt; that I found.
+There aren&#39;t actually that many services like this, because most analytics services
+actually differentiate themselves from Google Analytics by giving you &lt;em&gt;even more&lt;/em&gt; detailed information
+about the users on your website. Of the privacy-focused solutions, many of them seemed very
+&amp;quot;enterprisey&amp;quot; (like &lt;a href=&quot;https://matomo.org/&quot;&gt;Matomo&lt;/a&gt;,
+&lt;a href=&quot;https://plausible.io/&quot;&gt;Plausible&lt;/a&gt; and
+&lt;a href=&quot;https://usefathom.com/&quot;&gt;Fathom&lt;/a&gt;), which I ruled out because they didn&#39;t seem
+like a good fit for a personal blog.&lt;/p&gt;
+&lt;p&gt;Here&#39;s the list of the finalists I considered using:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;a href=&quot;https://simpleanalytics.com/&quot;&gt;Simple Analytics&lt;/a&gt; -
+Doesn&#39;t use cookies, so it&#39;s automatically compliant with GDPR and doesn&#39;t
+require a cookie banner. From the screenshots and marketing materials, it looks like they have
+great UI/UX. It also sounded like a really novel approach to analytics, which appealed to me.
+The downside is that the starting price is $19/month.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.goatcounter.com/&quot;&gt;GoatCounter&lt;/a&gt; -
+Open-source, bare-bones analytics tool. GDPR compliant, so no cookie banner required.
+Made and run by one person, who &lt;a href=&quot;https://github.com/arp242&quot;&gt;seems like a nice guy&lt;/a&gt;.
+Free, with the option to pay if you want to.
+&lt;a href=&quot;https://www.goatcounter.com/why&quot;&gt;Created exactly for the use case of a personal website&lt;/a&gt;.
+The downside is that the UI/UX looks pretty bad (sorry, Martin).&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.netlify.com/products/analytics/&quot;&gt;Netlify Analytics&lt;/a&gt; -
+This is only an option if you&#39;re hosting your site on Netlify, but I am.
+Great UI/UX. Supported by a relatively successful company, so it probably won&#39;t disappear
+any time soon. All analytics are server-side, which means no cookies or adding
+any tracking code to your website. Getting started is as simple as flipping a switch
+from the admin dashboard. The downside is it costs $9/month.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;If I had to pick one of these, I would&#39;ve gone with Netlify Analytics. The fact that it&#39;s completely
+server-side appeals to me, because that&#39;s how I think analytics should work. Although GoatCounter is free,
+the simplistic UI bothers me. And although Simple Analytics seems cool, I can&#39;t justify spending $19/month
+on a website that doesn&#39;t make any money. But I &lt;em&gt;could&lt;/em&gt; almost justify spending $9/month on a website
+that doesn&#39;t make any money, which is why Netlify Analytics is the winner for me. I probably &lt;em&gt;would have&lt;/em&gt;
+used Netlify Analytics, despite its cost, if it weren&#39;t for the &lt;em&gt;other&lt;/em&gt; reason I decided against using
+analytics on my blog...&lt;/p&gt;
+&lt;h3&gt;I&#39;m better off not knowing how many page views I&#39;m getting&lt;/h3&gt;
+&lt;p&gt;Going back to my earlier discussion about why I &lt;em&gt;might&lt;/em&gt; want analytics on my site,
+the three reasons I gave were making money, tailoring my content effectively, and knowing if I
+had become famous. But other than boosting my ego, the only value of knowing if I had become famous
+would be profiting off of my blog somehow, which goes back to the money thing.&lt;/p&gt;
+&lt;p&gt;So really, having analytics could help me in three ways:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Making me money&lt;/li&gt;
+&lt;li&gt;Influencing what I write about&lt;/li&gt;
+&lt;li&gt;Boosting my ego&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;I&#39;ll go over the first two points in detail, but regarding the ego thing, I&#39;ll just say
+that having my ego boosted would probably do me more harm than good 🙂&lt;/p&gt;
+&lt;h4&gt;Making money&lt;/h4&gt;
+&lt;p&gt;First of all, if you didn&#39;t know, making money from a blog is hard. If real news sites
+can&#39;t figure out how to make their businesses profitable online, what chance do I have?
+Sure, there are some notable authors who have built highly profitable blogs,
+like &lt;a href=&quot;https://www.vox.com/2017/2/14/14612178/ben-thompson-stratechery-publishing-news&quot;&gt;Ben Thompson&lt;/a&gt;
+(&lt;a href=&quot;https://stratechery.com/&quot;&gt;Stratechery&lt;/a&gt;). But I think they&#39;re the exception. Also, the
+people making money from a newsletter are typically writing about topics that will help their readers
+make money directly or indirectly, which justifies the price for the newsletter.&lt;/p&gt;
+&lt;p&gt;But I don&#39;t want to be locked into writing about &amp;quot;business&amp;quot; things. Also, even if I
+could turn my blog into my full-time job, I don&#39;t think I would enjoy that. Blogging
+is fun as a hobby, but I bet it would be a lot less fun (and more stressful) if
+it was my primary source of income.&lt;/p&gt;
+&lt;p&gt;Alternatively, I could just slap some ads on my blog for some passive income, but
+with the traffic I assume I&#39;m getting, I wouldn&#39;t make much money that way. I&#39;d also
+have to give up on protecting my reader&#39;s privacy so I could have targeted ads.
+It just doesn&#39;t seem worth it for a few buck (or pennies) a month.&lt;/p&gt;
+&lt;h4&gt;Writing things that people want to read&lt;/h4&gt;
+&lt;p&gt;To some extent I want to write things that people will want to read.
+When I&#39;m thinking of what to write about, I definitely consider what topics people
+will find interesting. My strategy is I try to write articles (and headlines)
+that sound like something I would read if I saw it while browsing
+&lt;a href=&quot;https://news.ycombinator.com/&quot;&gt;Hacker News&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;But I&#39;m only &lt;em&gt;guessing&lt;/em&gt;. With analytics, I could cut out the guesswork and
+know exactly which articles and topics attract the most views.&lt;/p&gt;
+&lt;p&gt;My fear is that, with that level of insight, it would unconsciously affect my writing.
+Over time, I would lose sight of my original reason for creating this blog (because I enjoy writing)
+and begin writing just to maximize my page views, even if I&#39;m not making money from the additional
+page views.&lt;/p&gt;
+&lt;p&gt;For more on this, check out my post on
+&lt;a href=&quot;https://ajenkins.me/post/likes&quot;&gt;&amp;quot;Doing It for the Likes&amp;quot;&lt;/a&gt;.&lt;/p&gt;
+&lt;h2&gt;Final thoughts&lt;/h2&gt;
+&lt;p&gt;Although I&#39;ve personally decided not to use analytics on my website, don&#39;t take this as a rallying-cry against
+analytics. Analytics are great, and are vital for most websites. Analytics enable companies and creators to make
+data-driven decisions on the best way to improve their website, product, or service, which is how it should always be done.&lt;/p&gt;
+&lt;p&gt;But for my own blog, my goal is to write for my own enjoyment.
+And that&#39;s something that no analytics tool can help me with.&lt;/p&gt;
+&lt;h4&gt;&lt;em&gt;Closing-closing thought&lt;/em&gt;&lt;/h4&gt;
+&lt;p&gt;Actually, this post &lt;em&gt;is&lt;/em&gt; a rallying-cry against something. Cookie banners. Cookie banners suck 😅&lt;/p&gt;
+&lt;hr&gt;
+&lt;p id=&quot;footnote-1&quot;&gt;
+[1]: I&#39;m sure there are plenty of other websites that don&#39;t use analytics.
+     I just don&#39;t know of any, and I&#39;ve definitely never read a justification
+     from someone explaining why they didn&#39;t put analytics on their website.
+&lt;/p&gt;
+&lt;p id=&quot;footnote-2&quot;&gt;
+[2]: The standard version of Google Analytics is free, but Google also offers
+     an enterprise-grade version of the tool called Google Analytics 360 which costs money.
+     But my impression is that nearly all websites use the free version of Google Analytics
+     and 360 is only used by large companies. According to a quick search online,
+     Google Analytics 360 starts at $150,000/year.
+&lt;/p&gt;
+&lt;p id=&quot;footnote-3&quot;&gt;
+[3]: Google actually does let you
+     &lt;a href=&quot;https://support.google.com/analytics/answer/1011397?hl=en&quot;&gt;customize
+     what data you share with them&lt;/a&gt;. However, I believe the defaults make it so
+     most of your website data is shared with Google. Also, when you go into your settings
+     to opt-out of sharing your data with Google, every single toggle has a paragraph listing
+     all of the reasons you should agree to share your site&#39;s data with Google. Clearly,
+     Google really wants your data.
+&lt;/p&gt;
+&lt;p id=&quot;footnote-4&quot;&gt;
+[4]: I don&#39;t actually know how often people click the Accept All Cookies button.
+     It&#39;s always the biggest button, and I know that people tend to click big buttons
+     on websites. What I &lt;em&gt;can&lt;/em&gt; tell you is that &lt;em&gt;I&lt;/em&gt; usually click that button
+     when I&#39;m on a website because I just want the banner to leave me alone, even
+     if it means compromising my privacy.
+&lt;/p&gt;</content>
+  </entry>
+  
+  <entry>
+    <title>Achieving a perfect PageSpeed score with Eleventy</title>
+    <link href="https://ajenkins.me/post/pagespeed_with_eleventy/" />
+    <updated>2020-10-11T15:34:00-04:00</updated>
+    <id>https://ajenkins.me/post/pagespeed_with_eleventy/</id>
+    <content type="html">&lt;img src=&quot;https://ajenkins.me/static/6fed538b-640.jpeg&quot; width=&quot;640&quot; alt=&quot;PageSpeed score increased from 86 to 100&quot;&gt;
+&lt;p&gt;&lt;strong&gt;Update:&lt;/strong&gt; I decided to rewrite this post as a guide instead of a story. If you want
+the full story of how I improved the performance of my website, keep reading. But if
+you just want the quick tips on how to make your Eleventy website faster,
+&lt;a href=&quot;https://ajenkins.me/post/three_tricks_for_eleventy_speed&quot;&gt;read this post instead&lt;/a&gt;.&lt;/p&gt;
+&lt;h2&gt;Intro&lt;/h2&gt;
+&lt;p&gt;As a web developer, I was feeling a little guilty about the performance of my blog.
+Just so we&#39;re on the same page, when I&#39;m talking about &amp;quot;performance&amp;quot; in this post,
+I&#39;m referring to how quickly the page loads.&lt;a href=&quot;#footnote-1&quot; class=&quot;footnote&quot;&gt;[1]&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;My site was already pretty fast to begin with because of the tools I used to build
+my website, like a static-site generator (Eleventy), and a CDN for caching static assets (Netlify).
+I also don&#39;t use any client-side Javascript on my website or large CSS libraries like Bootstrap.
+I use Javascript, but only for building my site, and for styling I just use a single 100-line
+CSS file I wrote myself. Downloading large JS and CSS files (and blocking scripts) are some
+of the main sources of modern website slowness, which is why I chose to avoid them from the start.&lt;/p&gt;
+&lt;p&gt;But I knew there was still an opportunity to make my site faster. The one thing I felt bad about
+was not resizing my images to match the size I was displaying them at. Although I never display
+images wider than 640px on my site, I was loading images that were much bigger than that. This is
+wasteful because your browser downloads the full-resolution image, but then downsamples it before rendering
+it.&lt;/p&gt;
+&lt;p&gt;Of course, I could always manually shrink my images, but that&#39;s a pain to do for all of the images on your
+site, and plus, computers are smart and should be able to do that automatically. Although I&#39;ve never set it
+up myself, I knew this was a pretty standard feature in modern tools for making websites.&lt;/p&gt;
+&lt;p&gt;Although I knew about one bottleneck making my website slow (unoptimized images), I knew there could be others.
+Rather than just make random optimizations to my site, I did the right thing and used a tool for analyzing
+the performance of my website.&lt;/p&gt;
+&lt;h2&gt;Using PageSpeed Insights&lt;/h2&gt;
+&lt;p&gt;From the get-go, I knew that I wanted to use a Google tool for evaluating my site&#39;s performance.
+That&#39;s because I wanted to test my site using the &lt;a href=&quot;https://web.dev/vitals/&quot;&gt;Core Web Vitals&lt;/a&gt;
+metrics that Google recently started advocating for. They clearly put a lot of thought into
+the selection of these metrics, and they align with my subjective experience of what makes
+some websites great to use and some websites terrible. My favorite metric they included is
+Cumulative Layout Shift, which measures how much the page &amp;quot;jumps&amp;quot; when viewed on mobile.
+There&#39;s nothing worse than reading an article on mobile, only for the page to scroll
+to a new position for no apparent reason, forcing you to scroll back to where you were.&lt;/p&gt;
+&lt;p&gt;Google actually has a bunch of different tools for measuring your site performance.
+&lt;a href=&quot;https://web.dev/vitals-tools/&quot;&gt;You can see an overview of them here&lt;/a&gt;.
+I chose to use &lt;a href=&quot;https://developers.google.com/speed/pagespeed/insights/&quot;&gt;PageSpeed Insights&lt;/a&gt;
+because it measures all of the Core Web Vitals and is
+very easy to use – all you need is a URL.&lt;/p&gt;
+&lt;p&gt;For testing, I decided to use &lt;a href=&quot;https://ajenkins.me/post/likes/&quot;&gt;this post I wrote about Halo 3&lt;/a&gt;
+because it has large images
+and an embedded YouTube video. My other posts are mostly text, so I assumed that page would
+have the most room for improvement.&lt;/p&gt;
+&lt;p&gt;Here are my results for that page before I made any optimizations
+(all results are from the Mobile test):&lt;/p&gt;
+&lt;p&gt;
+&lt;img src=&quot;https://ajenkins.me/static/d2996866-640.jpeg&quot; width=&quot;640&quot; alt=&quot;A screenshot of my PageSpeed results before making any optimizations&quot;&gt;
+&lt;a href=&quot;https://ajenkins.me/static/PageSpeedInsights_before.pdf&quot; target=&quot;_blank&quot;&gt;View PDF of the full report&lt;/a&gt;
+&lt;/p&gt;
+&lt;p&gt;Not bad! As I expected, just by using a static site with only a few images and no CSS or JS,
+my site is automatically pretty fast. For comparison, when I ran this test on
+the YouTube homepage, &lt;a href=&quot;https://developers.google.com/speed/pagespeed/insights/?url=https%3A%2F%2Fwww.youtube.com&amp;amp;tab=mobile&quot;&gt;it got a score of 41&lt;/a&gt;.
+And that&#39;s a website that Google made, and they made the test!&lt;/p&gt;
+&lt;p&gt;After giving myself a pat on the back, I dug into the specific suggestions they gave.
+Here&#39;s what they suggested:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Remove unused JavaScript*&lt;/li&gt;
+&lt;li&gt;Properly size images&lt;/li&gt;
+&lt;li&gt;Serve images in next-gen formats&lt;/li&gt;
+&lt;li&gt;Remove unused CSS*&lt;/li&gt;
+&lt;li&gt;Eliminate render-blocking resources&lt;/li&gt;
+&lt;li&gt;Defer offscreen images&lt;/li&gt;
+&lt;li&gt;Ensure text remains visible during webfont load*&lt;/li&gt;
+&lt;li&gt;Reduce the impact of third-party code*&lt;/li&gt;
+&lt;li&gt;Does not use passive listeners to improve scrolling performance*&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;But here&#39;s the kicker: five of those suggestions are solely the result of embedding
+that YouTube video (the issues caused by YouTube are indicated with an asterisk*).
+Come on, Google, that&#39;s not fair. You can&#39;t yell
+at me for how slow my website is when the only reason it&#39;s slow is because I&#39;m
+embedding a video from the site that &lt;em&gt;you&lt;/em&gt; made!&lt;/p&gt;
+&lt;p&gt;The other problems are legit though and fully within my control.
+The rest of this post shows how I addressed each of these suggestions
+(including the ones related to the YouTube video).
+Most of my performance improvements came from adding stuff to my Eleventy config,
+so if you just want to see the final result,
+you can &lt;a href=&quot;https://github.com/ajenkins/blog/blob/master/.eleventy.js&quot;&gt;view my Eleventy config file here&lt;/a&gt;.&lt;/p&gt;
+&lt;h2&gt;Inlining my CSS (Eliminate render-blocking resources)&lt;/h2&gt;
+&lt;p&gt;I was surprised to see my CSS listed as a culprit for making my website slow.
+I was pretty proud that I managed to fit all of the CSS for my entire website
+into a single, 100 line file. But because that CSS file gets loaded in the
+page head, it blocks the rest of the page from rendering until the file
+finishes downloading. And apparently, waiting for my CSS file to download
+was adding 180 ms to the overall page load time. Not much, but these things
+do add up. It&#39;s not &lt;em&gt;that&lt;/em&gt; big of a deal though, because browsers cache CSS
+files anyway, but that only helps if the user has already visited your site before.&lt;/p&gt;
+&lt;p&gt;Anyway, even though it wasn&#39;t causing significant performance issues,
+it&#39;s a very easy thing to fix so I decided to just do it.&lt;/p&gt;
+&lt;p&gt;The solution Google suggests is inlining &amp;quot;critical&amp;quot; JS and CSS.
+When it comes to CSS, &amp;quot;critical&amp;quot; means that the CSS is necessary for
+styling the content that&#39;s &amp;quot;above the fold.&amp;quot; And &amp;quot;above the fold&amp;quot;
+means the content that you see on a website right when the page loads,
+before you scroll down
+(&lt;a href=&quot;https://www.smashingmagazine.com/2015/08/understanding-critical-css/&quot;&gt;you can read a deeper dive on critical CSS here&lt;/a&gt;).
+Based on that definition, all of my CSS is critical
+because most of my styles are for things at the top of the page, like the nav
+and page header. But that&#39;s ok, because the rule with inlining CSS is that you can only inline a small
+amount of CSS (whatever that means), and I figured my 100-line was probably small enough to qualify.&lt;/p&gt;
+&lt;p&gt;Luckily for me, I happened to remember that
+&lt;a href=&quot;https://www.11ty.dev/docs/quicktips/inline-css/&quot;&gt;the official Eleventy docs have a quick tip on how to inline your CSS&lt;/a&gt;.
+When I first read that tip, I remember thinking that it sounded like overkill.
+But after seeing it come up in my PageSpeeds report, I changed my tune.&lt;/p&gt;
+&lt;p&gt;I followed the docs to the letter, so I&#39;m not going to rehash the steps here.
+The only thing that tripped me up was that I had to move my CSS file.
+Originally I kept my CSS file in &lt;code&gt;_pages/static/&lt;/code&gt;, but I had to move it to the
+&lt;code&gt;_includes/&lt;/code&gt; directory with my template files. I don&#39;t understand why, but it &lt;em&gt;is&lt;/em&gt;
+implied by the docs so I was able to figure it out without too much trouble.
+You can see exactly how I implemented this change by viewing
+&lt;a href=&quot;https://github.com/ajenkins/blog/commit/184a9047&quot;&gt;this commit on my GitHub repo&lt;/a&gt;.&lt;/p&gt;
+&lt;h2&gt;Resizing and compressing images (Properly size images)&lt;/h2&gt;
+&lt;p&gt;This was the most difficult change to implement, by far.
+I didn&#39;t feel like this was something I could skip though, because this was
+the original performance optimization I had planned to do. Also, the actual
+code change I made for this was pretty simple, but it just took a long time to figure
+out the exact incantation I needed to use to get the plugin to work properly.&lt;/p&gt;
+&lt;p&gt;I&#39;m getting ahead of myself though. The first way I tried to do this
+was through the Netlify build settings. First I tried installing a community-made
+plugin that promised it would do everything I needed, but when I tried running a build
+with it, it didn&#39;t seem to do anything. Then I found a setting in Netlify
+(Site settings → Build &amp;amp; deploy → Post processing → Asset optimization) that promised
+to compress my images. I tried that, but that didn&#39;t do anything either. In retrospect
+I should&#39;ve realized that my images were already compressed, but needed to be resized,
+which is technically different.&lt;/p&gt;
+&lt;p&gt;Next I did some &lt;a href=&quot;https://duckduckgo.com/&quot;&gt;DuckDuckGoing&lt;/a&gt; and found that Eleventy has
+&lt;a href=&quot;https://github.com/11ty/eleventy-img&quot;&gt;a first-party plugin for resizing and compressing images&lt;/a&gt;.
+Perfect! It only took me a few minutes to copy the example code from the README into
+my project and then... nothing. No images displaying on the page and no magically
+resized image files showing up in my output folder 😞&lt;/p&gt;
+&lt;p&gt;The first error I got was &lt;code&gt;AssertionError: tag myImage not found&lt;/code&gt;.
+Searching for that error online wasn&#39;t helpful, unfortunately. But then I realized
+that I was trying to use a Nunjucks shortcode inside of a Markdown file
+(that&#39;s what I write my blog posts in). So I tried pasting the same code
+into a Nunjucks file that I had. That fixed &lt;em&gt;that&lt;/em&gt; error, but then I got
+a new error: &lt;code&gt;Input file is missing&lt;/code&gt;. This seems to be a pretty
+common error if you look at &lt;a href=&quot;https://github.com/11ty/eleventy-img/issues&quot;&gt;the GitHub issues for the plugin&lt;/a&gt;.
+Basically Eleventy is telling you that it can&#39;t find the image you&#39;re trying to use.&lt;/p&gt;
+&lt;p&gt;Unfortunately, it doesn&#39;t give you any more information than that. Although I
+knew what the problem was, finding the correct combination of values for
+the image source and the plugin config based on the directory structure defined by
+my custom directory structure was no easy task. After an hour or more of trying every
+permutation of file paths I could think of and one &lt;code&gt;git reset --hard&lt;/code&gt; after I introduced an
+infinite loop into the build pipeline, I finally figured it out.&lt;/p&gt;
+&lt;p&gt;To try and help anyone else struggling with this plugin, I&#39;ll explain what I &lt;em&gt;think&lt;/em&gt; you&#39;re supposed to do:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Set &lt;code&gt;urlPath&lt;/code&gt; to be the directory where your source images are,
+relative to your &lt;code&gt;input&lt;/code&gt; directory that you configured in the return object
+in the Eleventy config file (the default input directory is &lt;code&gt;.&lt;/code&gt;).&lt;/li&gt;
+&lt;li&gt;Set &lt;code&gt;outputDir&lt;/code&gt; to where you want the converted images to be put,
+relative to the root of your project (probably where your package.json and .gitignore files are).
+It should go into your output directory with your other compiled files
+(the default output directory is &lt;code&gt;_site&lt;/code&gt;).&lt;/li&gt;
+&lt;li&gt;When you&#39;re using your newly created shortcode, the path to the file you should use
+is the full path from your project root to wherever the &lt;em&gt;source&lt;/em&gt; image is (including its file extension).
+So it will look something like &lt;code&gt;./{inputDir}&lt;/code&gt; &lt;code&gt;/{pathToImages}/&lt;/code&gt; &lt;code&gt;{ImageWithExtension}&lt;/code&gt;.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;After I got that working, I decided to go back and see if I could get the plugin to work with a Markdown file.
+If I couldn&#39;t, I would either need to find a totally new solution, or commit to writing all of my future blog posts
+using Nunjucks, which seemed terrible. Thankfully, I figured out how to make the plugin work with Markdown
+files. This wasn&#39;t in the documentation for the plugin, but I found out you can configure Eleventy to
+compile your Markdown files using Nunjucks, which enables the use of Nunjucks shortcodes within
+Markdown files. I go into the process in more detail
+&lt;a href=&quot;https://github.com/11ty/eleventy-img/issues/1#issuecomment-706755488&quot;&gt;here in the project&#39;s GitHub Issues&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;You can see exactly &lt;a href=&quot;https://github.com/ajenkins/blog/commit/9e83cc75&quot;&gt;what I did to implement image resizing here&lt;/a&gt;.&lt;/p&gt;
+&lt;h3&gt;Using WebP for images (Serve images in next-gen formats)&lt;/h3&gt;
+&lt;p&gt;I&#39;m including this in the same section because the eleventy-img plugin can also convert your images
+into these &amp;quot;next-gen formats&amp;quot; like WebP. If you&#39;ve never heard of
+&lt;a href=&quot;https://developers.google.com/speed/webp/&quot;&gt;WebP&lt;/a&gt;, it&#39;s a relatively new
+compression algorithm for images, comparable to JPEG or PNG, invented by Google for use on the web.
+Although it feels a little sneaky that Google uses its performance analyzer tool to push its own image format onto you,
+WebP is actually pretty cool. Basically, without any noticeable loss
+in image quality, it gives you at least as good compression as JPEG while supporting image transparency
+like PNG. It&#39;s the best of all possible worlds when it comes to image formats.&lt;/p&gt;
+&lt;p&gt;It&#39;s even supported on all modern browsers!... except Mac OS Safari 😩
+This was actually really confusing to me because when you search for &amp;quot;Mac OS Safari WebP&amp;quot;
+one of the first results is &lt;a href=&quot;https://www.macrumors.com/2020/06/22/webp-safari-14/&quot;&gt;an article from MacRumors&lt;/a&gt;
+stating that Apple would be adding support for WebP images to Safari in Safari 14.
+So then I checked what version of Safari I&#39;m running right now: Version 14.0. Yay!&lt;/p&gt;
+&lt;p&gt;But when I tried switching my images over to WebP, they didn&#39;t load in Safari. Weird.
+Maybe &lt;em&gt;I&#39;m&lt;/em&gt; doing something wrong. So then I tried my site in Chrome, and the images load fine.
+I even tried loading a random WebP image from the web in Safari, but that didn&#39;t work &lt;em&gt;either&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;Now I&#39;m thinking that MacRumors must&#39;ve had it wrong about when Apple was adding WebP support.
+So I go to
+&lt;a href=&quot;https://developer.apple.com/documentation/safari-release-notes/safari-14-release-notes#Media&quot;&gt;the official release notes for Safari&lt;/a&gt;,
+only to discover that, yes, support for WebP
+images &lt;em&gt;was&lt;/em&gt; added in Safari 14. But I&#39;m using Safari 14 and it&#39;s not working!&lt;/p&gt;
+&lt;p&gt;After even more DuckDuckGoing, the mystery is finally revealed. I go to the ever-useful
+&lt;a href=&quot;https://caniuse.com/webp&quot;&gt;Can I Use site&#39;s page for WebP&lt;/a&gt;. There it is, in Note 3:
+&amp;quot;Partial support in Safari refers to being limited to macOS 11 Big Sur and later.&amp;quot;
+Come on Apple, you&#39;re better than this. Don&#39;t have different features in Safari 14 depending on
+which OS you&#39;re running. That&#39;s not how versions are supposed to work. Just give the versions different names,
+like 14.0-catalina and 14.0-bigsur or something 😞&lt;/p&gt;
+&lt;p&gt;Anyway, after all of that, I decided not to use WebP for any of my images until Mac OS Big Sur
+has been out for a while and most people have upgraded to it.&lt;a href=&quot;#footnote-2&quot; class=&quot;footnote&quot;&gt;[2]&lt;/a&gt;&lt;/p&gt;
+&lt;h2&gt;Defer offscreen images&lt;/h2&gt;
+&lt;p&gt;This sounded hard, so I decided not to do it. Next!&lt;/p&gt;
+&lt;h2&gt;Fixing all of the YouTube-induced performance issues&lt;/h2&gt;
+&lt;p&gt;Using one-weird trick (i.e., Eleventy plugin) I was able to fix all of the YouTube
+issues at once.&lt;/p&gt;
+&lt;p&gt;Looking at the suggestions PageSpeed was making for the YouTube stuff, I realized that
+all of the complaints boiled down to the YouTube stuff being loaded first before the rest
+of the page loaded. Because I&#39;m an &lt;strong&gt;Experienced Frontend Engineer&lt;/strong&gt; 😉, I knew that
+the solution would be to load the YouTube video into the page asynchronously. Which is just
+a fancy way of saying: load the other stuff on the page first, then pop that bad-boy in there
+whenever it&#39;s ready.&lt;/p&gt;
+&lt;p&gt;After another quick search, I found that YouTube actually does support asynchronous loading
+of an embedded video.
+&lt;a href=&quot;https://developers.google.com/youtube/iframe_api_reference&quot;&gt;Here are the official docs on how to do that&lt;/a&gt;.
+Great, except this looks like a lot of code that I don&#39;t particularly want to write.&lt;/p&gt;
+&lt;p&gt;Thankfully, I didn&#39;t have to. On the &lt;a href=&quot;https://www.11ty.dev/docs/plugins/&quot;&gt;Eleventy docs&lt;/a&gt;
+I discovered that someone had already made
+&lt;a href=&quot;https://www.npmjs.com/package/eleventy-plugin-youtube-embed&quot;&gt;a plugin for embedding YouTube videos&lt;/a&gt;
+(Thanks, Graham!). It even has a convenient &amp;quot;lite&amp;quot; mode, which automatically
+does all that yucky async loading stuff I didn&#39;t want to figure out.&lt;/p&gt;
+&lt;p&gt;The best part of all was that after following the directions in the README, everything worked
+on my first try! Even &amp;quot;lite&amp;quot; mode worked without a fuss. The only weird thing I noticed was that
+in Safari I needed to click on the video twice to play, but my research suggested that this
+was an issue with Safari, not YouTube or the plugin I was using.&lt;/p&gt;
+&lt;p&gt;You can see
+&lt;a href=&quot;https://github.com/ajenkins/blog/commit/a9fbd3dc1&quot;&gt;the commit where I implemented this change here&lt;/a&gt;.&lt;/p&gt;
+&lt;h2&gt;Results&lt;/h2&gt;
+&lt;p&gt;
+&lt;img src=&quot;https://ajenkins.me/static/acee735b-640.jpeg&quot; width=&quot;640&quot; alt=&quot;A screenshot of my PageSpeed results after making all of the above optimizations&quot;&gt;
+&lt;a href=&quot;https://ajenkins.me/static/PageSpeedInsights_after.pdf&quot; target=&quot;_blank&quot;&gt;View PDF of the full report&lt;/a&gt;
+&lt;/p&gt;
+&lt;p&gt;Booyah! Perfect score! Improvements in all metrics across the board, except for Cumulative Layout Shift
+but that&#39;s only slightly worse and it&#39;s still in the green.&lt;/p&gt;
+&lt;p&gt;Now the only suggestion I get is to use those fancy &amp;quot;next-gen&amp;quot; image formats. Which I&#39;ll do at some point,
+but not until Safari adds support for WebP as I discussed above.&lt;/p&gt;
+&lt;h2&gt;Bonus: addPassthroughCopy&lt;/h2&gt;
+&lt;p&gt;This doesn&#39;t have anything to do with performance, but it&#39;s a really useful Eleventy feature
+that I discovered while configuring the YouTube embed stuff, and I wish I had known about it earlier.&lt;/p&gt;
+&lt;p&gt;Here&#39;s what happened. When I was configuring the &amp;quot;lite&amp;quot; mode for YouTube embeds, I decided I wanted
+to be &amp;quot;cool&amp;quot; and use my own self-hosted copies of the needed JS and CSS files rather than depending on
+an externally controlled CDN. Hosting your own static assets (especially JS) is a security best-practice
+because if that external CDN ever got hacked, the hackers could replace the file you&#39;re loading with a
+malicious script and potentially do bad things to the users of your website. It&#39;s unlikely,
+but it&#39;s such an easy thing to mitigate and the exact steps were in the README, so I thought I might
+as well do it the safe way.&lt;/p&gt;
+&lt;p&gt;I downloaded the two files I needed, dropped them both in my trusty &lt;code&gt;static/&lt;/code&gt; directory and configured
+the plugin to look for them there instead of the external CDN. But it didn&#39;t work. When I checked the
+Network tab in the Developer Console, I noticed that the CSS file was loading fine, but the JS file wasn&#39;t
+found. Which seemed weird, because I put them both in the same folder. Why would Eleventy find one file, but
+not the other?&lt;/p&gt;
+&lt;p&gt;This took me a while to figure out, but I eventually realized that I didn&#39;t actually understand how Eleventy
+works. For the most part, Eleventy seems to just take all of the files I feed it in the input
+directory, process them, and then spit them back out in the output directory. But it
+&lt;strong&gt;only does this for files that match the template formats you&#39;ve specified in your Eleventy config.&lt;/strong&gt;
+And &lt;code&gt;.js&lt;/code&gt; was not one of the file formats I had listed in the &lt;code&gt;eleventyConfig.setTemplateFormats()&lt;/code&gt;
+array. This also explained why a lot of other static files I had weren&#39;t getting copied over,
+like my &lt;code&gt;robots.txt&lt;/code&gt; file.&lt;/p&gt;
+&lt;p&gt;But thankfully, Eleventy provides a built-in solution to this problem. While you &lt;em&gt;could&lt;/em&gt;
+just add every single file extension to the list of template formats, that&#39;s not the best way to do it.
+What you&#39;re supposed to do, is for any folder where you just want Eleventy to blindly copy over all of the
+contained files regardless of file type, use the &lt;code&gt;addPassthroughCopy&lt;/code&gt; function.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://github.com/ajenkins/blog/blob/master/.eleventy.js&quot;&gt;You can see how I use it in my .eleventy.js file here&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Ta da! Adding that one line fixed my YouTube problem &lt;em&gt;and&lt;/em&gt; resolved other issues too, like
+some of my favicon files not being copied over correctly 🎉&lt;/p&gt;
+&lt;hr&gt;
+&lt;p id=&quot;footnote-1&quot;&gt;
+[1]: There&#39;s actually a bit more to website performance than just how fast the page loads.
+     That&#39;s certainly one important metric, but there are other things to consider too, like
+     how long before a user can start interacting with the page. The way developers measure
+     performance has also evolved over time. The current state-of-the-art
+     comes from Google, who boiled it down to three key metrics they refer to as
+     &lt;a href=&quot;https://web.dev/vitals/&quot;&gt;Core Web Vitals&lt;/a&gt;.
+&lt;/p&gt;
+&lt;p id=&quot;footnote-2&quot;&gt;
+[2]: My other option is to use the &amp;lt;picture&amp;gt; tag which supports multiple image formats
+     for a single image, so you can implement a fallback image if your browser can&#39;t load
+     an image. While technically feasible, it seemed like a lot of effort just to get
+     WebP images working in Safari. Most of my images are using JPEG anyway, which is
+     nearly as good as WebP as long as you don&#39;t need transparency.
+&lt;/p&gt;</content>
+  </entry>
+  
+  <entry>
+    <title>Three simple tricks for a lightning-fast Eleventy website</title>
+    <link href="https://ajenkins.me/post/three_tricks_for_eleventy_speed/" />
+    <updated>2020-10-12T09:44:00-04:00</updated>
+    <id>https://ajenkins.me/post/three_tricks_for_eleventy_speed/</id>
+    <content type="html">&lt;p&gt;Originally I wrote this guide as a story, but I thought some people would prefer a condensed
+version that just teaches you the three tricks I used for making my website faster. If you&#39;d
+rather read the original version of this post,
+&lt;a href=&quot;https://ajenkins.me/post/pagespeed_with_eleventy&quot;&gt;you can read it here&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Using the three tricks I&#39;ll show you in this guide, I was able to improve my
+&lt;a href=&quot;https://developers.google.com/speed/pagespeed/insights/&quot;&gt;PageSpeed Insights&lt;/a&gt;
+score for this blog from 86 to 100 (on mobile), which is a perfect score.&lt;/p&gt;
+&lt;p&gt;Each of these tricks is actually just an Eleventy plugin, so I can&#39;t take much credit for these tricks.
+But did run into some difficulties while setting them up, so hopefully my step-by-step guide will
+help anyone else trying to use these plugins.&lt;/p&gt;
+&lt;p&gt;I&#39;ll review the three plugins I used in order of how much they improved my site&#39;s performance,
+from most to least.&lt;/p&gt;
+&lt;h2&gt;Async loading of YouTube videos (eleventy-plugin-youtube-embed)&lt;/h2&gt;
+&lt;p&gt;In my &lt;a href=&quot;https://ajenkins.me/static/PageSpeedInsights_before.pdf&quot;&gt;PageSpeed Insights report&lt;/a&gt;,
+5 out of the 9 suggestions were a direct byproduct of embedding a YouTube
+video on my page. I was using the standard embed code that YouTube generates
+when you click the Embed button from a YouTube video, which loads the video player
+in an iframe. I was using the privacy-improved version which doesn&#39;t use cookies,
+but I don&#39;t think that has any impact on performance.&lt;/p&gt;
+&lt;p&gt;If you look at the specific suggestions made in the report, you&#39;ll see that I just
+needed to defer the loading of all of the YouTube assets, so they don&#39;t block the rest
+of the page from loading. Luckily, there&#39;s a community-built plugin that can do this
+automatically.&lt;/p&gt;
+&lt;p&gt;That plugin is called
+&lt;a href=&quot;https://www.npmjs.com/package/eleventy-plugin-youtube-embed&quot;&gt;eleventy-plugin-youtube-embed&lt;/a&gt;
+and is included in &lt;a href=&quot;https://www.11ty.dev/docs/plugins/&quot;&gt;the official list of Eleventy plugins&lt;/a&gt;.
+The default functionality simply allows you to put a link to a YouTube video in a Markdown file,
+and the plugin will automatically replace the URL with the embed code for the video.
+This on its own is pretty cool, but won&#39;t improve the performance of your site, because
+it&#39;s still using the same embed code as before.&lt;/p&gt;
+&lt;p&gt;But this plugin also supports embedding a &amp;quot;lite&amp;quot; version of the YouTube player, which is
+just a static image that looks like a YouTube player, and only loads the real player
+when the image is clicked on. Enabling lite-mode fully resolved all of the performance
+issues I was seeing in my PageSpeed Insights report.&lt;/p&gt;
+&lt;p&gt;The documentation for the plugin is really good, and I didn&#39;t have any issues getting it
+to work, but if you really want to see the code I used, here it is
+(&lt;a href=&quot;https://github.com/ajenkins/blog/blob/master/.eleventy.js&quot;&gt;full code on Github&lt;/a&gt;):&lt;/p&gt;
+&lt;pre class=&quot;language-js&quot;&gt;&lt;code class=&quot;language-js&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; embedYouTube &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;require&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&#39;eleventy-plugin-youtube-embed&#39;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;br&gt;&lt;br&gt;module&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function-variable function&quot;&gt;exports&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token parameter&quot;&gt;eleventyConfig&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;&lt;br&gt;&lt;br&gt;    &lt;span class=&quot;token comment&quot;&gt;// Lots of other configuration stuff here...&lt;/span&gt;&lt;br&gt;&lt;br&gt;    eleventyConfig&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;addPlugin&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;embedYouTube&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;&lt;br&gt;        lite&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token boolean&quot;&gt;true&lt;/span&gt;&lt;br&gt;    &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;br&gt;&lt;br&gt;    &lt;span class=&quot;token keyword&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;&lt;br&gt;        &lt;span class=&quot;token comment&quot;&gt;// No need to make any changes here&lt;/span&gt;&lt;br&gt;    &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;(I actually decided to host the lite JS and CSS files myself, so this isn&#39;t exactly what my config
+looks like. For more info, see my Bonus Trick at the end of this post.)&lt;/p&gt;
+&lt;h2&gt;Resizing images (@11ty/eleventy-img)&lt;/h2&gt;
+&lt;p&gt;Resizing (i.e., shrinking) images can greatly improve the performance of your website.
+It&#39;s common for people to upload high resolution images to their website, but then use
+CSS or the image width setting to display the image at a much lower resolution. This is
+wasteful because your browser still downloads the image at full resolution, but then downsamples
+the image before you ever see it. You can also reduce the file size of your images by using
+better compression formats, like JPEG or &lt;a href=&quot;https://developers.google.com/speed/webp/&quot;&gt;WebP&lt;/a&gt;.
+If you haven&#39;t heard of WebP, it&#39;s a next-gen
+image format designed by Google for displaying images on the web. Without any loss in
+perceptible image quality, it offers at least as good compression as JPEG while still supporting
+transparency like PNG.&lt;/p&gt;
+&lt;p&gt;You can set up your Eleventy site to automatically resize your images as well as convert them
+into an image format like WebP using the official plugin for images,
+&lt;a href=&quot;https://github.com/11ty/eleventy-img&quot;&gt;@11ty/eleventy-img&lt;/a&gt;.
+Even though it&#39;s an official plugin, I had the most trouble getting this one set up.
+Hopefully my learnings will save you some time if you set this up in your own project.
+I&#39;ll also show you how you can use this plugin for images in your Markdown files too.&lt;/p&gt;
+&lt;p&gt;By the way, you can use this plugin to generate simple &amp;lt;img&amp;gt; tags, or you
+can generate the more advanced &amp;lt;picture&amp;gt; tags which support fallback or responsive
+images that display the correct image for your browser and viewport. For my purposes though,
+I only needed to use &amp;lt;img&amp;gt; tags, so I don&#39;t cover the use of &amp;lt;picture&amp;gt; tags here.&lt;/p&gt;
+&lt;h3&gt;Generating &amp;lt;img&amp;gt; tags in Nunjucks templates&lt;/h3&gt;
+&lt;p&gt;There&#39;s an example of how to do this in the README for the plugin, so I won&#39;t
+rehash that here. However, I did have a lot of trouble getting this to work, so
+I&#39;ll share some advice that may help you if it&#39;s not working for you.
+If you&#39;re getting an error in the build console &lt;code&gt;Input file is missing&lt;/code&gt;,
+this might help.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Set &lt;code&gt;urlPath&lt;/code&gt; to be the directory where your source images are,
+relative to your &lt;code&gt;input&lt;/code&gt; directory that you configured in the return object
+in the Eleventy config file (the default input directory is &lt;code&gt;.&lt;/code&gt;).&lt;/li&gt;
+&lt;li&gt;Set &lt;code&gt;outputDir&lt;/code&gt; to where you want the converted images to be put,
+relative to the root of your project (probably where your package.json and .gitignore files are).
+It should go into your output directory with your other compiled files
+(the default output directory is &lt;code&gt;_site&lt;/code&gt;).&lt;/li&gt;
+&lt;li&gt;When you&#39;re using your newly created shortcode, the path to the file you should use
+is the full path from your project root to wherever the &lt;em&gt;source&lt;/em&gt; image is (including its file extension).
+So it will look something like &lt;code&gt;./{inputDir}&lt;/code&gt; &lt;code&gt;/{pathToImages}/&lt;/code&gt; &lt;code&gt;{ImageWithExtension}&lt;/code&gt;.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;The reason I got tripped up is because the plugin doesn&#39;t actually convert your images
+until you&#39;ve correctly configured everything in both your &lt;code&gt;.eleventy.js&lt;/code&gt; file &lt;em&gt;and&lt;/em&gt; your
+Nunjucks template where you&#39;re using the image. That&#39;s because it doesn&#39;t convert all of
+the images in the directory you give it. It only converts the images that are specifically
+referenced from one of your Nunjucks templates using the Nunjucks shortcode, &lt;code&gt;myImage&lt;/code&gt;
+(or whatever you call it).&lt;/p&gt;
+&lt;p&gt;You can see all of the changes I made to get this to work in
+&lt;a href=&quot;https://github.com/ajenkins/blog/commit/9e83cc75&quot;&gt;this commit&lt;/a&gt;.&lt;/p&gt;
+&lt;h3&gt;Using the plugin in a Markdown file&lt;/h3&gt;
+&lt;p&gt;This is not currently covered in the README, so I had to figure this out on my own.
+Luckily, it&#39;s pretty easy to do. All you need to do is update your Eleventy config
+to use Nunjucks for parsing your Markdown templates.
+&lt;a href=&quot;https://www.11ty.dev/docs/config/#default-template-engine-for-markdown-files&quot;&gt;Here&#39;s the official doc&lt;/a&gt;
+on how to configure that. If it&#39;s not clear from the docs, you need to add a new property
+to the return object in your Eleventy config function. Like this:&lt;/p&gt;
+&lt;pre class=&quot;language-js&quot;&gt;&lt;code class=&quot;language-js&quot;&gt;module&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function-variable function&quot;&gt;exports&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token parameter&quot;&gt;eleventyConfig&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;&lt;br&gt;&lt;br&gt;    &lt;span class=&quot;token comment&quot;&gt;// Lots of other configuration stuff here...&lt;/span&gt;&lt;br&gt;&lt;br&gt;    &lt;span class=&quot;token keyword&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;&lt;br&gt;        &lt;span class=&quot;token comment&quot;&gt;// Enables the use of Nunjucks shortcodes within Markdown&lt;/span&gt;&lt;br&gt;        markdownTemplateEngine&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&#39;njk&#39;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;&lt;br&gt;        dir&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;&lt;br&gt;            &lt;span class=&quot;token comment&quot;&gt;// You don&#39;t need to change this part&lt;/span&gt;&lt;br&gt;        &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;br&gt;    &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Then in your Markdown files you can use the &lt;code&gt;myImage&lt;/code&gt; shortcode, exactly the same
+way it&#39;s used in the examples in the plugin README. Like so:&lt;/p&gt;
+&lt;pre class=&quot;language-markdown&quot;&gt;&lt;code class=&quot;language-markdown&quot;&gt;This will be interpreted as normal Markdown.&lt;br&gt;&lt;br&gt;&lt;span class=&quot;token comment&quot;&gt;&amp;lt;!-- Ignore the backslashes --&gt;&lt;/span&gt;&lt;br&gt;\{\% myImage &quot;./src/images/cat.jpg&quot;, &quot;photo of my cat&quot; \%\}&lt;br&gt;&lt;br&gt;This will &lt;span class=&quot;token italic&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;_&lt;/span&gt;&lt;span class=&quot;token content&quot;&gt;also&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;_&lt;/span&gt;&lt;/span&gt; be interpreted as normal Markdown.&lt;/code&gt;&lt;/pre&gt;
+&lt;h3&gt;Converting your images to WebP&lt;/h3&gt;
+&lt;p&gt;I actually decided against this because Mac OS Safari doesn&#39;t support WebP images yet
+(they&#39;re adding support in Mac OS Big Sur which should be released soon). If you want
+to be fancy, you can use a &amp;lt;picture&amp;gt; tag to load either a WebP or other image
+format, depending on what the browser supports. I decided to keep things simple though
+and just use JPEG images for most things, and use PNGs for images that needed transparency.&lt;/p&gt;
+&lt;p&gt;But if you&#39;d rather use WebP images, here&#39;s how you set that in the config:&lt;/p&gt;
+&lt;pre class=&quot;language-js&quot;&gt;&lt;code class=&quot;language-js&quot;&gt;eleventyConfig&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;addNunjucksAsyncShortcode&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&#39;image&#39;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;async&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;br&gt;    src&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;&lt;br&gt;    alt&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;&lt;br&gt;    outputFormat &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&#39;webp&#39;&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;// This is the only line you have to change&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;&lt;br&gt;    &lt;span class=&quot;token keyword&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;alt &lt;span class=&quot;token operator&quot;&gt;===&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;undefined&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;&lt;br&gt;        &lt;span class=&quot;token keyword&quot;&gt;throw&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;token class-name&quot;&gt;Error&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token template-string&quot;&gt;&lt;span class=&quot;token template-punctuation string&quot;&gt;`&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;Missing \`alt\` on image from: &lt;/span&gt;&lt;span class=&quot;token interpolation&quot;&gt;&lt;span class=&quot;token interpolation-punctuation punctuation&quot;&gt;${&lt;/span&gt;src&lt;span class=&quot;token interpolation-punctuation punctuation&quot;&gt;}&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token template-punctuation string&quot;&gt;`&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;br&gt;    &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;br&gt;&lt;br&gt;    &lt;span class=&quot;token keyword&quot;&gt;let&lt;/span&gt; stats &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;await&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;Image&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;src&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;&lt;br&gt;        widths&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;640&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;&lt;br&gt;        formats&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;outputFormat&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;&lt;br&gt;        urlPath&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&#39;/static/&#39;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;&lt;br&gt;        outputDir&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&#39;./_output/static/&#39;&lt;/span&gt;&lt;br&gt;    &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;br&gt;&lt;br&gt;    &lt;span class=&quot;token keyword&quot;&gt;let&lt;/span&gt; props &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; stats&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;outputFormat&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;pop&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;br&gt;&lt;br&gt;    &lt;span class=&quot;token keyword&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;token template-string&quot;&gt;&lt;span class=&quot;token template-punctuation string&quot;&gt;`&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&amp;lt;img src=&quot;&lt;/span&gt;&lt;span class=&quot;token interpolation&quot;&gt;&lt;span class=&quot;token interpolation-punctuation punctuation&quot;&gt;${&lt;/span&gt;props&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;url&lt;span class=&quot;token interpolation-punctuation punctuation&quot;&gt;}&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot; width=&quot;&lt;/span&gt;&lt;span class=&quot;token interpolation&quot;&gt;&lt;span class=&quot;token interpolation-punctuation punctuation&quot;&gt;${&lt;/span&gt;props&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;width&lt;span class=&quot;token interpolation-punctuation punctuation&quot;&gt;}&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot; alt=&quot;&lt;/span&gt;&lt;span class=&quot;token interpolation&quot;&gt;&lt;span class=&quot;token interpolation-punctuation punctuation&quot;&gt;${&lt;/span&gt;alt&lt;span class=&quot;token interpolation-punctuation punctuation&quot;&gt;}&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;&gt;&lt;/span&gt;&lt;span class=&quot;token template-punctuation string&quot;&gt;`&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;h3&gt;Making your images scale proportionally on mobile&lt;/h3&gt;
+&lt;p&gt;Using the &amp;lt;picture&amp;gt; tag, you can actually load a lower resolution image
+on mobile devices to save even more bandwidth. I decided not to bother with that though,
+and just use a normal &amp;lt;img&amp;gt; tag and scale the image based on the width of the viewport.&lt;/p&gt;
+&lt;p&gt;The first time I tried this using the example code from the README, my images looked
+stretched when viewed on a mobile device. To fix it, all I had to do was remove
+the &lt;code&gt;height&lt;/code&gt; property from the &amp;lt;img&amp;gt; markup I was returning from the plugin function.&lt;/p&gt;
+&lt;pre class=&quot;language-js&quot;&gt;&lt;code class=&quot;language-js&quot;&gt;&lt;span class=&quot;token comment&quot;&gt;// Change this...&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;token keyword&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;token template-string&quot;&gt;&lt;span class=&quot;token template-punctuation string&quot;&gt;`&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&amp;lt;img src=&quot;&lt;/span&gt;&lt;span class=&quot;token interpolation&quot;&gt;&lt;span class=&quot;token interpolation-punctuation punctuation&quot;&gt;${&lt;/span&gt;props&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;url&lt;span class=&quot;token interpolation-punctuation punctuation&quot;&gt;}&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot; width=&quot;&lt;/span&gt;&lt;span class=&quot;token interpolation&quot;&gt;&lt;span class=&quot;token interpolation-punctuation punctuation&quot;&gt;${&lt;/span&gt;props&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;width&lt;span class=&quot;token interpolation-punctuation punctuation&quot;&gt;}&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot; alt=&quot;&lt;/span&gt;&lt;span class=&quot;token interpolation&quot;&gt;&lt;span class=&quot;token interpolation-punctuation punctuation&quot;&gt;${&lt;/span&gt;alt&lt;span class=&quot;token interpolation-punctuation punctuation&quot;&gt;}&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;&gt;&lt;/span&gt;&lt;span class=&quot;token template-punctuation string&quot;&gt;`&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;br&gt;&lt;br&gt;&lt;span class=&quot;token comment&quot;&gt;// To this.&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;token keyword&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;token template-string&quot;&gt;&lt;span class=&quot;token template-punctuation string&quot;&gt;`&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&amp;lt;img src=&quot;&lt;/span&gt;&lt;span class=&quot;token interpolation&quot;&gt;&lt;span class=&quot;token interpolation-punctuation punctuation&quot;&gt;${&lt;/span&gt;props&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;url&lt;span class=&quot;token interpolation-punctuation punctuation&quot;&gt;}&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot; width=&quot;&lt;/span&gt;&lt;span class=&quot;token interpolation&quot;&gt;&lt;span class=&quot;token interpolation-punctuation punctuation&quot;&gt;${&lt;/span&gt;props&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;width&lt;span class=&quot;token interpolation-punctuation punctuation&quot;&gt;}&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot; height=&quot;&lt;/span&gt;&lt;span class=&quot;token interpolation&quot;&gt;&lt;span class=&quot;token interpolation-punctuation punctuation&quot;&gt;${&lt;/span&gt;props&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;height&lt;span class=&quot;token interpolation-punctuation punctuation&quot;&gt;}&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot; alt=&quot;&lt;/span&gt;&lt;span class=&quot;token interpolation&quot;&gt;&lt;span class=&quot;token interpolation-punctuation punctuation&quot;&gt;${&lt;/span&gt;alt&lt;span class=&quot;token interpolation-punctuation punctuation&quot;&gt;}&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;&gt;&lt;/span&gt;&lt;span class=&quot;token template-punctuation string&quot;&gt;`&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;h2&gt;Inlining CSS (clean-css)&lt;/h2&gt;
+&lt;p&gt;My CSS file was already pretty small to begin with (1 kb), so originally I wasn&#39;t worried about it.
+But according to my PageSpeed report, the extra network request required to download my CSS file
+was adding about 180 ms to the overall page load time. Which isn&#39;t much on its own, but these
+things do add up, so I decided to look into it.&lt;/p&gt;
+&lt;p&gt;The solution the report suggests is inlining &amp;quot;critical&amp;quot; JS and CSS.
+When it comes to CSS, &amp;quot;critical&amp;quot; means that the CSS is necessary for
+styling the content that&#39;s &amp;quot;above the fold.&amp;quot; And &amp;quot;above the fold&amp;quot;
+means the content that you see on a website right when the page loads,
+before you scroll down
+(&lt;a href=&quot;https://www.smashingmagazine.com/2015/08/understanding-critical-css/&quot;&gt;you can read a deeper dive on critical CSS here&lt;/a&gt;).
+Based on that definition, all of my CSS is critical
+because most of my styles are for things at the top of the page, like the nav
+and page header. But that&#39;s ok, because the rule with inlining CSS is that you can only inline a small
+amount of CSS (whatever that means), and I figured my 100-line was probably small enough to qualify.&lt;/p&gt;
+&lt;p&gt;Luckily for me, I remembered that
+&lt;a href=&quot;https://www.11ty.dev/docs/quicktips/inline-css/&quot;&gt;the official Eleventy docs have a quick tip on how to inline your CSS&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;I followed the docs to the letter, so I&#39;m not going to rehash the steps here.
+The only thing that tripped me up was that I had to move my CSS file.
+Originally I kept my CSS file in &lt;code&gt;_pages/static/&lt;/code&gt;, but I had to move it to the
+&lt;code&gt;_includes/&lt;/code&gt; directory with my template files. I don&#39;t understand why, but it &lt;em&gt;is&lt;/em&gt;
+implied by the docs so I was able to figure it out without too much trouble.
+You can see exactly how I implemented this change by viewing
+&lt;a href=&quot;https://github.com/ajenkins/blog/commit/184a9047&quot;&gt;this commit on my GitHub repo&lt;/a&gt;.&lt;/p&gt;
+&lt;h2&gt;Summary&lt;/h2&gt;
+&lt;p&gt;After making these three changes, I was able to boost my PageSpeed Insights score from 86 to 100
+and shave 0.9 sec off my page load time, which is a 50% increase in speed!&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://ajenkins.me/static/PageSpeedInsights_after.pdf&quot;&gt;Here&#39;s a PDF of my results&lt;/a&gt; after making these changes.&lt;/p&gt;
+&lt;p&gt;After Apple releases Mac OS Big Sur, I&#39;ll update my website to use WebP images which should make things
+even faster.&lt;/p&gt;
+&lt;h2&gt;Bonus trick: addPassthroughCopy&lt;/h2&gt;
+&lt;p&gt;This doesn&#39;t have anything to do with performance, but it&#39;s a really useful Eleventy feature
+that I discovered while configuring the YouTube embed stuff, and I wish I had known about it earlier.&lt;/p&gt;
+&lt;p&gt;Here&#39;s what happened. When I was configuring the &amp;quot;lite&amp;quot; mode for YouTube embeds, I decided I wanted
+to be &amp;quot;cool&amp;quot; and use my own self-hosted copies of the needed JS and CSS files rather than depending on
+an externally controlled CDN.&lt;/p&gt;
+&lt;p&gt;I downloaded the two files I needed, dropped them both in my trusty &lt;code&gt;static/&lt;/code&gt; directory and configured
+the plugin to look for them there instead of the external CDN. But it didn&#39;t work. When I checked the
+Network tab in the Developer Console, I noticed that the CSS file was loading fine, but the JS file wasn&#39;t
+found. Which seemed weird, because I put them both in the same folder. Why would Eleventy find one file, but
+not the other?&lt;/p&gt;
+&lt;p&gt;This took me a while to figure out, but I eventually realized that I didn&#39;t actually understand how Eleventy
+works. For the most part, Eleventy seems to just take all of the files I feed it in the input
+directory, process them, and then spit them back out in the output directory. But it
+&lt;strong&gt;only does this for files that match the template formats you&#39;ve specified in your Eleventy config.&lt;/strong&gt;
+And &lt;code&gt;.js&lt;/code&gt; was not one of the file formats I had listed in the &lt;code&gt;eleventyConfig.setTemplateFormats()&lt;/code&gt;
+array. This also explained why a lot of other static files I had weren&#39;t getting copied over,
+like my &lt;code&gt;robots.txt&lt;/code&gt; file.&lt;/p&gt;
+&lt;p&gt;But thankfully, Eleventy provides a built-in solution to this problem. While you &lt;em&gt;could&lt;/em&gt;
+just add every single file extension to the list of template formats, that&#39;s not the best way to do it.
+What you&#39;re supposed to do, is for any folder where you just want Eleventy to blindly copy over all of the
+contained files regardless of file type, use the &lt;code&gt;addPassthroughCopy&lt;/code&gt; function.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://github.com/ajenkins/blog/blob/master/.eleventy.js&quot;&gt;You can see how I use it in my .eleventy.js file here&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Ta da! Adding that one line fixed my YouTube problem &lt;em&gt;and&lt;/em&gt; resolved other issues too, like
+some of my favicon files not being copied over correctly 🎉&lt;/p&gt;
+</content>
+  </entry>
+  
+  <entry>
+    <title>Ranked Choice Voting: Why we lost in 2020</title>
+    <link href="https://ajenkins.me/post/rcv_2020_loss/" />
+    <updated>2020-11-04T15:00:00-05:00</updated>
+    <id>https://ajenkins.me/post/rcv_2020_loss/</id>
+    <content type="html">&lt;p&gt;If you haven&#39;t heard, the 2020 ballot initiative to use ranked choice voting (RCV) in Massachusetts
+has failed. The count isn&#39;t finalized yet, but roughly 45% voted for the measure,
+while 55% voted against it.
+There was a similar ballot initiative in Alaska for ranked choice voting that
+also failed, but I know much less about it.&lt;/p&gt;
+&lt;p&gt;I&#39;ve spent the last few months volunteering to get ranked choice voting passed in MA, so this
+is obviously very disappointing for me. While I&#39;ve known for a while that this was a possible outcome,
+I genuinely believed that victory was possible. And I think I was right – it was still
+pretty close.&lt;/p&gt;
+&lt;p&gt;While I&#39;m disappointed by the result, I feel ok. I feel like I personally did everything
+I could to help get it passed, and I don&#39;t think anything else I could have done would have made
+a meaningful difference. Given how strongly I believe in ranked choice voting, I know that had I
+not volunteered and donated towards the initiative, I&#39;d be kicking myself now wondering if I could
+have made a difference. At least now I don&#39;t have to wonder and I have no regrets.&lt;/p&gt;
+&lt;p&gt;When I realized that the initiative had failed, my first question was &amp;quot;How did this fail?&amp;quot;
+Massachusetts is a very progressive state and I thought that if RCV could pass anywhere,
+it would be here. Plus, a similar measure passed in Maine in 2016, so I knew a victory was possible.
+&lt;a href=&quot;https://ballotpedia.org/Massachusetts_Question_2,_Ranked-Choice_Voting_Initiative_(2020)#Polls&quot;&gt;Early voter polls&lt;/a&gt;
+also showed a nearly 10-point lead of Yes-voters over No-voters. What went wrong?&lt;/p&gt;
+&lt;p&gt;Regarding the early poll results, I don&#39;t actually think they were wrong. They were just misleading.
+The two most recent polls showed 45% and 48% of voters saying they would vote Yes, which is
+approximately how many people &lt;em&gt;did&lt;/em&gt; vote Yes. What seems to have happened is that nearly 100%
+of people who said they were undecided in the poll translated into No voters in the actual election.&lt;/p&gt;
+&lt;p&gt;My sense is that many people went into this election mostly to vote on the presidential election
+and didn&#39;t put any thought into the ballot questions until they were reading their ballot
+on election day. This was my fear from the beginning, because I fully admit that ranked choice voting
+sounds like a strange idea when you first hear about it and the benefits are not immediately obvious.
+The ballots also get printed a long time before the election and don&#39;t show who has endorsed the measure.
+Ranked Choice Voting was endorsed by an amazing list of groups and people: Elizabeth Warren, Ed Markey,
+Joe Kennedy, Former Republican governor of MA Bill Weld, The Boston Globe – even Jennifer Lawrence
+officially endorsed it. But none of that was shown on the ballot, unfortunately.&lt;/p&gt;
+&lt;p&gt;The only prominent politician to oppose it was current MA Governor Charlie Baker.
+His criticism boiled down to: RCV would make elections more complicated and our current
+election system is fine the way it is.&lt;/p&gt;
+&lt;p&gt;So although this loss could have been predicted by the results of early polls, it still
+doesn&#39;t explain why more voters weren&#39;t in favor of it. After all, a similar measure passed
+in Maine in 2016 with 52% support.&lt;/p&gt;
+&lt;p&gt;This thinking led me to reframe my initial question of &amp;quot;How did RCV fail in MA (and AK)?&amp;quot;
+to &amp;quot;How did RCV pass in Maine? What makes Maine special?&amp;quot; I&#39;m only speculating, but I
+think I have a pretty good guess. The reason RCV was popular in Maine was because their
+2016 ballot question came on the heels of two frustrating gubernatorial races
+that resulted in an unpopular governor. In 2010, Paul LePage was elected governor
+with only 38.1% of the vote due to a split election where he ran against four other
+candidates. And in 2014, he won re-election with only 48.2% of the vote. While in
+office his approval rating was only 41%, which was one of the lowest of any governor
+in the country.&lt;a href=&quot;#footnote-1&quot; class=&quot;footnote&quot;&gt;[1]&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Having such an unpopular governor win two consecutive elections without majority
+support provided a simple narrative for ranked choice voting: if Maine had RCV,
+then they wouldn&#39;t have Paul LePage. So it&#39;s likely that RCV passing in Maine
+was mostly a referendum on Paul LePage himself, rather than a reflection of genuine support
+for RCV. I imagine the campaign messaging for RCV in Maine was basically &amp;quot;Do you hate
+Paul LePage? Do you wish literally anyone else was our governor? Then vote Yes on Question 5!&amp;quot;
+Maybe it&#39;s not a coincidence that LePage&#39;s disapproval rating was 53% and RCV passed with
+52% of the vote.&lt;/p&gt;
+&lt;p&gt;Maine had a straightforward story for why they needed ranked choice voting. But what was
+the story in Massachusetts?&lt;/p&gt;
+&lt;p&gt;I think this is the real reason why RCV didn&#39;t pass in Massachusetts – the argument for
+RCV was intellectual rather than a direct response to real experiences. One counterargument
+I heard from several voters regarding RCV is that most elections only have two candidates
+anyway, so RCV wouldn&#39;t actually be any different than plurality voting. My response to that
+was that &lt;em&gt;the reason&lt;/em&gt; there are usually only two candidates in elections is &lt;em&gt;because&lt;/em&gt; we
+use plurality voting. A third candidate running would only spoil the election, therefore they
+usually don&#39;t run. The problem with this line of reasoning is that it requires you to imagine
+all of the great candidates who aren&#39;t running but we could be electing and is not grounded in people&#39;s
+real experiences. I still think I&#39;m right on this, but counting on people&#39;s ability to imagine
+better candidates is risky.&lt;/p&gt;
+&lt;p&gt;I&#39;ve also thought a lot about Governor Baker&#39;s assertion that we don&#39;t need RCV in MA.
+A week ago, I scoffed at that statement (&lt;em&gt;of course&lt;/em&gt;, things could be better), but I now
+realize that he&#39;s kind of right. If you&#39;re happy with the politicians that are currently
+being elected, then there&#39;s no incentive to change the way we elect them. If you can&#39;t
+imagine anyone you&#39;d rather see in power, then changing the voting system could only
+make things worse. And boy are people happy with the politicians in MA: Charlie Baker&#39;s
+approval rating sits at 80% and he consistently had the highest
+approval rating of any governor in the US for nearly three
+years!&lt;a href=&quot;#footnote-2&quot; class=&quot;footnote&quot;&gt;[2]&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;When you compare the favorability of Paul LePage in Maine with Charlie Baker,
+it makes total sense why more voters weren&#39;t itching for RCV in Massachusetts.
+Why adopt a new voting system when our current system is giving us wonderful politicians
+like Baker?&lt;a href=&quot;#footnote-3&quot; class=&quot;footnote&quot;&gt;[3]&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;I&#39;m still very much in favor of ranked choice voting, but I&#39;m skeptical that it can
+pass in a state unless there&#39;s deep dissatisfaction with their current politicians
+like there was in Maine. Perhaps we&#39;ll just have to wait for voters to realize the flaws with plurality voting
+before we can get traction for ranked choice voting. I just hope we can afford to wait.&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;Sorry, but you&#39;ll have to make do with Wikipedia links.&lt;/p&gt;
+&lt;p id=&quot;footnote-1&quot;&gt;
+[1]: &lt;a href=&quot;https://en.wikipedia.org/wiki/Paul_LePage&quot;&gt;
+        https://en.wikipedia.org/wiki/Paul_LePage
+    &lt;/a&gt;
+&lt;/p&gt;
+&lt;p id=&quot;footnote-2&quot;&gt;
+[2]: &lt;a href=&quot;https://en.wikipedia.org/wiki/Charlie_Baker&quot;&gt;
+        https://en.wikipedia.org/wiki/Charlie_Baker
+    &lt;/a&gt;
+&lt;/p&gt;
+&lt;p id=&quot;footnote-3&quot;&gt;
+[3]: Of course, if a politician has more than 50% of the vote, they would still
+     win the election even under RCV. So, in all likelihood, even with RCV Baker&#39;s
+     governorship would be safe. So it&#39;s not like switching to RCV would get rid of
+     the politicians people like. That being said, there&#39;s also no advantage to using
+     RCV is candidates are consistently winning with more than 50% of the vote, so why
+     bother changing the system?
+&lt;/p&gt;
+</content>
+  </entry>
+  
+  <entry>
+    <title>I&#39;m making a pandemic dating app, Part 1</title>
+    <link href="https://ajenkins.me/post/making_a_dating_app/" />
+    <updated>2020-11-08T16:00:00-05:00</updated>
+    <id>https://ajenkins.me/post/making_a_dating_app/</id>
+    <content type="html">&lt;p&gt;Well, technically I haven&#39;t started yet. But I plan to start building it soon.&lt;/p&gt;
+&lt;h2&gt;Why I&#39;m making a dating app now&lt;/h2&gt;
+&lt;p&gt;I&#39;ve dreamed of making a dating app for the past ten years, but haven&#39;t actually made one yet.
+My phone is filled with notes on different ideas for dating
+apps, but for one reason or another I&#39;ve never actually followed through with
+any of them.&lt;/p&gt;
+&lt;p&gt;In the past I&#39;ve hesitated for two reasons: I&#39;m afraid of starting things
+and dating apps depend on network-effects to be successful. Because of
+my personality I&#39;m reluctant to start anything. I&#39;m definitely a
+&amp;quot;Let&#39;s just stay home&amp;quot; kind of person, so it&#39;s hard for me to take initiative
+and start something on my own, especially something as daunting as starting
+a business.&lt;/p&gt;
+&lt;p&gt;Creating a dating app is an especially scary prospect for me because
+it depends on network-effects to be successful. What this means is that
+its value to users hinges on how many users are actively using it.
+If you&#39;re the only person on a dating app, it&#39;s useless. The same is
+true for social media services, which is why you don&#39;t see many serious
+challenges to Facebook and Twitter&#39;s dominance. In terms of dating apps,
+the best app is arguably Tinder. Not because it has the best
+features, but just because it has the most users.&lt;/p&gt;
+&lt;p&gt;So to make a &amp;quot;good&amp;quot; dating app, it needs to be great and offer something
+new, otherwise it will never be able to grow its user base to a critical
+mass and actually become useful.&lt;/p&gt;
+&lt;p&gt;So why am I serious about making a dating app now? First, this pandemic has created
+a unique situation that I believe calls for a new type of dating app
+from what currently exists, and I think I can make that app. And second, I&#39;ve
+got nothing better to do right now. There&#39;s a pandemic, I&#39;m single,
+and I&#39;m not interested in baking bread 😁&lt;/p&gt;
+&lt;h2&gt;Do we really need another dating app?&lt;/h2&gt;
+&lt;p&gt;I think there are two ways to think about that question. On the one hand, with
+all of the problems that exist in the world, is &lt;em&gt;another dating app&lt;/em&gt; really
+what we need right now? No, of course not.&lt;/p&gt;
+&lt;p&gt;Although dating apps aren&#39;t the most important thing in the world, I still
+think they have the potential to be valuable. As Anne Hathaway awkwardly
+put it in Interstellar, &amp;quot;Love is the one thing we&#39;re capable of perceiving that transcends time and space.&amp;quot;
+Putting aside cringe-worthy movie lines, I do believe that love is real
+and I would feel proud if I could make something that helped some people find
+it.&lt;/p&gt;
+&lt;p&gt;I&#39;m not naïve though – I know that many people use dating apps for hook-ups.
+But I don&#39;t have anything against people looking for a hook-up. As long as
+it&#39;s consensual and people are honest about what they&#39;re looking for, I&#39;m
+all for it.&lt;/p&gt;
+&lt;p&gt;Anyway, there&#39;s another way of looking at the question. Is there room
+for a new dating app to offer something that the existing apps don&#39;t
+already offer? In my opinion, the answer is an absolute yes.&lt;/p&gt;
+&lt;p&gt;I&#39;ve downloaded and tried lots of different dating apps
+(Tinder, Bumble, OkCupid, CMB, Hinge, Feeld, Pure, and more).
+I&#39;ve also talked to anyone willing to talk to me about their own
+experiences with dating apps.&lt;/p&gt;
+&lt;p&gt;From my own experiences and what I&#39;ve heard from others, I&#39;ve
+learned one thing: &lt;em&gt;everyone&lt;/em&gt; hates dating apps. You might be
+wondering how dating apps could be simultaneously extremely popular
+and extremely disliked. I think what&#39;s happening is people download
+them because they feel like they&#39;re the only way to meet people anymore,
+but they leave much to be desired. I mean, if you&#39;re not in college, what
+are you supposed to do? Go to a bar and hope for the best? If this
+was ever an effective strategy, it&#39;s certainly not possible or advised
+now in the time of COVID. So people use dating apps because they
+don&#39;t have any other options.&lt;/p&gt;
+&lt;p&gt;I&#39;ll get to what people don&#39;t like about the current dating apps soon.
+But the important thing is that the current apps are bad. And I think
+this is a missed opportunity. After overcoming its initial stigma,
+online dating should have been the panacea for all single people in the world.
+With so many options for online dating, how could they all be so bad?&lt;/p&gt;
+&lt;h2&gt;Why the existing dating apps are bad&lt;/h2&gt;
+&lt;p&gt;&lt;em&gt;Full disclosure: I&#39;ve never tried Match.com or any other paid dating app.
+I&#39;ve also never tried exclusive dating apps like The League. Maybe they&#39;re
+great. Maybe the problems below don&#39;t apply to them. But even
+if these apps are better than the free and open options, I don&#39;t care.
+I&#39;m not interested in any dating app that filters its potential user base
+by charging a subscription or excluding people they deem unworthy.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;The number one complaint I&#39;ve heard about dating apps is that they waste
+your time. This isn&#39;t how it&#39;s usually phrased to me, but that&#39;s what it
+boils down to. This problem is also not limited to one gender – it&#39;s a
+problem for everyone.&lt;/p&gt;
+&lt;p&gt;Not trying to stereotype, but from what I&#39;ve heard many men complain
+that they don&#39;t get enough matches on dating apps. They spend hours
+swiping through profiles, yet never manage to land a date with someone.&lt;/p&gt;
+&lt;p&gt;The women I&#39;ve talked to have the opposite problem. They get flooded with
+matches. But the bulk of those matches are &amp;quot;junk&amp;quot;. Most conversations
+fizzle out and never lead to a date, or end when they&#39;re asked for the
+umpteenth time to &amp;quot;send nudes.&amp;quot;&lt;/p&gt;
+&lt;p&gt;And if you do manage to actually make it through the swiping-and-messaging
+tar pits&lt;a href=&quot;#footnote-1&quot; class=&quot;footnote&quot;&gt;[1]&lt;/a&gt;
+and go on a date, there&#39;s a high likelihood that the the person
+will turn out to not be as great as you had hoped. And now you&#39;ve wasted
+one of your precious free nights on that person.&lt;/p&gt;
+&lt;p&gt;It&#39;s exhausting.&lt;/p&gt;
+&lt;p&gt;The second problem I&#39;ve heard about dating apps, and which I&#39;ve personally
+experienced, is that they lower your self-esteem. People often talk
+about dating apps being a &amp;quot;numbers game,&amp;quot; meaning that you have to work
+your way through a lot of people to find a good one. But it&#39;s hard not
+to feel bad about yourself when you&#39;re confronted with so much failure.
+You&#39;ll try to tell yourself not to take it personally, and there&#39;s nothing
+wrong with you and that this is how dating apps feel for everyone. But
+everyone has that one friend who found a serious relationship after
+downloading an app and casually using it for a week. Why do dating apps work for
+some people but not for me? What&#39;s wrong with me?&lt;/p&gt;
+&lt;p&gt;On the other hand, some people actually use dating apps for a self-esteem
+boost. If you&#39;re someone who gets a lot of matches, it&#39;s nice to see all
+of the people who liked your profile. Maybe this is actually effective for
+some people, but my understanding is that this is not a good way to
+develop lasting self-esteem.&lt;/p&gt;
+&lt;p&gt;Also, maybe it&#39;s just me, but I feel like dating apps don&#39;t actually
+care whether or not I find a date. It seems like the actual goal of
+dating apps is to make me so frustrated that I cave and buy more
+Super Likes or their premium subscription.&lt;/p&gt;
+&lt;p&gt;If you&#39;ve used dating apps before, I hope that these problems align
+with your own experience. But they may not. Most of what I know
+comes from anecdotes shared by my friends, who are mostly cis-gendered,
+White and Asian, men and women. None of my friends are non-binary, and
+I would imagine that the dating experience of a trans woman of
+would be very different from my own. I&#39;m planning to add
+comments to my blog soon, and then you&#39;ll be able to tell me what
+&lt;em&gt;your&lt;/em&gt; experience with dating apps has been.&lt;/p&gt;
+&lt;h2&gt;Why my dating app will be better&lt;/h2&gt;
+&lt;p&gt;Because &lt;em&gt;I&lt;/em&gt; made it. Duh.&lt;/p&gt;
+&lt;p&gt;Just kidding 😉&lt;/p&gt;
+&lt;p&gt;But I think this post has gone on long enough. In Part 2,
+I&#39;ll go into detail about how my app will be different and how
+it will address some of these problems. I&#39;ll link to it here once I&#39;ve written it.&lt;/p&gt;
+&lt;hr&gt;
+&lt;p id=&quot;footnote-1&quot;&gt;
+[1]: Is the idea of a &lt;a href=&quot;https://en.wikipedia.org/wiki/Tar_pit&quot;&gt;&quot;tar pit&quot;&lt;/a&gt;
+     a well-known metaphor? I don&#39;t know. But the idea is that it&#39;s a really sticky
+     thing that animals get stuck in. I know it from
+     &lt;a href=&quot;https://en.wikipedia.org/wiki/The_Mythical_Man-Month&quot;&gt;The Mythical Man-Month&lt;/a&gt;,
+     but that&#39;s not a well-known book outside of software engineering.
+&lt;/p&gt;</content>
+  </entry>
+</feed>
