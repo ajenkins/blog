@@ -132,3 +132,12 @@ label {
   display: block;
   border-radius: 50%;
 }
+
+.redacted {
+  color: black;
+  background-color: black;
+}
+
+.redacted::selection {
+  background-color: black;
+}

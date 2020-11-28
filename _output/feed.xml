@@ -4,7 +4,7 @@
   <subtitle>A blog about technology, politics, video games, and movies</subtitle>
   <link href="https://ajenkins.me/feed.xml" rel="self" />
   <link href="https://ajenkins.me/" />
-  <updated>2020-11-08T16:00:00-05:00</updated>
+  <updated>2020-11-27T15:15:00-05:00</updated>
   <id>https://ajenkins.me/</id>
   <author>
     <name>AJ Jenkins</name>
@@ -1323,6 +1323,237 @@ But it would be nice on some of my longer posts to be able to jump
 to a particular heading.&lt;/p&gt;
 &lt;h2&gt;...And more&lt;/h2&gt;
 &lt;p&gt;I have a few other ideas, but that covers the major ones. Thanks for reading!&lt;/p&gt;
+</content>
+  </entry>
+  
+  <entry>
+    <title>I&#39;m making a pandemic dating app, Part 2</title>
+    <link href="https://ajenkins.me/post/making_a_dating_app_part2/" />
+    <updated>2020-11-27T15:15:00-05:00</updated>
+    <id>https://ajenkins.me/post/making_a_dating_app_part2/</id>
+    <content type="html">&lt;p&gt;Sorry for the long wait since Part 1. In Part 2, I&#39;ll talk about the main features
+of the app and how it&#39;s different from existing dating apps (and hopefully better).
+This is the second and final part of this post, but I am planning on writing more
+posts about this project as I work on it.&lt;/p&gt;
+&lt;p&gt;I have a name in mind for what I want to call the app, but I&#39;m going to keep it a
+secret for now. So instead of putting the name in this post, I&#39;ll refer to it as
+&lt;span class=&quot;redacted&quot;&gt;XXXXXXX&lt;/span&gt;. Your computer isn&#39;t broken, it&#39;s supposed
+to look like a black rectangle.&lt;/p&gt;
+&lt;h2&gt;Elevator Pitch&lt;/h2&gt;
+&lt;p&gt;&lt;span class=&quot;redacted&quot;&gt;XXXXXXX&lt;/span&gt; is a video-centric dating app that respects your time.
+&lt;span class=&quot;redacted&quot;&gt;XXXXXXX&lt;/span&gt; was designed from the ground up around the question
+&amp;quot;What is the optimal dating experience when you can&#39;t safely meet other people in-person?&amp;quot;
+The &amp;quot;goal&amp;quot; of most dating apps is to schedule an in-person meeting with someone,
+so what does a dating app look like when that&#39;s no longer possible? And although the
+concept for this app was born out of the circumstances of the current pandemic, I believe
+that &lt;span class=&quot;redacted&quot;&gt;XXXXXXX&lt;/span&gt; will offer a superior user experience
+over existing dating apps even when things go back to normal.&lt;/p&gt;
+&lt;h2&gt;How it works&lt;/h2&gt;
+&lt;p&gt;After you create your account, you&#39;re brought to a list of all users who match
+your preferences&lt;a href=&quot;#footnote-1&quot; class=&quot;footnote&quot;&gt;[1]&lt;/a&gt; and are currently
+online. Rather than swiping through profiles one at a time, you&#39;ll
+scroll through a list of users.&lt;/p&gt;
+&lt;p&gt;When a user&#39;s profile catches your eye, just tap the 📞 button to start a video call with them 😱&lt;/p&gt;
+&lt;p&gt;I know that calling a completely stranger might seem a little scary to some
+of you. But the good news is your other option is you can always just wait
+for someone to call &lt;em&gt;you&lt;/em&gt; instead 😌&lt;/p&gt;
+&lt;p&gt;If someone calls you, you&#39;ll see the incoming call pop up on your screen
+and you can decide whether or not to accept it. Before you accept, you
+can view the person&#39;s profile. If you don&#39;t accept the call within 30 seconds,
+it will be automatically declined.&lt;/p&gt;
+&lt;p&gt;Once a call is accepted, you&#39;ll immediately begin a 3 minute video call where
+you can get to know each other. After the call ends, you&#39;ll be able to message
+each other through the app or set up another video call.&lt;/p&gt;
+&lt;p&gt;If you don&#39;t want to hear from another user anymore, you can block or report them.&lt;/p&gt;
+&lt;p&gt;To make the initial video call a little less intimidating, everyone will have the option
+to write their own conversation starters which are displayed in their profile. For example, you could
+put &amp;quot;What&#39;s the last thing you watched on Netflix?&amp;quot;&lt;/p&gt;
+&lt;h2&gt;Why I think it&#39;s better than existing apps&lt;/h2&gt;
+&lt;p&gt;As far as I know, there&#39;s no app that works quite like this. It does share many
+similarities with other dating apps though. I think of it as a hybrid between
+&amp;quot;traditional&amp;quot; swipe-based dating apps like Tinder and virtual speed-dating apps.
+I&#39;ll explain why I think &lt;span class=&quot;redacted&quot;&gt;XXXXXXX&lt;/span&gt;
+is better than either of those types of apps.&lt;/p&gt;
+&lt;h3&gt;Tinder-like apps&lt;/h3&gt;
+&lt;p&gt;Most popular dating apps have adopted the Tinder-style swiping system.
+The hallmark of these apps is that you see profiles one at a time, and you
+are forced to make a decision about the person you&#39;re looking at
+(swipe left or swipe right) before
+you&#39;re presented with the next user-profile. Some examples of this type of app
+are Tinder, Bumble, Hinge, and OkCupid.
+Here are the ways that
+&lt;span class=&quot;redacted&quot;&gt;XXXXXXX&lt;/span&gt; is better than those apps.&lt;/p&gt;
+&lt;h4&gt;Doesn&#39;t waste your time&lt;/h4&gt;
+&lt;p&gt;This is the big one. In Part 1 of this post, I said that this is
+the main shortcoming of current dating apps. With most dating
+apps, you don&#39;t actually find out if you have chemistry with a person
+until your first date. But getting on that first date takes a lot of work:
+you need to write a compelling profile and find flattering photos of yourself,
+then you need to spend hours swiping through profiles hoping you get matched,
+next you need to do your best to have an interesting text-based asynchronous
+conversation with your matches (which can drag on for more than a week), and finally
+you need to schedule a date and commit an entire evening to getting
+to know that one person. And if the date doesn&#39;t go well, you&#39;re back to square
+one and need to repeat the entire process. It&#39;s exhausting.&lt;/p&gt;
+&lt;p&gt;&lt;span class=&quot;redacted&quot;&gt;XXXXXXX&lt;/span&gt;, on the other hand, bypasses
+all of those steps. In my opinion, you can learn a lot more about someone
+from a 3 minute video call than you would learn from a week of text messaging.
+Although you can set up a video call with someone you&#39;ve matched
+with in a traditional dating app (and some people do), my instinct is
+that asking someone to do a video call right off-the-bat would be a turn-off
+for some people. In dating apps there&#39;s an unspoken etiquette that you need
+to message someone for a certain amount of time before you can propose moving
+onto the next step, be it a video call or an in-person meeting. Hinge actually
+added a feature that lets you privately indicate when you&#39;re ready for one of those
+things, and the app notifies you when you&#39;ve both stated your readiness for taking
+the next step. This takes the guesswork out, and is a great improvement, &lt;em&gt;but&lt;/em&gt; it
+still likely requires you to spend some time messaging the other person before they feel
+ready to move on to a video call.&lt;/p&gt;
+&lt;p&gt;In my opinion, needing to send &lt;em&gt;any&lt;/em&gt; text messages is a waste of time.
+It&#39;s unlikely that you&#39;ll learn anything of value from those messages,
+and you&#39;ll only know if you like the person after
+a video call or meeting. So why not just skip straight to that?
+&lt;span class=&quot;redacted&quot;&gt;XXXXXXX&lt;/span&gt; solves this problem by forcing everyone
+to have the video call first, and then making text messaging an optional second
+step. There&#39;s a stigma with asking for a video call or in-person meeting in your
+first message in a traditional dating app, but this stigma is avoided by forcing
+everyone to interact in a more efficient way.&lt;/p&gt;
+&lt;h4&gt;No fake profiles&lt;/h4&gt;
+&lt;p&gt;There are two types of &amp;quot;fake&amp;quot; profiles you&#39;ll encounter in dating apps.
+The first type, the real fake profiles, are profiles for people who
+don&#39;t exist. A well-known form of this is catfishing. There are multiple
+reasons why someone would make a fake profile, but in my experience they&#39;re
+mostly scammers who try to get you to send them money either by offering
+some service or trying to blackmail you.&lt;/p&gt;
+&lt;p&gt;The second type of &amp;quot;fake&amp;quot; profile are real people who are intentionally
+dishonest or misleading in their profile. Everyone does this to some extent
+(choosing the most flattering photos to use in their profile), so my point
+is not to judge people who do this. But not knowing exactly what you&#39;re
+getting into until you meet the person on the first date is a problem
+that many dating app users face.&lt;/p&gt;
+&lt;p&gt;&lt;span class=&quot;redacted&quot;&gt;XXXXXXX&lt;/span&gt; solves both of these problems by
+making the first interaction you have with a user a video call. Without
+wearing an elaborate disguise, it&#39;s very hard to fool someone about your
+identity or appearance over a real-time video call.&lt;/p&gt;
+&lt;p&gt;As an added bonus, I believe that prioritizing video-based interaction
+would reduce the pressure to spend a lot of time hunting through
+your Facebook or Instagram profile for that perfect dating app
+profile picture. My hope is that people would worry less about
+their photos if a video call that let&#39;s you see what the person actually
+looks like is just a click away.&lt;/p&gt;
+&lt;h3&gt;Speed-dating apps&lt;/h3&gt;
+&lt;p&gt;This is a relatively new category of dating app, and so far none have managed
+to become very popular. These apps seek to replicate
+the format of in-person speed dating events, but online. After creating
+a quick profile (age, gender, name, picture) and setting some basic preferences
+(gender, age range, max distance), you get randomly paired with people
+who match your criteria and engage in a brief video call with them.
+If you both indicate that you liked the other person, you get connected
+so you can continue communicating or schedule a meeting. Also, to
+ensure that there are as many users as possible for you to meet with,
+these apps typically schedule specific times when you can use them, like
+Thursdays and Saturdays at 7pm.&lt;/p&gt;
+&lt;p&gt;&lt;span class=&quot;redacted&quot;&gt;XXXXXXX&lt;/span&gt; is very similar to these types
+of apps. The main difference is that it doesn&#39;t randomly pair you with
+users but instead lets you choose who you talk to. This is important
+because it gives users a greater sense of agency in the dating process, and
+also ensures that you&#39;re not wasting your time talking to people you
+have no interest in. Liking specific users (i.e., swiping-right) is also
+one of the few fun parts of dating apps, so &lt;span class=&quot;redacted&quot;&gt;XXXXXXX&lt;/span&gt;
+preserves that element of the experience.&lt;/p&gt;
+&lt;p&gt;If these apps are the digital equivalent of speed-dating,
+&lt;span class=&quot;redacted&quot;&gt;XXXXXXX&lt;/span&gt; is the digital equivalent of meeting
+people at a bar. Like in a bar, you choose who you approach and try to
+strike up a conversation with and immediately begin with a face-to-face
+conversation. &lt;span class=&quot;redacted&quot;&gt;XXXXXXX&lt;/span&gt; is &lt;em&gt;better&lt;/em&gt;
+than a bar though because you know that everyone you see in your list is
+someone looking for someone like you, conversation starters
+are built in (no need for corny pick-up lines), and you don&#39;t have
+to worry about someone physically harming you.&lt;/p&gt;
+&lt;h2&gt;Risks&lt;/h2&gt;
+&lt;p&gt;There are some risks with &lt;span class=&quot;redacted&quot;&gt;XXXXXXX&lt;/span&gt;
+over other dating apps. I&#39;ve done my best to think through
+all of the things that could go wrong with an app like this or ways
+it could be abused, but I&#39;m sure there are others I haven&#39;t thought of yet.
+Below are what I view as the two biggest risks to &lt;span class=&quot;redacted&quot;&gt;XXXXXXX&lt;/span&gt;.&lt;/p&gt;
+&lt;h3&gt;Flashers&lt;/h3&gt;
+&lt;p&gt;Sooner or later, a user will expose themselves to another user during a video call.
+Unfortunately, if you create a service that lets people video-chat with strangers
+on the internet, it&#39;s inevitable that some of them will use it as a tool for
+flashing people. I would obviously forbid this kind of behavior in
+&lt;span class=&quot;redacted&quot;&gt;XXXXXXX&lt;/span&gt;, but that won&#39;t stop most people
+who want to expose themselves to strangers. I need to do everything
+I can to ensure that flashing is rare on &lt;span class=&quot;redacted&quot;&gt;XXXXXXX&lt;/span&gt;,
+both for ethical reasons and to ensure that &lt;span class=&quot;redacted&quot;&gt;XXXXXXX&lt;/span&gt;
+is an app that people want to use.&lt;/p&gt;
+&lt;p&gt;There are two ways to limit flashing: preventing people from getting flashed in
+the first place, and making sure that people who are caught flashing are
+prevented from doing it again.&lt;/p&gt;
+&lt;p&gt;There&#39;s no bulletproof way to prevent people from flashing other users,
+but I&#39;ve seen some technical solutions to the problem.
+One measure some apps use is they require your face to be in frame at all times, otherwise it
+blurs your video. This would definitely make it harder to flash someone,
+but I&#39;m sure any system like that could be outsmarted.&lt;/p&gt;
+&lt;p&gt;For that reason, I&#39;ll also need to figure out what to do when someone
+&lt;em&gt;does&lt;/em&gt; flash another user. My plan is to report flasher,
+and then after the claim has been verified, I would permanently
+ban the flasher from the app. But how do you
+stop that person from just making a new account? I have a few different
+ideas on how to stop banned users from creating new accounts, so maybe
+I&#39;ll talk about them in a future post.&lt;/p&gt;
+&lt;h3&gt;Not enough users online&lt;/h3&gt;
+&lt;p&gt;In the &amp;quot;How it works&amp;quot; section I mentioned that you would only be
+able to see the profiles for users who are currently online.
+This is different from apps like Tinder where you can view the profiles
+for all users in your area at any time, even if they&#39;re not currently
+using the app. So, if there aren&#39;t enough people using &lt;span class=&quot;redacted&quot;&gt;XXXXXXX&lt;/span&gt;
+when you&#39;re using it, it will feel very lonely. If you open the app
+and only see one person in your list, and they either don&#39;t answer your
+call or it&#39;s not a good call, now what? If this happens repeatedly, you
+would most likely delete the app.&lt;/p&gt;
+&lt;p&gt;If &lt;span class=&quot;redacted&quot;&gt;XXXXXXX&lt;/span&gt; has as many users as Tinder,
+this wouldn&#39;t happen very often. No matter when you&#39;re using the
+app, there will always be people online. But of course, &lt;span class=&quot;redacted&quot;&gt;XXXXXXX&lt;/span&gt;
+won&#39;t have many users as Tinder in the beginning, so how do you ensure
+it doesn&#39;t feel like you&#39;re the only person using the app?&lt;/p&gt;
+&lt;p&gt;One solution is to restrict when people can use the app to specific times.
+This is what speed-dating apps do, and may be what I do for
+&lt;span class=&quot;redacted&quot;&gt;XXXXXXX&lt;/span&gt;. Another option is to send a push
+notification whenever a certain number of people are using the app.
+That way you don&#39;t need to randomly check the app all the time to see if people are using it.
+But the downside is it requires an initial group of people to start
+using the app to get the ball rolling. My least favorite solution is to
+make &lt;span class=&quot;redacted&quot;&gt;XXXXXXX&lt;/span&gt; asynchronous like most dating apps
+and show you offline users too. But what do you do with an offline user?
+Leave a message? Swipe right and hope they swipe-right you back? My fear is
+that if I go down this road, I&#39;ll sacrifice all of the key benefits of
+&lt;span class=&quot;redacted&quot;&gt;XXXXXXX&lt;/span&gt;, like not wasting your time.&lt;/p&gt;
+&lt;h2&gt;Next steps&lt;/h2&gt;
+&lt;p&gt;I have a pretty good idea of what the initial version of this app will look
+like and what features I&#39;ll include, so the next step is to start building it.
+First I&#39;m going to create a minimal backend API for the app to use (the &amp;quot;brain&amp;quot;
+of the app), then I&#39;ll start working on the code for the app itself.
+The first feature I&#39;ll implement is the video-calling, because the success
+of the app hinges on the video-calling working flawlessly. Once I&#39;ve
+got the minimum functionality working, I&#39;ll release an alpha version of
+the app to my friends and family for early testing. Getting to that point
+is at least a few months away, so I&#39;ll provide another update once I&#39;ve hit
+that milestone with further next steps. While I&#39;m working on the app, I plan on
+publishing updates on this website. I have an RSS feed
+you can subscribe to if you want to be notified when there&#39;s a new post.&lt;/p&gt;
+&lt;p&gt;Thanks for reading, and let me know what you think about
+&lt;span class=&quot;redacted&quot;&gt;XXXXXXX&lt;/span&gt; in the comments!&lt;/p&gt;
+&lt;hr&gt;
+&lt;p id=&quot;footnote-1&quot;&gt;
+[1]: Technically, the filter is actually a bit more specific than just the users
+     who match your preferences. You&#39;ll only see the users that meet all of your
+     preferences and who &lt;em&gt;you&lt;/em&gt; fulfill the preferences of. For example,
+     if you set your search radius to 50 miles, someone who&#39;s 30 miles away from
+     you won&#39;t be in your list if they set their search radius to 25 miles.
+&lt;/p&gt;
+&lt;script&gt;
+    console.log(&quot;Nice try, but the HTML source doesn&#39;t have the name of the app either 😉&quot;)
+&lt;/script&gt;
 </content>
   </entry>
 </feed>
