@@ -2,7 +2,7 @@
 layout: layouts/post.njk
 title: "New features: Comments and RSS feed"
 tags: ['announcement', 'rss', 'comments']
-date: 2020-11-08 16:00:00 -05:00
+date: 2020-11-11 16:00:00 -05:00
 ---
 
 ## New features on the blog
