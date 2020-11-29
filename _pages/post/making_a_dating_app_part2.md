@@ -37,20 +37,20 @@ scroll through a list of users.
 
 When a user's profile catches your eye, just tap the 📞 button to start a video call with them 😱
 
-I know that calling a completely stranger might seem a little scary to some
+I know that calling a complete stranger might seem a little scary to some
 of you. But the good news is your other option is you can always just wait
 for someone to call _you_ instead 😌
 
 If someone calls you, you'll see the incoming call pop up on your screen
 and you can decide whether or not to accept it. Before you accept, you
 can view the person's profile. If you don't accept the call within 30 seconds,
-it will be automatically declined.
+it will automatically be declined.
 
 Once a call is accepted, you'll immediately begin a 3 minute video call where
 you can get to know each other. After the call ends, you'll be able to message
 each other through the app or set up another video call.
 
-If you don't want to hear from another user anymore, you can block or report them.
+If you don't want to hear from that user anymore, you can block or report them.
 
 To make the initial video call a little less intimidating, everyone will have the option
 to write their own conversation starters which are displayed in their profile. For example, you could
