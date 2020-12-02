@@ -4,7 +4,7 @@
   <subtitle>A blog about technology, politics, video games, and movies</subtitle>
   <link href="https://ajenkins.me/feed.xml" rel="self" />
   <link href="https://ajenkins.me/" />
-  <updated>2020-11-27T15:15:00-05:00</updated>
+  <updated>2020-12-01T21:00:00-05:00</updated>
   <id>https://ajenkins.me/</id>
   <author>
     <name>AJ Jenkins</name>
@@ -1554,6 +1554,91 @@ you can subscribe to if you want to be notified when there&#39;s a new post.&lt;
 &lt;script&gt;
     console.log(&quot;Nice try, but the HTML source doesn&#39;t have the name of the app either 😉&quot;)
 &lt;/script&gt;
+</content>
+  </entry>
+  
+  <entry>
+    <title>Review of AWS AppSync and Amplify in 2019</title>
+    <link href="https://ajenkins.me/post/review_of_appsync_and_amplify/" />
+    <updated>2020-12-01T21:00:00-05:00</updated>
+    <id>https://ajenkins.me/post/review_of_appsync_and_amplify/</id>
+    <content type="html">&lt;p&gt;In 2019 I started a personal project using AWS AppSync, AWS Amplify, and React Native.
+AppSync and Amplify may have gotten better since I tried using them, but at that time
+they were so painful to use that I abandoned the project. I thought about migrating to a different
+backend framework, but that would&#39;ve sucked, and it just didn&#39;t seem worth the effort.&lt;/p&gt;
+&lt;p&gt;Although some things were great about AppSync/Amplify, my overall experience was so negative
+that I would strongly urge anyone considering it for a personal project to reconsider.&lt;/p&gt;
+&lt;h2&gt;AppSync vs. Amplify&lt;/h2&gt;
+&lt;p&gt;AppSync and Amplify are closely related, but are actually distinct Amazon products.
+AppSync is a tool for building a GraphQL API, while Amplify is a command-line tool and frontend
+framework for building apps that talk to AppSync. AppSync creates the &lt;code&gt;/graphql&lt;/code&gt; endpoint and
+the GraphQL resolvers. Amplify has a command-line tool you use to generate your Amplify app
+(supports mobile or web) and automates a lot of the stuff you would need to do with AppSync, like
+writing resolvers. When I used Amplify, you were required to use DynamoDB, which is Amazon&#39;s
+performance-optimized NoSQL managed database solution. Amplify also automatically generates your GraphQL
+queries and mutations for your client-side code based on what it thinks you&#39;ll need given your
+GraphQL schema.&lt;/p&gt;
+&lt;h2&gt;Initial impression&lt;/h2&gt;
+&lt;p&gt;My initial experience with Amplify was awesome. After running just
+a few commands from the command-line, I had a React Native app running on my iPhone
+(using Expo) that was talking to a real GraphQL backend running in Amazon&#39;s cloud.
+With a little more work, I had a fully functional
+Sign In/Sign Out/Forgot Password screen in my app backed by AWS Cognito.
+I was also able to add row-level permissions to my GraphQL API that restricted
+users access to their own resources just by adding an &lt;code&gt;@auth&lt;/code&gt; directive to
+my GraphQL schema. The early promise of Amplify was that I could make any backend
+changes I needed just by updating my GraphQL schema, and then run the Amplify
+regenerate command which would magically update all of my client-side
+code and push out updates to AppSync and DynamoDB.&lt;/p&gt;
+&lt;p&gt;This all sounded great in theory, but in the end Amplify wasn&#39;t able to live
+up to that promise.&lt;/p&gt;
+&lt;h2&gt;Many-to-many relationships&lt;/h2&gt;
+&lt;p&gt;Setting up a many-to-many relationship is very easy to do in SQL databases.
+For some reason, many-to-many relationships are a little tricky to represent in
+a GraphQL schema, so each GraphQL framework has settled on their own way to handle them.&lt;/p&gt;
+&lt;p&gt;At the time when I was using Amplify, the did not natively support many-to-many
+relationships. Instead, they offered a hack you could use where you simulate
+the many-to-many relationship using two many-to-one relationships.
+Unfortunately, when you used this hack, the
+client-side code that Amplify generated for you was not what you actually needed,
+so to get it to work fully I had to do a lot of extra legwork.&lt;/p&gt;
+&lt;p&gt;For some reason, Amplify had no problem with create-mutations for many-to-many
+relationships, but was completely unable to handle deletes. For my project,
+I needed a many-to-many relationship between Movies and Lists of Movies (MovieList).
+Implementing the ability to delete a Movie from a MovieList required two weeks of frustrating work.
+I had to write my own resolver using an Apache VTL template
+(seriously, &lt;a href=&quot;http://velocity.apache.org/&quot;&gt;what is this&lt;/a&gt;?)
+and fight with DynamoDB. When AppSync works it&#39;s great, but debugging it when it&#39;s not
+is a nightmare.&lt;/p&gt;
+&lt;p&gt;If you want to go deep on this, take a look at
+&lt;a href=&quot;https://github.com/aws-amplify/amplify-cli/issues/91&quot;&gt;the Github issue for adding many-to-many relationships to Amplify&lt;/a&gt;.
+The issue was open for more than a year
+and is filled with comments from developers trying to get Amplify to do simple
+things and who were just as frustrated as I was.&lt;/p&gt;
+&lt;h2&gt;Final thoughts&lt;/h2&gt;
+&lt;p&gt;I&#39;ve been told by more experienced engineers that when it comes to frameworks, &amp;quot;magic&amp;quot; is bad.
+In this context, &amp;quot;magic&amp;quot; refers to a framework&#39;s ability to automate away writing
+boilerplate code which is supposed to save you time. The problem with &amp;quot;magic&amp;quot; frameworks
+is you&#39;re screwed if that framework doesn&#39;t have a &amp;quot;spell&amp;quot; (i.e., documented solution) for that one special
+thing you need to do. The magic of the framework becomes your enemy, and you need to fight
+against the framework or write complex low-level code to solve your problem.&lt;/p&gt;
+&lt;p&gt;This is exactly what happened to me with Amplify. Everything was a breeze until I needed
+to delete a Movie from a MovieList. By the time I realized the difficulty of this task,
+I was already too deep with Amplify to consider abandoning it. So I had to waste weeks solving
+a problem that I wouldn&#39;t have had in the first place if I was using a more basic,
+less magical framework.&lt;/p&gt;
+&lt;p&gt;Also, don&#39;t use DynamoDB unless you&#39;re really, &lt;em&gt;really&lt;/em&gt; sure it&#39;s right
+for your use-case. I assumed that a NoSQL database would be simpler than a SQL
+database (No rules! 🥳), but it&#39;s actually the opposite. Database migrations
+are not possible in DynamoDB tables without manually iterating through every
+row and updating it, so you better be sure you know what your schema is going
+to be when you start. As far as I can tell, the only reason you would use
+DynamoDB over a SQL database is if you need a Google-scale database solution
+with massive horizontal scaling and extremely low latency responses.
+For 99% of use cases, a simple SQL database running on RDS is easier to work with
+and will perform just fine.&lt;/p&gt;
+&lt;p&gt;If you&#39;re curious what I would use instead of Amplify if I were to start that project today, you
+can read &lt;a href=&quot;https://ajenkins.me/post/backend_for_dating_app&quot;&gt;my post on that here&lt;/a&gt;.&lt;/p&gt;
 </content>
   </entry>
 </feed>
