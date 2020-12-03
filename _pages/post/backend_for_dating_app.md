@@ -334,7 +334,11 @@ These tools occupy a wide spectrum of API solutions. Here are a few ways to cate
 
 ##### Managed
 
-- 
+- Supabase
+- Hasura Cloud
+- Dgraph
+
+
 
 ### GraphQL vs. REST
 
