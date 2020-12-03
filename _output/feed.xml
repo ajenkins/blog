@@ -1751,7 +1751,7 @@ When you pay for a managed service, you don&#39;t need to worry about whether or
 not the company is using serverless. All that matters is that the service works
 when you need it to. I have no idea if Auth0&#39;s underlying architecture is
 serverless or not, but as long as they give me a JWT when I ask for it, I&#39;m happy.&lt;/p&gt;
-&lt;h3&gt;What I&#39;ll be using&lt;/h3&gt;
+&lt;h3&gt;What I&#39;m using&lt;/h3&gt;
 &lt;p&gt;I plan on hosting my database on AWS RDS, and my API using Hasura&#39;s managed
 cloud offering (spoilers, I&#39;m using Hasura). For auth, I&#39;m using a managed
 solution like I mentioned above.&lt;/p&gt;

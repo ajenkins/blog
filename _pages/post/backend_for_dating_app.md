@@ -134,7 +134,7 @@ not the company is using serverless. All that matters is that the service works
 when you need it to. I have no idea if Auth0's underlying architecture is
 serverless or not, but as long as they give me a JWT when I ask for it, I'm happy.
 
-### What I'll be using
+### What I'm using
 
 I plan on hosting my database on AWS RDS, and my API using Hasura's managed
 cloud offering (spoilers, I'm using Hasura). For auth, I'm using a managed
