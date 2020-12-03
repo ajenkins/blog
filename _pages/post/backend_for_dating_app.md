@@ -1,9 +1,9 @@
 ---
 layout: layouts/post.njk
-title: Building a modern backend API in 2020
+title: Building a modern API in 2020
 subtitle: AppSync vs. Hasura vs. Prisma vs. Dgraph vs. PostgREST vs. PostGraphile vs. FastAPI
 tags: ['dating app', 'web development', 'software engineering', 'hasura', 'aws']
-date: 2020-12-01 19:00:00 -05:00
+date: 2020-12-02 22:00:00 -05:00
 ---
 
 ## Intro
@@ -338,7 +338,11 @@ These tools occupy a wide spectrum of API solutions. Here are a few ways to cate
 - Hasura Cloud
 - Dgraph
 
+#### Postgres or a different database
 
+All of the options I considered either require Postgres
+(you can spot them based on their name) or are compatible with Postgres, with
+the exception of Dgraph which uses its own database system.
 
 ### GraphQL vs. REST
 
@@ -357,6 +361,94 @@ The main downside of GraphQL is that it can be hard to migrate from REST to Grap
 but that's not a concern with a brand new project. So for me, there's not much of a downside
 to using GraphQL.
 
+### Self-hosted vs. Managed
 
+In the Hosting section I go into more detail about the differences between them.
+I also said that I prefer managed solutions whenever possible. That being said, in this
+case I was very open to self-hosting the API. As you can see in the above lists, most
+of the frameworks I considered were self-hosted and self-hosting my API seems very natural to
+me, unlike self-hosting an auth service.
+
+Although I was open to self-hosting my API, the managed solutions were ultimately more
+appealing to me. Not because I didn't want to host the API, but because the managed options
+also promised the ability to manage the API and database through an admin UI rather than
+needing to write code. Even though I know how to write code, I still try to avoid writing
+code unless I need to. Because while writing code is a lot of fun, maintaining code is not.
+So the less code there is to maintain, the better.
+
+### Postgres vs. Something else
+
+Based on the above two considerations, that only left Hasura and Dgraph as potential options.
+In the end I decided I was better off with Hasura, even if Dgraph would have offered a better
+developer experience. Knowing that the entire backend was underpinned by a Postgres database
+was just more important. See the Databases section above for more on this.
+
+### What I'm using
+
+Hasura Cloud. Read the previous few sections for why.
+
+## User Auth
+
+Like I mentioned in the Hosting section, user auth is one thing that I really want a managed solution for.
+Handling user data scares me, and I don't want to have to be responsible for keeping sensitive data like
+that secure.
+
+Of the managed offerings, the two main options I found were Auth0 and AWS Cognito. Here are the pros
+and cons of each of them:
+
+### Auth0
+
+#### Pros
+
+- Free for up to 7000 users
+- Best-in-class developer experience
+- Great documentation
+- Very popular - easy to find help online
+- SDKs in lots of languages for generating log-in flows
+
+#### Cons
+
+- [Expensive past 7000 users](https://auth0.com/pricing/)
+
+### AWS Cognito
+
+#### Pros
+
+- Made by Amazon, so you know it's probably decent and won't close up shop
+- Very affordable pay-per-user pricing model, no big jumps in price
+
+#### Cons
+
+- AWS docs are usually bad
+- No drop-in code for login-flow unless you're using Amplify
+
+### What I'm using
+
+AWS Cognito. Even though Auth0 would have been way easier to get started with, their pricing
+model is a no-go for me. I'm ambitious and hope to have many more than 7000 users (it's a free consumer app),
+and I don't want to have to give that much money to Auth0. I considered starting with Auth0 and then
+moving to Cognito down the road once I got more than 7000 users. But after reading Auth0's docs
+on how you migrate from one auth backend to another, the process sounded too hard and fraught with
+peril. I wouldn't trust myself to do that without screwing up and deleting or exposing everyone's
+passwords.
+
+So I decided I'm better off biting the bullet and spending some extra effort in the beginning
+to get Cognito set up.
+
+## Summary
+
+Putting it all together, here's what my backend stack will look like:
+
+1. Database - AWS Aurora (Postgres flavor)
+1. API - Hasura Cloud
+1. Auth service - AWS Cognito
+
+On the frontend, I'm going to use Apollo Client and React Native.
+
+That's it! Thanks for reading this very long post. This post was good motivation
+for me to add a table of contents plugin to my blog, so maybe I'll do that soon.
+
+What backend tools are you excited about? Do you think I missed the mark on something?
+Will I rue the day I decided to build my backend with Hasura? Let me know in the comments!
 
 

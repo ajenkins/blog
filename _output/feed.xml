@@ -4,7 +4,7 @@
   <subtitle>A blog about technology, politics, video games, and movies</subtitle>
   <link href="https://ajenkins.me/feed.xml" rel="self" />
   <link href="https://ajenkins.me/" />
-  <updated>2020-12-01T21:00:00-05:00</updated>
+  <updated>2020-12-02T22:00:00-05:00</updated>
   <id>https://ajenkins.me/</id>
   <author>
     <name>AJ Jenkins</name>
@@ -1639,6 +1639,379 @@ For 99% of use cases, a simple SQL database running on RDS is easier to work wit
 and will perform just fine.&lt;/p&gt;
 &lt;p&gt;If you&#39;re curious what I would use instead of Amplify if I were to start that project today, you
 can read &lt;a href=&quot;https://ajenkins.me/post/backend_for_dating_app&quot;&gt;my post on that here&lt;/a&gt;.&lt;/p&gt;
+</content>
+  </entry>
+  
+  <entry>
+    <title>Building a modern API in 2020</title>
+    <link href="https://ajenkins.me/post/backend_for_dating_app/" />
+    <updated>2020-12-02T22:00:00-05:00</updated>
+    <id>https://ajenkins.me/post/backend_for_dating_app/</id>
+    <content type="html">&lt;h2&gt;Intro&lt;/h2&gt;
+&lt;p&gt;In 2020, you have more options than ever for building a backend API for your
+app or website. Choice is good and the newest generation of backend frameworks
+are amazing, but having so many choices to consider can be overwhelming.&lt;/p&gt;
+&lt;p&gt;Before starting work on &lt;a href=&quot;https://ajenkins.me/post/making_a_dating_app&quot;&gt;my dating app&lt;/a&gt;, I decided to research these next-gen
+tools for building a backend to make sure I&#39;m using the right tool for the job.
+If you&#39;re planning on creating an app that needs a backend, you&#39;ll likely be
+considering many of the same options I was considering. Although I don&#39;t have
+hands on experience with most of these tools, I did learn a lot about them by
+carefully reading their docs to understand what they do and don&#39;t do. I hope that
+by sharing what I&#39;ve learned with you, I can clear some things up that confused
+me and save you some time.&lt;/p&gt;
+&lt;p&gt;I&#39;ll also tell you which services I&#39;m planning to use for my app. But keep in mind
+that I may change my mind once I get started, or I may regret some of these decisions.
+In a year I&#39;ll give an update and let you know how these tools worked out for me 🙂&lt;/p&gt;
+&lt;h2&gt;Components of backend stack&lt;/h2&gt;
+&lt;p&gt;In my mind, these are the main components you need when building a backend API:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Hosting (e.g., Netlify, AWS EC2, serverless options)&lt;/li&gt;
+&lt;li&gt;Database (e.g., MongoDB, PostgreSQL)&lt;/li&gt;
+&lt;li&gt;(&lt;em&gt;Optional&lt;/em&gt;) ORM (e.g., SQLAlchemy, Prisma Client)&lt;/li&gt;
+&lt;li&gt;API (REST or GraphQL, lots of choices)&lt;/li&gt;
+&lt;li&gt;Auth service (e.g., Auth0, AWS Cognito)&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;A complete backend stack needs most if not all of these things, but some frameworks
+cover multiple items in this list. Like Amplify + AppSync, which takes care of everything
+in this list.&lt;/p&gt;
+&lt;p&gt;I&#39;ll walk you through my own decision process for what I would use for each of these components
+in the sections below. Before that though, I need to talk about AWS Amplify. In theory, it
+sounds like a great tool because it handles all of the above components for you.
+But I used Amplify for a project I worked on last year, and my experience with it was so
+negative that I swore to never use it again.
+&lt;a href=&quot;https://ajenkins.me/post/review_of_appsync_and_amplify&quot;&gt;You can read my full review of Amplify/AppSync here&lt;/a&gt;.&lt;/p&gt;
+&lt;h2&gt;Hosting&lt;/h2&gt;
+&lt;h3&gt;Cloud providers&lt;/h3&gt;
+&lt;p&gt;Technically, one could decide to host their API on-premises, but I don&#39;t think
+that&#39;s a serious consideration for any new project being built in 2020. The question
+in 2020 isn&#39;t whether or not you&#39;re going to build in the cloud, but which cloud
+you&#39;re going to use.&lt;/p&gt;
+&lt;p&gt;The big players in the cloud space are Amazon (AWS), Microsoft (Azure), and Google (GCP).
+Heroku is still a good option, but can get a little pricey. There are also lots of
+special purpose hosting options that might make more sense for your use case. For example,
+the backend needs for this blog are very simple, which is why I&#39;m hosting it with Netlify.&lt;/p&gt;
+&lt;p&gt;I don&#39;t have a strong opinion on Azure, AWS, or GCP, but I have the most experience with
+AWS so that&#39;s my starting point when I&#39;m deciding what to use. Those three cloud providers
+are similar enough in terms of features and pricing that if you have experience with one of them,
+that&#39;s the one you should use.&lt;/p&gt;
+&lt;h3&gt;Self-hosted vs. Managed&lt;/h3&gt;
+&lt;p&gt;If a tool is self-hosted, that means that you&#39;re responsible for supplying your own
+hardware (typically an EC2 instance or Heroku server) to run and serve up the tool.
+A managed service (often branded as the Cloud version), is run on some company&#39;s
+servers, and you pay them a subscription to get access to the tool through them.&lt;/p&gt;
+&lt;p&gt;Some tools only offer a self-hosted option, some only offer a managed option, and some offer both.
+Like Jira, which has two versions you can buy: Jira Server (self-hosted) and Jira Cloud (managed).&lt;/p&gt;
+&lt;p&gt;Typically, self-hosted tools are open-source and completely free to use forever. All you
+need to pay for is the server that&#39;s running it. However, there&#39;s also the cost of
+being completely responsible for that piece of infrastructure. You need to make sure
+that the server(s) you&#39;re using is fast enough to deliver acceptable performance and
+figure out how to scale it if it&#39;s not. If there&#39;s data involved, you&#39;re also on
+the hook for keeping that data secure – if you get hacked that&#39;s on you.
+You also have a lot more control over how the tool works though. Often if you
+don&#39;t like how it works, you can always just change the code that&#39;s running and
+make it work the way you want it to.&lt;/p&gt;
+&lt;p&gt;With managed solutions, you pay a company to worry about all of that stuff for you.
+They usually provide you with a nice UI for doing admin tasks, and handle things
+like making sure the service is performant, secure, and keeping the software up to date.&lt;/p&gt;
+&lt;p&gt;Like all things in software engineering, which of these options is better for you
+will depend on your use-case. I think personal preferences also plays a big role
+in how people make this decision. I know some developers who are great at DevOps
+and always prefer to self-host everything.&lt;/p&gt;
+&lt;p&gt;But for me and for this project, I decided early on that I would go
+down the managed route for everything. A classic piece of advice is to maintain
+control over the parts of your app that are unique to the problem you&#39;re solving,
+but outsource everything else. For example, my user auth needs are very standard,
+so I immediately disregarded any auth provider that didn&#39;t offer a fully managed solution.
+That narrowed my options down to basically Auth0 or AWS Cognito.&lt;/p&gt;
+&lt;h3&gt;Serverless?&lt;/h3&gt;
+&lt;p&gt;I don&#39;t know what the word is for the opposite of serverless (serverful?),
+but a lot of the next-gen tools tout their ability to run on serverless infrastructure.
+The advantage of a serverless backend over a traditional server is that you only
+pay for what you use. When you use a traditional cloud server, like an EC2 instance
+from Amazon, you pay a fixed rate as long as it&#39;s up and running, even if it&#39;s
+sitting idle and not doing anything. With a serverless backend, you only pay
+for when it gets used, and you pay per action performed. This can make serverless
+infrastructure much cheaper to run than a traditional server, since you only pay for
+what you use. Serverless is also much better at dealing with spiky traffic because
+serverless functions are extremely parallelizable and can run as many instances
+at once as needed to get through the influx of requests.&lt;/p&gt;
+&lt;p&gt;You don&#39;t need to commit wholesale to making your entire backend serverless
+or not serverless though. Hybrid solutions are possible where your main server
+does most of the work, but ancillary tasks are handled by short-lived serverless functions.&lt;/p&gt;
+&lt;p&gt;The main downside of serverless is it may require you to
+adapt the way your code works to function in a serverless environment.
+In the past, APIs were always built with the assumption that they would be running
+on a persistent server, so you usually need to use a special-purpose API framework
+optimized for serverless deployments.&lt;/p&gt;
+&lt;p&gt;For my purposes, although I could save money by making my backend serverless,
+as a team-of-one I decided I&#39;m better off sticking with a traditional &amp;quot;serverful&amp;quot;
+architecture. That being said, since I&#39;m mostly using managed services for my backend,
+making things serverless honestly wasn&#39;t something I really had to consider.
+When you pay for a managed service, you don&#39;t need to worry about whether or
+not the company is using serverless. All that matters is that the service works
+when you need it to. I have no idea if Auth0&#39;s underlying architecture is
+serverless or not, but as long as they give me a JWT when I ask for it, I&#39;m happy.&lt;/p&gt;
+&lt;h3&gt;What I&#39;ll be using&lt;/h3&gt;
+&lt;p&gt;I plan on hosting my database on AWS RDS, and my API using Hasura&#39;s managed
+cloud offering (spoilers, I&#39;m using Hasura). For auth, I&#39;m using a managed
+solution like I mentioned above.&lt;/p&gt;
+&lt;h2&gt;Databases&lt;/h2&gt;
+&lt;p&gt;Let&#39;s get this out of the way: I know very little about databases.
+A month ago, I wouldn&#39;t have been able to tell you the difference between
+an &lt;code&gt;INNER JOIN&lt;/code&gt; and &lt;code&gt;OUTER JOIN&lt;/code&gt; if my life depended on it. So, you should
+take my opinions on this topic with a grain of salt. The only databases
+I&#39;ve used are PostgreSQL, MongoDB, and DynamoDB.&lt;/p&gt;
+&lt;p&gt;I have the most experience with Postgres and it seems to be the gold-standard
+for SQL databases and the most common choice for a database. So going into
+this I was leaning towards Postgres, but I don&#39;t particularly enjoy
+writing SQL so I was on the lookout for options that would solve my
+data persistence problem without needing to write a line of SQL.&lt;/p&gt;
+&lt;p&gt;Rather than lecture you on the pros and cons of SQL vs. NoSQL, I&#39;m just
+going to skip to the choices I actually considered using.
+Regarding SQL vs. NoSQL, all I know is that I much prefer using
+PostgreSQL over MongoDB or DynamoDB (especially DynamoDB,
+&lt;a href=&quot;https://ajenkins.me/post/review_of_appsync_and_amplify&quot;&gt;see my review of Amplify&lt;/a&gt;).&lt;/p&gt;
+&lt;p&gt;The way I chose what database to use was I was committed to using
+whatever database was most compatible with the API framework I wanted
+to use. Most of the API frameworks I was considering offered the best
+compatibility with Postgres, so that seemed like the obvious choice.&lt;/p&gt;
+&lt;p&gt;Near the end of my search though, I actually did consider using
+another database: &lt;a href=&quot;https://dgraph.io/graph-db&quot;&gt;Dgraph&lt;/a&gt;.
+Dgraph is a relatively new company which offers several related products,
+one of which is a database. They call their database Graph DB, and it&#39;s a
+distributed graph database optimized for building a GraphQL API.&lt;/p&gt;
+&lt;p&gt;This was extremely enticing to me, and I was actually very close
+to using Dgraph to build my backend.&lt;/p&gt;
+&lt;p&gt;But after a sober assessment of Dgraph, I decided against using it.
+My fear with Dgraph is that I would spend a lot of time building my backend
+with it, but then eventually find something that Dgraph can&#39;t do or doesn&#39;t do
+well. If I wanted to switch to a tried-and-true database like Postgres, migrating
+would be extremely painful. DuckDuckGoing &amp;quot;migrate from dgraph to postgres&amp;quot; didn&#39;t
+return any results, so I assume I would need to crawl the GraphQL API to get all
+my data out, dump it to a file, then load it into Postgres. And that&#39;s assuming
+I can massage the data in Dgraph to conform to a relational database model,
+which isn&#39;t a guarantee because Dgraph is a graph database and not relational.&lt;/p&gt;
+&lt;p&gt;With an API framework like Hasura, if I decide to use something else, at least
+I&#39;ll have my Postgres database that I can reuse with a new framework.&lt;/p&gt;
+&lt;h3&gt;What I&#39;m using&lt;/h3&gt;
+&lt;p&gt;Plot twist! I&#39;ve decided to use AWS Aurora as my database. Supposedly it&#39;s a drop-in
+replacement for Postgres, so I don&#39;t think it&#39;s a stretch to say I&#39;m using a Postgres database.
+The reason I want to use Aurora instead of true Postgres is because it works exactly like
+Postgres but is cheaper and faster. That&#39;s what Amazon says anyway, so I&#39;ll take their
+word for it.&lt;/p&gt;
+&lt;h2&gt;Prisma&lt;/h2&gt;
+&lt;p&gt;When I started researching backend options, I was &lt;em&gt;really&lt;/em&gt; hoping to learn
+that Prisma would be the best choice for my app. I&#39;ve been following Prisma&#39;s
+development for a while, and I&#39;ve been itching to finally use it for a project.
+In 2019 when I was screaming at Amplify for ruining my life, I would often look
+longingly at the Prisma docs and fantasize about how much easier things would have
+been for me if I had used Prisma instead. So Prisma was definitely my number
+one choice going into this.&lt;/p&gt;
+&lt;p&gt;Unfortunately, after doing a lot of research on Prisma, I realized that it&#39;s
+not the magic bullet I thought it was. It took me a long time to come to grips
+with what Prisma even is now, so I&#39;ll explain what I thought Prisma was, why I
+thought that, and what it &lt;em&gt;actually&lt;/em&gt; is.&lt;/p&gt;
+&lt;h3&gt;The History of Prisma&lt;/h3&gt;
+&lt;p&gt;The original incarnation of Prisma was actually called Graphcool.
+Graphcool was already considered a legacy product by the Prisma
+team when I first encountered it, so I don&#39;t know a lot about it.&lt;/p&gt;
+&lt;p&gt;But it seems like it was a full-stack, managed service for building
+a GraphQL API, similar to what DGraph offers now. It had
+everything you needed for building a GraphQL backend, including user auth.
+But for some reason
+they decided it was bad, and pivoted to developing Prisma.&lt;/p&gt;
+&lt;p&gt;Now known as Prisma 1, Prisma had a narrower scope than Graphcool.
+Prisma 1 consisted of three main parts: the Prisma data model schema,
+the Prisma server, and the Prisma client. First you would define your
+data model using their schema file, and then you could have it run
+migrations in your database to create the needed tables.
+You were responsible for providing your own hosted database, but
+it was compatible with most SQL databases. The schema file
+also generated the Prisma client code you used for querying
+and mutating the data, and the Prisma server was just a thing
+that facilitated communication between the Prisma client code
+and the database.&lt;/p&gt;
+&lt;p&gt;When they abandoned Graphcool in favor of Prisma, I was confused but impressed.
+Graphcool did more things than Prisma does, so wouldn&#39;t that make it better.
+But I knew that they must have put a lot of thought into the decision, and surely
+it was the right move. I inferred that if they were discontinuing Graphcool in favor
+of a product that did less, well then Graphcool must have done &lt;em&gt;too much&lt;/em&gt;. Sometimes
+a framework that does too much than a framework that does too little (I&#39;d rather build
+an app with Express than Ruby on Rails), so that must have been the case here. It&#39;s better
+to do the important things really well, than to try to do everything.&lt;/p&gt;
+&lt;p&gt;But as you probably guessed from the name Prisma 1, now there&#39;s a Prisma 2!
+Based on the name, I assumed that Prisma 2 would just be a better version of Prisma 1.
+But in fact, Prisma 2 is actually another pivot almost as significant as the pivot away from
+Graphcool. For that reason, they&#39;re actually moving away from the Prisma 2 moniker now in
+favor of calling it Prisma Client. And like the last pivot, Prisma 2 does less than Prisma 1.
+Prisma 2 (Prisma Client) is &lt;strong&gt;just an ORM&lt;/strong&gt;. Graphcool was a fully managed GraphQL API –
+Prisma 2 is an ORM you &lt;em&gt;use&lt;/em&gt; to build a GraphQL API.&lt;/p&gt;
+&lt;p&gt;It took me a really long time to understand that though, because I was thinking of Prisma Client
+as an alternative to AppSync, Hasura, and Dgraph. But Prisma Client is solving a different problem,
+and occupies a much thinner slice of the stack than those tools.&lt;/p&gt;
+&lt;p&gt;Like their first pivot, I assumed that this pivot was motivated by an epiphany about
+backend developments, and was just a level of genius that I couldn&#39;t comprehend. I&#39;m
+not being sarcastic by the way, this is literally what I thought. My obsession with finding
+&lt;a href=&quot;http://worrydream.com/refs/Brooks-NoSilverBullet.pdf&quot;&gt;silver bullets&lt;/a&gt; in software engineering
+makes me eternally optimistic that someone will finally crack the hard problems and find
+a revolutionary way to do something better.&lt;/p&gt;
+&lt;p&gt;Another misconception I had about Prisma was I thought that Prisma Client was something you
+used in your client-side code. I was thinking of it as a super-powered version of Apollo
+Client, except instead of talking to a GraphQL API it magically talks directly to the database.
+But even though the Prisma Client code is in Javascript, it&#39;s not intended to run on the client-side.
+Prisma Client is used within a NodeJS server, like Express.&lt;/p&gt;
+&lt;p&gt;I also wasted a lot of time trying to figure out what Prisma 2&#39;s auth story is. Hasura has a page
+in their docs about auth and so does Amplify, Dgraph, and even Prisma 1. But the only reference
+to auth I could find in the Prisma 2 docs was an example repo that implemented user auth.
+I looked at that code but I was confused because the auth code seemed completely disconnected
+from the Prisma code. In the end, I finally realized that the reason they didn&#39;t have any docs
+about auth is because Prisma 2 just doesn&#39;t have an auth story like the frameworks I was comparing it to.
+This makes sense when you realize that Prisma 2 is... &lt;strong&gt;Just. An. ORM.&lt;/strong&gt;&lt;/p&gt;
+&lt;h3&gt;Why I&#39;m not using Prisma&lt;/h3&gt;
+&lt;p&gt;Although in my head I still picture the Prisma devs as enlightened, 10x, levitating
+engineers who have discovered the ultimate truth for building backends, I&#39;ve
+decided that Prisma 2 is not the right tool for my project&lt;/p&gt;
+&lt;p&gt;If the backend API was the interesting part of my project, then I would consider
+using Prisma. But it&#39;s not, so I want a tool that will give me a fully functional
+API from the least amount of effort. Prisma Client is just too low level of a tool
+for me – if it&#39;s just a sub-tool for building out a GraphQL API, then I&#39;d rather use
+one tool that can give me a complete GraphQL API.&lt;/p&gt;
+&lt;p&gt;Maybe next time, Prisma 😢&lt;/p&gt;
+&lt;h2&gt;API frameworks&lt;/h2&gt;
+&lt;p&gt;Here are the API frameworks I considered using for this project, in no particular order:
+&lt;a href=&quot;https://postgrest.org/en/v7.0.0/&quot;&gt;PostgREST&lt;/a&gt;,
+&lt;a href=&quot;https://supabase.io/&quot;&gt;Supabase&lt;/a&gt;,
+&lt;a href=&quot;https://hasura.io/&quot;&gt;Hasura&lt;/a&gt;,
+&lt;a href=&quot;https://nexusjs.org/&quot;&gt;GraphQL Nexus&lt;/a&gt;,
+&lt;a href=&quot;https://fastapi.tiangolo.com/&quot;&gt;FastAPI&lt;/a&gt;,
+&lt;a href=&quot;https://flask.palletsprojects.com/en/1.1.x/&quot;&gt;Flask&lt;/a&gt;,
+&lt;a href=&quot;http://expressjs.com/&quot;&gt;Express&lt;/a&gt;,
+&lt;a href=&quot;https://www.graphile.org/postgraphile/&quot;&gt;PostGraphile&lt;/a&gt;,
+and &lt;a href=&quot;https://dgraph.io/&quot;&gt;Dgraph&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;These tools occupy a wide spectrum of API solutions. Here are a few ways to categorize them:&lt;/p&gt;
+&lt;h4&gt;GraphQL or REST&lt;/h4&gt;
+&lt;h5&gt;GraphQL&lt;/h5&gt;
+&lt;ul&gt;
+&lt;li&gt;GraphQL Nexus&lt;/li&gt;
+&lt;li&gt;PostGraphile&lt;/li&gt;
+&lt;li&gt;Dgraph&lt;/li&gt;
+&lt;li&gt;Hasura&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h5&gt;REST&lt;/h5&gt;
+&lt;ul&gt;
+&lt;li&gt;PostgREST&lt;/li&gt;
+&lt;li&gt;Supabase&lt;/li&gt;
+&lt;li&gt;FastAPI&lt;/li&gt;
+&lt;li&gt;Flask&lt;/li&gt;
+&lt;li&gt;Express&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4&gt;Self-hosted or managed&lt;/h4&gt;
+&lt;h5&gt;Self-hosted&lt;/h5&gt;
+&lt;ul&gt;
+&lt;li&gt;PostgREST&lt;/li&gt;
+&lt;li&gt;GraphQL Nexus&lt;/li&gt;
+&lt;li&gt;FastAPI&lt;/li&gt;
+&lt;li&gt;Hasura Core&lt;/li&gt;
+&lt;li&gt;Flask&lt;/li&gt;
+&lt;li&gt;Express&lt;/li&gt;
+&lt;li&gt;PostGraphile&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h5&gt;Managed&lt;/h5&gt;
+&lt;ul&gt;
+&lt;li&gt;Supabase&lt;/li&gt;
+&lt;li&gt;Hasura Cloud&lt;/li&gt;
+&lt;li&gt;Dgraph&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4&gt;Postgres or a different database&lt;/h4&gt;
+&lt;p&gt;All of the options I considered either require Postgres
+(you can spot them based on their name) or are compatible with Postgres, with
+the exception of Dgraph which uses its own database system.&lt;/p&gt;
+&lt;h3&gt;GraphQL vs. REST&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Representational_state_transfer&quot;&gt;REST&lt;/a&gt;
+is still the gold-standard for API design and is how most
+APIs built in the last 10 years have been modeled. &lt;a href=&quot;https://graphql.org/&quot;&gt;GraphQL&lt;/a&gt; is a relative newcomer
+originally developed by Facebook but that has been embraced by the open-source community.
+After my negative experience with Amplify and AppSync, I came into this project assuming
+I would build a REST API. But then I read
+&lt;a href=&quot;https://medium.com/@JeffLombardJr/when-and-why-to-use-graphql-24f6bce4839d&quot;&gt;a Medium post about GraphQL&lt;/a&gt;
+and walked away convinced I was better off using GraphQL. The advantage he described
+that was convincing to me was that with a GraphQL API you don&#39;t need to waste time
+designing your endpoints in accordance with REST best-practices. Once you&#39;ve
+got a spec-compliant GraphQL endpoint, you&#39;re done – it will do everything you need it to do.
+The main downside of GraphQL is that it can be hard to migrate from REST to GraphQL,
+but that&#39;s not a concern with a brand new project. So for me, there&#39;s not much of a downside
+to using GraphQL.&lt;/p&gt;
+&lt;h3&gt;Self-hosted vs. Managed&lt;/h3&gt;
+&lt;p&gt;In the Hosting section I go into more detail about the differences between them.
+I also said that I prefer managed solutions whenever possible. That being said, in this
+case I was very open to self-hosting the API. As you can see in the above lists, most
+of the frameworks I considered were self-hosted and self-hosting my API seems very natural to
+me, unlike self-hosting an auth service.&lt;/p&gt;
+&lt;p&gt;Although I was open to self-hosting my API, the managed solutions were ultimately more
+appealing to me. Not because I didn&#39;t want to host the API, but because the managed options
+also promised the ability to manage the API and database through an admin UI rather than
+needing to write code. Even though I know how to write code, I still try to avoid writing
+code unless I need to. Because while writing code is a lot of fun, maintaining code is not.
+So the less code there is to maintain, the better.&lt;/p&gt;
+&lt;h3&gt;Postgres vs. Something else&lt;/h3&gt;
+&lt;p&gt;Based on the above two considerations, that only left Hasura and Dgraph as potential options.
+In the end I decided I was better off with Hasura, even if Dgraph would have offered a better
+developer experience. Knowing that the entire backend was underpinned by a Postgres database
+was just more important. See the Databases section above for more on this.&lt;/p&gt;
+&lt;h3&gt;What I&#39;m using&lt;/h3&gt;
+&lt;p&gt;Hasura Cloud. Read the previous few sections for why.&lt;/p&gt;
+&lt;h2&gt;User Auth&lt;/h2&gt;
+&lt;p&gt;Like I mentioned in the Hosting section, user auth is one thing that I really want a managed solution for.
+Handling user data scares me, and I don&#39;t want to have to be responsible for keeping sensitive data like
+that secure.&lt;/p&gt;
+&lt;p&gt;Of the managed offerings, the two main options I found were Auth0 and AWS Cognito. Here are the pros
+and cons of each of them:&lt;/p&gt;
+&lt;h3&gt;Auth0&lt;/h3&gt;
+&lt;h4&gt;Pros&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;Free for up to 7000 users&lt;/li&gt;
+&lt;li&gt;Best-in-class developer experience&lt;/li&gt;
+&lt;li&gt;Great documentation&lt;/li&gt;
+&lt;li&gt;Very popular - easy to find help online&lt;/li&gt;
+&lt;li&gt;SDKs in lots of languages for generating log-in flows&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4&gt;Cons&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://auth0.com/pricing/&quot;&gt;Expensive past 7000 users&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;AWS Cognito&lt;/h3&gt;
+&lt;h4&gt;Pros&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;Made by Amazon, so you know it&#39;s probably decent and won&#39;t close up shop&lt;/li&gt;
+&lt;li&gt;Very affordable pay-per-user pricing model, no big jumps in price&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4&gt;Cons&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;AWS docs are usually bad&lt;/li&gt;
+&lt;li&gt;No drop-in code for login-flow unless you&#39;re using Amplify&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;What I&#39;m using&lt;/h3&gt;
+&lt;p&gt;AWS Cognito. Even though Auth0 would have been way easier to get started with, their pricing
+model is a no-go for me. I&#39;m ambitious and hope to have many more than 7000 users (it&#39;s a free consumer app),
+and I don&#39;t want to have to give that much money to Auth0. I considered starting with Auth0 and then
+moving to Cognito down the road once I got more than 7000 users. But after reading Auth0&#39;s docs
+on how you migrate from one auth backend to another, the process sounded too hard and fraught with
+peril. I wouldn&#39;t trust myself to do that without screwing up and deleting or exposing everyone&#39;s
+passwords.&lt;/p&gt;
+&lt;p&gt;So I decided I&#39;m better off biting the bullet and spending some extra effort in the beginning
+to get Cognito set up.&lt;/p&gt;
+&lt;h2&gt;Summary&lt;/h2&gt;
+&lt;p&gt;Putting it all together, here&#39;s what my backend stack will look like:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Database - AWS Aurora (Postgres flavor)&lt;/li&gt;
+&lt;li&gt;API - Hasura Cloud&lt;/li&gt;
+&lt;li&gt;Auth service - AWS Cognito&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;On the frontend, I&#39;m going to use Apollo Client and React Native.&lt;/p&gt;
+&lt;p&gt;That&#39;s it! Thanks for reading this very long post. This post was good motivation
+for me to add a table of contents plugin to my blog, so maybe I&#39;ll do that soon.&lt;/p&gt;
+&lt;p&gt;What backend tools are you excited about? Do you think I missed the mark on something?
+Will I rue the day I decided to build my backend with Hasura? Let me know in the comments!&lt;/p&gt;
 </content>
   </entry>
 </feed>
