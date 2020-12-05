@@ -1259,11 +1259,17 @@ would be very different from my own. I&#39;m planning to add
 comments to my blog soon, and then you&#39;ll be able to tell me what
 &lt;em&gt;your&lt;/em&gt; experience with dating apps has been.&lt;/p&gt;
 &lt;h2&gt;Why my dating app will be better&lt;/h2&gt;
-&lt;p&gt;Because &lt;em&gt;I&lt;/em&gt; made it. Duh.&lt;/p&gt;
-&lt;p&gt;Just kidding 😉&lt;/p&gt;
-&lt;p&gt;But I think this post has gone on long enough. In Part 2,
+&lt;p&gt;Sorry, but I think this post has gone on long enough. In &lt;a href=&quot;https://ajenkins.me/post/making_a_dating_app_part2&quot;&gt;Part 2&lt;/a&gt;,
 I&#39;ll go into detail about how my app will be different and how
 it will address some of these problems. I&#39;ll link to it here once I&#39;ve written it.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://ajenkins.me/post/making_a_dating_app_part2&quot;&gt;Read next: I&#39;m making a pandemic dating app, Part 2&lt;/a&gt;&lt;/p&gt;
+&lt;div class=&quot;email-signup-form&quot;&gt;
+  &lt;p class=&quot;signup-form-message&quot;&gt;&lt;/p&gt;
+  &lt;form name=&quot;dating_app_subscribers&quot; method=&quot;POST&quot; data-netlify=&quot;true&quot;&gt;
+    &lt;input type=&quot;text&quot; name=&quot;email&quot; placeholder=&quot;address@email.com&quot;&gt;
+    &lt;input type=&quot;submit&quot; value=&quot;Sign Up&quot;&gt;
+  &lt;/form&gt;
+&lt;/div&gt;
 &lt;hr&gt;
 &lt;p id=&quot;footnote-1&quot;&gt;
 [1]: Is the idea of a &lt;a href=&quot;https://en.wikipedia.org/wiki/Tar_pit&quot;&gt;&quot;tar pit&quot;&lt;/a&gt;

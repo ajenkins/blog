@@ -148,13 +148,14 @@ _your_ experience with dating apps has been.
 
 ## Why my dating app will be better
 
-Because _I_ made it. Duh.
-
-Just kidding 😉
-
-But I think this post has gone on long enough. In Part 2,
+Sorry, but I think this post has gone on long enough. In [Part 2](/post/making_a_dating_app_part2),
 I'll go into detail about how my app will be different and how
 it will address some of these problems. I'll link to it here once I've written it.
+
+[Read next: I'm making a pandemic dating app, Part 2](/post/making_a_dating_app_part2)
+
+{% import "forms.njk" as forms %}
+{{ forms.email_signup('dating_app_subscribers') }}
 
 ---
 
