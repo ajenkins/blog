@@ -1263,14 +1263,6 @@ comments to my blog soon, and then you&#39;ll be able to tell me what
 I&#39;ll go into detail about how my app will be different and how
 it will address some of these problems. I&#39;ll link to it here once I&#39;ve written it.&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;https://ajenkins.me/post/making_a_dating_app_part2&quot;&gt;Read next: I&#39;m making a pandemic dating app, Part 2&lt;/a&gt;&lt;/p&gt;
-&lt;div class=&quot;email-signup-form&quot;&gt;
-  &lt;p class=&quot;signup-form-message&quot;&gt;If you want to receive updates on the progress of the dating app or if you are interested in being an early user, enter your email address below. I&amp;#39;ll only contact you about the dating app.&lt;/p&gt;
-  &lt;form name=&quot;dating_app_subscribers&quot; method=&quot;POST&quot; data-netlify=&quot;true&quot; netlify-honeypot=&quot;required&quot;&gt;
-    &lt;input type=&quot;text&quot; name=&quot;required&quot; tabindex=&quot;-1&quot; autocomplete=&quot;off&quot; id=&quot;required-control&quot;&gt;
-    &lt;input type=&quot;email&quot; name=&quot;email&quot; placeholder=&quot;address@email.com&quot;&gt;
-    &lt;input type=&quot;submit&quot; value=&quot;Sign Up&quot;&gt;
-  &lt;/form&gt;
-&lt;/div&gt;
 &lt;hr&gt;
 &lt;p id=&quot;footnote-1&quot;&gt;
 [1]: Is the idea of a &lt;a href=&quot;https://en.wikipedia.org/wiki/Tar_pit&quot;&gt;&quot;tar pit&quot;&lt;/a&gt;
@@ -1278,7 +1270,16 @@ it will address some of these problems. I&#39;ll link to it here once I&#39;ve w
      thing that animals get stuck in. I know it from
      &lt;a href=&quot;https://en.wikipedia.org/wiki/The_Mythical_Man-Month&quot;&gt;The Mythical Man-Month&lt;/a&gt;,
      but that&#39;s not a well-known book outside of software engineering.
-&lt;/p&gt;</content>
+&lt;/p&gt;
+&lt;div class=&quot;email-signup-form&quot;&gt;
+  &lt;p class=&quot;signup-form-message&quot;&gt;If you want to receive updates on the progress of the dating app or if you are interested in being an early user, enter your email address below. I&amp;#39;ll only contact you about the dating app.&lt;/p&gt;
+  &lt;form name=&quot;dating_app_subscribers&quot; method=&quot;POST&quot; data-netlify=&quot;true&quot; netlify-honeypot=&quot;required&quot;&gt;
+    &lt;input type=&quot;text&quot; name=&quot;required&quot; tabindex=&quot;-1&quot; autocomplete=&quot;off&quot; id=&quot;required-control&quot;&gt;
+    &lt;input type=&quot;email&quot; name=&quot;email&quot; required=&quot;&quot; placeholder=&quot;address@email.com&quot;&gt;
+    &lt;input type=&quot;submit&quot; value=&quot;Sign Up&quot;&gt;
+  &lt;/form&gt;
+&lt;/div&gt;
+</content>
   </entry>
   
   <entry>
@@ -1558,6 +1559,14 @@ you can subscribe to if you want to be notified when there&#39;s a new post.&lt;
      if you set your search radius to 50 miles, someone who&#39;s 30 miles away from
      you won&#39;t be in your list if they set their search radius to 25 miles.
 &lt;/p&gt;
+&lt;div class=&quot;email-signup-form&quot;&gt;
+  &lt;p class=&quot;signup-form-message&quot;&gt;If you want to receive updates on the progress of the dating app or if you are interested in being an early user, enter your email address below. I&amp;#39;ll only contact you about the dating app.&lt;/p&gt;
+  &lt;form name=&quot;dating_app_subscribers&quot; method=&quot;POST&quot; data-netlify=&quot;true&quot; netlify-honeypot=&quot;required&quot;&gt;
+    &lt;input type=&quot;text&quot; name=&quot;required&quot; tabindex=&quot;-1&quot; autocomplete=&quot;off&quot; id=&quot;required-control&quot;&gt;
+    &lt;input type=&quot;email&quot; name=&quot;email&quot; required=&quot;&quot; placeholder=&quot;address@email.com&quot;&gt;
+    &lt;input type=&quot;submit&quot; value=&quot;Sign Up&quot;&gt;
+  &lt;/form&gt;
+&lt;/div&gt;
 &lt;script&gt;
     console.log(&quot;Nice try, but the HTML source doesn&#39;t have the name of the app either 😉&quot;)
 &lt;/script&gt;
@@ -2019,6 +2028,14 @@ to get Cognito set up.&lt;/p&gt;
 for me to add a table of contents plugin to my blog, so maybe I&#39;ll do that soon.&lt;/p&gt;
 &lt;p&gt;What backend tools are you excited about? Do you think I missed the mark on something?
 Will I rue the day I decided to build my backend with Hasura? Let me know in the comments!&lt;/p&gt;
+&lt;div class=&quot;email-signup-form&quot;&gt;
+  &lt;p class=&quot;signup-form-message&quot;&gt;If you want to receive updates on the progress of the dating app or if you are interested in being an early user, enter your email address below. I&amp;#39;ll only contact you about the dating app.&lt;/p&gt;
+  &lt;form name=&quot;dating_app_subscribers&quot; method=&quot;POST&quot; data-netlify=&quot;true&quot; netlify-honeypot=&quot;required&quot;&gt;
+    &lt;input type=&quot;text&quot; name=&quot;required&quot; tabindex=&quot;-1&quot; autocomplete=&quot;off&quot; id=&quot;required-control&quot;&gt;
+    &lt;input type=&quot;email&quot; name=&quot;email&quot; required=&quot;&quot; placeholder=&quot;address@email.com&quot;&gt;
+    &lt;input type=&quot;submit&quot; value=&quot;Sign Up&quot;&gt;
+  &lt;/form&gt;
+&lt;/div&gt;
 </content>
   </entry>
 </feed>

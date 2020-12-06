@@ -160,14 +160,6 @@ comments to my blog soon, and then you'll be able to tell me what
 I'll go into detail about how my app will be different and how
 it will address some of these problems. I'll link to it here once I've written it.</p>
 <p><a href="/post/making_a_dating_app_part2">Read next: I'm making a pandemic dating app, Part 2</a></p>
-<div class="email-signup-form">
-  <p class="signup-form-message">If you want to receive updates on the progress of the dating app or if you are interested in being an early user, enter your email address below. I&#39;ll only contact you about the dating app.</p>
-  <form name="dating_app_subscribers" method="POST" data-netlify="true" netlify-honeypot="required">
-    <input type="text" name="required" tabindex="-1" autocomplete="off" id="required-control">
-    <input type="email" name="email" placeholder="address@email.com">
-    <input type="submit" value="Sign Up">
-  </form>
-</div>
 <hr>
 <p id="footnote-1">
 [1]: Is the idea of a <a href="https://en.wikipedia.org/wiki/Tar_pit">"tar pit"</a>
@@ -176,6 +168,15 @@ it will address some of these problems. I'll link to it here once I've written i
      <a href="https://en.wikipedia.org/wiki/The_Mythical_Man-Month">The Mythical Man-Month</a>,
      but that's not a well-known book outside of software engineering.
 </p>
+<div class="email-signup-form">
+  <p class="signup-form-message">If you want to receive updates on the progress of the dating app or if you are interested in being an early user, enter your email address below. I&#39;ll only contact you about the dating app.</p>
+  <form name="dating_app_subscribers" method="POST" data-netlify="true" netlify-honeypot="required">
+    <input type="text" name="required" tabindex="-1" autocomplete="off" id="required-control">
+    <input type="email" name="email" required placeholder="address@email.com">
+    <input type="submit" value="Sign Up">
+  </form>
+</div>
+
 </article>
 
 <section id="comments-section">

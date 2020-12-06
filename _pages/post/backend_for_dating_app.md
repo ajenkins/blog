@@ -451,4 +451,10 @@ for me to add a table of contents plugin to my blog, so maybe I'll do that soon.
 What backend tools are you excited about? Do you think I missed the mark on something?
 Will I rue the day I decided to build my backend with Hasura? Let me know in the comments!
 
-
+{% import "forms.njk" as forms %}
+{{ 
+    forms.email_signup(
+        'dating_app_subscribers',
+        message="If you want to receive updates on the progress of the dating app or if you are interested in being an early user, enter your email address below. I'll only contact you about the dating app."
+    )
+}}

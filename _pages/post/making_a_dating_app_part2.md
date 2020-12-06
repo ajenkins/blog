@@ -272,6 +272,14 @@ Thanks for reading, and let me know what you think about
      you won't be in your list if they set their search radius to 25 miles.
 </p>
 
+{% import "forms.njk" as forms %}
+{{ 
+    forms.email_signup(
+        'dating_app_subscribers',
+        message="If you want to receive updates on the progress of the dating app or if you are interested in being an early user, enter your email address below. I'll only contact you about the dating app."
+    )
+}}
+
 <script>
     console.log("Nice try, but the HTML source doesn't have the name of the app either 😉")
 </script>
