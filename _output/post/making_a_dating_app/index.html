@@ -162,7 +162,8 @@ it will address some of these problems. I'll link to it here once I've written i
 <p><a href="/post/making_a_dating_app_part2">Read next: I'm making a pandemic dating app, Part 2</a></p>
 <div class="email-signup-form">
   <p class="signup-form-message">If you want to receive updates on the progress of the dating app or if you are interested in being an early user, enter your email address below. I&#39;ll only contact you about the dating app.</p>
-  <form name="dating_app_subscribers" method="POST" data-netlify="true">
+  <form name="dating_app_subscribers" method="POST" data-netlify="true" netlify-honeypot="required">
+    <input type="text" name="required" tabindex="-1" autocomplete="off" id="required-control">
     <input type="text" name="email" placeholder="address@email.com">
     <input type="submit" value="Sign Up">
   </form>

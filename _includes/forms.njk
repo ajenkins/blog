@@ -1,7 +1,8 @@
 {% macro email_signup(form_name, message='') %}
 <div class="email-signup-form">
   <p class="signup-form-message">{{ message }}</p>
-  <form name="{{ form_name }}" method="POST" data-netlify="true">
+  <form name="{{ form_name }}" method="POST" data-netlify="true" netlify-honeypot="required">
+    <input type="text" name="required" tabindex="-1" autocomplete="off" id="required-control">
     <input type="text" name="email" placeholder="address@email.com">
     <input type="submit" value="Sign Up">
   </form>

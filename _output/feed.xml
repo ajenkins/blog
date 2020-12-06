@@ -1265,7 +1265,8 @@ it will address some of these problems. I&#39;ll link to it here once I&#39;ve w
 &lt;p&gt;&lt;a href=&quot;https://ajenkins.me/post/making_a_dating_app_part2&quot;&gt;Read next: I&#39;m making a pandemic dating app, Part 2&lt;/a&gt;&lt;/p&gt;
 &lt;div class=&quot;email-signup-form&quot;&gt;
   &lt;p class=&quot;signup-form-message&quot;&gt;If you want to receive updates on the progress of the dating app or if you are interested in being an early user, enter your email address below. I&amp;#39;ll only contact you about the dating app.&lt;/p&gt;
-  &lt;form name=&quot;dating_app_subscribers&quot; method=&quot;POST&quot; data-netlify=&quot;true&quot;&gt;
+  &lt;form name=&quot;dating_app_subscribers&quot; method=&quot;POST&quot; data-netlify=&quot;true&quot; netlify-honeypot=&quot;required&quot;&gt;
+    &lt;input type=&quot;text&quot; name=&quot;required&quot; tabindex=&quot;-1&quot; autocomplete=&quot;off&quot; id=&quot;required-control&quot;&gt;
     &lt;input type=&quot;text&quot; name=&quot;email&quot; placeholder=&quot;address@email.com&quot;&gt;
     &lt;input type=&quot;submit&quot; value=&quot;Sign Up&quot;&gt;
   &lt;/form&gt;
