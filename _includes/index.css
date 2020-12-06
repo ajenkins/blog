@@ -133,6 +133,41 @@ label {
   border-radius: 50%;
 }
 
+/* Email Sign-Up Form */
+div.email-signup-form {
+  border: 1px solid #888;
+  border-radius: 0.5rem;
+  margin: 3rem 0;
+  padding: 1.5rem;
+  box-shadow: 1px 1px 2px #aaa;
+}
+
+div.email-signup-form > p {
+  font-size: 0.9rem;
+  font-weight: 600;
+  margin: 0;
+}
+
+div.email-signup-form > form {
+  display: flex;
+  margin-top: 1rem;
+}
+
+div.email-signup-form > form > input[type="text"] {
+  flex-grow: 1;
+  font-size: 1rem;
+  margin-right: 0.5rem;
+}
+
+div.email-signup-form > form > input[type="submit"] {
+  background-color: #ff8000;
+  border: none;
+  border-radius: 0.2rem;
+  font-size: 1rem;
+  padding: 0.5rem;
+}
+
+/* Utilities */
 .redacted {
   color: black;
   background-color: black;

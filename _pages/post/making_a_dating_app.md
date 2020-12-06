@@ -155,7 +155,12 @@ it will address some of these problems. I'll link to it here once I've written i
 [Read next: I'm making a pandemic dating app, Part 2](/post/making_a_dating_app_part2)
 
 {% import "forms.njk" as forms %}
-{{ forms.email_signup('dating_app_subscribers') }}
+{{ 
+    forms.email_signup(
+        'dating_app_subscribers',
+        message="If you want to receive updates on the progress of the dating app or if you are interested in being an early user, enter your email address below. I'll only contact you about the dating app."
+    )
+}}
 
 ---
 
