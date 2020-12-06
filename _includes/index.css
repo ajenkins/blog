@@ -165,6 +165,7 @@ div.email-signup-form > form > input[type="submit"] {
   border-radius: 0.2rem;
   font-size: 1rem;
   padding: 0.5rem;
+  -webkit-appearance: none;
 }
 
 /* Utilities */
