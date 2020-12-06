@@ -153,7 +153,7 @@ div.email-signup-form > form {
   margin-top: 1rem;
 }
 
-div.email-signup-form > form > input[type="text"] {
+div.email-signup-form > form > input[type="email"] {
   flex-grow: 1;
   font-size: 1rem;
   margin-right: 0.5rem;
