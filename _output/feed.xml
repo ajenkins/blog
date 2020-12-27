@@ -2117,7 +2117,85 @@ work well, then the whole app is dead on arrival. Imagine if I had spent months
 implementing every other feature of the app (photos, messaging, etc.), only to discover
 that I can&#39;t get the video part working and I would need to give up or make a significant pivot.
 All of that time and effort would&#39;ve been wasted.&lt;/p&gt;
+&lt;p&gt;Once I have all of the core functionality working, I&#39;ll go back and style everything
+and make it look like a real app.&lt;/p&gt;
+&lt;p&gt;What you see in the screenshots above are the features that I felt were absolutely
+necessary to get working before tackling video. To reach that conclusion, I first
+imagined what the absolute minimal video-call experience could be.&lt;/p&gt;
+&lt;p&gt;The minimum video chat app I could imagine was an app that just displays a list of
+the currently online users and lets you call them. So, that means I would first need
+a way to display the list of online users and even before that I would need to set up
+user accounts and login. The reason you need user accounts and login is because the
+app has to somehow uniquely identify the person currently using the app.
+At one point I toyed with just asking users to provide a username every time they
+open the app, and then they would just &amp;quot;become&amp;quot; that user. Meaning that if you
+wanted to impersonate another user, you would just type in their public name
+when you open the app. This is obviously absurd from a security perspective,
+but could be acceptable for a prototype. I decided against it though because I was
+worried I would need to write extra code to accommodate this bizarre
+workflow that I&#39;d end up throwing away later. So I decided to bite the bullet
+and set up the entire user authentication flow as the first step of building the app.&lt;/p&gt;
+&lt;p&gt;Setting up the authentication flow was pretty challenging because I had to
+set up all the inputs, transitions, and error-handling myself. Amplify
+actually offers a pre-built component that fully handles all of this,
+but I couldn&#39;t use it because it only supports email-based authentication,
+but I decided I wanted to use phone numbers for auth instead. Therefore
+I had to use the Amplify JS APIs instead.&lt;/p&gt;
+&lt;p&gt;Once I got the auth flow working, creating the two tabs with the online users
+and profile data was relatively easy. I&#39;m using Apollo Client to interact
+with the Hasura GraphQL I set up at the beginning, so getting and showing
+data is straightforward.&lt;/p&gt;
+&lt;p&gt;To show the list of online users, I&#39;m not using WebSockets or anything
+fancy like that. In my users table in my database I have a column
+called &lt;code&gt;last_seen&lt;/code&gt; which is a timestamp. When you&#39;re signed in,
+the app automatically sends a POST request to the GraphQL API
+that updates that time with the current time. I made a custom
+hook to do handle this. To use the hook, I just call
+&lt;code&gt;useKeepAlive()&lt;/code&gt; with no arguments inside of &lt;code&gt;&amp;lt;ApolloProvider&amp;gt;&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;Here&#39;s the code for my custom hook:&lt;/p&gt;
+&lt;pre class=&quot;language-js&quot;&gt;&lt;code class=&quot;language-js&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt; useEffect &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&#39;react&#39;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;token keyword&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt; useMutation&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; gql &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&#39;@apollo/client&#39;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;br&gt;&lt;br&gt;&lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; &lt;span class=&quot;token constant&quot;&gt;UPDATE_LAST_SEEN&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; gql&lt;span class=&quot;token template-string&quot;&gt;&lt;span class=&quot;token template-punctuation string&quot;&gt;`&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&lt;br&gt;  mutation UpdateBasicProfile($userId: uuid!, $now: timestamptz) {&lt;br&gt;    update_users(where: { id: { _eq: $userId } }, _set: { last_seen: $now }) {&lt;br&gt;      returning {&lt;br&gt;        last_seen&lt;br&gt;      }&lt;br&gt;    }&lt;br&gt;  }&lt;br&gt;&lt;/span&gt;&lt;span class=&quot;token template-punctuation string&quot;&gt;`&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;br&gt;&lt;br&gt;&lt;span class=&quot;token keyword&quot;&gt;export&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;default&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;useKeepAlive&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token parameter&quot;&gt;user&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;&lt;br&gt;  &lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; now &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;token class-name&quot;&gt;Date&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;br&gt;  &lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; userId &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; user&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;username&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;br&gt;  &lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;keepAlive&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt; error&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; data &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;useMutation&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token constant&quot;&gt;UPDATE_LAST_SEEN&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;&lt;br&gt;    variables&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt; userId&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; now &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;&lt;br&gt;  &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;br&gt;&lt;br&gt;  &lt;span class=&quot;token function&quot;&gt;useEffect&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&gt;&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;&lt;br&gt;    &lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; timer &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;setInterval&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&gt;&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;keepAlive&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;15000&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;br&gt;    &lt;span class=&quot;token keyword&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&gt;&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;clearInterval&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;timer&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;br&gt;  &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;br&gt;&lt;br&gt;  &lt;span class=&quot;token keyword&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;data&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;&lt;br&gt;    console&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;I&#39;m still alive&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;br&gt;  &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;br&gt;&lt;br&gt;  &lt;span class=&quot;token keyword&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;error&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;&lt;br&gt;    console&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;warn&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&#39;Error updating last_seen:&#39;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; error&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;message&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;br&gt;  &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Then in the Online Users tab, I query the list of all users
+filtered down to people who were last seen in the last 30 seconds.
+Originally I was going to set up a subscription to the users object
+for automatically refreshing the user list, but Apollo recommends
+avoiding subscriptions unless you really need the data to be extremely fresh,
+like if you&#39;re building an instant messaging app. For my purposes, I actually
+don&#39;t need the data re-fetched that often. I define a user as being online
+if they were online within the past 30 seconds, so I really don&#39;t need to
+re-check that information any more than every 15 seconds.
+Apollo conveniently exposes a parameter &lt;code&gt;pollInterval&lt;/code&gt; that
+tells it to re-fetch the data according to whatever interval you specify.&lt;/p&gt;
+&lt;p&gt;I tested this feature by opening the app on my phone and on my computer
+using the iOS simulator. On my phone, I signed in using my actual phone number.
+On my computer, I signed in using a phone number generated by Google Voice.
+I had to use real phone numbers because the login flow texts you a 6-digit
+code to confirm you actually have access to that phone number every time
+you sign in.&lt;/p&gt;
 &lt;h2&gt;Next up&lt;/h2&gt;
+&lt;p&gt;I&#39;ve now finished everything I need to support video calls.
+The way it will work is when you tap on one of the online users
+in the list, it will place a call to that user. That user will
+then see an incoming call within the app and they can either
+accept or decline the call. If they accept the call, it will open
+a full-screen video chat with the other user. I only have one
+phone to test with, so hopefully I&#39;ll be able to place a call
+from my phone to the iOS simulator or vice versa.&lt;/p&gt;
+&lt;p&gt;By the way, I plan on using &lt;a href=&quot;https://www.agora.io/en/&quot;&gt;Agora&lt;/a&gt; for the video calls.
+I evaluated several video-call vendors, and Agora was the only one that
+had affordable pricing, good React Native support, and good developer docs.
+If I&#39;m not happy with Agora, my backup plan is to setup a WebRTC server
+with Amazon Kinesis Video Streams and do the WebRTC stuff by hand
+using &lt;a href=&quot;https://github.com/react-native-webrtc/react-native-webrtc&quot;&gt;react-native-webrtc&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Hopefully I&#39;ll have video calls up and running, and maybe more, when I publish my next update.&lt;/p&gt;
+&lt;div class=&quot;email-signup-form&quot;&gt;
+  &lt;p class=&quot;signup-form-message&quot;&gt;If you want to receive updates on the progress of the dating app or if you are interested in being an early user, enter your email address below. I&amp;#39;ll only contact you about the dating app.&lt;/p&gt;
+  &lt;form name=&quot;dating_app_subscribers&quot; method=&quot;POST&quot; data-netlify=&quot;true&quot; netlify-honeypot=&quot;required&quot;&gt;
+    &lt;input type=&quot;text&quot; name=&quot;required&quot; tabindex=&quot;-1&quot; autocomplete=&quot;off&quot; id=&quot;required-control&quot;&gt;
+    &lt;input type=&quot;email&quot; name=&quot;email&quot; required=&quot;&quot; placeholder=&quot;address@email.com&quot;&gt;
+    &lt;input type=&quot;submit&quot; value=&quot;Sign Up&quot;&gt;
+  &lt;/form&gt;
+&lt;/div&gt;
+&lt;hr&gt;
 &lt;h2&gt;Bonus 1: Mini-review of Amplify in 2020&lt;/h2&gt;
 &lt;p&gt;My updated perspective on Amplify is that it&#39;s gotten much better since 2019,
 but still feels like a beta product. I got stuck almost immediately

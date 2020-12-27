@@ -112,7 +112,85 @@ work well, then the whole app is dead on arrival. Imagine if I had spent months
 implementing every other feature of the app (photos, messaging, etc.), only to discover
 that I can't get the video part working and I would need to give up or make a significant pivot.
 All of that time and effort would've been wasted.</p>
+<p>Once I have all of the core functionality working, I'll go back and style everything
+and make it look like a real app.</p>
+<p>What you see in the screenshots above are the features that I felt were absolutely
+necessary to get working before tackling video. To reach that conclusion, I first
+imagined what the absolute minimal video-call experience could be.</p>
+<p>The minimum video chat app I could imagine was an app that just displays a list of
+the currently online users and lets you call them. So, that means I would first need
+a way to display the list of online users and even before that I would need to set up
+user accounts and login. The reason you need user accounts and login is because the
+app has to somehow uniquely identify the person currently using the app.
+At one point I toyed with just asking users to provide a username every time they
+open the app, and then they would just &quot;become&quot; that user. Meaning that if you
+wanted to impersonate another user, you would just type in their public name
+when you open the app. This is obviously absurd from a security perspective,
+but could be acceptable for a prototype. I decided against it though because I was
+worried I would need to write extra code to accommodate this bizarre
+workflow that I'd end up throwing away later. So I decided to bite the bullet
+and set up the entire user authentication flow as the first step of building the app.</p>
+<p>Setting up the authentication flow was pretty challenging because I had to
+set up all the inputs, transitions, and error-handling myself. Amplify
+actually offers a pre-built component that fully handles all of this,
+but I couldn't use it because it only supports email-based authentication,
+but I decided I wanted to use phone numbers for auth instead. Therefore
+I had to use the Amplify JS APIs instead.</p>
+<p>Once I got the auth flow working, creating the two tabs with the online users
+and profile data was relatively easy. I'm using Apollo Client to interact
+with the Hasura GraphQL I set up at the beginning, so getting and showing
+data is straightforward.</p>
+<p>To show the list of online users, I'm not using WebSockets or anything
+fancy like that. In my users table in my database I have a column
+called <code>last_seen</code> which is a timestamp. When you're signed in,
+the app automatically sends a POST request to the GraphQL API
+that updates that time with the current time. I made a custom
+hook to do handle this. To use the hook, I just call
+<code>useKeepAlive()</code> with no arguments inside of <code>&lt;ApolloProvider&gt;</code>.</p>
+<p>Here's the code for my custom hook:</p>
+<pre class="language-js"><code class="language-js"><span class="token keyword">import</span> <span class="token punctuation">{</span> useEffect <span class="token punctuation">}</span> <span class="token keyword">from</span> <span class="token string">'react'</span><span class="token punctuation">;</span><br><span class="token keyword">import</span> <span class="token punctuation">{</span> useMutation<span class="token punctuation">,</span> gql <span class="token punctuation">}</span> <span class="token keyword">from</span> <span class="token string">'@apollo/client'</span><span class="token punctuation">;</span><br><br><span class="token keyword">const</span> <span class="token constant">UPDATE_LAST_SEEN</span> <span class="token operator">=</span> gql<span class="token template-string"><span class="token template-punctuation string">`</span><span class="token string"><br>  mutation UpdateBasicProfile($userId: uuid!, $now: timestamptz) {<br>    update_users(where: { id: { _eq: $userId } }, _set: { last_seen: $now }) {<br>      returning {<br>        last_seen<br>      }<br>    }<br>  }<br></span><span class="token template-punctuation string">`</span></span><span class="token punctuation">;</span><br><br><span class="token keyword">export</span> <span class="token keyword">default</span> <span class="token keyword">function</span> <span class="token function">useKeepAlive</span><span class="token punctuation">(</span><span class="token parameter">user</span><span class="token punctuation">)</span> <span class="token punctuation">{</span><br>  <span class="token keyword">const</span> now <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">Date</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span><br>  <span class="token keyword">const</span> userId <span class="token operator">=</span> user<span class="token punctuation">.</span>username<span class="token punctuation">;</span><br>  <span class="token keyword">const</span> <span class="token punctuation">[</span>keepAlive<span class="token punctuation">,</span> <span class="token punctuation">{</span> error<span class="token punctuation">,</span> data <span class="token punctuation">}</span><span class="token punctuation">]</span> <span class="token operator">=</span> <span class="token function">useMutation</span><span class="token punctuation">(</span><span class="token constant">UPDATE_LAST_SEEN</span><span class="token punctuation">,</span> <span class="token punctuation">{</span><br>    variables<span class="token operator">:</span> <span class="token punctuation">{</span> userId<span class="token punctuation">,</span> now <span class="token punctuation">}</span><span class="token punctuation">,</span><br>  <span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span><br><br>  <span class="token function">useEffect</span><span class="token punctuation">(</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">=></span> <span class="token punctuation">{</span><br>    <span class="token keyword">const</span> timer <span class="token operator">=</span> <span class="token function">setInterval</span><span class="token punctuation">(</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">=></span> <span class="token function">keepAlive</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">,</span> <span class="token number">15000</span><span class="token punctuation">)</span><span class="token punctuation">;</span><br>    <span class="token keyword">return</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">=></span> <span class="token function">clearInterval</span><span class="token punctuation">(</span>timer<span class="token punctuation">)</span><span class="token punctuation">;</span><br>  <span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span><br><br>  <span class="token keyword">if</span> <span class="token punctuation">(</span>data<span class="token punctuation">)</span> <span class="token punctuation">{</span><br>    console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span><span class="token string">"I'm still alive"</span><span class="token punctuation">)</span><span class="token punctuation">;</span><br>  <span class="token punctuation">}</span><br><br>  <span class="token keyword">if</span> <span class="token punctuation">(</span>error<span class="token punctuation">)</span> <span class="token punctuation">{</span><br>    console<span class="token punctuation">.</span><span class="token function">warn</span><span class="token punctuation">(</span><span class="token string">'Error updating last_seen:'</span><span class="token punctuation">,</span> error<span class="token punctuation">.</span>message<span class="token punctuation">)</span><span class="token punctuation">;</span><br>  <span class="token punctuation">}</span><br><span class="token punctuation">}</span></code></pre>
+<p>Then in the Online Users tab, I query the list of all users
+filtered down to people who were last seen in the last 30 seconds.
+Originally I was going to set up a subscription to the users object
+for automatically refreshing the user list, but Apollo recommends
+avoiding subscriptions unless you really need the data to be extremely fresh,
+like if you're building an instant messaging app. For my purposes, I actually
+don't need the data re-fetched that often. I define a user as being online
+if they were online within the past 30 seconds, so I really don't need to
+re-check that information any more than every 15 seconds.
+Apollo conveniently exposes a parameter <code>pollInterval</code> that
+tells it to re-fetch the data according to whatever interval you specify.</p>
+<p>I tested this feature by opening the app on my phone and on my computer
+using the iOS simulator. On my phone, I signed in using my actual phone number.
+On my computer, I signed in using a phone number generated by Google Voice.
+I had to use real phone numbers because the login flow texts you a 6-digit
+code to confirm you actually have access to that phone number every time
+you sign in.</p>
 <h2>Next up</h2>
+<p>I've now finished everything I need to support video calls.
+The way it will work is when you tap on one of the online users
+in the list, it will place a call to that user. That user will
+then see an incoming call within the app and they can either
+accept or decline the call. If they accept the call, it will open
+a full-screen video chat with the other user. I only have one
+phone to test with, so hopefully I'll be able to place a call
+from my phone to the iOS simulator or vice versa.</p>
+<p>By the way, I plan on using <a href="https://www.agora.io/en/">Agora</a> for the video calls.
+I evaluated several video-call vendors, and Agora was the only one that
+had affordable pricing, good React Native support, and good developer docs.
+If I'm not happy with Agora, my backup plan is to setup a WebRTC server
+with Amazon Kinesis Video Streams and do the WebRTC stuff by hand
+using <a href="https://github.com/react-native-webrtc/react-native-webrtc">react-native-webrtc</a>.</p>
+<p>Hopefully I'll have video calls up and running, and maybe more, when I publish my next update.</p>
+<div class="email-signup-form">
+  <p class="signup-form-message">If you want to receive updates on the progress of the dating app or if you are interested in being an early user, enter your email address below. I&#39;ll only contact you about the dating app.</p>
+  <form name="dating_app_subscribers" method="POST" data-netlify="true" netlify-honeypot="required">
+    <input type="text" name="required" tabindex="-1" autocomplete="off" id="required-control">
+    <input type="email" name="email" required placeholder="address@email.com">
+    <input type="submit" value="Sign Up">
+  </form>
+</div>
+<hr>
 <h2>Bonus 1: Mini-review of Amplify in 2020</h2>
 <p>My updated perspective on Amplify is that it's gotten much better since 2019,
 but still feels like a beta product. I got stuck almost immediately
