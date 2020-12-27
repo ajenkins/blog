@@ -4,7 +4,7 @@
   <subtitle>A blog about technology, politics, video games, and movies</subtitle>
   <link href="https://ajenkins.me/feed.xml" rel="self" />
   <link href="https://ajenkins.me/" />
-  <updated>2020-12-02T22:00:00-05:00</updated>
+  <updated>2020-12-27T09:00:00-05:00</updated>
   <id>https://ajenkins.me/</id>
   <author>
     <name>AJ Jenkins</name>
@@ -1577,7 +1577,9 @@ you can subscribe to if you want to be notified when there&#39;s a new post.&lt;
     <link href="https://ajenkins.me/post/review_of_appsync_and_amplify/" />
     <updated>2020-12-01T21:00:00-05:00</updated>
     <id>https://ajenkins.me/post/review_of_appsync_and_amplify/</id>
-    <content type="html">&lt;p&gt;In 2019 I started a personal project using AWS AppSync, AWS Amplify, and React Native.
+    <content type="html">&lt;p&gt;&lt;strong&gt;UPDATE&lt;/strong&gt;: I&#39;m using Amplify just for authentication in my new app.
+You can find my updated opinion of Amplify at the end of &lt;a href=&quot;https://ajenkins.me/post/dating_app_update_1&quot;&gt;this post&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;In 2019 I started a personal project using AWS AppSync, AWS Amplify, and React Native.
 AppSync and Amplify may have gotten better since I tried using them, but at that time
 they were so painful to use that I abandoned the project. I thought about migrating to a different
 backend framework, but that would&#39;ve sucked, and it just didn&#39;t seem worth the effort.&lt;/p&gt;
@@ -2035,6 +2037,199 @@ Will I rue the day I decided to build my backend with Hasura? Let me know in the
     &lt;input type=&quot;submit&quot; value=&quot;Sign Up&quot;&gt;
   &lt;/form&gt;
 &lt;/div&gt;
+</content>
+  </entry>
+  
+  <entry>
+    <title>Dating App: Progress Update 1</title>
+    <link href="https://ajenkins.me/post/dating_app_update_1/" />
+    <updated>2020-12-27T09:00:00-05:00</updated>
+    <id>https://ajenkins.me/post/dating_app_update_1/</id>
+    <content type="html">&lt;p&gt;In &lt;a href=&quot;https://ajenkins.me/post/backend_for_dating_app&quot;&gt;my last post&lt;/a&gt;
+I talked about some of the technologies that I was planning
+on using for building
+&lt;a href=&quot;https://ajenkins.me/post/making_a_dating_app&quot;&gt;my dating app&lt;/a&gt;.
+Since then, I&#39;ve completed the minimum functionality for the app
+and wanted to share what I&#39;ve done so far.&lt;/p&gt;
+&lt;h2&gt;On the backend&lt;/h2&gt;
+&lt;p&gt;&lt;em&gt;Skip to the next section if you just want to see some screenshots.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Behind the scenes, I&#39;ve set up an Aurora (Postgres)
+database running on Amazon RDS. On top of that, I&#39;m using Hasura Cloud
+to serve a GraphQL API. So far, I&#39;m loving Hasura. Everything just works,
+I haven&#39;t run into any roadblocks yet, the documentation is great, and I&#39;ve
+been able to fully set up my API and manage my database using their UI.
+The only hiccup I&#39;ve run in to with Hasura was in the initial set up.
+They have a guide specifically on how to set up Hasura with Aurora, but
+the guide doesn&#39;t mention that it doesn&#39;t work with the serverless option and
+you need to set up your database as provisioned. I had to contact support, but
+they figured it out pretty quickly and I just had to create a new database.&lt;/p&gt;
+&lt;p&gt;For user authentication I&#39;m using AWS Cognito and Amplify. This might
+be surprising to you if you read &lt;a href=&quot;https://ajenkins.me/post/review_of_appsync_and_amplify&quot;&gt;my review of Amplify&lt;/a&gt;,
+but it seems like it&#39;s evolved a lot since I last used it. Using Amplify also seemed like
+the easiest way to integrate Cognito into a React Native app. The even have specific
+instructions on how to use Amplfiy with an app managed with Expo, which I was using
+in the beginning until I had to eject (more on ejecting later).
+Also, you can now
+use Amplify just for one function, like auth, and you don&#39;t need to use Amplify
+for your API if you don&#39;t want to.&lt;a href=&quot;#footnote-1&quot; class=&quot;footnote&quot;&gt;[1]&lt;/a&gt;
+I go into more detail about my experience using Amplify at the end of this post.&lt;/p&gt;
+&lt;h2&gt;The frontend&lt;/h2&gt;
+&lt;p&gt;Once I got the backend working, the next step was to build the mobile app
+itself which would talk to the backend. I decided to use React Native to
+build my app because I have a lot of experience with React and I didn&#39;t
+want to have to write my app twice, once in Swift for iOS and once in
+Java/Kotlin for Android.&lt;/p&gt;
+&lt;p&gt;I also wanted to use &lt;a href=&quot;https://expo.io/&quot;&gt;Expo&lt;/a&gt;,
+because I had a great experience using it with my last React Native
+project. It&#39;s pretty magical to have hot-reloading on an app running on
+my actual iPhone and not needing to use XCode or the iOS Simulator ✨&lt;/p&gt;
+&lt;p&gt;I recently needed to eject my Expo app from the managed workflow
+to the bare workflow, which was an educational experience. You can
+read about my experience ejecting at the end of this post.&lt;/p&gt;
+&lt;h2&gt;The app&lt;/h2&gt;
+&lt;p&gt;
+    &lt;img src=&quot;https://ajenkins.me/static/b87c7d1e-640.png&quot; width=&quot;640&quot; alt=&quot;Sign-up/Log-in screen&quot;&gt;
+    &lt;em&gt;The first screen you&#39;ll see when you open the app.&lt;/em&gt;
+&lt;/p&gt;
+&lt;p&gt;
+    &lt;img src=&quot;https://ajenkins.me/static/a2e9e557-640.png&quot; width=&quot;640&quot; alt=&quot;Log-in screen&quot;&gt;
+    &lt;em&gt;You sign in using a phone number and password. No email required.&lt;/em&gt;
+&lt;/p&gt;
+&lt;p&gt;
+    &lt;img src=&quot;https://ajenkins.me/static/fd21ebd4-640.png&quot; width=&quot;640&quot; alt=&quot;Profile screen&quot;&gt;
+    &lt;em&gt;On this tab, you can see your profile information. There&#39;s no way to edit it yet.&lt;/em&gt;
+&lt;/p&gt;
+&lt;p&gt;
+    &lt;img src=&quot;https://ajenkins.me/static/fcb4e0e6-640.png&quot; width=&quot;640&quot; alt=&quot;Online users screen&quot;&gt;
+    &lt;em&gt;
+        Here you can see all of the currently online users (including yourself).
+        This is real and dynamically updates.
+    &lt;/em&gt;
+&lt;/p&gt;
+&lt;p&gt;I have the minimum functionality working now. You&#39;ll notice
+that the app looks... rough. That&#39;s intentional. My strategy
+when working on a software engineering project is to do the hardest thing first.
+In this case, the part of the app I was most worried about was the live video-calling.
+The reason you should always do the hardest part first is because there&#39;s a chance
+that you might not be able to even to build it at all. Live video-calling is the
+central feature of my app, and if I can&#39;t figure out how to make that work and make it
+work well, then the whole app is dead on arrival. Imagine if I had spent months
+implementing every other feature of the app (photos, messaging, etc.), only to discover
+that I can&#39;t get the video part working and I would need to give up or make a significant pivot.
+All of that time and effort would&#39;ve been wasted.&lt;/p&gt;
+&lt;h2&gt;Next up&lt;/h2&gt;
+&lt;h2&gt;Bonus 1: Mini-review of Amplify in 2020&lt;/h2&gt;
+&lt;p&gt;My updated perspective on Amplify is that it&#39;s gotten much better since 2019,
+but still feels like a beta product. I got stuck almost immediately
+because when you do the initial setup of your local environment you
+need to authenticate your app using a browser. I use Safari for all
+of my personal work, but apparently the authentication only works with Chrome and Firefox.
+If this was communicated in an error message, it wouldn&#39;t have been a problem but I had to
+dig through the Github issues to figure out why the authentication wasn&#39;t working.
+They also misspelled &amp;quot;communicate&amp;quot; with two &amp;quot;n&amp;quot;s in their unhelpful error message
+(&lt;a href=&quot;https://github.com/aws-amplify/amplify-adminui/issues/14&quot;&gt;see Github issue&lt;/a&gt;).&lt;/p&gt;
+&lt;p&gt;I also ran into an issue using Cognito that was significantly more challenging
+to resolve because I was using Amplify. When you set up auth through Amplify,
+it automatically generates two app clients, one with a secret key and one
+without. I didn&#39;t originally understand the difference between these two app clients,
+so I mistakenly deleted one of them. Cognito warns you that this action is irreversible,
+but I thought I knew what I was doing (I didn&#39;t). Once I realized my mistake, I decided
+that the simplest way to fix it would just be to start over. So I tried to delete the
+Cognito stuff through the Amplify web console, but the delete failed without any
+explanation. Eventually I realized the delete was failing because I first had to
+manually delete the domain I created in Cognito. I then manually deleted the CloudFormation
+stack created by Amplify, thinking I was making Amplify&#39;s job easier (I wasn&#39;t).
+If you&#39;re using Amplify &lt;strong&gt;don&#39;t try to manually delete something yourself&lt;/strong&gt;. Always
+let Amplify delete its own resources. If you don&#39;t, you&#39;ll get stuck in a Catch-22
+situation where it will become impossible to use your Amplify app.&lt;/p&gt;
+&lt;p&gt;After I deleted the CloudFormation stack, I noticed that Amplify was still showing
+that I had auth setup. Amplify must have its own state about your setup, so I figured
+that when I hit Delete it would just notice that the CloudFormation stack had already been
+deleted and it would just update its own state to reflect that auth had been removed.&lt;/p&gt;
+&lt;p&gt;Instead, when I tried to remove auth through Amplify, it complained that it couldn&#39;t
+find the stack to delete, so the operation failed. And if you try to add auth to the
+app it complains that you already have auth, so that fails too. And when I tried
+just deleting the whole Amplify app, that failed too because it tries to delete
+all of the sub-components, like the auth stuff, before deleting the top-level app.
+Basically, it can&#39;t delete the auth component because the auth component has already
+been deleted and it can&#39;t delete the app because it can&#39;t delete the auth component 🤦‍♂️&lt;/p&gt;
+&lt;p&gt;Eventually, I figured out that I could trick Amplify by creating a new CloudFormation
+stack with the exact name that it was looking for when it tried to delete the auth
+stack. I just made a minimal stack that created a random S3 bucket, but because
+the name matched the name it was expecting to exist, it happily carried out the delete
+operation and let me fully delete my Amplify app. I &lt;em&gt;could&#39;ve&lt;/em&gt; just abandoned my broken
+Amplify app and created a new one, but then I would&#39;ve needed to create a new app with
+a new name and I know that I would constantly mix up the two apps every time I tried
+to use Amplify.&lt;/p&gt;
+&lt;p&gt;In conclusion, Amplify is still bad, but if you want to use Cognito or AppSync
+with a web or native app, you&#39;re still better off using Amplify than trying
+to implement everything yourself from scratch.&lt;/p&gt;
+&lt;p&gt;Also, if you&#39;re using Amplify Auth with React or React Native, I highly
+recommend reading
+&lt;a href=&quot;https://www.rockyourcode.com/custom-react-hook-use-aws-amplify-auth/&quot;&gt;this blog post by Sophia Brandt&lt;/a&gt;.
+She wrote a really good React Hook for updating your app state based on whether or not
+you&#39;re logged in. This is definitely something you wouldn&#39;t want to implement yourself,
+and should really be included in the core Amplify React library.&lt;/p&gt;
+&lt;h2&gt;Bonus 2: Ejecting Expo&lt;/h2&gt;
+&lt;p&gt;Expo offers two workflows: managed and bare. With the managed workflow,
+you can develop your app entirely with Javascript/Typescript and can
+mostly ignore platform-specific concerns with iOS and Android. This
+is the recommended workflow for most use-cases, but the drawback is
+that some React Native libraries either don&#39;t support it or don&#39;t
+document how to use it with Expo. The other limitation is
+that certain native APIs, like Bluetooth and WebRTC, are not supported
+in the managed workflow. If you start off using the managed workflow
+but realize later that you need to use the bare workflow (like me),
+then you&#39;ll need to &lt;a href=&quot;https://docs.expo.io/bare/customizing/&quot;&gt;&amp;quot;eject&amp;quot;&lt;/a&gt;
+your app to convert your app over to the bare workflow.&lt;/p&gt;
+&lt;p&gt;If you&#39;re starting a new project with Expo, I highly recommend
+reviewing &lt;a href=&quot;https://docs.expo.io/introduction/why-not-expo/&quot;&gt;the limitations of the managed workflow&lt;/a&gt;
+and deciding upfront which workflow you want to use, rather than ejecting later.
+Unfortunately, the ejection process isn&#39;t as smooth as I&#39;d hoped and I ended up needing
+to spend a few days of debugging to get the app up and running again. I assume things
+would&#39;ve worked much better if I had started off with the bare workflow rather than
+ejecting to it later.&lt;/p&gt;
+&lt;p&gt;That being said, &lt;em&gt;most&lt;/em&gt; apps should be fine using the managed workflow.
+And if you can use the managed workflow, I highly recommend it over the bare workflow.
+The only reason I had to eject for this app is because I need live video calling,
+which means that I need to use WebRTC which is not supported in the managed workflow.&lt;/p&gt;
+&lt;p&gt;If you&#39;re wondering about the bugs I encountered when I ejected, I eventually determined
+that the source of all of my bugs was something called &lt;a href=&quot;https://fbflipper.com/&quot;&gt;Flipper&lt;/a&gt;,
+which is a plugin for debugging mobile apps. I think I was having the same problem
+as &lt;a href=&quot;https://github.com/facebook/react-native/issues/29133&quot;&gt;this person&lt;/a&gt;,
+but they closed their own issue because it magically
+disappeared on its own. Unfortunately, &lt;em&gt;my&lt;/em&gt; issue did &lt;em&gt;not&lt;/em&gt; resolve itself,
+and none of the solutions I found online fixed it. Eventually, I was able to fix
+the problem by just deleting all of the Flipper-related code from &lt;code&gt;AppDelegate.m&lt;/code&gt;.
+I guess that means I won&#39;t be able to use Flipper in my app, but at least my app builds again.&lt;/p&gt;
+&lt;p&gt;I also had to install a few extra things to get Amplify Auth working again. That was pretty
+easy though because it was obvious what I needed to do from
+&lt;a href=&quot;https://docs.amplify.aws/lib/auth/getting-started/q/platform/js&quot;&gt;the Amplify docs&lt;/a&gt;.
+If you compare the instructions for Expo and React Native, you&#39;ll notice that the
+React Native instructions includes an additional dependency to install,
+&lt;code&gt;amazon-cognito-identity-js&lt;/code&gt;, and an additional step of running &lt;code&gt;npx pod install&lt;/code&gt;
+afterwards. After I did that, everything in my app started working again.&lt;/p&gt;
+&lt;p&gt;However, I do still have one outstanding bug I haven&#39;t been able to fix, but I&#39;ll
+probably just live with it. When I try to run my app directly on my iPhone using
+the Expo server, the login step fails with the error
+&lt;code&gt;getRandomBase.default is not a function&lt;/code&gt;. I figured out that this is coming from the
+&lt;code&gt;react-native-get-random-values&lt;/code&gt; package, which is a dependency of &lt;code&gt;aws-amplify&lt;/code&gt;.
+The only solutions I could find online to this problem are uninstalling and reinstalling
+&lt;code&gt;aws-amplify&lt;/code&gt; or &lt;code&gt;react-native-get-random-values&lt;/code&gt; or deleting my &lt;code&gt;node_modules/&lt;/code&gt; directory
+and re-running &lt;code&gt;npm install&lt;/code&gt;. None of that fixed the problem, of course. This
+also happens to be one of those fun bugs that disappears when you run the app in debug-mode 🥲&lt;/p&gt;
+&lt;p&gt;The silver-lining is that this issue only manifests when I run the app using Expo, not
+when I run it with the iOS simulator, which implies to me that it&#39;s not a &amp;quot;real&amp;quot; bug
+and would never be encountered by a real user. There&#39;s also a pretty simple workaround:
+run the app in debug mode, log in, then disable debug mode. Once you&#39;re logged in, you
+stay logged in, so it&#39;s not like I need to do this every time I run the app. That being
+said, I don&#39;t think I would&#39;ve hit this issue if I had started off using the bare Expo
+workflow, so this is yet another reason to avoid ejecting if you can.&lt;/p&gt;
+&lt;hr&gt;
+&lt;p id=&quot;footnote-1&quot;&gt;
+[1]: Maybe it was always possible to use Amplify just for auth,
+     but at the very least, they&#39;ve definitely made this much clearer in the UI now.
+&lt;/p&gt;
 </content>
   </entry>
 </feed>

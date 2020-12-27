@@ -5,6 +5,9 @@ tags: ['web development', 'software engineering', 'aws']
 date: 2020-12-01 21:00:00 -05:00
 ---
 
+**UPDATE**: I'm using Amplify just for authentication in my new app.
+You can find my updated opinion of Amplify at the end of [this post](/post/dating_app_update_1).
+
 In 2019 I started a personal project using AWS AppSync, AWS Amplify, and React Native.
 AppSync and Amplify may have gotten better since I tried using them, but at that time
 they were so painful to use that I abandoned the project. I thought about migrating to a different
