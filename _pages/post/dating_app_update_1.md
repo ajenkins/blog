@@ -1,6 +1,6 @@
 ---
 layout: layouts/post.njk
-title: "Dating App: Progress Update 1"
+title: 'Dating App: Progress Update 1'
 tags: ['dating app', 'software engineering', 'react native', 'app development']
 date: 2020-12-27 09:00:00 -05:00
 ---
@@ -80,7 +80,6 @@ read about my experience ejecting at the end of this post.
     </em>
 </p>
 
-
 I have the minimum functionality working now. You'll notice
 that the app looks... rough. That's intentional. My strategy
 when working on a software engineering project is to do the hardest thing first.
@@ -135,6 +134,7 @@ hook to do handle this. To use the hook, I just call
 `useKeepAlive()` with no arguments inside of `<ApolloProvider>`.
 
 Here's the code for my custom hook:
+
 ```js
 import { useEffect } from 'react';
 import { useMutation, gql } from '@apollo/client';
@@ -153,7 +153,7 @@ export default function useKeepAlive(user) {
   const now = new Date();
   const userId = user.username;
   const [keepAlive, { error, data }] = useMutation(UPDATE_LAST_SEEN, {
-    variables: { userId, now },
+    variables: { userId, now }
   });
 
   useEffect(() => {
@@ -211,7 +211,7 @@ using [react-native-webrtc](https://github.com/react-native-webrtc/react-native-
 Hopefully I'll have video calls up and running, and maybe more, when I publish my next update.
 
 {% import "forms.njk" as forms %}
-{{ 
+{{
     forms.email_signup(
         'dating_app_subscribers',
         message="If you want to receive updates on the progress of the dating app or if you are interested in being an early user, enter your email address below. I'll only contact you about the dating app."
@@ -342,6 +342,14 @@ run the app in debug mode, log in, then disable debug mode. Once you're logged i
 stay logged in, so it's not like I need to do this every time I run the app. That being
 said, I don't think I would've hit this issue if I had started off using the bare Expo
 workflow, so this is yet another reason to avoid ejecting if you can.
+
+{% import "forms.njk" as forms %}
+{{
+    forms.email_signup(
+        'dating_app_subscribers',
+        message="If you want to receive updates on the progress of the dating app or if you are interested in being an early user, enter your email address below. I'll only contact you about the dating app."
+    )
+}}
 
 ---
 
