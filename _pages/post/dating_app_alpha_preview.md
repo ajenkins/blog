@@ -23,7 +23,7 @@ which is real (I'm testing it with two iPhones).
 https://youtu.be/Rfri4qkrrqY
 
 Obviously there's still a long way to go before it's ready for real use.
-The three main things it's missing right now are:
+The main things it's missing right now are:
 
 1. **A fresh coat of paint.** It looks pretty rough right now.
    Profile photos would be nice too.
