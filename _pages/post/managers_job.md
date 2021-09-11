@@ -31,7 +31,7 @@ have a manager and they seemed to be doing a pretty good job on their
 own before I got there. So even if the team is performing well, how much
 credit can I really take for that?
 
-# Building a self-driving car
+# Building a car
 
 Now that I've been a manager for a year, I feel like I have a better
 handle on what I'm supposed to be doing and what makes a good manager.
@@ -54,6 +54,8 @@ is getting all of the tickets done on time and if we can get
 tickets done faster (drive faster), that's even better because
 it means we can start working on the next thing sooner and increase
 customer satisfaction.
+
+# Making it self-driving
 
 So that explains the "car" part of the analogy, but what about
 the "self-driving" part? Well, the driver is whatever is steering
