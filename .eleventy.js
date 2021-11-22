@@ -33,26 +33,26 @@ module.exports = function (eleventyConfig) {
   });
 
   // Resizes and compresses images
-  eleventyConfig.addNunjucksAsyncShortcode('image', async function (
-    src,
-    alt,
-    outputFormat = 'jpeg'
-  ) {
-    if (alt === undefined) {
-      throw new Error(`Missing \`alt\` on image from: ${src}`);
+  eleventyConfig.addNunjucksAsyncShortcode(
+    'image',
+    async function imageShortcode(src, alt, sizes) {
+      let metadata = await Image(src, {
+        widths: [640],
+        formats: ['webp'],
+        urlPath: '/static/',
+        outputDir: './_output/static/'
+      });
+
+      let imageAttributes = {
+        alt,
+        sizes,
+        loading: 'lazy',
+        decoding: 'async'
+      };
+
+      return Image.generateHTML(metadata, imageAttributes);
     }
-
-    let stats = await Image(src, {
-      widths: [640],
-      formats: [outputFormat],
-      urlPath: '/static/',
-      outputDir: './_output/static/'
-    });
-
-    let props = stats[outputFormat].pop();
-
-    return `<img src="${props.url}" width="${props.width}" alt="${alt}">`;
-  });
+  );
 
   // Lazy-load YouTube videos
   eleventyConfig.addPlugin(embedYouTube, {
