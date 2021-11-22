@@ -221,7 +221,7 @@ stuff was by playing the game. In Halo 3 when it launched there wasn&#39;t much 
 could unlock a few different armor variants for your Spartan in multiplayer. However, there
 was one armor variant that you couldn&#39;t unlock just by playing the game: the Recon Armor.&lt;/p&gt;
 &lt;p&gt;
-    &lt;img src=&quot;https://ajenkins.me/static/-Fn2TSAgt6-640.png&quot; width=&quot;640&quot; alt=&quot;Halo 3 Recon Armor variant&quot; /&gt;
+    &lt;img alt=&quot;Halo 3 Recon Armor variant&quot; loading=&quot;lazy&quot; decoding=&quot;async&quot; src=&quot;https://ajenkins.me/static/-Fn2TSAgt6-640.webp&quot; width=&quot;640&quot; height=&quot;640&quot; /&gt;
     &lt;a href=&quot;https://halo.fandom.com/wiki/Mjolnir_Powered_Assault_Armor/R_variant?file=ReconArmor.png&quot;&gt;
         Image source
     &lt;/a&gt;
@@ -268,7 +268,7 @@ traction on the internet, Bungie would see my work and grant me Recon Armor.&lt;
 in the game. I don&#39;t think I was the first person with this concept, but I remember my version
 being better than anything else I had seen.&lt;/p&gt;
 &lt;p&gt;
-    &lt;img src=&quot;https://ajenkins.me/static/pT5p3d9TWH-640.jpeg&quot; width=&quot;640&quot; alt=&quot;My recreation of the Halo 3 logo in Forge&quot; /&gt;
+    &lt;img alt=&quot;My recreation of the Halo 3 logo in Forge&quot; loading=&quot;lazy&quot; decoding=&quot;async&quot; src=&quot;https://ajenkins.me/static/pT5p3d9TWH-640.webp&quot; width=&quot;640&quot; height=&quot;360&quot; /&gt;
 &lt;/p&gt;
 &lt;p&gt;It took about two days to make (less than 10 hrs). I used the box that the game came in as a reference
 and dropped the weapons wherever I thought they would look good. My younger brother was helping me by controlling
@@ -574,7 +574,7 @@ And that&#39;s something that no analytics tool can help me with.&lt;/p&gt;
     <link href="https://ajenkins.me/post/pagespeed_with_eleventy/" />
     <updated>2020-10-11T19:34:00Z</updated>
     <id>https://ajenkins.me/post/pagespeed_with_eleventy/</id>
-    <content type="html">&lt;img src=&quot;https://ajenkins.me/static/DxnTR_YnTi-640.jpeg&quot; width=&quot;640&quot; alt=&quot;PageSpeed score increased from 86 to 100&quot; /&gt;
+    <content type="html">&lt;img alt=&quot;PageSpeed score increased from 86 to 100&quot; loading=&quot;lazy&quot; decoding=&quot;async&quot; src=&quot;https://ajenkins.me/static/DxnTR_YnTi-640.webp&quot; width=&quot;640&quot; height=&quot;427&quot; /&gt;
 &lt;p&gt;&lt;strong&gt;Update:&lt;/strong&gt; I decided to rewrite this post as a guide instead of a story. If you want
 the full story of how I improved the performance of my website, keep reading. But if
 you just want the quick tips on how to make your Eleventy website faster,
@@ -621,7 +621,7 @@ have the most room for improvement.&lt;/p&gt;
 &lt;p&gt;Here are my results for that page before I made any optimizations
 (all results are from the Mobile test):&lt;/p&gt;
 &lt;p&gt;
-&lt;img src=&quot;https://ajenkins.me/static/zLPE7j-rfW-640.jpeg&quot; width=&quot;640&quot; alt=&quot;A screenshot of my PageSpeed results before making any optimizations&quot; /&gt;
+&lt;img alt=&quot;A screenshot of my PageSpeed results before making any optimizations&quot; loading=&quot;lazy&quot; decoding=&quot;async&quot; src=&quot;https://ajenkins.me/static/zLPE7j-rfW-640.webp&quot; width=&quot;640&quot; height=&quot;574&quot; /&gt;
 &lt;a href=&quot;https://ajenkins.me/static/PageSpeedInsights_before.pdf&quot; target=&quot;_blank&quot;&gt;View PDF of the full report&lt;/a&gt;
 &lt;/p&gt;
 &lt;p&gt;Not bad! As I expected, just by using a static site with only a few images and no CSS or JS,
@@ -796,7 +796,7 @@ was an issue with Safari, not YouTube or the plugin I was using.&lt;/p&gt;
 &lt;a href=&quot;https://github.com/ajenkins/blog/commit/a9fbd3dc1&quot;&gt;the commit where I implemented this change here&lt;/a&gt;.&lt;/p&gt;
 &lt;h2&gt;Results&lt;/h2&gt;
 &lt;p&gt;
-&lt;img src=&quot;https://ajenkins.me/static/VIHOXKO8Kf-640.jpeg&quot; width=&quot;640&quot; alt=&quot;A screenshot of my PageSpeed results after making all of the above optimizations&quot; /&gt;
+&lt;img alt=&quot;A screenshot of my PageSpeed results after making all of the above optimizations&quot; loading=&quot;lazy&quot; decoding=&quot;async&quot; src=&quot;https://ajenkins.me/static/VIHOXKO8Kf-640.webp&quot; width=&quot;640&quot; height=&quot;580&quot; /&gt;
 &lt;a href=&quot;https://ajenkins.me/static/PageSpeedInsights_after.pdf&quot; target=&quot;_blank&quot;&gt;View PDF of the full report&lt;/a&gt;
 &lt;/p&gt;
 &lt;p&gt;Booyah! Perfect score! Improvements in all metrics across the board, except for Cumulative Layout Shift
@@ -2088,19 +2088,19 @@ to the bare workflow, which was an educational experience. You can
 read about my experience ejecting at the end of this post.&lt;/p&gt;
 &lt;h2&gt;The app&lt;/h2&gt;
 &lt;p&gt;
-    &lt;img src=&quot;https://ajenkins.me/static/unPmL841LL-640.png&quot; width=&quot;640&quot; alt=&quot;Sign-up/Log-in screen&quot; /&gt;
+    &lt;img alt=&quot;Sign-up/Log-in screen&quot; loading=&quot;lazy&quot; decoding=&quot;async&quot; src=&quot;https://ajenkins.me/static/unPmL841LL-640.webp&quot; width=&quot;640&quot; height=&quot;1279&quot; /&gt;
     &lt;em&gt;The first screen you&#39;ll see when you open the app.&lt;/em&gt;
 &lt;/p&gt;
 &lt;p&gt;
-    &lt;img src=&quot;https://ajenkins.me/static/47YSuKzsJ1-640.png&quot; width=&quot;640&quot; alt=&quot;Log-in screen&quot; /&gt;
+    &lt;img alt=&quot;Log-in screen&quot; loading=&quot;lazy&quot; decoding=&quot;async&quot; src=&quot;https://ajenkins.me/static/47YSuKzsJ1-640.webp&quot; width=&quot;640&quot; height=&quot;1270&quot; /&gt;
     &lt;em&gt;You sign in using a phone number and password. No email required.&lt;/em&gt;
 &lt;/p&gt;
 &lt;p&gt;
-    &lt;img src=&quot;https://ajenkins.me/static/AoUBNVihMC-640.png&quot; width=&quot;640&quot; alt=&quot;Profile screen&quot; /&gt;
+    &lt;img alt=&quot;Profile screen&quot; loading=&quot;lazy&quot; decoding=&quot;async&quot; src=&quot;https://ajenkins.me/static/AoUBNVihMC-640.webp&quot; width=&quot;640&quot; height=&quot;1274&quot; /&gt;
     &lt;em&gt;On this tab, you can see your profile information. There&#39;s no way to edit it yet.&lt;/em&gt;
 &lt;/p&gt;
 &lt;p&gt;
-    &lt;img src=&quot;https://ajenkins.me/static/rPObi5B8Qx-640.png&quot; width=&quot;640&quot; alt=&quot;Online users screen&quot; /&gt;
+    &lt;img alt=&quot;Online users screen&quot; loading=&quot;lazy&quot; decoding=&quot;async&quot; src=&quot;https://ajenkins.me/static/rPObi5B8Qx-640.webp&quot; width=&quot;640&quot; height=&quot;1266&quot; /&gt;
     &lt;em&gt;
         Here you can see all of the currently online users (including yourself).
         This is real and dynamically updates.
@@ -2590,7 +2590,7 @@ npm ERR! #include &amp;lt;vips/vips8&amp;gt;
 npm ERR!          ^~~~~~~~~~~~
 npm ERR! 1 error generated.
 npm ERR! make: *** [Release/obj.target/sharp/src/common.o] Error 1
-npm ERR! gyp ERR! build error 
+npm ERR! gyp ERR! build error
 npm ERR! gyp ERR! stack Error: `make` failed with exit code: 2
 npm ERR! gyp ERR! stack     at ChildProcess.onExit (/Users/aj/.nvm/versions/node/v16.13.0/lib/node_modules/npm/node_modules/node-gyp/lib/build.js:194:23)
 npm ERR! gyp ERR! stack     at ChildProcess.emit (node:events:390:28)
@@ -2623,6 +2623,7 @@ else ran into that same error and was able to find a solution.&lt;/p&gt;
      update your npm packages (does anyone?) then there&#39;s a good chance
      one or more of your packages won&#39;t be compatible with the new ARM-based
      Macs.
-&lt;/p&gt;</content>
+&lt;/p&gt;
+</content>
   </entry>
 </feed>
