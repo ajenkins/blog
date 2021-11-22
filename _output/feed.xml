@@ -4,7 +4,7 @@
   <subtitle>A blog about technology, politics, video games, and movies</subtitle>
   <link href="https://ajenkins.me/feed.xml" rel="self" />
   <link href="https://ajenkins.me/" />
-  <updated>2021-09-10T08:00:00-04:00</updated>
+  <updated>2021-11-20T13:20:00Z</updated>
   <id>https://ajenkins.me/</id>
   <author>
     <name>AJ Jenkins</name>
@@ -14,7 +14,7 @@
   <entry>
     <title>Why you should care about Ranked Choice Voting</title>
     <link href="https://ajenkins.me/post/rcv/" />
-    <updated>2020-08-29T12:00:00-04:00</updated>
+    <updated>2020-08-29T16:00:00Z</updated>
     <id>https://ajenkins.me/post/rcv/</id>
     <content type="html">&lt;p&gt;&lt;em&gt;UPDATE (11/4/20): The ballot initiative for ranked choice voting in Massachusetts has failed.
 &lt;a href=&quot;https://ajenkins.me/post/rcv_2020_loss&quot;&gt;You can read my thoughts on the outcome here&lt;/a&gt;.&lt;/em&gt;&lt;/p&gt;
@@ -42,9 +42,9 @@ Or you might not even know what Ranked Choice Voting is
 In this essay I&#39;ll explain what Ranked Choice
 Voting is, how it works, and how it could save our political system.&lt;/p&gt;
 &lt;p&gt;Ranked Choice Voting (RCV) is an alternative method for electing political candidates that
-replaces plurality voting.&lt;a href=&quot;#footnote-1&quot; class=&quot;footnote&quot;&gt;[1]&lt;/a&gt; If you&#39;ve never heard of plurality voting, it&#39;s the basic voting system that you
+replaces plurality voting.&lt;a href=&quot;https://ajenkins.me/post/rcv/#footnote-1&quot; class=&quot;footnote&quot;&gt;[1]&lt;/a&gt; If you&#39;ve never heard of plurality voting, it&#39;s the basic voting system that you
 probably just think of as &amp;quot;voting.&amp;quot; First I&#39;ll explain how plurality voting works so you can see how RCV is different.
-In plurality voting voters pick their one, favorite&lt;a href=&quot;#footnote-2&quot; class=&quot;footnote&quot;&gt;[2]&lt;/a&gt; candidate from a list of possible candidates. The winner is whoever
+In plurality voting voters pick their one, favorite&lt;a href=&quot;https://ajenkins.me/post/rcv/#footnote-2&quot; class=&quot;footnote&quot;&gt;[2]&lt;/a&gt; candidate from a list of possible candidates. The winner is whoever
 receives the most votes (a plurality of the votes), but they don&#39;t need a majority (more than half).&lt;/p&gt;
 &lt;p&gt;RCV works a little bit differently. Instead of only choosing your one, favorite candidate, you rank all (or some) of the
 candidates in the order of who you most want to win. So you would rank your first-choice candidate first, your
@@ -80,7 +80,7 @@ Tallying the votes by hand is a little tedious, but should be something that any
 process.&lt;/p&gt;
 &lt;p&gt;So, why is Ranked Choice Voting better than plurality voting? Rather than go into a technical deep dive of all the
 benefits of RCV, in this article I&#39;ll just talk about the biggest advantage: it eliminates the &amp;quot;spoiler effect&amp;quot;
-when similar candidates run against each other.&lt;a href=&quot;#footnote-3&quot; class=&quot;footnote&quot;&gt;[3]&lt;/a&gt;
+when similar candidates run against each other.&lt;a href=&quot;https://ajenkins.me/post/rcv/#footnote-3&quot; class=&quot;footnote&quot;&gt;[3]&lt;/a&gt;
 When political pundits talk about a &amp;quot;spoiler candidate&amp;quot;, they
 mean a candidate that runs in an election (usually a third-candidate entering a two-candidate race) and then
 &amp;quot;spoiling&amp;quot; the election for whichever candidate they&#39;re more similar to, thus handing the election to the
@@ -122,7 +122,7 @@ Republicans to throw their weight behind to beat Trump, so their votes were spli
 thus clearing the way for Trump to take the nomination. I believe that if voters were able to vote in that primary
 using RCV, many would have ranked Trump last on their ballot (I&#39;m thinking of the &amp;quot;never Trumpers&amp;quot;) and perhaps a
 candidate that was actually preferred by a majority of Republican voters would&#39;ve been nominated instead.&lt;/p&gt;
-&lt;p&gt;Another cool thing about RCV is that primaries themselves are actually unnecessary.&lt;a href=&quot;#footnote-4&quot; class=&quot;footnote&quot;&gt;[4]&lt;/a&gt;
+&lt;p&gt;Another cool thing about RCV is that primaries themselves are actually unnecessary.&lt;a href=&quot;https://ajenkins.me/post/rcv/#footnote-4&quot; class=&quot;footnote&quot;&gt;[4]&lt;/a&gt;
 If you&#39;ve ever wondered why we
 have to have primary elections before the main election, the main reason is because if multiple candidates from
 the same party ran against each other in the main election, the vote would be split across all of the candidates in
@@ -146,7 +146,7 @@ to their true preferences and feel confident that their vote will automatically 
 who is capable of winning.&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;The country is more divided than ever&lt;/strong&gt; - I actually don&#39;t believe this is true. I think that most of the
 country falls somewhere in the middle on most issues, but people are forced to pick a side in the battle
-between Democrats and Republicans which makes us feel divided.&lt;a href=&quot;#footnote-5&quot; class=&quot;footnote&quot;&gt;[5]&lt;/a&gt;
+between Democrats and Republicans which makes us feel divided.&lt;a href=&quot;https://ajenkins.me/post/rcv/#footnote-5&quot; class=&quot;footnote&quot;&gt;[5]&lt;/a&gt;
 I know many Democrats who can&#39;t imagine how
 someone could have voted for Trump, but I bet that many Trump voters are more moderate than they might expect.
 I think many people voted for Trump, not because they support his agenda or even like him, but because they
@@ -175,7 +175,7 @@ also by ensuring that the representatives who get elected actually reflect the p
 &lt;p&gt;Thanks for reading, and if you live in MA I hope you vote YES on Choice 2 on November 3! If you&#39;d like to get
 involved with
 &lt;a href=&quot;https://www.yeson2rcv.com/&quot;&gt;the RCV campaign in MA, you can learn more here&lt;/a&gt;.&lt;/p&gt;
-&lt;hr&gt;
+&lt;hr /&gt;
 &lt;p id=&quot;footnote-1&quot;&gt;
 [1]: Technically RCV and plurality voting can be used for voting on anything, not just candidates.
      But for simplicity, I only mention voting on political representatives since that&#39;s what people
@@ -206,14 +206,14 @@ involved with
   <entry>
     <title>Doing It for the Likes</title>
     <link href="https://ajenkins.me/post/likes/" />
-    <updated>2020-09-27T12:00:00-04:00</updated>
+    <updated>2020-09-27T16:00:00Z</updated>
     <id>https://ajenkins.me/post/likes/</id>
     <content type="html">&lt;h2&gt;Rewinding to 2007&lt;/h2&gt;
 &lt;p&gt;This is the story of the first and hopefully last time in my life I did something just to get
 approval from strangers on the internet.&lt;/p&gt;
 &lt;p&gt;In 2007 I was 15 years old and Halo 3 was my favorite video game. The campaign mode wasn&#39;t great
 (especially compared to Halo 2),
-but it was the best multiplayer experience I had ever played.&lt;a href=&quot;#footnote-1&quot; class=&quot;footnote&quot;&gt;[1]&lt;/a&gt;
+but it was the best multiplayer experience I had ever played.&lt;a href=&quot;https://ajenkins.me/post/likes/#footnote-1&quot; class=&quot;footnote&quot;&gt;[1]&lt;/a&gt;
 I spent almost every afternoon after school playing local multiplayer with my friends, and I spent
 a bit of time playing online too. I was the worst player among my friends, but I still loved it.&lt;/p&gt;
 &lt;p&gt;Back in 2007, micro-transactions weren&#39;t a thing yet in video games, so the only way to unlock
@@ -221,7 +221,7 @@ stuff was by playing the game. In Halo 3 when it launched there wasn&#39;t much 
 could unlock a few different armor variants for your Spartan in multiplayer. However, there
 was one armor variant that you couldn&#39;t unlock just by playing the game: the Recon Armor.&lt;/p&gt;
 &lt;p&gt;
-    &lt;img src=&quot;https://ajenkins.me/static/6709cee2-640.png&quot; width=&quot;640&quot; alt=&quot;Halo 3 Recon Armor variant&quot;&gt;
+    &lt;img src=&quot;https://ajenkins.me/static/-Fn2TSAgt6-640.png&quot; width=&quot;640&quot; alt=&quot;Halo 3 Recon Armor variant&quot; /&gt;
     &lt;a href=&quot;https://halo.fandom.com/wiki/Mjolnir_Powered_Assault_Armor/R_variant?file=ReconArmor.png&quot;&gt;
         Image source
     &lt;/a&gt;
@@ -268,7 +268,7 @@ traction on the internet, Bungie would see my work and grant me Recon Armor.&lt;
 in the game. I don&#39;t think I was the first person with this concept, but I remember my version
 being better than anything else I had seen.&lt;/p&gt;
 &lt;p&gt;
-    &lt;img src=&quot;https://ajenkins.me/static/fc4741bb-640.jpeg&quot; width=&quot;640&quot; alt=&quot;My recreation of the Halo 3 logo in Forge&quot;&gt;
+    &lt;img src=&quot;https://ajenkins.me/static/pT5p3d9TWH-640.jpeg&quot; width=&quot;640&quot; alt=&quot;My recreation of the Halo 3 logo in Forge&quot; /&gt;
 &lt;/p&gt;
 &lt;p&gt;It took about two days to make (less than 10 hrs). I used the box that the game came in as a reference
 and dropped the weapons wherever I thought they would look good. My younger brother was helping me by controlling
@@ -332,7 +332,7 @@ I tried to complete the challenges. But in 2012 another update for the game was 
 the Recon Armor to &lt;em&gt;all&lt;/em&gt; players. But since my obsession with the armor stemmed only from its
 exclusivity and not the actual aesthetics, I don&#39;t think I even used the Recon Armor at that point.
 I had moved on to caring about other things.&lt;/p&gt;
-&lt;hr&gt;
+&lt;hr /&gt;
 &lt;p id=&quot;footnote-1&quot;&gt;
 [1]: Not only did Halo 3 have the best multiplayer of any Halo game yet, but I think
      it has the best multiplayer of any Halo game ever made. To this day, my friends
@@ -343,14 +343,14 @@ I had moved on to caring about other things.&lt;/p&gt;
   <entry>
     <title>Why I don&#39;t have analytics on my website</title>
     <link href="https://ajenkins.me/post/analytics/" />
-    <updated>2020-10-04T12:00:00-04:00</updated>
+    <updated>2020-10-04T16:00:00Z</updated>
     <id>https://ajenkins.me/post/analytics/</id>
     <content type="html">&lt;p&gt;Originally I was planning on writing a blog post about how I chose &amp;quot;X&amp;quot; service
 for analytics on my website. I was going to go over the pros and cons of each service
 I considered and then dramatically tell you the one, best web analytics service.&lt;/p&gt;
 &lt;p&gt;But after a lot of thought, I made the unconventional decision to not use any
 analytics service &lt;em&gt;at all&lt;/em&gt; for my website. I haven&#39;t heard of anyone else who&#39;s
-done this, so I decided to write why &lt;em&gt;I&lt;/em&gt; decided to do this.&lt;a href=&quot;#footnote-1&quot; class=&quot;footnote&quot;&gt;[1]&lt;/a&gt;&lt;/p&gt;
+done this, so I decided to write why &lt;em&gt;I&lt;/em&gt; decided to do this.&lt;a href=&quot;https://ajenkins.me/post/analytics/#footnote-1&quot; class=&quot;footnote&quot;&gt;[1]&lt;/a&gt;&lt;/p&gt;
 &lt;h2&gt;Wait, what do you mean &amp;quot;analytics&amp;quot;?&lt;/h2&gt;
 &lt;p&gt;&lt;em&gt;If the title of my post is self-explanatory to you, feel free to skip this section.&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;So, here&#39;s the deal: on basically every single website you visit
@@ -360,11 +360,11 @@ referred from, and what they click on in each page.&lt;/p&gt;
 &lt;p&gt;By far, the most popular user analytics tool is Google Analytics.
 Not only is Google Analytics one of the most advanced user analytics tools available,
 it&#39;s also very easy to set up and completely free
-(at least the basic version).&lt;a href=&quot;#footnote-2&quot; class=&quot;footnote&quot;&gt;[2]&lt;/a&gt;
+(at least the basic version).&lt;a href=&quot;https://ajenkins.me/post/analytics/#footnote-2&quot; class=&quot;footnote&quot;&gt;[2]&lt;/a&gt;
 Google makes this free because when a website uses Google Analytics, they agree
 to share all of their usage data and traffic patterns with Google, and the more Google
 knows about how people use the internet,
-the better they can serve targeted ads.&lt;a href=&quot;#footnote-3&quot; class=&quot;footnote&quot;&gt;[3]&lt;/a&gt;
+the better they can serve targeted ads.&lt;a href=&quot;https://ajenkins.me/post/analytics/#footnote-3&quot; class=&quot;footnote&quot;&gt;[3]&lt;/a&gt;
 One cool/creepy feature of Google Analytics is it gives you very detailed information
 about the demographics of your users. It will show you the age, gender, and location
 of everyone who visits your website. It can even show you what types of things they&#39;re
@@ -397,7 +397,7 @@ you about how they share your data with third-parties and give you the option to
 &lt;p&gt;The passage of GDPR is the reason that all websites you visit now have that annoying
 banner at the bottom with some fine print about sharing data with third-parties
 and a giant button that usually says ACCEPT ALL COOKIES, which most people click because
-it&#39;s the easiest way to make it go away.&lt;a href=&quot;#footnote-4&quot; class=&quot;footnote&quot;&gt;[4]&lt;/a&gt;&lt;/p&gt;
+it&#39;s the easiest way to make it go away.&lt;a href=&quot;https://ajenkins.me/post/analytics/#footnote-4&quot; class=&quot;footnote&quot;&gt;[4]&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Ok, that&#39;s pretty much everything you need to know about web analytics. Now I&#39;ll
 explain why I decided not to add analytics to my website. Before that though,
 I&#39;ll briefly go over why I would even want analytics on my personal blog to begin with.&lt;/p&gt;
@@ -538,7 +538,7 @@ data-driven decisions on the best way to improve their website, product, or serv
 And that&#39;s something that no analytics tool can help me with.&lt;/p&gt;
 &lt;h4&gt;&lt;em&gt;Closing-closing thought&lt;/em&gt;&lt;/h4&gt;
 &lt;p&gt;Actually, this post &lt;em&gt;is&lt;/em&gt; a rallying-cry against something. Cookie banners. Cookie banners suck 😅&lt;/p&gt;
-&lt;hr&gt;
+&lt;hr /&gt;
 &lt;p id=&quot;footnote-1&quot;&gt;
 [1]: I&#39;m sure there are plenty of other websites that don&#39;t use analytics.
      I just don&#39;t know of any, and I&#39;ve definitely never read a justification
@@ -572,9 +572,9 @@ And that&#39;s something that no analytics tool can help me with.&lt;/p&gt;
   <entry>
     <title>Achieving a perfect PageSpeed score with Eleventy</title>
     <link href="https://ajenkins.me/post/pagespeed_with_eleventy/" />
-    <updated>2020-10-11T15:34:00-04:00</updated>
+    <updated>2020-10-11T19:34:00Z</updated>
     <id>https://ajenkins.me/post/pagespeed_with_eleventy/</id>
-    <content type="html">&lt;img src=&quot;https://ajenkins.me/static/6fed538b-640.jpeg&quot; width=&quot;640&quot; alt=&quot;PageSpeed score increased from 86 to 100&quot;&gt;
+    <content type="html">&lt;img src=&quot;https://ajenkins.me/static/DxnTR_YnTi-640.jpeg&quot; width=&quot;640&quot; alt=&quot;PageSpeed score increased from 86 to 100&quot; /&gt;
 &lt;p&gt;&lt;strong&gt;Update:&lt;/strong&gt; I decided to rewrite this post as a guide instead of a story. If you want
 the full story of how I improved the performance of my website, keep reading. But if
 you just want the quick tips on how to make your Eleventy website faster,
@@ -582,7 +582,7 @@ you just want the quick tips on how to make your Eleventy website faster,
 &lt;h2&gt;Intro&lt;/h2&gt;
 &lt;p&gt;As a web developer, I was feeling a little guilty about the performance of my blog.
 Just so we&#39;re on the same page, when I&#39;m talking about &amp;quot;performance&amp;quot; in this post,
-I&#39;m referring to how quickly the page loads.&lt;a href=&quot;#footnote-1&quot; class=&quot;footnote&quot;&gt;[1]&lt;/a&gt;&lt;/p&gt;
+I&#39;m referring to how quickly the page loads.&lt;a href=&quot;https://ajenkins.me/post/pagespeed_with_eleventy/#footnote-1&quot; class=&quot;footnote&quot;&gt;[1]&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;My site was already pretty fast to begin with because of the tools I used to build
 my website, like a static-site generator (Eleventy), and a CDN for caching static assets (Netlify).
 I also don&#39;t use any client-side Javascript on my website or large CSS libraries like Bootstrap.
@@ -621,7 +621,7 @@ have the most room for improvement.&lt;/p&gt;
 &lt;p&gt;Here are my results for that page before I made any optimizations
 (all results are from the Mobile test):&lt;/p&gt;
 &lt;p&gt;
-&lt;img src=&quot;https://ajenkins.me/static/d2996866-640.jpeg&quot; width=&quot;640&quot; alt=&quot;A screenshot of my PageSpeed results before making any optimizations&quot;&gt;
+&lt;img src=&quot;https://ajenkins.me/static/zLPE7j-rfW-640.jpeg&quot; width=&quot;640&quot; alt=&quot;A screenshot of my PageSpeed results before making any optimizations&quot; /&gt;
 &lt;a href=&quot;https://ajenkins.me/static/PageSpeedInsights_before.pdf&quot; target=&quot;_blank&quot;&gt;View PDF of the full report&lt;/a&gt;
 &lt;/p&gt;
 &lt;p&gt;Not bad! As I expected, just by using a static site with only a few images and no CSS or JS,
@@ -767,7 +767,7 @@ Come on Apple, you&#39;re better than this. Don&#39;t have different features in
 which OS you&#39;re running. That&#39;s not how versions are supposed to work. Just give the versions different names,
 like 14.0-catalina and 14.0-bigsur or something 😞&lt;/p&gt;
 &lt;p&gt;Anyway, after all of that, I decided not to use WebP for any of my images until Mac OS Big Sur
-has been out for a while and most people have upgraded to it.&lt;a href=&quot;#footnote-2&quot; class=&quot;footnote&quot;&gt;[2]&lt;/a&gt;&lt;/p&gt;
+has been out for a while and most people have upgraded to it.&lt;a href=&quot;https://ajenkins.me/post/pagespeed_with_eleventy/#footnote-2&quot; class=&quot;footnote&quot;&gt;[2]&lt;/a&gt;&lt;/p&gt;
 &lt;h2&gt;Defer offscreen images&lt;/h2&gt;
 &lt;p&gt;This sounded hard, so I decided not to do it. Next!&lt;/p&gt;
 &lt;h2&gt;Fixing all of the YouTube-induced performance issues&lt;/h2&gt;
@@ -796,7 +796,7 @@ was an issue with Safari, not YouTube or the plugin I was using.&lt;/p&gt;
 &lt;a href=&quot;https://github.com/ajenkins/blog/commit/a9fbd3dc1&quot;&gt;the commit where I implemented this change here&lt;/a&gt;.&lt;/p&gt;
 &lt;h2&gt;Results&lt;/h2&gt;
 &lt;p&gt;
-&lt;img src=&quot;https://ajenkins.me/static/acee735b-640.jpeg&quot; width=&quot;640&quot; alt=&quot;A screenshot of my PageSpeed results after making all of the above optimizations&quot;&gt;
+&lt;img src=&quot;https://ajenkins.me/static/VIHOXKO8Kf-640.jpeg&quot; width=&quot;640&quot; alt=&quot;A screenshot of my PageSpeed results after making all of the above optimizations&quot; /&gt;
 &lt;a href=&quot;https://ajenkins.me/static/PageSpeedInsights_after.pdf&quot; target=&quot;_blank&quot;&gt;View PDF of the full report&lt;/a&gt;
 &lt;/p&gt;
 &lt;p&gt;Booyah! Perfect score! Improvements in all metrics across the board, except for Cumulative Layout Shift
@@ -832,7 +832,7 @@ contained files regardless of file type, use the &lt;code&gt;addPassthroughCopy&
 &lt;p&gt;&lt;a href=&quot;https://github.com/ajenkins/blog/blob/master/.eleventy.js&quot;&gt;You can see how I use it in my .eleventy.js file here&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;Ta da! Adding that one line fixed my YouTube problem &lt;em&gt;and&lt;/em&gt; resolved other issues too, like
 some of my favicon files not being copied over correctly 🎉&lt;/p&gt;
-&lt;hr&gt;
+&lt;hr /&gt;
 &lt;p id=&quot;footnote-1&quot;&gt;
 [1]: There&#39;s actually a bit more to website performance than just how fast the page loads.
      That&#39;s certainly one important metric, but there are other things to consider too, like
@@ -853,7 +853,7 @@ some of my favicon files not being copied over correctly 🎉&lt;/p&gt;
   <entry>
     <title>Three simple tricks for a lightning-fast Eleventy website</title>
     <link href="https://ajenkins.me/post/three_tricks_for_eleventy_speed/" />
-    <updated>2020-10-12T09:44:00-04:00</updated>
+    <updated>2020-10-12T13:44:00Z</updated>
     <id>https://ajenkins.me/post/three_tricks_for_eleventy_speed/</id>
     <content type="html">&lt;p&gt;Originally I wrote this guide as a story, but I thought some people would prefer a condensed
 version that just teaches you the three tricks I used for making my website faster. If you&#39;d
@@ -892,7 +892,7 @@ issues I was seeing in my PageSpeed Insights report.&lt;/p&gt;
 &lt;p&gt;The documentation for the plugin is really good, and I didn&#39;t have any issues getting it
 to work, but if you really want to see the code I used, here it is
 (&lt;a href=&quot;https://github.com/ajenkins/blog/blob/master/.eleventy.js&quot;&gt;full code on Github&lt;/a&gt;):&lt;/p&gt;
-&lt;pre class=&quot;language-js&quot;&gt;&lt;code class=&quot;language-js&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; embedYouTube &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;require&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&#39;eleventy-plugin-youtube-embed&#39;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;br&gt;&lt;br&gt;module&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function-variable function&quot;&gt;exports&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token parameter&quot;&gt;eleventyConfig&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;&lt;br&gt;&lt;br&gt;    &lt;span class=&quot;token comment&quot;&gt;// Lots of other configuration stuff here...&lt;/span&gt;&lt;br&gt;&lt;br&gt;    eleventyConfig&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;addPlugin&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;embedYouTube&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;&lt;br&gt;        lite&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token boolean&quot;&gt;true&lt;/span&gt;&lt;br&gt;    &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;br&gt;&lt;br&gt;    &lt;span class=&quot;token keyword&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;&lt;br&gt;        &lt;span class=&quot;token comment&quot;&gt;// No need to make any changes here&lt;/span&gt;&lt;br&gt;    &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;pre class=&quot;language-js&quot;&gt;&lt;code class=&quot;language-js&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; embedYouTube &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;require&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&#39;eleventy-plugin-youtube-embed&#39;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;br /&gt;&lt;br /&gt;module&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function-variable function&quot;&gt;exports&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token parameter&quot;&gt;eleventyConfig&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;&lt;br /&gt;&lt;br /&gt;    &lt;span class=&quot;token comment&quot;&gt;// Lots of other configuration stuff here...&lt;/span&gt;&lt;br /&gt;&lt;br /&gt;    eleventyConfig&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;addPlugin&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;embedYouTube&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;&lt;br /&gt;        lite&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token boolean&quot;&gt;true&lt;/span&gt;&lt;br /&gt;    &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;br /&gt;&lt;br /&gt;    &lt;span class=&quot;token keyword&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;&lt;br /&gt;        &lt;span class=&quot;token comment&quot;&gt;// No need to make any changes here&lt;/span&gt;&lt;br /&gt;    &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;br /&gt;&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;(I actually decided to host the lite JS and CSS files myself, so this isn&#39;t exactly what my config
 looks like. For more info, see my Bonus Trick at the end of this post.)&lt;/p&gt;
 &lt;h2&gt;Resizing images (@11ty/eleventy-img)&lt;/h2&gt;
@@ -949,10 +949,10 @@ to use Nunjucks for parsing your Markdown templates.
 &lt;a href=&quot;https://www.11ty.dev/docs/config/#default-template-engine-for-markdown-files&quot;&gt;Here&#39;s the official doc&lt;/a&gt;
 on how to configure that. If it&#39;s not clear from the docs, you need to add a new property
 to the return object in your Eleventy config function. Like this:&lt;/p&gt;
-&lt;pre class=&quot;language-js&quot;&gt;&lt;code class=&quot;language-js&quot;&gt;module&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function-variable function&quot;&gt;exports&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token parameter&quot;&gt;eleventyConfig&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;&lt;br&gt;&lt;br&gt;    &lt;span class=&quot;token comment&quot;&gt;// Lots of other configuration stuff here...&lt;/span&gt;&lt;br&gt;&lt;br&gt;    &lt;span class=&quot;token keyword&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;&lt;br&gt;        &lt;span class=&quot;token comment&quot;&gt;// Enables the use of Nunjucks shortcodes within Markdown&lt;/span&gt;&lt;br&gt;        markdownTemplateEngine&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&#39;njk&#39;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;&lt;br&gt;        dir&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;&lt;br&gt;            &lt;span class=&quot;token comment&quot;&gt;// You don&#39;t need to change this part&lt;/span&gt;&lt;br&gt;        &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;br&gt;    &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;pre class=&quot;language-js&quot;&gt;&lt;code class=&quot;language-js&quot;&gt;module&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function-variable function&quot;&gt;exports&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token parameter&quot;&gt;eleventyConfig&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;&lt;br /&gt;&lt;br /&gt;    &lt;span class=&quot;token comment&quot;&gt;// Lots of other configuration stuff here...&lt;/span&gt;&lt;br /&gt;&lt;br /&gt;    &lt;span class=&quot;token keyword&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;&lt;br /&gt;        &lt;span class=&quot;token comment&quot;&gt;// Enables the use of Nunjucks shortcodes within Markdown&lt;/span&gt;&lt;br /&gt;        markdownTemplateEngine&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&#39;njk&#39;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;&lt;br /&gt;        dir&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;&lt;br /&gt;            &lt;span class=&quot;token comment&quot;&gt;// You don&#39;t need to change this part&lt;/span&gt;&lt;br /&gt;        &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;br /&gt;    &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;br /&gt;&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;Then in your Markdown files you can use the &lt;code&gt;myImage&lt;/code&gt; shortcode, exactly the same
 way it&#39;s used in the examples in the plugin README. Like so:&lt;/p&gt;
-&lt;pre class=&quot;language-markdown&quot;&gt;&lt;code class=&quot;language-markdown&quot;&gt;This will be interpreted as normal Markdown.&lt;br&gt;&lt;br&gt;&lt;span class=&quot;token comment&quot;&gt;&amp;lt;!-- Ignore the backslashes --&gt;&lt;/span&gt;&lt;br&gt;\{\% myImage &quot;./src/images/cat.jpg&quot;, &quot;photo of my cat&quot; \%\}&lt;br&gt;&lt;br&gt;This will &lt;span class=&quot;token italic&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;_&lt;/span&gt;&lt;span class=&quot;token content&quot;&gt;also&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;_&lt;/span&gt;&lt;/span&gt; be interpreted as normal Markdown.&lt;/code&gt;&lt;/pre&gt;
+&lt;pre class=&quot;language-markdown&quot;&gt;&lt;code class=&quot;language-markdown&quot;&gt;This will be interpreted as normal Markdown.&lt;br /&gt;&lt;br /&gt;&lt;span class=&quot;token comment&quot;&gt;&amp;lt;!-- Ignore the backslashes --&gt;&lt;/span&gt;&lt;br /&gt;\{\% myImage &quot;./src/images/cat.jpg&quot;, &quot;photo of my cat&quot; \%\}&lt;br /&gt;&lt;br /&gt;This will &lt;span class=&quot;token italic&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;_&lt;/span&gt;&lt;span class=&quot;token content&quot;&gt;also&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;_&lt;/span&gt;&lt;/span&gt; be interpreted as normal Markdown.&lt;/code&gt;&lt;/pre&gt;
 &lt;h3&gt;Converting your images to WebP&lt;/h3&gt;
 &lt;p&gt;I actually decided against this because Mac OS Safari doesn&#39;t support WebP images yet
 (they&#39;re adding support in Mac OS Big Sur which should be released soon). If you want
@@ -960,7 +960,7 @@ to be fancy, you can use a &amp;lt;picture&amp;gt; tag to load either a WebP or 
 format, depending on what the browser supports. I decided to keep things simple though
 and just use JPEG images for most things, and use PNGs for images that needed transparency.&lt;/p&gt;
 &lt;p&gt;But if you&#39;d rather use WebP images, here&#39;s how you set that in the config:&lt;/p&gt;
-&lt;pre class=&quot;language-js&quot;&gt;&lt;code class=&quot;language-js&quot;&gt;eleventyConfig&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;addNunjucksAsyncShortcode&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&#39;image&#39;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;async&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;br&gt;    src&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;&lt;br&gt;    alt&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;&lt;br&gt;    outputFormat &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&#39;webp&#39;&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;// This is the only line you have to change&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;&lt;br&gt;    &lt;span class=&quot;token keyword&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;alt &lt;span class=&quot;token operator&quot;&gt;===&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;undefined&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;&lt;br&gt;        &lt;span class=&quot;token keyword&quot;&gt;throw&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;token class-name&quot;&gt;Error&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token template-string&quot;&gt;&lt;span class=&quot;token template-punctuation string&quot;&gt;`&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;Missing \`alt\` on image from: &lt;/span&gt;&lt;span class=&quot;token interpolation&quot;&gt;&lt;span class=&quot;token interpolation-punctuation punctuation&quot;&gt;${&lt;/span&gt;src&lt;span class=&quot;token interpolation-punctuation punctuation&quot;&gt;}&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token template-punctuation string&quot;&gt;`&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;br&gt;    &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;br&gt;&lt;br&gt;    &lt;span class=&quot;token keyword&quot;&gt;let&lt;/span&gt; stats &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;await&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;Image&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;src&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;&lt;br&gt;        widths&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;640&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;&lt;br&gt;        formats&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;outputFormat&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;&lt;br&gt;        urlPath&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&#39;/static/&#39;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;&lt;br&gt;        outputDir&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&#39;./_output/static/&#39;&lt;/span&gt;&lt;br&gt;    &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;br&gt;&lt;br&gt;    &lt;span class=&quot;token keyword&quot;&gt;let&lt;/span&gt; props &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; stats&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;outputFormat&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;pop&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;br&gt;&lt;br&gt;    &lt;span class=&quot;token keyword&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;token template-string&quot;&gt;&lt;span class=&quot;token template-punctuation string&quot;&gt;`&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&amp;lt;img src=&quot;&lt;/span&gt;&lt;span class=&quot;token interpolation&quot;&gt;&lt;span class=&quot;token interpolation-punctuation punctuation&quot;&gt;${&lt;/span&gt;props&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;url&lt;span class=&quot;token interpolation-punctuation punctuation&quot;&gt;}&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot; width=&quot;&lt;/span&gt;&lt;span class=&quot;token interpolation&quot;&gt;&lt;span class=&quot;token interpolation-punctuation punctuation&quot;&gt;${&lt;/span&gt;props&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;width&lt;span class=&quot;token interpolation-punctuation punctuation&quot;&gt;}&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot; alt=&quot;&lt;/span&gt;&lt;span class=&quot;token interpolation&quot;&gt;&lt;span class=&quot;token interpolation-punctuation punctuation&quot;&gt;${&lt;/span&gt;alt&lt;span class=&quot;token interpolation-punctuation punctuation&quot;&gt;}&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;&gt;&lt;/span&gt;&lt;span class=&quot;token template-punctuation string&quot;&gt;`&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;pre class=&quot;language-js&quot;&gt;&lt;code class=&quot;language-js&quot;&gt;eleventyConfig&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;addNunjucksAsyncShortcode&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&#39;image&#39;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;async&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;br /&gt;    src&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;&lt;br /&gt;    alt&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;&lt;br /&gt;    outputFormat &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&#39;webp&#39;&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;// This is the only line you have to change&lt;/span&gt;&lt;br /&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;&lt;br /&gt;    &lt;span class=&quot;token keyword&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;alt &lt;span class=&quot;token operator&quot;&gt;===&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;undefined&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;&lt;br /&gt;        &lt;span class=&quot;token keyword&quot;&gt;throw&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;token class-name&quot;&gt;Error&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token template-string&quot;&gt;&lt;span class=&quot;token template-punctuation string&quot;&gt;`&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;Missing \`alt\` on image from: &lt;/span&gt;&lt;span class=&quot;token interpolation&quot;&gt;&lt;span class=&quot;token interpolation-punctuation punctuation&quot;&gt;${&lt;/span&gt;src&lt;span class=&quot;token interpolation-punctuation punctuation&quot;&gt;}&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token template-punctuation string&quot;&gt;`&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;br /&gt;    &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;br /&gt;&lt;br /&gt;    &lt;span class=&quot;token keyword&quot;&gt;let&lt;/span&gt; stats &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;await&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;Image&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;src&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;&lt;br /&gt;        widths&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;640&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;&lt;br /&gt;        formats&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;outputFormat&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;&lt;br /&gt;        urlPath&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&#39;/static/&#39;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;&lt;br /&gt;        outputDir&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&#39;./_output/static/&#39;&lt;/span&gt;&lt;br /&gt;    &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;br /&gt;&lt;br /&gt;    &lt;span class=&quot;token keyword&quot;&gt;let&lt;/span&gt; props &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; stats&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;outputFormat&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;pop&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;br /&gt;&lt;br /&gt;    &lt;span class=&quot;token keyword&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;token template-string&quot;&gt;&lt;span class=&quot;token template-punctuation string&quot;&gt;`&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&amp;lt;img src=&quot;&lt;/span&gt;&lt;span class=&quot;token interpolation&quot;&gt;&lt;span class=&quot;token interpolation-punctuation punctuation&quot;&gt;${&lt;/span&gt;props&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;url&lt;span class=&quot;token interpolation-punctuation punctuation&quot;&gt;}&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot; width=&quot;&lt;/span&gt;&lt;span class=&quot;token interpolation&quot;&gt;&lt;span class=&quot;token interpolation-punctuation punctuation&quot;&gt;${&lt;/span&gt;props&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;width&lt;span class=&quot;token interpolation-punctuation punctuation&quot;&gt;}&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot; alt=&quot;&lt;/span&gt;&lt;span class=&quot;token interpolation&quot;&gt;&lt;span class=&quot;token interpolation-punctuation punctuation&quot;&gt;${&lt;/span&gt;alt&lt;span class=&quot;token interpolation-punctuation punctuation&quot;&gt;}&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;&gt;&lt;/span&gt;&lt;span class=&quot;token template-punctuation string&quot;&gt;`&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;br /&gt;&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
 &lt;h3&gt;Making your images scale proportionally on mobile&lt;/h3&gt;
 &lt;p&gt;Using the &amp;lt;picture&amp;gt; tag, you can actually load a lower resolution image
 on mobile devices to save even more bandwidth. I decided not to bother with that though,
@@ -968,7 +968,7 @@ and just use a normal &amp;lt;img&amp;gt; tag and scale the image based on the w
 &lt;p&gt;The first time I tried this using the example code from the README, my images looked
 stretched when viewed on a mobile device. To fix it, all I had to do was remove
 the &lt;code&gt;height&lt;/code&gt; property from the &amp;lt;img&amp;gt; markup I was returning from the plugin function.&lt;/p&gt;
-&lt;pre class=&quot;language-js&quot;&gt;&lt;code class=&quot;language-js&quot;&gt;&lt;span class=&quot;token comment&quot;&gt;// Change this...&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;token keyword&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;token template-string&quot;&gt;&lt;span class=&quot;token template-punctuation string&quot;&gt;`&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&amp;lt;img src=&quot;&lt;/span&gt;&lt;span class=&quot;token interpolation&quot;&gt;&lt;span class=&quot;token interpolation-punctuation punctuation&quot;&gt;${&lt;/span&gt;props&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;url&lt;span class=&quot;token interpolation-punctuation punctuation&quot;&gt;}&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot; width=&quot;&lt;/span&gt;&lt;span class=&quot;token interpolation&quot;&gt;&lt;span class=&quot;token interpolation-punctuation punctuation&quot;&gt;${&lt;/span&gt;props&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;width&lt;span class=&quot;token interpolation-punctuation punctuation&quot;&gt;}&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot; alt=&quot;&lt;/span&gt;&lt;span class=&quot;token interpolation&quot;&gt;&lt;span class=&quot;token interpolation-punctuation punctuation&quot;&gt;${&lt;/span&gt;alt&lt;span class=&quot;token interpolation-punctuation punctuation&quot;&gt;}&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;&gt;&lt;/span&gt;&lt;span class=&quot;token template-punctuation string&quot;&gt;`&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;br&gt;&lt;br&gt;&lt;span class=&quot;token comment&quot;&gt;// To this.&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;token keyword&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;token template-string&quot;&gt;&lt;span class=&quot;token template-punctuation string&quot;&gt;`&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&amp;lt;img src=&quot;&lt;/span&gt;&lt;span class=&quot;token interpolation&quot;&gt;&lt;span class=&quot;token interpolation-punctuation punctuation&quot;&gt;${&lt;/span&gt;props&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;url&lt;span class=&quot;token interpolation-punctuation punctuation&quot;&gt;}&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot; width=&quot;&lt;/span&gt;&lt;span class=&quot;token interpolation&quot;&gt;&lt;span class=&quot;token interpolation-punctuation punctuation&quot;&gt;${&lt;/span&gt;props&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;width&lt;span class=&quot;token interpolation-punctuation punctuation&quot;&gt;}&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot; height=&quot;&lt;/span&gt;&lt;span class=&quot;token interpolation&quot;&gt;&lt;span class=&quot;token interpolation-punctuation punctuation&quot;&gt;${&lt;/span&gt;props&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;height&lt;span class=&quot;token interpolation-punctuation punctuation&quot;&gt;}&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot; alt=&quot;&lt;/span&gt;&lt;span class=&quot;token interpolation&quot;&gt;&lt;span class=&quot;token interpolation-punctuation punctuation&quot;&gt;${&lt;/span&gt;alt&lt;span class=&quot;token interpolation-punctuation punctuation&quot;&gt;}&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;&gt;&lt;/span&gt;&lt;span class=&quot;token template-punctuation string&quot;&gt;`&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;pre class=&quot;language-js&quot;&gt;&lt;code class=&quot;language-js&quot;&gt;&lt;span class=&quot;token comment&quot;&gt;// Change this...&lt;/span&gt;&lt;br /&gt;&lt;span class=&quot;token keyword&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;token template-string&quot;&gt;&lt;span class=&quot;token template-punctuation string&quot;&gt;`&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&amp;lt;img src=&quot;&lt;/span&gt;&lt;span class=&quot;token interpolation&quot;&gt;&lt;span class=&quot;token interpolation-punctuation punctuation&quot;&gt;${&lt;/span&gt;props&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;url&lt;span class=&quot;token interpolation-punctuation punctuation&quot;&gt;}&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot; width=&quot;&lt;/span&gt;&lt;span class=&quot;token interpolation&quot;&gt;&lt;span class=&quot;token interpolation-punctuation punctuation&quot;&gt;${&lt;/span&gt;props&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;width&lt;span class=&quot;token interpolation-punctuation punctuation&quot;&gt;}&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot; alt=&quot;&lt;/span&gt;&lt;span class=&quot;token interpolation&quot;&gt;&lt;span class=&quot;token interpolation-punctuation punctuation&quot;&gt;${&lt;/span&gt;alt&lt;span class=&quot;token interpolation-punctuation punctuation&quot;&gt;}&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;&gt;&lt;/span&gt;&lt;span class=&quot;token template-punctuation string&quot;&gt;`&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;br /&gt;&lt;br /&gt;&lt;span class=&quot;token comment&quot;&gt;// To this.&lt;/span&gt;&lt;br /&gt;&lt;span class=&quot;token keyword&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;token template-string&quot;&gt;&lt;span class=&quot;token template-punctuation string&quot;&gt;`&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&amp;lt;img src=&quot;&lt;/span&gt;&lt;span class=&quot;token interpolation&quot;&gt;&lt;span class=&quot;token interpolation-punctuation punctuation&quot;&gt;${&lt;/span&gt;props&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;url&lt;span class=&quot;token interpolation-punctuation punctuation&quot;&gt;}&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot; width=&quot;&lt;/span&gt;&lt;span class=&quot;token interpolation&quot;&gt;&lt;span class=&quot;token interpolation-punctuation punctuation&quot;&gt;${&lt;/span&gt;props&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;width&lt;span class=&quot;token interpolation-punctuation punctuation&quot;&gt;}&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot; height=&quot;&lt;/span&gt;&lt;span class=&quot;token interpolation&quot;&gt;&lt;span class=&quot;token interpolation-punctuation punctuation&quot;&gt;${&lt;/span&gt;props&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;height&lt;span class=&quot;token interpolation-punctuation punctuation&quot;&gt;}&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot; alt=&quot;&lt;/span&gt;&lt;span class=&quot;token interpolation&quot;&gt;&lt;span class=&quot;token interpolation-punctuation punctuation&quot;&gt;${&lt;/span&gt;alt&lt;span class=&quot;token interpolation-punctuation punctuation&quot;&gt;}&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;&gt;&lt;/span&gt;&lt;span class=&quot;token template-punctuation string&quot;&gt;`&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
 &lt;h2&gt;Inlining CSS (clean-css)&lt;/h2&gt;
 &lt;p&gt;My CSS file was already pretty small to begin with (1 kb), so originally I wasn&#39;t worried about it.
 But according to my PageSpeed report, the extra network request required to download my CSS file
@@ -1030,7 +1030,7 @@ some of my favicon files not being copied over correctly 🎉&lt;/p&gt;
   <entry>
     <title>Ranked Choice Voting: Why we lost in 2020</title>
     <link href="https://ajenkins.me/post/rcv_2020_loss/" />
-    <updated>2020-11-04T15:00:00-05:00</updated>
+    <updated>2020-11-04T20:00:00Z</updated>
     <id>https://ajenkins.me/post/rcv_2020_loss/</id>
     <content type="html">&lt;p&gt;If you haven&#39;t heard, the 2020 ballot initiative to use ranked choice voting (RCV) in Massachusetts
 has failed. The count isn&#39;t finalized yet, but roughly 45% voted for the measure,
@@ -1077,7 +1077,7 @@ that resulted in an unpopular governor. In 2010, Paul LePage was elected governo
 with only 38.1% of the vote due to a split election where he ran against four other
 candidates. And in 2014, he won re-election with only 48.2% of the vote. While in
 office his approval rating was only 41%, which was one of the lowest of any governor
-in the country.&lt;a href=&quot;#footnote-1&quot; class=&quot;footnote&quot;&gt;[1]&lt;/a&gt;&lt;/p&gt;
+in the country.&lt;a href=&quot;https://ajenkins.me/post/rcv_2020_loss/#footnote-1&quot; class=&quot;footnote&quot;&gt;[1]&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Having such an unpopular governor win two consecutive elections without majority
 support provided a simple narrative for ranked choice voting: if Maine had RCV,
 then they wouldn&#39;t have Paul LePage. So it&#39;s likely that RCV passing in Maine
@@ -1106,16 +1106,16 @@ imagine anyone you&#39;d rather see in power, then changing the voting system co
 make things worse. And boy are people happy with the politicians in MA: Charlie Baker&#39;s
 approval rating sits at 80% and he consistently had the highest
 approval rating of any governor in the US for nearly three
-years!&lt;a href=&quot;#footnote-2&quot; class=&quot;footnote&quot;&gt;[2]&lt;/a&gt;&lt;/p&gt;
+years!&lt;a href=&quot;https://ajenkins.me/post/rcv_2020_loss/#footnote-2&quot; class=&quot;footnote&quot;&gt;[2]&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;When you compare the favorability of Paul LePage in Maine with Charlie Baker,
 it makes total sense why more voters weren&#39;t itching for RCV in Massachusetts.
 Why adopt a new voting system when our current system is giving us wonderful politicians
-like Baker?&lt;a href=&quot;#footnote-3&quot; class=&quot;footnote&quot;&gt;[3]&lt;/a&gt;&lt;/p&gt;
+like Baker?&lt;a href=&quot;https://ajenkins.me/post/rcv_2020_loss/#footnote-3&quot; class=&quot;footnote&quot;&gt;[3]&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;I&#39;m still very much in favor of ranked choice voting, but I&#39;m skeptical that it can
 pass in a state unless there&#39;s deep dissatisfaction with their current politicians
 like there was in Maine. Perhaps we&#39;ll just have to wait for voters to realize the flaws with plurality voting
 before we can get traction for ranked choice voting. I just hope we can afford to wait.&lt;/p&gt;
-&lt;hr&gt;
+&lt;hr /&gt;
 &lt;p&gt;Sorry, but you&#39;ll have to make do with Wikipedia links.&lt;/p&gt;
 &lt;p id=&quot;footnote-1&quot;&gt;
 [1]: &lt;a href=&quot;https://en.wikipedia.org/wiki/Paul_LePage&quot;&gt;
@@ -1141,7 +1141,7 @@ before we can get traction for ranked choice voting. I just hope we can afford t
   <entry>
     <title>I&#39;m making a pandemic dating app, Part 1</title>
     <link href="https://ajenkins.me/post/making_a_dating_app/" />
-    <updated>2020-11-08T16:00:00-05:00</updated>
+    <updated>2020-11-08T21:00:00Z</updated>
     <id>https://ajenkins.me/post/making_a_dating_app/</id>
     <content type="html">&lt;p&gt;Well, technically I haven&#39;t started yet. But I plan to start building it soon.&lt;/p&gt;
 &lt;h2&gt;Why I&#39;m making a dating app now&lt;/h2&gt;
@@ -1226,7 +1226,7 @@ matches. But the bulk of those matches are &amp;quot;junk&amp;quot;. Most conver
 fizzle out and never lead to a date, or end when they&#39;re asked for the
 umpteenth time to &amp;quot;send nudes.&amp;quot;&lt;/p&gt;
 &lt;p&gt;And if you do manage to actually make it through the swiping-and-messaging
-tar pits&lt;a href=&quot;#footnote-1&quot; class=&quot;footnote&quot;&gt;[1]&lt;/a&gt;
+tar pits&lt;a href=&quot;https://ajenkins.me/post/making_a_dating_app/#footnote-1&quot; class=&quot;footnote&quot;&gt;[1]&lt;/a&gt;
 and go on a date, there&#39;s a high likelihood that the the person
 will turn out to not be as great as you had hoped. And now you&#39;ve wasted
 one of your precious free nights on that person.&lt;/p&gt;
@@ -1266,12 +1266,12 @@ it will address some of these problems. I&#39;ll link to it here once I&#39;ve w
 &lt;div class=&quot;email-signup-form&quot;&gt;
   &lt;p class=&quot;signup-form-message&quot;&gt;If you want to receive updates on the progress of the dating app or if you are interested in being an early user, enter your email address below. I&amp;#39;ll only contact you about the dating app.&lt;/p&gt;
   &lt;form name=&quot;dating_app_subscribers&quot; method=&quot;POST&quot; data-netlify=&quot;true&quot; netlify-honeypot=&quot;required&quot;&gt;
-    &lt;input type=&quot;text&quot; name=&quot;required&quot; tabindex=&quot;-1&quot; autocomplete=&quot;off&quot; id=&quot;required-control&quot;&gt;
-    &lt;input type=&quot;email&quot; name=&quot;email&quot; required=&quot;&quot; placeholder=&quot;address@email.com&quot;&gt;
-    &lt;input type=&quot;submit&quot; value=&quot;Sign Up&quot;&gt;
+    &lt;input type=&quot;text&quot; name=&quot;required&quot; tabindex=&quot;-1&quot; autocomplete=&quot;off&quot; id=&quot;required-control&quot; /&gt;
+    &lt;input type=&quot;email&quot; name=&quot;email&quot; required=&quot;&quot; placeholder=&quot;address@email.com&quot; /&gt;
+    &lt;input type=&quot;submit&quot; value=&quot;Sign Up&quot; /&gt;
   &lt;/form&gt;
 &lt;/div&gt;
-&lt;hr&gt;
+&lt;hr /&gt;
 &lt;p id=&quot;footnote-1&quot;&gt;
 [1]: Is the idea of a &lt;a href=&quot;https://en.wikipedia.org/wiki/Tar_pit&quot;&gt;&quot;tar pit&quot;&lt;/a&gt;
      a well-known metaphor? I don&#39;t know. But the idea is that it&#39;s a really sticky
@@ -1284,7 +1284,7 @@ it will address some of these problems. I&#39;ll link to it here once I&#39;ve w
   <entry>
     <title>New features: Comments and RSS feed</title>
     <link href="https://ajenkins.me/post/rss_and_comments/" />
-    <updated>2020-11-11T16:00:00-05:00</updated>
+    <updated>2020-11-11T21:00:00Z</updated>
     <id>https://ajenkins.me/post/rss_and_comments/</id>
     <content type="html">&lt;h2&gt;New features on the blog&lt;/h2&gt;
 &lt;h3&gt;Comments&lt;/h3&gt;
@@ -1336,7 +1336,7 @@ to a particular heading.&lt;/p&gt;
   <entry>
     <title>I&#39;m making a pandemic dating app, Part 2</title>
     <link href="https://ajenkins.me/post/making_a_dating_app_part2/" />
-    <updated>2020-11-27T15:15:00-05:00</updated>
+    <updated>2020-11-27T20:15:00Z</updated>
     <id>https://ajenkins.me/post/making_a_dating_app_part2/</id>
     <content type="html">&lt;p&gt;Sorry for the long wait since Part 1. In Part 2, I&#39;ll talk about the main features
 of the app and how it&#39;s different from existing dating apps (and hopefully better).
@@ -1357,7 +1357,7 @@ that &lt;span class=&quot;redacted&quot;&gt;XXXXXXX&lt;/span&gt; will offer a su
 over existing dating apps even when things go back to normal.&lt;/p&gt;
 &lt;h2&gt;How it works&lt;/h2&gt;
 &lt;p&gt;After you create your account, you&#39;re brought to a list of all users who match
-your preferences&lt;a href=&quot;#footnote-1&quot; class=&quot;footnote&quot;&gt;[1]&lt;/a&gt; and are currently
+your preferences&lt;a href=&quot;https://ajenkins.me/post/making_a_dating_app_part2/#footnote-1&quot; class=&quot;footnote&quot;&gt;[1]&lt;/a&gt; and are currently
 online. Rather than swiping through profiles one at a time, you&#39;ll
 scroll through a list of users.&lt;/p&gt;
 &lt;p&gt;When a user&#39;s profile catches your eye, just tap the 📞 button to start a video call with them 😱&lt;/p&gt;
@@ -1553,12 +1553,12 @@ you can subscribe to if you want to be notified when there&#39;s a new post.&lt;
 &lt;div class=&quot;email-signup-form&quot;&gt;
   &lt;p class=&quot;signup-form-message&quot;&gt;If you want to receive updates on the progress of the dating app or if you are interested in being an early user, enter your email address below. I&amp;#39;ll only contact you about the dating app.&lt;/p&gt;
   &lt;form name=&quot;dating_app_subscribers&quot; method=&quot;POST&quot; data-netlify=&quot;true&quot; netlify-honeypot=&quot;required&quot;&gt;
-    &lt;input type=&quot;text&quot; name=&quot;required&quot; tabindex=&quot;-1&quot; autocomplete=&quot;off&quot; id=&quot;required-control&quot;&gt;
-    &lt;input type=&quot;email&quot; name=&quot;email&quot; required=&quot;&quot; placeholder=&quot;address@email.com&quot;&gt;
-    &lt;input type=&quot;submit&quot; value=&quot;Sign Up&quot;&gt;
+    &lt;input type=&quot;text&quot; name=&quot;required&quot; tabindex=&quot;-1&quot; autocomplete=&quot;off&quot; id=&quot;required-control&quot; /&gt;
+    &lt;input type=&quot;email&quot; name=&quot;email&quot; required=&quot;&quot; placeholder=&quot;address@email.com&quot; /&gt;
+    &lt;input type=&quot;submit&quot; value=&quot;Sign Up&quot; /&gt;
   &lt;/form&gt;
 &lt;/div&gt;
-&lt;hr&gt;
+&lt;hr /&gt;
 &lt;p id=&quot;footnote-1&quot;&gt;
 [1]: Technically, the filter is actually a bit more specific than just the users
      who match your preferences. You&#39;ll only see the users that meet all of your
@@ -1575,7 +1575,7 @@ you can subscribe to if you want to be notified when there&#39;s a new post.&lt;
   <entry>
     <title>Review of AWS AppSync and Amplify in 2019</title>
     <link href="https://ajenkins.me/post/review_of_appsync_and_amplify/" />
-    <updated>2020-12-01T21:00:00-05:00</updated>
+    <updated>2020-12-02T02:00:00Z</updated>
     <id>https://ajenkins.me/post/review_of_appsync_and_amplify/</id>
     <content type="html">&lt;p&gt;&lt;strong&gt;UPDATE&lt;/strong&gt;: I&#39;m using Amplify just for authentication in my new app.
 You can find my updated opinion of Amplify at the end of &lt;a href=&quot;https://ajenkins.me/post/dating_app_update_1&quot;&gt;this post&lt;/a&gt;.&lt;/p&gt;
@@ -1662,7 +1662,7 @@ can read &lt;a href=&quot;https://ajenkins.me/post/backend_for_dating_app&quot;&
   <entry>
     <title>Building a modern API in 2020</title>
     <link href="https://ajenkins.me/post/backend_for_dating_app/" />
-    <updated>2020-12-02T22:00:00-05:00</updated>
+    <updated>2020-12-03T03:00:00Z</updated>
     <id>https://ajenkins.me/post/backend_for_dating_app/</id>
     <content type="html">&lt;h2&gt;Intro&lt;/h2&gt;
 &lt;p&gt;In 2020, you have more options than ever for building a backend API for your
@@ -2032,9 +2032,9 @@ Will I rue the day I decided to build my backend with Hasura? Let me know in the
 &lt;div class=&quot;email-signup-form&quot;&gt;
   &lt;p class=&quot;signup-form-message&quot;&gt;If you want to receive updates on the progress of the dating app or if you are interested in being an early user, enter your email address below. I&amp;#39;ll only contact you about the dating app.&lt;/p&gt;
   &lt;form name=&quot;dating_app_subscribers&quot; method=&quot;POST&quot; data-netlify=&quot;true&quot; netlify-honeypot=&quot;required&quot;&gt;
-    &lt;input type=&quot;text&quot; name=&quot;required&quot; tabindex=&quot;-1&quot; autocomplete=&quot;off&quot; id=&quot;required-control&quot;&gt;
-    &lt;input type=&quot;email&quot; name=&quot;email&quot; required=&quot;&quot; placeholder=&quot;address@email.com&quot;&gt;
-    &lt;input type=&quot;submit&quot; value=&quot;Sign Up&quot;&gt;
+    &lt;input type=&quot;text&quot; name=&quot;required&quot; tabindex=&quot;-1&quot; autocomplete=&quot;off&quot; id=&quot;required-control&quot; /&gt;
+    &lt;input type=&quot;email&quot; name=&quot;email&quot; required=&quot;&quot; placeholder=&quot;address@email.com&quot; /&gt;
+    &lt;input type=&quot;submit&quot; value=&quot;Sign Up&quot; /&gt;
   &lt;/form&gt;
 &lt;/div&gt;
 </content>
@@ -2043,7 +2043,7 @@ Will I rue the day I decided to build my backend with Hasura? Let me know in the
   <entry>
     <title>Dating App: Progress Update 1</title>
     <link href="https://ajenkins.me/post/dating_app_update_1/" />
-    <updated>2020-12-27T09:00:00-05:00</updated>
+    <updated>2020-12-27T14:00:00Z</updated>
     <id>https://ajenkins.me/post/dating_app_update_1/</id>
     <content type="html">&lt;p&gt;In &lt;a href=&quot;https://ajenkins.me/post/backend_for_dating_app&quot;&gt;my last post&lt;/a&gt;
 I talked about some of the technologies that I was planning
@@ -2071,7 +2071,7 @@ instructions on how to use Amplfiy with an app managed with Expo, which I was us
 in the beginning until I had to eject (more on ejecting later).
 Also, you can now
 use Amplify just for one function, like auth, and you don&#39;t need to use Amplify
-for your API if you don&#39;t want to.&lt;a href=&quot;#footnote-1&quot; class=&quot;footnote&quot;&gt;[1]&lt;/a&gt;
+for your API if you don&#39;t want to.&lt;a href=&quot;https://ajenkins.me/post/dating_app_update_1/#footnote-1&quot; class=&quot;footnote&quot;&gt;[1]&lt;/a&gt;
 I go into more detail about my experience using Amplify at the end of this post.&lt;/p&gt;
 &lt;h2&gt;The frontend&lt;/h2&gt;
 &lt;p&gt;Once I got the backend working, the next step was to build the mobile app
@@ -2088,19 +2088,19 @@ to the bare workflow, which was an educational experience. You can
 read about my experience ejecting at the end of this post.&lt;/p&gt;
 &lt;h2&gt;The app&lt;/h2&gt;
 &lt;p&gt;
-    &lt;img src=&quot;https://ajenkins.me/static/b87c7d1e-640.png&quot; width=&quot;640&quot; alt=&quot;Sign-up/Log-in screen&quot;&gt;
+    &lt;img src=&quot;https://ajenkins.me/static/unPmL841LL-640.png&quot; width=&quot;640&quot; alt=&quot;Sign-up/Log-in screen&quot; /&gt;
     &lt;em&gt;The first screen you&#39;ll see when you open the app.&lt;/em&gt;
 &lt;/p&gt;
 &lt;p&gt;
-    &lt;img src=&quot;https://ajenkins.me/static/a2e9e557-640.png&quot; width=&quot;640&quot; alt=&quot;Log-in screen&quot;&gt;
+    &lt;img src=&quot;https://ajenkins.me/static/47YSuKzsJ1-640.png&quot; width=&quot;640&quot; alt=&quot;Log-in screen&quot; /&gt;
     &lt;em&gt;You sign in using a phone number and password. No email required.&lt;/em&gt;
 &lt;/p&gt;
 &lt;p&gt;
-    &lt;img src=&quot;https://ajenkins.me/static/fd21ebd4-640.png&quot; width=&quot;640&quot; alt=&quot;Profile screen&quot;&gt;
+    &lt;img src=&quot;https://ajenkins.me/static/AoUBNVihMC-640.png&quot; width=&quot;640&quot; alt=&quot;Profile screen&quot; /&gt;
     &lt;em&gt;On this tab, you can see your profile information. There&#39;s no way to edit it yet.&lt;/em&gt;
 &lt;/p&gt;
 &lt;p&gt;
-    &lt;img src=&quot;https://ajenkins.me/static/fcb4e0e6-640.png&quot; width=&quot;640&quot; alt=&quot;Online users screen&quot;&gt;
+    &lt;img src=&quot;https://ajenkins.me/static/rPObi5B8Qx-640.png&quot; width=&quot;640&quot; alt=&quot;Online users screen&quot; /&gt;
     &lt;em&gt;
         Here you can see all of the currently online users (including yourself).
         This is real and dynamically updates.
@@ -2153,7 +2153,7 @@ that updates that time with the current time. I made a custom
 hook to do handle this. To use the hook, I just call
 &lt;code&gt;useKeepAlive()&lt;/code&gt; with no arguments inside of &lt;code&gt;&amp;lt;ApolloProvider&amp;gt;&lt;/code&gt;.&lt;/p&gt;
 &lt;p&gt;Here&#39;s the code for my custom hook:&lt;/p&gt;
-&lt;pre class=&quot;language-js&quot;&gt;&lt;code class=&quot;language-js&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt; useEffect &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&#39;react&#39;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;token keyword&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt; useMutation&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; gql &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&#39;@apollo/client&#39;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;br&gt;&lt;br&gt;&lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; &lt;span class=&quot;token constant&quot;&gt;UPDATE_LAST_SEEN&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; gql&lt;span class=&quot;token template-string&quot;&gt;&lt;span class=&quot;token template-punctuation string&quot;&gt;`&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&lt;br&gt;  mutation UpdateBasicProfile($userId: uuid!, $now: timestamptz) {&lt;br&gt;    update_users(where: { id: { _eq: $userId } }, _set: { last_seen: $now }) {&lt;br&gt;      returning {&lt;br&gt;        last_seen&lt;br&gt;      }&lt;br&gt;    }&lt;br&gt;  }&lt;br&gt;&lt;/span&gt;&lt;span class=&quot;token template-punctuation string&quot;&gt;`&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;br&gt;&lt;br&gt;&lt;span class=&quot;token keyword&quot;&gt;export&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;default&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;useKeepAlive&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token parameter&quot;&gt;user&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;&lt;br&gt;  &lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; now &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;token class-name&quot;&gt;Date&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;br&gt;  &lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; userId &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; user&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;username&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;br&gt;  &lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;keepAlive&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt; error&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; data &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;useMutation&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token constant&quot;&gt;UPDATE_LAST_SEEN&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;&lt;br&gt;    variables&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt; userId&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; now &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;br&gt;  &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;br&gt;&lt;br&gt;  &lt;span class=&quot;token function&quot;&gt;useEffect&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&gt;&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;&lt;br&gt;    &lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; timer &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;setInterval&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&gt;&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;keepAlive&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;15000&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;br&gt;    &lt;span class=&quot;token keyword&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&gt;&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;clearInterval&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;timer&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;br&gt;  &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;br&gt;&lt;br&gt;  &lt;span class=&quot;token keyword&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;data&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;&lt;br&gt;    console&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;I&#39;m still alive&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;br&gt;  &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;br&gt;&lt;br&gt;  &lt;span class=&quot;token keyword&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;error&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;&lt;br&gt;    console&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;warn&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&#39;Error updating last_seen:&#39;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; error&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;message&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;br&gt;  &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;pre class=&quot;language-js&quot;&gt;&lt;code class=&quot;language-js&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt; useEffect &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&#39;react&#39;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;br /&gt;&lt;span class=&quot;token keyword&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt; useMutation&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; gql &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&#39;@apollo/client&#39;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;br /&gt;&lt;br /&gt;&lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; &lt;span class=&quot;token constant&quot;&gt;UPDATE_LAST_SEEN&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; gql&lt;span class=&quot;token template-string&quot;&gt;&lt;span class=&quot;token template-punctuation string&quot;&gt;`&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&lt;br /&gt;  mutation UpdateBasicProfile($userId: uuid!, $now: timestamptz) {&lt;br /&gt;    update_users(where: { id: { _eq: $userId } }, _set: { last_seen: $now }) {&lt;br /&gt;      returning {&lt;br /&gt;        last_seen&lt;br /&gt;      }&lt;br /&gt;    }&lt;br /&gt;  }&lt;br /&gt;&lt;/span&gt;&lt;span class=&quot;token template-punctuation string&quot;&gt;`&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;br /&gt;&lt;br /&gt;&lt;span class=&quot;token keyword&quot;&gt;export&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;default&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;useKeepAlive&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token parameter&quot;&gt;user&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;&lt;br /&gt;  &lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; now &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;token class-name&quot;&gt;Date&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;br /&gt;  &lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; userId &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; user&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;username&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;br /&gt;  &lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;keepAlive&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt; error&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; data &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;useMutation&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token constant&quot;&gt;UPDATE_LAST_SEEN&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;&lt;br /&gt;    variables&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt; userId&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; now &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;br /&gt;  &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;br /&gt;&lt;br /&gt;  &lt;span class=&quot;token function&quot;&gt;useEffect&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&gt;&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;&lt;br /&gt;    &lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; timer &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;setInterval&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&gt;&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;keepAlive&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;15000&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;br /&gt;    &lt;span class=&quot;token keyword&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&gt;&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;clearInterval&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;timer&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;br /&gt;  &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;br /&gt;&lt;br /&gt;  &lt;span class=&quot;token keyword&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;data&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;&lt;br /&gt;    console&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;I&#39;m still alive&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;br /&gt;  &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;br /&gt;&lt;br /&gt;  &lt;span class=&quot;token keyword&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;error&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;&lt;br /&gt;    console&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;warn&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&#39;Error updating last_seen:&#39;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; error&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;message&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;br /&gt;  &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;br /&gt;&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;Then in the Online Users tab, I query the list of all users
 filtered down to people who were last seen in the last 30 seconds.
 Originally I was going to set up a subscription to the users object
@@ -2190,12 +2190,12 @@ using &lt;a href=&quot;https://github.com/react-native-webrtc/react-native-webrt
 &lt;div class=&quot;email-signup-form&quot;&gt;
   &lt;p class=&quot;signup-form-message&quot;&gt;If you want to receive updates on the progress of the dating app or if you are interested in being an early user, enter your email address below. I&amp;#39;ll only contact you about the dating app.&lt;/p&gt;
   &lt;form name=&quot;dating_app_subscribers&quot; method=&quot;POST&quot; data-netlify=&quot;true&quot; netlify-honeypot=&quot;required&quot;&gt;
-    &lt;input type=&quot;text&quot; name=&quot;required&quot; tabindex=&quot;-1&quot; autocomplete=&quot;off&quot; id=&quot;required-control&quot;&gt;
-    &lt;input type=&quot;email&quot; name=&quot;email&quot; required=&quot;&quot; placeholder=&quot;address@email.com&quot;&gt;
-    &lt;input type=&quot;submit&quot; value=&quot;Sign Up&quot;&gt;
+    &lt;input type=&quot;text&quot; name=&quot;required&quot; tabindex=&quot;-1&quot; autocomplete=&quot;off&quot; id=&quot;required-control&quot; /&gt;
+    &lt;input type=&quot;email&quot; name=&quot;email&quot; required=&quot;&quot; placeholder=&quot;address@email.com&quot; /&gt;
+    &lt;input type=&quot;submit&quot; value=&quot;Sign Up&quot; /&gt;
   &lt;/form&gt;
 &lt;/div&gt;
-&lt;hr&gt;
+&lt;hr /&gt;
 &lt;h2&gt;Bonus 1: Mini-review of Amplify in 2020&lt;/h2&gt;
 &lt;p&gt;My updated perspective on Amplify is that it&#39;s gotten much better since 2019,
 but still feels like a beta product. I got stuck almost immediately
@@ -2306,12 +2306,12 @@ workflow, so this is yet another reason to avoid ejecting if you can.&lt;/p&gt;
 &lt;div class=&quot;email-signup-form&quot;&gt;
   &lt;p class=&quot;signup-form-message&quot;&gt;If you want to receive updates on the progress of the dating app or if you are interested in being an early user, enter your email address below. I&amp;#39;ll only contact you about the dating app.&lt;/p&gt;
   &lt;form name=&quot;dating_app_subscribers&quot; method=&quot;POST&quot; data-netlify=&quot;true&quot; netlify-honeypot=&quot;required&quot;&gt;
-    &lt;input type=&quot;text&quot; name=&quot;required&quot; tabindex=&quot;-1&quot; autocomplete=&quot;off&quot; id=&quot;required-control&quot;&gt;
-    &lt;input type=&quot;email&quot; name=&quot;email&quot; required=&quot;&quot; placeholder=&quot;address@email.com&quot;&gt;
-    &lt;input type=&quot;submit&quot; value=&quot;Sign Up&quot;&gt;
+    &lt;input type=&quot;text&quot; name=&quot;required&quot; tabindex=&quot;-1&quot; autocomplete=&quot;off&quot; id=&quot;required-control&quot; /&gt;
+    &lt;input type=&quot;email&quot; name=&quot;email&quot; required=&quot;&quot; placeholder=&quot;address@email.com&quot; /&gt;
+    &lt;input type=&quot;submit&quot; value=&quot;Sign Up&quot; /&gt;
   &lt;/form&gt;
 &lt;/div&gt;
-&lt;hr&gt;
+&lt;hr /&gt;
 &lt;p id=&quot;footnote-1&quot;&gt;
 [1]: Maybe it was always possible to use Amplify just for auth,
      but at the very least, they&#39;ve definitely made this much clearer in the UI now.
@@ -2322,9 +2322,9 @@ workflow, so this is yet another reason to avoid ejecting if you can.&lt;/p&gt;
   <entry>
     <title>Dating App: Alpha Preview</title>
     <link href="https://ajenkins.me/post/dating_app_alpha_preview/" />
-    <updated>2021-01-25T21:00:00-05:00</updated>
+    <updated>2021-01-26T02:00:00Z</updated>
     <id>https://ajenkins.me/post/dating_app_alpha_preview/</id>
-    <content type="html">&lt;p&gt;Sorry for the extended hiatus.&lt;a href=&quot;#footnote-1&quot; class=&quot;footnote&quot;&gt;[1]&lt;/a&gt;
+    <content type="html">&lt;p&gt;Sorry for the extended hiatus.&lt;a href=&quot;https://ajenkins.me/post/dating_app_alpha_preview/#footnote-1&quot; class=&quot;footnote&quot;&gt;[1]&lt;/a&gt;
 I haven&#39;t had time to write much on here recently because I&#39;ve been spending
 all of my free time working on my dating app. I also took a break to take
 a crash course in how to get better at &lt;em&gt;using&lt;/em&gt; dating apps, but that&#39;s a story
@@ -2365,12 +2365,12 @@ form below. I promise I won&#39;t use it for anything not related to the dating 
 &lt;div class=&quot;email-signup-form&quot;&gt;
   &lt;p class=&quot;signup-form-message&quot;&gt;If you want to receive updates on the progress of the dating app or if you are interested in being an early user, enter your email address below. I&amp;#39;ll only contact you about the dating app.&lt;/p&gt;
   &lt;form name=&quot;dating_app_subscribers&quot; method=&quot;POST&quot; data-netlify=&quot;true&quot; netlify-honeypot=&quot;required&quot;&gt;
-    &lt;input type=&quot;text&quot; name=&quot;required&quot; tabindex=&quot;-1&quot; autocomplete=&quot;off&quot; id=&quot;required-control&quot;&gt;
-    &lt;input type=&quot;email&quot; name=&quot;email&quot; required=&quot;&quot; placeholder=&quot;address@email.com&quot;&gt;
-    &lt;input type=&quot;submit&quot; value=&quot;Sign Up&quot;&gt;
+    &lt;input type=&quot;text&quot; name=&quot;required&quot; tabindex=&quot;-1&quot; autocomplete=&quot;off&quot; id=&quot;required-control&quot; /&gt;
+    &lt;input type=&quot;email&quot; name=&quot;email&quot; required=&quot;&quot; placeholder=&quot;address@email.com&quot; /&gt;
+    &lt;input type=&quot;submit&quot; value=&quot;Sign Up&quot; /&gt;
   &lt;/form&gt;
 &lt;/div&gt;
-&lt;hr&gt;
+&lt;hr /&gt;
 &lt;p id=&quot;footnote-1&quot;&gt;
 [1]: I&#39;m not really sure who I&#39;m apologizing to. As far as I know,
      no one is regularly checking my blog anyway 🤷🏼‍♂️
@@ -2381,7 +2381,7 @@ form below. I promise I won&#39;t use it for anything not related to the dating 
   <entry>
     <title>Your job as a manager is to build a self-driving car</title>
     <link href="https://ajenkins.me/post/managers_job/" />
-    <updated>2021-09-10T08:00:00-04:00</updated>
+    <updated>2021-09-10T12:00:00Z</updated>
     <id>https://ajenkins.me/post/managers_job/</id>
     <content type="html">&lt;h1&gt;Becoming a manager&lt;/h1&gt;
 &lt;p&gt;I&#39;ve been working as a manager for software engineers since March 2020.
@@ -2480,6 +2480,35 @@ to work extra hours (and no one is allowed to ask them to do that besides you).
 Connecting it back to my analogy, this is like setting a max RPM on
 the car that can only be exceeded via a manual override.&lt;/p&gt;
 &lt;p&gt;If you&#39;re a new manager, good luck! Thanks for reading.&lt;/p&gt;
+</content>
+  </entry>
+  
+  <entry>
+    <title>Fixing npm install on an M1 Mac</title>
+    <link href="https://ajenkins.me/post/m1_npm_install/" />
+    <updated>2021-11-20T13:20:00Z</updated>
+    <id>https://ajenkins.me/post/m1_npm_install/</id>
+    <content type="html">&lt;p&gt;I just bought a new Macbook with an M1 chip to work on my
+&lt;a href=&quot;https://ajenkins.me/post/making_a_dating_app&quot;&gt;dating app&lt;/a&gt;.
+I got the basic Macbook Air but with 16 GB of RAM if you&#39;re wondering.
+I heard that there were some issues with software compatibility with
+software built for Intel-based Macs, but I figured all of that would
+have been smoothed out by now given that these Macs have been out for
+a full year. However, when I re-cloned the repo for this blog and
+ran &lt;code&gt;npm install&lt;/code&gt; I kept getting errors. I&#39;ll tell you how I fixed
+it so you know what to do if this happens to you.&lt;/p&gt;
+&lt;p&gt;Before you get started, I recommend you install three things on your
+new Mac that should make things easier:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;The Xcode developer tools. Run &lt;code&gt;xcode-select --install&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://brew.sh/&quot;&gt;Homebrew&lt;/a&gt; for installing command line utilities on Mac.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/nvm-sh/nvm&quot;&gt;nvm&lt;/a&gt; for installing node, npm, and switching node versions.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Once you have that installed you should use nvm to install some version of node.
+I installed the latest version (17) which ended up working for me, but you may
+need a different version for your project. Now, &lt;code&gt;cd&lt;/code&gt; into your project folder
+and run &lt;code&gt;npm install&lt;/code&gt;. If it works, great! You can stop reading now 😄&lt;/p&gt;
+&lt;p&gt;Ok, so &lt;code&gt;npm install&lt;/code&gt; didn&#39;t work. Now what?&lt;/p&gt;
 </content>
   </entry>
 </feed>

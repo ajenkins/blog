@@ -7,8 +7,8 @@
     <link rel="icon" type="image/png" sizes="16x16" href="/static/favicon-16x16.png" />
     <link rel="manifest" href="/static/site.webmanifest" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>AJ&#39;s Blog</title>
-    <meta name="description" content="A list of all of the blog posts written by AJ Jenkins." />
+    <title>Fixing npm install on an M1 Mac</title>
+    <meta name="description" content="" />
     
     <style>
       body{background:#fff;color:#111;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;-webkit-font-smoothing:antialiased;margin:0 auto}main{margin:1.5rem}#comments-section,#container,article{width:100%;max-width:40rem;margin:0 auto}p.subtitle{margin-top:0;margin-bottom:.5rem;font-size:1.5rem;font-weight:200}iframe,img{max-width:40rem;width:100%}h1{margin-bottom:.5rem;font-size:2rem}p{margin-top:1.5rem;margin-bottom:0;line-height:1.5rem}li{line-height:1.5rem}a{color:-webkit-link;text-decoration:none}a:hover{text-decoration:underline}a.footnote{vertical-align:super;font-size:.8em}time{font-size:.8em;color:#555}nav{display:flex;align-items:center;margin:1rem}#main-logo{width:8rem;margin:0 1rem}#github-mark{width:3rem;margin:0 1rem}#about-link{margin:0 1rem;font-size:2rem}.comment-entry{margin-top:1.5rem;border:1px solid #ccc;border-radius:16px;padding:1rem}.comment-author,.comment-body,.comment-submitted-at{margin:.5rem 0}#comment-form>div{margin-bottom:1rem}label{display:block;margin-bottom:.5rem;font-weight:600}#comment-body-input{box-sizing:border-box;width:100%;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;-webkit-font-smoothing:antialiased}#required-control{display:none}.publication-date{color:#555}#about-photo{width:20rem;margin:auto;display:block;border-radius:50%}div.email-signup-form{border:1px solid #888;border-radius:.5rem;margin:3rem 0;padding:1.5rem;box-shadow:1px 1px 2px #aaa}div.email-signup-form>p{font-size:.9rem;font-weight:600;margin:0}div.email-signup-form>form{display:flex;margin-top:1rem}div.email-signup-form>form>input[type=email]{flex-grow:1;font-size:1rem;margin-right:.5rem}div.email-signup-form>form>input[type=submit]{background-color:#ff8000;border:none;border-radius:.2rem;font-size:1rem;padding:.5rem;-webkit-appearance:none}.redacted{color:#000;background-color:#000}.redacted::selection{background-color:#000}
@@ -32,85 +32,76 @@
     </nav>
     <main>
       
-<div id="container">
-  <h1>All posts</h1>
-  
-    <p><a href="/post/m1_npm_install/">Fixing npm install on an M1 Mac</a>
-    <span class="publication-date">
-      (November 20, 2021)
-    </span></p>
-  
-    <p><a href="/post/managers_job/">Your job as a manager is to build a self-driving car</a>
-    <span class="publication-date">
-      (September 10, 2021)
-    </span></p>
-  
-    <p><a href="/post/dating_app_alpha_preview/">Dating App: Alpha Preview</a>
-    <span class="publication-date">
-      (January 25, 2021)
-    </span></p>
-  
-    <p><a href="/post/dating_app_update_1/">Dating App: Progress Update 1</a>
-    <span class="publication-date">
-      (December 27, 2020)
-    </span></p>
-  
-    <p><a href="/post/backend_for_dating_app/">Building a modern API in 2020</a>
-    <span class="publication-date">
-      (December 2, 2020)
-    </span></p>
-  
-    <p><a href="/post/review_of_appsync_and_amplify/">Review of AWS AppSync and Amplify in 2019</a>
-    <span class="publication-date">
-      (December 1, 2020)
-    </span></p>
-  
-    <p><a href="/post/making_a_dating_app_part2/">I&#39;m making a pandemic dating app, Part 2</a>
-    <span class="publication-date">
-      (November 27, 2020)
-    </span></p>
-  
-    <p><a href="/post/rss_and_comments/">New features: Comments and RSS feed</a>
-    <span class="publication-date">
-      (November 11, 2020)
-    </span></p>
-  
-    <p><a href="/post/making_a_dating_app/">I&#39;m making a pandemic dating app, Part 1</a>
-    <span class="publication-date">
-      (November 8, 2020)
-    </span></p>
-  
-    <p><a href="/post/rcv_2020_loss/">Ranked Choice Voting: Why we lost in 2020</a>
-    <span class="publication-date">
-      (November 4, 2020)
-    </span></p>
-  
-    <p><a href="/post/three_tricks_for_eleventy_speed/">Three simple tricks for a lightning-fast Eleventy website</a>
-    <span class="publication-date">
-      (October 12, 2020)
-    </span></p>
-  
-    <p><a href="/post/pagespeed_with_eleventy/">Achieving a perfect PageSpeed score with Eleventy</a>
-    <span class="publication-date">
-      (October 11, 2020)
-    </span></p>
-  
-    <p><a href="/post/analytics/">Why I don&#39;t have analytics on my website</a>
-    <span class="publication-date">
-      (October 4, 2020)
-    </span></p>
-  
-    <p><a href="/post/likes/">Doing It for the Likes</a>
-    <span class="publication-date">
-      (September 27, 2020)
-    </span></p>
-  
-    <p><a href="/post/rcv/">Why you should care about Ranked Choice Voting</a>
-    <span class="publication-date">
-      (August 29, 2020)
-    </span></p>
-  
-<div>
+<article>
+  <header>
+    <h1>Fixing npm install on an M1 Mac</h1>
+    
+    <time datetime="2021-11-20T13:20:00.000Z">
+      November 20, 2021
+    </time>
+  </header>
+  <p>I just bought a new Macbook with an M1 chip to work on my
+<a href="/post/making_a_dating_app">dating app</a>.
+I got the basic Macbook Air but with 16 GB of RAM if you're wondering.
+I heard that there were some issues with software compatibility with
+software built for Intel-based Macs, but I figured all of that would
+have been smoothed out by now given that these Macs have been out for
+a full year. However, when I re-cloned the repo for this blog and
+ran <code>npm install</code> I kept getting errors. I'll tell you how I fixed
+it so you know what to do if this happens to you.</p>
+<p>Before you get started, I recommend you install three things on your
+new Mac that should make things easier:</p>
+<ol>
+<li>The Xcode developer tools. Run <code>xcode-select --install</code>.</li>
+<li><a href="https://brew.sh">Homebrew</a> for installing command line utilities on Mac.</li>
+<li><a href="https://github.com/nvm-sh/nvm">nvm</a> for installing node, npm, and switching node versions.</li>
+</ol>
+<p>Once you have that installed you should use nvm to install some version of node.
+I installed the latest version (17) which ended up working for me, but you may
+need a different version for your project. Now, <code>cd</code> into your project folder
+and run <code>npm install</code>. If it works, great! You can stop reading now 😄</p>
+<p>Ok, so <code>npm install</code> didn't work. Now what?</p>
+
+</article>
+
+<section id="comments-section">
+<h1>Comments ✍️</h1>
+
+
+  <p>No comments yet. Be the first!</p>
+
+
+<h2>Leave a comment</h2>
+<form id="comment-form" name="comment-form" method="POST" action="https://aj-blog-comments.herokuapp.com/v2/entry/ajenkins/blog/master/comments">
+  <input name="options[redirect]" type="hidden" value="https://ajenkins.me/post/m1_npm_install/">
+  <input name="options[slug]" type="hidden" value="m1_npm_install">
+
+  <div id="required-control">
+    <label>Required
+      <input type="text" name="fields[required]" tabindex="-1" autocomplete="off">
+    </label>
+  </div>
+
+  <div id="name-control">
+    <label>Name
+      <input type="text" name="fields[name]" placeholder="Anonymous" maxlength="1000" size="32">
+    </label>
+  </div>
+
+  <div id="body-control">
+    <label>Comment
+      <textarea id="comment-body-input" name="fields[body]" required maxlength="10000" rows="10"></textarea>
+    </label>
+  </div>
+
+  <div id="submit-button-control">
+    <input type="submit" value="Submit">
+    <em>Your comment will appear a few minutes after it's been submitted.</em>
+  </div>
+</form>
+</section>
+
+<p><a href="/">More posts</a></p>
     </main>
   </body>
 </html>
