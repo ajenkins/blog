@@ -120,7 +120,7 @@ npm ERR! #include <vips/vips8>
 npm ERR!          ^~~~~~~~~~~~
 npm ERR! 1 error generated.
 npm ERR! make: *** [Release/obj.target/sharp/src/common.o] Error 1
-npm ERR! gyp ERR! build error 
+npm ERR! gyp ERR! build error
 npm ERR! gyp ERR! stack Error: `make` failed with exit code: 2
 npm ERR! gyp ERR! stack     at ChildProcess.onExit (/Users/aj/.nvm/versions/node/v16.13.0/lib/node_modules/npm/node_modules/node-gyp/lib/build.js:194:23)
 npm ERR! gyp ERR! stack     at ChildProcess.emit (node:events:390:28)
