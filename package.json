@@ -5,7 +5,6 @@
     "format": "prettier --write \"src/**/*.js\"",
     "lint": "prettier --check \"src/**/*.js\""
   },
-  "dependencies": {},
   "devDependencies": {
     "@11ty/eleventy": "^0.12.1",
     "@11ty/eleventy-img": "^1.0.0",
@@ -15,6 +14,6 @@
     "clean-css": "^5.2.2",
     "eleventy-plugin-youtube-embed": "^1.6.5",
     "prettier": "^2.4.1",
-    "snowpack": "^3.8.8"
+    "snowpack": "^3.1.0"
   }
 }
