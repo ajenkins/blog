@@ -2494,7 +2494,8 @@ I got the basic Macbook Air but with 16 GB of RAM if you&#39;re wondering.
 I heard that there were some issues with software compatibility with
 software built for Intel-based Macs, but I figured all of that would
 have been smoothed out by now given that these Macs have been out for
-a full year. However, when I re-cloned the repo for this blog and
+a full year.&lt;a href=&quot;https://ajenkins.me/post/m1_npm_install/#footnote-1&quot; class=&quot;footnote&quot;&gt;[1]&lt;/a&gt;
+However, when I re-cloned the repo for this blog and
 ran &lt;code&gt;npm install&lt;/code&gt; I kept getting errors. I&#39;ll tell you how I fixed
 it so you know what to do if this happens to you.&lt;/p&gt;
 &lt;p&gt;Before you get started, I recommend you install three things on your
@@ -2508,7 +2509,120 @@ new Mac that should make things easier:&lt;/p&gt;
 I installed the latest version (17) which ended up working for me, but you may
 need a different version for your project. Now, &lt;code&gt;cd&lt;/code&gt; into your project folder
 and run &lt;code&gt;npm install&lt;/code&gt;. If it works, great! You can stop reading now 😄&lt;/p&gt;
-&lt;p&gt;Ok, so &lt;code&gt;npm install&lt;/code&gt; didn&#39;t work. Now what?&lt;/p&gt;
-</content>
+&lt;p&gt;Ok, so &lt;code&gt;npm install&lt;/code&gt; didn&#39;t work. Now what? First I&#39;ll tell you the
+&lt;em&gt;last&lt;/em&gt; thing I did, because I suspect that if I had just done that I could
+have skipped all the other steps.&lt;/p&gt;
+&lt;p&gt;When I was trying to debug this I was confused because when I would Google
+the errors I was seeing I would find it mentioned in a closed Github Issue
+that said the error was fixed in a new version of the package. In retrospect
+it seems obvious, but I was able to make all of my &lt;code&gt;npm install&lt;/code&gt; errors go
+away by upgrading all of my packages to their latest version.&lt;/p&gt;
+&lt;p&gt;Here&#39;s an example of an error I was getting that went away after updating
+my packages:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;npm ERR! code 1
+npm ERR! path /Users/aj/Development/blog/node_modules/esbuild
+npm ERR! command failed
+npm ERR! command sh -c node install.js
+npm ERR! Unsupported platform: darwin arm64 LE
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Rather than figure out the latest version for each package and upgrading
+them one-by-one I wanted to upgrade everything to their latest version
+all at once.&lt;/p&gt;
+&lt;p&gt;My understanding is that this is what the &lt;code&gt;npm update&lt;/code&gt; command does,
+so that might work for you, but I used a third party package called
+npm-check-updates instead. You can install it with &lt;code&gt;npm install -g npm-check-updates&lt;/code&gt;
+(luckily &lt;code&gt;npm install&lt;/code&gt; worked for &lt;em&gt;this&lt;/em&gt; package 😅) and run
+it by just running &lt;code&gt;ncu&lt;/code&gt; in the folder where your package.json
+file is or &lt;code&gt;ncu -u&lt;/code&gt; to actually modify your package.json file.&lt;/p&gt;
+&lt;p&gt;Once my package.json file was updated with the latest version for each
+package I ran &lt;code&gt;npm install&lt;/code&gt; again and everything installed without errors.
+In my case, I didn&#39;t even need to change any of my code – everything just worked.&lt;/p&gt;
+&lt;p&gt;So hopefully that&#39;s all you need to do, but I actually did do one other thing before
+I updated the packages, so I&#39;ll mention it in case you run into the same error I did
+even after updating your packages.&lt;/p&gt;
+&lt;p&gt;Here&#39;s the error I was getting:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;npm ERR! code 1
+npm ERR! path /Users/aj/Development/blog/node_modules/sharp
+npm ERR! command failed
+npm ERR! command sh -c (node install/libvips &amp;amp;&amp;amp; node install/dll-copy &amp;amp;&amp;amp; prebuild-install --runtime=napi) || (node-gyp rebuild &amp;amp;&amp;amp; node install/dll-copy)
+npm ERR! CC(target) Release/obj.target/nothing/../node-addon-api/nothing.o
+npm ERR!   LIBTOOL-STATIC Release/nothing.a
+npm ERR!   TOUCH Release/obj.target/libvips-cpp.stamp
+npm ERR!   CXX(target) Release/obj.target/sharp/src/common.o
+npm ERR! info sharp Downloading https://github.com/lovell/sharp-libvips/releases/download/v8.9.1/libvips-8.9.1-darwin-arm64v8.tar.gz
+npm ERR! ERR! sharp Prebuilt libvips 8.9.1 binaries are not yet available for darwin-arm64v8
+npm ERR! info sharp Attempting to build from source via node-gyp but this may fail due to the above error
+npm ERR! info sharp Please see https://sharp.pixelplumbing.com/install for required dependencies
+npm ERR! gyp info it worked if it ends with ok
+npm ERR! gyp info using node-gyp@8.2.0
+npm ERR! gyp info using node@16.13.0 | darwin | arm64
+npm ERR! gyp info find Python using Python version 3.8.9 found at &amp;quot;/Library/Developer/CommandLineTools/usr/bin/python3&amp;quot;
+npm ERR! gyp info spawn /Library/Developer/CommandLineTools/usr/bin/python3
+npm ERR! gyp info spawn args [
+npm ERR! gyp info spawn args   &#39;/Users/aj/.nvm/versions/node/v16.13.0/lib/node_modules/npm/node_modules/node-gyp/gyp/gyp_main.py&#39;,
+npm ERR! gyp info spawn args   &#39;binding.gyp&#39;,
+npm ERR! gyp info spawn args   &#39;-f&#39;,
+npm ERR! gyp info spawn args   &#39;make&#39;,
+npm ERR! gyp info spawn args   &#39;-I&#39;,
+npm ERR! gyp info spawn args   &#39;/Users/aj/Development/blog/node_modules/sharp/build/config.gypi&#39;,
+npm ERR! gyp info spawn args   &#39;-I&#39;,
+npm ERR! gyp info spawn args   &#39;/Users/aj/.nvm/versions/node/v16.13.0/lib/node_modules/npm/node_modules/node-gyp/addon.gypi&#39;,
+npm ERR! gyp info spawn args   &#39;-I&#39;,
+npm ERR! gyp info spawn args   &#39;/Users/aj/Library/Caches/node-gyp/16.13.0/include/node/common.gypi&#39;,
+npm ERR! gyp info spawn args   &#39;-Dlibrary=shared_library&#39;,
+npm ERR! gyp info spawn args   &#39;-Dvisibility=default&#39;,
+npm ERR! gyp info spawn args   &#39;-Dnode_root_dir=/Users/aj/Library/Caches/node-gyp/16.13.0&#39;,
+npm ERR! gyp info spawn args   &#39;-Dnode_gyp_dir=/Users/aj/.nvm/versions/node/v16.13.0/lib/node_modules/npm/node_modules/node-gyp&#39;,
+npm ERR! gyp info spawn args   &#39;-Dnode_lib_file=/Users/aj/Library/Caches/node-gyp/16.13.0/&amp;lt;(target_arch)/node.lib&#39;,
+npm ERR! gyp info spawn args   &#39;-Dmodule_root_dir=/Users/aj/Development/blog/node_modules/sharp&#39;,
+npm ERR! gyp info spawn args   &#39;-Dnode_engine=v8&#39;,
+npm ERR! gyp info spawn args   &#39;--depth=.&#39;,
+npm ERR! gyp info spawn args   &#39;--no-parallel&#39;,
+npm ERR! gyp info spawn args   &#39;--generator-output&#39;,
+npm ERR! gyp info spawn args   &#39;build&#39;,
+npm ERR! gyp info spawn args   &#39;-Goutput_dir=.&#39;
+npm ERR! gyp info spawn args ]
+npm ERR! gyp info spawn make
+npm ERR! gyp info spawn args [ &#39;BUILDTYPE=Release&#39;, &#39;-C&#39;, &#39;build&#39; ]
+npm ERR! warning: /Library/Developer/CommandLineTools/usr/bin/libtool: archive library: Release/nothing.a the table of contents is empty (no object file members in the library define global symbols)
+npm ERR! ../src/common.cc:23:10: fatal error: &#39;vips/vips8&#39; file not found
+npm ERR! #include &amp;lt;vips/vips8&amp;gt;
+npm ERR!          ^~~~~~~~~~~~
+npm ERR! 1 error generated.
+npm ERR! make: *** [Release/obj.target/sharp/src/common.o] Error 1
+npm ERR! gyp ERR! build error 
+npm ERR! gyp ERR! stack Error: `make` failed with exit code: 2
+npm ERR! gyp ERR! stack     at ChildProcess.onExit (/Users/aj/.nvm/versions/node/v16.13.0/lib/node_modules/npm/node_modules/node-gyp/lib/build.js:194:23)
+npm ERR! gyp ERR! stack     at ChildProcess.emit (node:events:390:28)
+npm ERR! gyp ERR! stack     at Process.ChildProcess._handle.onexit (node:internal/child_process:290:12)
+npm ERR! gyp ERR! System Darwin 21.1.0
+npm ERR! gyp ERR! command &amp;quot;/Users/aj/.nvm/versions/node/v16.13.0/bin/node&amp;quot; &amp;quot;/Users/aj/.nvm/versions/node/v16.13.0/lib/node_modules/npm/node_modules/node-gyp/bin/node-gyp.js&amp;quot; &amp;quot;rebuild&amp;quot;
+npm ERR! gyp ERR! cwd /Users/aj/Development/blog/node_modules/sharp
+npm ERR! gyp ERR! node -v v16.13.0
+npm ERR! gyp ERR! node-gyp -v v8.2.0
+npm ERR! gyp ERR! not ok
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;It&#39;s a little hard to parse this error message, but basically npm can&#39;t install
+a package called sharp which I believe is a low-level utility package.
+And the reason the install is failing is because
+&amp;quot;Prebuilt libvips 8.9.1 binaries are not yet available for darwin-arm64v8&amp;quot; and
+&amp;quot;fatal error: &#39;vips/vips8&#39; file not found&amp;quot;.
+When I Googled this error I found a lot of different solutions, but the one that
+worked for me was running &lt;code&gt;brew install vips&lt;/code&gt;, then re-running &lt;code&gt;npm install&lt;/code&gt;.
+Once I did that this error went away, but then I got the esbuild
+error I first mentioned. I suspect that if I had updated my packages from the
+get-go I wouldn&#39;t have needed to install vips at all.&lt;/p&gt;
+&lt;p&gt;If you&#39;re trying to run &lt;code&gt;npm install&lt;/code&gt; on an M1 Mac and updating the packages
+doesn&#39;t fix it or you&#39;re getting different errors, I probably won&#39;t be of
+much help. I recommend Googling the errors you&#39;re getting to see if anyone
+else ran into that same error and was able to find a solution.&lt;/p&gt;
+&lt;p&gt;Hope this helped and good luck!&lt;/p&gt;
+&lt;hr /&gt;
+&lt;p id=&quot;footnote-1&quot;&gt;
+[1]: They actually &lt;em&gt;have&lt;/em&gt; fixed these issues. But if you don&#39;t regularly
+     update your npm packages (does anyone?) then there&#39;s a good chance
+     one or more of your packages won&#39;t be compatible with the new ARM-based
+     Macs.
+&lt;/p&gt;</content>
   </entry>
 </feed>

@@ -154,7 +154,7 @@ Hope this helped and good luck!
 ---
 
 <p id="footnote-1">
-[1]: They actually _have_ fixed these issues. But if you don't regularly
+[1]: They actually <em>have</em> fixed these issues. But if you don't regularly
      update your npm packages (does anyone?) then there's a good chance
      one or more of your packages won't be compatible with the new ARM-based
      Macs.
