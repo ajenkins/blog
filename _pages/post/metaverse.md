@@ -364,7 +364,7 @@ can walk over to the next room which has 25 more paintings in it.
 When a painting catches your eye (seems like the website you want to
 go to), you just step through it.
 
-## But how do you interact with other people in the metaverse?
+## Interacting with other people in the metaverse
 
 In most depictions of the metaverse it's like a big video game
 where everyone has an avatar and you can interact with other people's
@@ -395,13 +395,79 @@ website would need to figure out how to implement this, which
 might lead to the functionality not being supported on all sites
 or varying degrees of quality in the implementation.
 
-## What's stopping us from building the metaverse right now
+## Your browser creates your avatar
+
+In the beginning of this post I mentioned that when you travel
+across different virtual spaces in the metaverse your avatar
+and how you control your avatar should stay the same.
+
+This would be possible because your personal browser is responsible
+for the creation of your avatar, rendering your avatar inside
+of the metaverse, and allowing you to move and control your avatar.
+
+If you're interacting with the metaverse through VR, you probably
+aren't going to be looking at your avatar much anyway (besides your hands).
+But if you walk past a virtual mirror, you would expect to see your custom
+avatar staring back at you. To accomplish this, the METABLOB file returned
+from the website to your browser would just have code for a mirror object
+and your browser would handle rendering your avatar correctly.
+
+Your browser would also send information about your avatar as
+part of any request to the server it makes. Your browser already
+does this with the User-Agent request header, which includes information
+about your browser. Same idea, but just with a much longer string
+that fully describes what your avatar looks like. This is important
+if the website is going to display your avatar to other users.
+Your browser may know what _you_ look like, but it doesn't know
+what other users visiting the site look like unless that information
+has already been shared with the server.
+
+## User-generated content
+
+There are two ways you could generate your own content in the metaverse:
+by creating content inside of a single virtual space using tools provided
+by that website, or by making your own totally custom virtual space.
+
+The first option would be the more user-friendly of the two and would
+probably be much more common. For example, in DisneyLand (disney.meta)
+they could have a workshop where you build your own virtual lightsaber.
+The tools you use to create your lightsaber would be very simple and would
+require no coding knowledge. You would either use a virtual menu to select your
+hilt and kyber crystal or would walk around a virtual workshop and pick up
+a virtual kyber crystal and slot it into the hilt of your choice. The details
+aren't important – the point is that the experience of creating this piece of
+custom content would be a completely custom thing built by Disney. If you
+want to carry your lightsaber around with you throughout the metaverse, not
+just in DisneyLand, you could "install" the lightsaber into your browser's
+custom avatar. This is analogous to installing a third-party Chrome extension.
+You would just tell disney.meta what browser you're using (or they would detect it),
+and they would have a special version of the lightsaber that's compatible with
+your browser so it can be added to your avatar.
+
+Another type of custom content you could build in this way is your own
+personal space inside the confines of a specific virtual space. For example,
+you could go to animalcrossing.meta and build your own home or island
+inside of that world. But you would only be able to use the tools and items
+provided to you by Animal Crossing and if your creation violates their policies,
+they could block your content or ban you altogether. The experience of building
+a custom home/island could be extremely similar to the current experience of
+playing Animal Crossing.
+
+But if you want complete freedom to build anything you can imagine and you
+want to be fully in control of your creations, you need to build your own
+website. If you build your own website, you're responsible for getting your
+own hosting and writing the code for your virtual world. But because you're
+writing your own METABLOB file that specifies everything about your virtual
+world, you can really build anything, assuming it's not illegal (doesn't infringe
+on other people's intellectual property, etc.).
+
+# What's stopping us from building the metaverse right now
 
 Even though everything I described is using standard web technologies that
 have existed for a while, there are a few reasons why this vision isn't
 feasible (yet).
 
-### No common language for building virtual worlds
+## No common language for building virtual worlds
 
 In my explanation I referenced a file type called METABLOB, which I made up.
 For this idea to work, there needs to be a single (or very small number) of
@@ -417,7 +483,7 @@ Then that language will become the de facto standard and everyone else
 will just adopt it. I think something like this is how Javascript became
 the default and only programming language for the web.
 
-### Faster download speeds
+## Faster download speeds
 
 A typical webpage includes about 5 MB of data your browser needs to download.
 A typical VR video game is probably between 10-100 GB. If your browser needs
