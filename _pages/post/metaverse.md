@@ -461,6 +461,13 @@ writing your own METABLOB file that specifies everything about your virtual
 world, you can really build anything, assuming it's not illegal (doesn't infringe
 on other people's intellectual property, etc.).
 
+By the way, user-generated content is usually the part of the metaverse
+that leads to the claim that Web3 is necessary for building the metaverse.
+But this proposal doesn't rely on any Web3 technology and is possible with
+the current web standards that exist today. I can't imagine wanting more
+flexibility or "ownership" than what I describe here, so I don't see what
+Web3 would really be adding.
+
 # What's stopping us from building the metaverse right now
 
 Even though everything I described is using standard web technologies that
