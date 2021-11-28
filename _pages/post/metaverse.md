@@ -1,0 +1,455 @@
+---
+layout: layouts/post.njk
+title: 'How to actually build the metaverse'
+subtitle: 'According to someone who thinks Web3 is BS but read Snow Crash'
+tags: ['technology', 'software engineering', 'web development', 'metaverse']
+date: 2021-11-28 00:15:00 -05:00
+---
+
+# What is the metaverse and why are we talking about it?
+
+If you follow technology news you may have been hearing the word "metaverse"
+a lot recently. It feels like every day I see a headline on
+[VentureBeat](https://venturebeat.com)
+along the lines of "Company X raises $Y million to create the metaverse"
+([Example 1](https://venturebeat.com/2021/11/22/niantic-raises-300m-at-9b-valuation-as-it-guns-for-the-real-world-metaverse/),
+[Example 2](https://venturebeat.com/2021/11/17/mytaverse-launches-a-metaverse-for-business-travelers/)).
+Or maybe you heard that
+[Facebook recently renamed their company to Meta](https://about.fb.com/news/2021/10/facebook-company-is-now-meta/)
+to better align with their vision of creating the metaverse.
+
+But what actually is the metaverse? First I'll give my definition which is a bit
+different from what you're likely to read on a lot of sites that are pushing
+the metaverse as the next big thing.
+
+The metaverse is:
+
+- A 3D virtual world (like you'd find in most video games)
+- All "spaces" in the world are connected
+  (CokeLand, PepsiLand, StarWarsLand, StarTrekLand all exist in a single, connected world)
+- Anyone can contribute new stuff to this shared world.
+  They can make anything they can imagine, as long as what they make doesn't break
+  any laws.
+- There's a single, persistent "reality" for the whole metaverse. The metaverse
+  is the same for everyone who interacts with it (like you'd find in an MMORPG
+  like World of Warcraft).
+
+My definition is based on the description of the metaverse in the sci-fi novels
+[Snow Crash](https://en.wikipedia.org/wiki/Snow_Crash) (1992) and
+[Ready Player One](https://en.wikipedia.org/wiki/Ready_Player_One) (2011).
+I don't think Snow Crash invented the idea of the metaverse, but these books
+definitely did a lot to popularize the idea.
+
+Something I didn't include in my definition is anything about Virtual Reality (VR)
+or Augmented Reality (AR). Most visions of the metaverse assume that people
+would interact with it using a VR or AR headset (both books I mentioned
+use highly immersive VR headsets). But I don't think VR is necessary for
+the metaverse or the most interesting thing about it. Don't get me wrong –
+realistic, immersive VR would be _awesome_ – but I view building better VR
+as a separate technology challenge from building the metaverse. Better VR
+technology would definitely make the metaverse more fun, but I think you
+could still build the metaverse without it. Also, even if the primary way people
+interact with the metaverse is through VR goggles, I'd expect you to still
+be able to experience that same world in 2D on a computer monitor and navigate it
+using a standard mouse and keyboard.
+
+# Does the metaverse already exist?
+
+Based on my definition of the metaverse, you might be able think of some things
+that already exist that seem like they fit that definition. However, I would
+argue that no one has built the metaverse yet (but I don't think it's far off).
+
+I'll go through some candidates that either come close to being the metaverse
+or they claim they're building/built the metaverse.
+
+## Second Life
+
+[Second Life](https://en.wikipedia.org/wiki/Second_Life) is an online video game
+that came out in 2003. Of all the candidates I'll talk about, I think Second Life
+is the closest actually being the metaverse and mostly meets all of the criteria
+I gave in my definition. But I think they don't qualify based on a technicality.
+Throughout this post I've been using the phrase "_the_ metaverse", which implies
+that there's only one metaverse. But I don't think Second Life is nearly popular
+enough for people to think of it as _the_ metaverse. The record for most
+players logged in at one time is 88,200
+([source](https://blogs.secondlife.com/community/features/blog/2009/04/16/the-second-life-economy--first-quarter-2009-in-detail)).
+Second Life would need to have hundreds of millions of users for me to think
+of it as _the_ metaverse.
+
+## The Internet
+
+I've never thought of the internet as being the same as the metaverse, but
+some people think that it meets the definition of metaverse. Like this blog
+post titled
+["The Metaverse already exists, it's just currently called the Internet"](https://joshwithers.blog/2021/11/10/the-metaverse-already.html).
+
+But the internet isn't a 3D virtual world. It does meet the other parts of my definition
+though.
+
+## Fortnite
+
+Tim Sweeney, the CEO of Epic Games, likes to say that
+[Epic Games is building the metaverse](https://www.cnet.com/tech/gaming/epic-games-acquires-tonic-games-maker-of-fall-guys/) and the most
+visible example of this aspiration is their hit game Fortnite.
+Fortnite is an actual video game (unlike Second Life) but it has
+become more of a social hub and they've hosted virtual events
+inside the world like live concerts with Marshmello and Ariana Grande.
+They also do lots of collaborations with lots of brands and has featured
+characters like Thanos from Marvel's Avengers, Batman from DC Comics,
+characters from Star Wars, and characters from other video games like
+Master Chief from Halo
+([source](https://fortnite.fandom.com/wiki/Collaborations)).
+
+I don't know if Tim Sweeney has actually ever claimed that Fortnite
+is the metaverse, but it's definitely metaversey in some ways.
+It fails my definition though because it doesn't have user generated,
+there's not a single world that all players occupy together,
+and it's a bit too niche and specialized right now as a video game
+targeted at kids.
+
+## Meta (Facebook)
+
+Mark Zuckerberg has said that his company Meta (formerly known as Facebook)
+is building the metaverse. I'm not a big fan of Mark Zuckerberg, so I haven't
+looked into the details of their plan. They definitely could build the metaverse,
+but I hope their plan is to contribute to its creation and not try to own the metaverse.
+A single entity owning the metaverse would not be ideal, but it's definitely a possibility
+and is what happened in Ready Player One. I guess we'll see.
+
+# What's so great about the metaverse anyway?
+
+As I allude to in my definition of the metaverse, a lot of things that already
+exist that fulfill a lot of the good things about the metaverse. We already have
+virtual worlds – tons of them actually. Download just about any video game from
+Steam and boom, virtual world right at your fingertips. A lot of games even let
+you explore these worlds in VR if you have a VR headset. You can even create
+your own experiences in some games and share them with other players,
+like Dreams for PS4. So really, the only advantage of the metaverse is
+that there's a single, shared metaverse and all of these experiences are
+connected.
+
+I'll give an example to illustrate the difference. Imagine you're playing
+GTA V and you want to switch to Fortnite. Right now the way you'd do that
+is you'd quit out of GTA V then go to your Steam library, find Fortnite
+and click the start button and load into that.<a href="#footnote-1" class="footnote">[1]</a>
+But if GTA V and Fortnite were just different "spaces" in the metaverse, you could
+go directly from GTA V-land to Fortnite-land by walking, flying, teleporting, etc.
+without ever leaving the metaverse. Also, your avatar and control settings wouldn't
+change when you moved from one space to the other (maybe your clothes or art style would
+change).
+
+That would be pretty cool, right? But is switching games the way we do now that big of a deal?
+I think it is. I'll draw a comparison to how software worked before and after the internet.
+The internet is older than me, but I can imagine skeptical people making similar critiques
+of the internet being overrated. Before the internet, to switch software you would need
+to eject a disk and put in a new disk to use other software. Or at least switch to a new
+window for the new app on your computer. Changing programs probably didn't seem like
+a big problem for people at the time, but could you imagine if every time you wanted
+to switch websites you had to quit out of a program and switch to a new program?
+Like you're watching videos on YouTube but want to read something on Wikipedia so you
+need to close the YouTube app and switch to the Wikipedia app. As soon as I wrote this
+I realized that this is _exactly_ how mobile apps work, and it's _not_ that big of a deal,
+haha. I think the bigger thing you'd miss without the internet is the lack of links.
+Imagine if Google didn't directly link you to websites but instead just gave you the
+address of the website you want to go to, which you would copy to your clipboard and
+paste into a new app. _That_ would be really annoying.
+
+I think the metaverse is similar in this regard. It may not sound that special, but
+once you got used to it, going back to the old way of navigating across virtual
+spaces would feel tedious.
+
+# What's Web3 and what does it have to do with the metaverse?
+
+As I said in the subtitle, I think Web3 is BS so I'm probably not the best
+person to explain what it is. Most definitions of Web3 sound more like
+religious prophecies than actual explanations, so my definition might
+sound kind of boring in comparison. If you would rather read about Web3
+from people who are actually excited about it, check out
+[this online compendium of articles on Web3 and related concepts](https://immersionden.xyz).
+
+Before we get to Web3, let's talk about Web 1.0 and Web 2.0 first. Obviously
+no one called it Web 1.0 at the time, but you can think of Web 1.0 as static
+websites that don't offer any means of accepting user input (besides scrolling).
+If you ignore the comments section, this blog is a perfect example of a Web 1.0
+website – I write stuff and you read it. Web 2.0 websites allow the user to contribute
+things back to the website. Think leaving a comment on a site, editing a Wikipedia
+article, tweeting on Twitter, uploading a photo to Instagram, etc. So in Web 1.0
+information and content only flowed in one direction (website → user), but in
+Web 2.0 information and content can flow in both directions (website ↔ user).
+
+Web3 (they don't call it Web 3.0 because that doesn't sound cool) is
+supposedly the next evolution of the internet from Web 2.0. There are
+two innovations promised by Web3: decentralized ownership of websites
+and content and the making payments a first-class feature of the web.
+For example, YouTube (i.e., Alphabet) controls all of the videos on YouTube,
+even the videos that you uploaded. If they decide that they don't like your
+video, they can remove it from the website and the only way to get it back
+is by appealing to them. With a Web3 version of YouTube, you alone own and
+control the content you create and there's no central authority like YouTube
+that can take down your video. Regarding the payments thing, right now if you
+want to buy something online you need to use PayPal or a credit card processing
+system. But with Web3 payments is a built-in feature in your browser and you can
+pay for stuff directly without relying on outside tools. You're paying with
+cryptocurrencies like Bitcoin though, not US dollars. There's a lot of overlap
+between people excited about Web3 and people excited about cryptocurrencies
+because Web3 is built on top of the same blockchain tech used for
+cryptocurrencies.
+
+Would these new features make the web significantly better? I don't think
+so, but I guess I could see it being helpful for certain niche types of
+websites. I feel like the web is already decentralized enough as it is
+and won't benefit from greater decentralization. But maybe in 10 years
+naysayers like me will sound like fools, just like the naysayers of the
+internet and computers before me. I guess we'll see.
+
+## So... what does any of this have to do with the metaverse?
+
+Right, sorry, got a little off-track there. If you ask me, Web3 is all hype
+and has absolutely nothing to do with the metaverse. I think the metaverse is
+a genuinely exciting concept, but I really don't see how Web3 makes it better.
+But in a lot of corners of the internet
+([read through that compendium I linked to earlier for examples](https://immersionden.xyz))
+Web3 is _essential_ for creating the metaverse and any metaverse that
+_isn't_ built using Web3 technologies is no metaverse at all.
+
+I strongly disagree with this viewpoint, and my annoyance with this viewpoint is what
+inspired me to write this blog post. My opinion is that we could pretty much build the
+metaverse right now without needing any new ideas like Web3, blockchain, etc. There
+are a few innovations we'd need to make, but it's basically just improvements
+on well established technologies.
+
+# How to actually build the metaverse
+
+There's more than one way you could build the metaverse, so this is actually
+how _I_ think we should build the metaverse. If someone gave me a billion dollars
+to go build the metaverse, this is how I would do it.
+
+Basically, I would leverage as much of the current internet infrastructure as
+possible. So the internet is not the metaverse, nor would the metaverse replace
+the internet – the metaverse should be built _on top of_ the internet.
+
+## Virtual spaces are just websites
+
+Here's a simplified version of what happens when you go to a website
+on your computer: you type the URL into your browser, hit enter, your browser
+uses a thing called DNS to map that URL to an IP address of another
+computer (server) somewhere in the world, your browser says "Give me the website!",
+the server says "You got it!", then sends you the HTML file for that website
+which your browser renders on your screen for you.
+
+Now here's the metaverse version of that story: everything is exactly the
+same except for when the server sends you an HTML file. Instead of sending you
+an HTML file, which is a mostly human-readable text format, the server would
+send you a METABLOB file (not an actual thing, I just made that up) which
+would be used by your browser to render a virtual world instead of a 2D webpage.
+Your browser would work exactly the same way it does now. The only new thing it
+needs to do is learn how to render a METABLOB file on your computer so you can
+actually explore and interact with the virtual world that it encodes.
+
+The other part that might be a little different is if you're using
+a VR headset to experience the metaverse, you wouldn't want to take
+the headset off to type a URL into your browser's address bar.
+Instead you would type it in on a virtual keyboard displayed
+inside the virtual world, type it in on a virtual keyboard located
+on your wrist, or maybe say the name of the website you want to go to
+in your microphone. Alternatively, if the different spaces in the metaverse
+exist on a cartesian plane, maybe you could enter in the XY coordinates
+of where you want to go or select the website from a 2D map.
+
+Those are all just UX options though – at the end of the day, the website
+or address is still going to be converted into an IP address of a another
+computer on the internet (server) that will send a file back to your
+browser/VR device.
+
+To make this idea more vivid I'll talk through a specific example.
+Right now if you go to [disney.com](https://www.disney.com) your
+browser will bring you to the Disney website. But in the metaverse,
+you would go to disney.meta in your "browser" and instead of
+getting the Disney website when you go there you would get whatever
+virtual world Disney decides to build. Let's call their slice of the
+metaverse DisneyLand. DisneyLand would probably be a lot like the actual
+Disney Land and Disney World – you'd be able to walk around a virtual
+park, interact with different characters, go on rides, play games,
+buy physical (and virtual) stuff with real money. The difference
+between DisneyLand and Disney Land is that until VR tech gets
+way better, this experience will not be as immersive as actually
+going to Disney Land in real life. Also, since it's basically a video
+game, the Disney Imagineers really are only limited by their imagination
+in terms of what they can build and it's a lot cheaper to build new
+stuff in the virtual world so things would probably change more often.
+Also, since it's a virtual world, if they want to expand the "park"
+they only need to buy more processing power not more land.
+
+And if you get bored of DisneyLand, without leaving the metaverse,
+you can head directly to UniversalLand by typing/speaking
+"universal.meta" in your browser/VR device.
+
+But remembering the address of every website in the metaverse
+would be a pain. You should also be able to walk from website
+to website on your own two virtual feet.
+
+## Virtual spaces are connected with portals, which are links
+
+So walking around within a single virtual space (website) is
+no problem because the METABLOB file you downloaded contains a whole
+virtual world (like a video game) that you can walk around in.
+But that METABLOB file only contains the code for that one world.
+All of these virtual spaces are supposed to be connected into a single
+cohesive metaverse.
+
+I can think of two ways this could work. The first, which would
+be way cooler, is if all of these mini virtual worlds gave the illusion
+of existing in a single shared space. For example, if you climb to the
+top of the virtual Cinderella Castle in DisneyLand you could see
+the T-Rex from Jurassic Park off in the distance at UniversalLand.
+And in the other direction you could see Taylor Swift performing
+over in SwiftLand (taylorswift.meta). This would be awesome,
+but would require you to download (stream actually) the entire
+metaverse, or intelligently download whatever part of the metaverse
+you're looking at or may look at soon.
+
+My other idea for connecting these virtual spaces (websites)
+builds on top of another familiar web technology: links.
+Links are how we currently connect websites on the web, so all
+we need to do is translate the idea of a link into an equivalent
+that works for the virtual world. My proposal is to use portals.
+These portals would appear as 2D "paintings", that either hover
+in space or are mounted on a virtual wall and you could jump/walk
+through them to navigate to a new virtual space (website).
+Yes, I stole this idea from Super Mario 64. The painting would
+be a still image that gives you a sneak peek of what to expect
+on the other side and would also have a placard containing
+the full URL of where the portal/painting will take you.
+If you want to see a live version of what's on the other side
+of the painting before committing to walking through it, you can
+knock on the painting (or tap it) which would transform the painting
+into an actual window into that other world with parallax effects
+and everything (like an actual portal). Under the hood, that knock/tap
+would download the part of that virtual space that would be visible
+from the other side of the portal. This interaction is analogous
+to a long-press on a link in iOS Safari where it pops open a
+preview of the site.
+
+I'll give a couple of concrete examples of how this would work in
+practice. Imagine you're in the market for a new blender. Being
+the responsible shopper that you are, you go directly to
+thewirecutter.meta for reviews and recommendations on the best
+blender. Once inside you walk over to their blender showroom
+where they have the best blenders on display. Inside the showroom
+is an AI avatar that tells you some canned info about the blenders
+(written by The Wirecutter's review team) and maybe you can even
+test out the virtual blender with some virtual carrots or something.
+You like what you see and hear, so you're ready to buy. But The Wirecutter
+is just a review site – they don't actually sell stuff. You've got to go
+to Amazon to actually buy the blender. On the wall behind the blender
+is a painting that will take you to amazon.meta to buy the blender.
+You walk through the painting and it takes you directly to where
+that blender is located inside Amazon's gigantic virtual warehouse
+containing every product they sell. Picture the inside of a Walmart,
+but it's the size of the sun. Now that you're in AmazonLand you're looking
+at the blender on the shelf, and it's next to some other blenders
+(More Products Like This, Sponsored Products, Other Customers Also Viewed, etc.).
+There's also a book hanging under it that you can flip through with user reviews.
+Once you're ready to buy it, you hit the big Buy button on the shelf.
+If you're already signed in, you just confirm the shipping address and then
+your blender will be mailed to your house in 2 days.
+
+I also wanted to explain how Google would work in the metaverse, but
+the first example was pretty long. But basically Google would look
+like an art gallery. Instead of typing your search into a search box
+you would say something into a microphone. Then all of the paintings
+on the wall would update to be the top 25 most relevant websites
+for what you searched for. If you want to see the page 2 results, you
+can walk over to the next room which has 25 more paintings in it.
+When a painting catches your eye (seems like the website you want to
+go to), you just step through it.
+
+## But how do you interact with other people in the metaverse?
+
+In most depictions of the metaverse it's like a big video game
+where everyone has an avatar and you can interact with other people's
+avatars. Which sounds cool, but I'm not sure if it's something you
+would always want. If you've been to Disney World or Disney Land,
+haven't you thought that it would be more fun if there weren't quite
+as many people or you never needed to wait in line? Do you really want
+to share disney.meta with all of the other people currently visiting
+disney.meta? Because if there really is one shared reality, that means
+that there's only one Space Mountain and you actually would need to wait
+in line to ride it.
+
+This is sort of a cop-out answer though, because my original definition
+_did_ say that a consistent, shared reality was a requirement for a
+true metaverse. It definitely should be an option, but it would be
+nice to be able to turn this off and experience the virtual world
+by yourself or just with your friends.
+
+Building this functionality is admittedly a gap in my explanation of
+how to build the metaverse, but it still could be done using
+current web technologies. Just not very elegantly. The way I would
+build this functionality is by putting the responsibility for rendering
+other people's avatars on the individual website. The website knows
+who's currently using the site, so they could just use websockets
+to stream the location and actions of other people/avatars/players
+and the shared state of the world to you in real time. But every
+website would need to figure out how to implement this, which
+might lead to the functionality not being supported on all sites
+or varying degrees of quality in the implementation.
+
+## What's stopping us from building the metaverse right now
+
+Even though everything I described is using standard web technologies that
+have existed for a while, there are a few reasons why this vision isn't
+feasible (yet).
+
+### No common language for building virtual worlds
+
+In my explanation I referenced a file type called METABLOB, which I made up.
+For this idea to work, there needs to be a single (or very small number) of
+file formats for describing these virtual worlds. Modern browsers only
+know how to interpret three languages: HTML, CSS, and JavaScript.
+You can't use Python code for your website because browsers don't know how
+to read and use Python.<a href="#footnote-2" class="footnote">[2]</a>
+
+So everyone is going to need to agree on what language to use
+for creating virtual worlds. Or maybe one company like Meta will
+create a language along with a metaverse browser that can read it.
+Then that language will become the de facto standard and everyone else
+will just adopt it. I think something like this is how Javascript became
+the default and only programming language for the web.
+
+### Faster download speeds
+
+A typical webpage includes about 5 MB of data your browser needs to download.
+A typical VR video game is probably between 10-100 GB. If your browser needs
+to essentially download an entire VR game every time you go to a new website,
+download speeds are going to need to get way faster or we'll need a breakthrough
+in compression algorithms. Otherwise you won't be walking through portals to
+go to other websites, but
+[very long hallways](https://www.gameinformer.com/2021/02/03/mass-effect-legendary-edition-changes-iconic-elevator-sequences).
+
+# Summary
+
+That's it! Hopefully I made the idea of the metaverse more concrete for you.
+I think we'll eventually be able to build the metaverse, and I'd expect
+it to be achievable within 10 years. Unlike a lot of other hot new things
+in technology (like self-driving cars) the metaverse doesn't require
+any breakthroughs in AI or anything like that. Getting faster download
+speeds is tricky, but gigabit internet already exists, it's just not common
+and most websites can't offer download speeds like that right now. More immersive
+VR would require technological breakthroughs, but I view that as a separate
+problem from building the metaverse
+
+If you have questions or you think I missed an important aspect of how
+the metaverse should work, leave a comment below.
+
+---
+
+<p id="footnote-1">
+[1]: Actually, this isn't possible because Fortnite is not available on Steam.
+     So you'd actually need to switch from Steam to the Epic Games Store.
+</p>
+
+<p id="footnote-2">
+[2]: Yes, Web Assembly (WASM) is a thing, so technically this isn't true.
+     But it's true for all practical purposes right now.
+</p>
