@@ -1,7 +1,6 @@
 {
   "mount": {
-    "_output": { "url": "/", "static": true },
-    "src": { "url": "/_dist_" }
+    "_output": { "url": "/", "static": true }
   },
   "plugins": [
     [
