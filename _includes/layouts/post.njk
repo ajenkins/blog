@@ -13,6 +13,8 @@ staticman_url: https://aj-blog-comments.herokuapp.com/v2/entry/ajenkins/blog/mas
     </time>
   </header>
   {{ content | safe }}
+  <hr>
+  {% footnotes %}
 </article>
 
 {% include 'comments.njk' %}

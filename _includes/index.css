@@ -5,6 +5,7 @@ body {
     Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;
   -webkit-font-smoothing: antialiased;
   margin: 0 auto;
+  counter-reset: footnotes;
 }
 
 main {
@@ -60,6 +61,24 @@ a:hover {
 a.footnote {
   vertical-align: super;
   font-size: 0.8em;
+}
+
+/* Footnotes */
+[role='doc-noteref'] {
+  /* Prevent reference from wrapping onto next line */
+  display: inline-block;
+}
+
+[role='doc-noteref']::after {
+  content: '[' counter(footnotes) ']';
+  counter-increment: footnotes;
+  vertical-align: super;
+  font-size: 0.8em;
+  cursor: pointer;
+}
+
+[role='doc-noteref']:hover::after {
+  text-decoration: underline;
 }
 
 time {

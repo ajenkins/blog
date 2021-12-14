@@ -3007,9 +3007,9 @@ like Dreams for PS4. So really, the only advantage of the metaverse is
 that there&#39;s a single, shared metaverse and all of these experiences are
 connected.&lt;/p&gt;
 &lt;p&gt;I&#39;ll give an example to illustrate the difference. Imagine you&#39;re playing
-GTA V and you want to switch to Fortnite. Right now the way you&#39;d do that
-is you&#39;d quit out of GTA V then go to your Steam library, find Fortnite
-and click the start button and load into that.&lt;a href=&quot;https://ajenkins.me/post/metaverse/#footnote-1&quot; class=&quot;footnote&quot;&gt;[1]&lt;/a&gt;
+GTA V and you want to switch to Fortnite. Right now the way you&#39;d do that is
+you&#39;d quit out of GTA V then go to your Steam library, find Fortnite
+and click the start button and load into &lt;a class=&quot;Footnotes__ref&quot; href=&quot;https://ajenkins.me/post/metaverse/#fortnite-note&quot; id=&quot;fortnite-ref&quot; aria-describedby=&quot;footnotes-label&quot; role=&quot;doc-noteref&quot;&gt;that.&lt;/a&gt;
 But if GTA V and Fortnite were just different &amp;quot;spaces&amp;quot; in the metaverse, you could
 go directly from GTA V-land to Fortnite-land by walking, flying, teleporting, etc.
 without ever leaving the metaverse. Also, your avatar and control settings wouldn&#39;t
@@ -3313,8 +3313,8 @@ For this idea to work, there needs to be a single (or very small number) of
 file formats for describing these virtual worlds. Modern browsers only
 know how to interpret three languages: HTML, CSS, and JavaScript.
 You can&#39;t use Python code for your website because browsers don&#39;t know how
-to read and use Python.&lt;a href=&quot;https://ajenkins.me/post/metaverse/#footnote-2&quot; class=&quot;footnote&quot;&gt;[2]&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;So everyone is going to need to agree on what language to use
+to read and use &lt;a class=&quot;Footnotes__ref&quot; href=&quot;https://ajenkins.me/post/metaverse/#wasm-note&quot; id=&quot;wasm-ref&quot; aria-describedby=&quot;footnotes-label&quot; role=&quot;doc-noteref&quot;&gt;Python.&lt;/a&gt;
+So everyone is going to need to agree on what language to use
 for creating virtual worlds. Or maybe one company like Meta will
 create a language along with a metaverse browser that can read it.
 Then that language will become the de facto standard and everyone else
@@ -3340,15 +3340,6 @@ VR would require technological breakthroughs, but I view that as a separate
 problem from building the metaverse&lt;/p&gt;
 &lt;p&gt;If you have questions or you think I missed an important aspect of how
 the metaverse should work, leave a comment below.&lt;/p&gt;
-&lt;hr /&gt;
-&lt;p id=&quot;footnote-1&quot;&gt;
-[1]: Actually, this isn&#39;t possible because Fortnite is not available on Steam.
-     So you&#39;d actually need to switch from Steam to the Epic Games Store.
-&lt;/p&gt;
-&lt;p id=&quot;footnote-2&quot;&gt;
-[2]: Yes, Web Assembly (WASM) is a thing, so technically this isn&#39;t true.
-     But it&#39;s true for all practical purposes right now.
-&lt;/p&gt;
 </content>
   </entry>
 </feed>

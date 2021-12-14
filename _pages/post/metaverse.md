@@ -129,9 +129,9 @@ that there's a single, shared metaverse and all of these experiences are
 connected.
 
 I'll give an example to illustrate the difference. Imagine you're playing
-GTA V and you want to switch to Fortnite. Right now the way you'd do that
-is you'd quit out of GTA V then go to your Steam library, find Fortnite
-and click the start button and load into that.<a href="#footnote-1" class="footnote">[1]</a>
+GTA V and you want to switch to Fortnite. Right now the way you'd do that is
+you'd quit out of GTA V then go to your Steam library, find Fortnite
+and click the start button and load into {% footnoteref "fortnite", "Actually, this isn't possible because Fortnite is not available on Steam. So you'd actually need to switch from Steam to the Epic Games Store." %}that.{% endfootnoteref %}
 But if GTA V and Fortnite were just different "spaces" in the metaverse, you could
 go directly from GTA V-land to Fortnite-land by walking, flying, teleporting, etc.
 without ever leaving the metaverse. Also, your avatar and control settings wouldn't
@@ -481,8 +481,7 @@ For this idea to work, there needs to be a single (or very small number) of
 file formats for describing these virtual worlds. Modern browsers only
 know how to interpret three languages: HTML, CSS, and JavaScript.
 You can't use Python code for your website because browsers don't know how
-to read and use Python.<a href="#footnote-2" class="footnote">[2]</a>
-
+to read and use {% footnoteref "wasm", "Yes, Web Assembly (WASM) is a thing, so technically this isn't true. But it's true for all practical purposes right now." %}Python.{% endfootnoteref %}
 So everyone is going to need to agree on what language to use
 for creating virtual worlds. Or maybe one company like Meta will
 create a language along with a metaverse browser that can read it.
@@ -514,15 +513,3 @@ problem from building the metaverse
 
 If you have questions or you think I missed an important aspect of how
 the metaverse should work, leave a comment below.
-
----
-
-<p id="footnote-1">
-[1]: Actually, this isn't possible because Fortnite is not available on Steam.
-     So you'd actually need to switch from Steam to the Epic Games Store.
-</p>
-
-<p id="footnote-2">
-[2]: Yes, Web Assembly (WASM) is a thing, so technically this isn't true.
-     But it's true for all practical purposes right now.
-</p>

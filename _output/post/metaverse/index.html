@@ -11,7 +11,7 @@
     <meta name="description" content="" />
     
     <style>
-      body{background:#fff;color:#111;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Oxygen-Sans,Ubuntu,Cantarell,'Helvetica Neue',sans-serif;-webkit-font-smoothing:antialiased;margin:0 auto}main{margin:1.5rem}#comments-section,#container,article{width:100%;max-width:40rem;margin:0 auto}p.subtitle{margin-top:0;margin-bottom:.5rem;font-size:1.5rem;font-weight:200}iframe,img{max-width:40rem;width:100%;height:auto}h1{margin-bottom:.5rem;font-size:2rem}p{margin-top:1.5rem;margin-bottom:0;line-height:1.5rem}li{line-height:1.5rem}a{color:-webkit-link;text-decoration:none}a:hover{text-decoration:underline}a.footnote{vertical-align:super;font-size:.8em}time{font-size:.8em;color:#555}nav{display:flex;align-items:center;margin:1rem}#main-logo{width:8rem;margin:0 1rem}#github-mark{width:3rem;margin:0 1rem}#about-link{margin:0 1rem;font-size:2rem}.comment-entry{margin-top:1.5rem;border:1px solid #ccc;border-radius:16px;padding:1rem}.comment-author,.comment-body,.comment-submitted-at{margin:.5rem 0}#comment-form>div{margin-bottom:1rem}label{display:block;margin-bottom:.5rem;font-weight:600}#comment-body-input{box-sizing:border-box;width:100%;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Oxygen-Sans,Ubuntu,Cantarell,'Helvetica Neue',sans-serif;-webkit-font-smoothing:antialiased}#required-control{display:none}.publication-date{color:#555}#about-photo{width:20rem;margin:auto;display:block;border-radius:50%}div.email-signup-form{border:1px solid #888;border-radius:.5rem;margin:3rem 0;padding:1.5rem;box-shadow:1px 1px 2px #aaa}div.email-signup-form>p{font-size:.9rem;font-weight:600;margin:0}div.email-signup-form>form{display:flex;margin-top:1rem}div.email-signup-form>form>input[type=email]{flex-grow:1;font-size:1rem;margin-right:.5rem}div.email-signup-form>form>input[type=submit]{background-color:#ff8000;border:none;border-radius:.2rem;font-size:1rem;padding:.5rem;-webkit-appearance:none}.redacted{color:#000;background-color:#000}.redacted::selection{background-color:#000}
+      body{background:#fff;color:#111;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Oxygen-Sans,Ubuntu,Cantarell,'Helvetica Neue',sans-serif;-webkit-font-smoothing:antialiased;margin:0 auto;counter-reset:footnotes}main{margin:1.5rem}#comments-section,#container,article{width:100%;max-width:40rem;margin:0 auto}p.subtitle{margin-top:0;margin-bottom:.5rem;font-size:1.5rem;font-weight:200}iframe,img{max-width:40rem;width:100%;height:auto}h1{margin-bottom:.5rem;font-size:2rem}p{margin-top:1.5rem;margin-bottom:0;line-height:1.5rem}li{line-height:1.5rem}a{color:-webkit-link;text-decoration:none}a:hover{text-decoration:underline}a.footnote{vertical-align:super;font-size:.8em}[role=doc-noteref]{display:inline-block}[role=doc-noteref]::after{content:'[' counter(footnotes) ']';counter-increment:footnotes;vertical-align:super;font-size:.8em;cursor:pointer}[role=doc-noteref]:hover::after{text-decoration:underline}time{font-size:.8em;color:#555}nav{display:flex;align-items:center;margin:1rem}#main-logo{width:8rem;margin:0 1rem}#github-mark{width:3rem;margin:0 1rem}#about-link{margin:0 1rem;font-size:2rem}.comment-entry{margin-top:1.5rem;border:1px solid #ccc;border-radius:16px;padding:1rem}.comment-author,.comment-body,.comment-submitted-at{margin:.5rem 0}#comment-form>div{margin-bottom:1rem}label{display:block;margin-bottom:.5rem;font-weight:600}#comment-body-input{box-sizing:border-box;width:100%;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Oxygen-Sans,Ubuntu,Cantarell,'Helvetica Neue',sans-serif;-webkit-font-smoothing:antialiased}#required-control{display:none}.publication-date{color:#555}#about-photo{width:20rem;margin:auto;display:block;border-radius:50%}div.email-signup-form{border:1px solid #888;border-radius:.5rem;margin:3rem 0;padding:1.5rem;box-shadow:1px 1px 2px #aaa}div.email-signup-form>p{font-size:.9rem;font-weight:600;margin:0}div.email-signup-form>form{display:flex;margin-top:1rem}div.email-signup-form>form>input[type=email]{flex-grow:1;font-size:1rem;margin-right:.5rem}div.email-signup-form>form>input[type=submit]{background-color:#ff8000;border:none;border-radius:.2rem;font-size:1rem;padding:.5rem;-webkit-appearance:none}.redacted{color:#000;background-color:#000}.redacted::selection{background-color:#000}
     </style>
     <link
       rel="preload"
@@ -146,9 +146,9 @@ like Dreams for PS4. So really, the only advantage of the metaverse is
 that there's a single, shared metaverse and all of these experiences are
 connected.</p>
 <p>I'll give an example to illustrate the difference. Imagine you're playing
-GTA V and you want to switch to Fortnite. Right now the way you'd do that
-is you'd quit out of GTA V then go to your Steam library, find Fortnite
-and click the start button and load into that.<a href="#footnote-1" class="footnote">[1]</a>
+GTA V and you want to switch to Fortnite. Right now the way you'd do that is
+you'd quit out of GTA V then go to your Steam library, find Fortnite
+and click the start button and load into <a class="Footnotes__ref" href="#fortnite-note" id="fortnite-ref" aria-describedby="footnotes-label" role="doc-noteref">that.</a>
 But if GTA V and Fortnite were just different &quot;spaces&quot; in the metaverse, you could
 go directly from GTA V-land to Fortnite-land by walking, flying, teleporting, etc.
 without ever leaving the metaverse. Also, your avatar and control settings wouldn't
@@ -452,8 +452,8 @@ For this idea to work, there needs to be a single (or very small number) of
 file formats for describing these virtual worlds. Modern browsers only
 know how to interpret three languages: HTML, CSS, and JavaScript.
 You can't use Python code for your website because browsers don't know how
-to read and use Python.<a href="#footnote-2" class="footnote">[2]</a></p>
-<p>So everyone is going to need to agree on what language to use
+to read and use <a class="Footnotes__ref" href="#wasm-note" id="wasm-ref" aria-describedby="footnotes-label" role="doc-noteref">Python.</a>
+So everyone is going to need to agree on what language to use
 for creating virtual worlds. Or maybe one company like Meta will
 create a language along with a metaverse browser that can read it.
 Then that language will become the de facto standard and everyone else
@@ -479,16 +479,14 @@ VR would require technological breakthroughs, but I view that as a separate
 problem from building the metaverse</p>
 <p>If you have questions or you think I missed an important aspect of how
 the metaverse should work, leave a comment below.</p>
-<hr>
-<p id="footnote-1">
-[1]: Actually, this isn't possible because Fortnite is not available on Steam.
-     So you'd actually need to switch from Steam to the Epic Games Store.
-</p>
-<p id="footnote-2">
-[2]: Yes, Web Assembly (WASM) is a thing, so technically this isn't true.
-     But it's true for all practical purposes right now.
-</p>
 
+  <hr>
+  
+  <footer role="doc-endnotes" class="Footnotes">
+    <h2 id="footnotes-label" class="Footnotes__title">Footnotes</h2>
+    <ol class="Footnotes__list"><li id="fortnite-note" class="Footnotes__list-item" role="doc-endnote">Actually, this isn't possible because Fortnite is not available on Steam. So you'd actually need to switch from Steam to the Epic Games Store. <a class="Footnotes__back-link" href="#fortnite-ref" aria-label="Back to reference 1" role="doc-backlink">↩</a></li>
+<li id="wasm-note" class="Footnotes__list-item" role="doc-endnote">Yes, Web Assembly (WASM) is a thing, so technically this isn't true. But it's true for all practical purposes right now. <a class="Footnotes__back-link" href="#wasm-ref" aria-label="Back to reference 2" role="doc-backlink">↩</a></li></ol>
+  </footer>
 </article>
 
 <section id="comments-section">
