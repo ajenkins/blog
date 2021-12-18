@@ -55,7 +55,7 @@ asleep if I'm on my phone in bed even with Night Shift on.
 
 I used to bring my phone to bed with me and play on my phone (read news articles, etc.)
 until I got tired and fell asleep. But this usually took 2+ hours, which meant
-significantly fewer hours of sleep each night.<a href="#footnote-1" class="footnote">[1]</a>
+significantly fewer hours of sleep each {% footnoteref "diurnal", "Throughout this post I use terminology implying that you go to sleep at night and wake up in the morning. But if you work a night shift then you may be going to sleep in the morning and waking up at night. I've never worked nights so I don't know if my advice is applicable to a nocturnal schedule." %}night.{% endfootnoteref %}
 
 I know a lot of people use their phone as an alarm, so keeping your phone out of
 the bedroom may not be an option. As a compromise, at least make sure your
@@ -88,7 +88,9 @@ caffeine or having caffeine too late in the day.
 Personally I don't have any caffeine at all unless I'm really, really tired or hungover
 on a work day. If you _are_ tired during the day, I've found that a 20 minute nap has the
 same effect as a cup of coffee without interfering with my sleep that night
-(assuming taking a nap is an option for you).<a href="#footnote-2" class="footnote">[2]</a>
+(assuming taking a nap is an
+{% footnoteref "nap", "Obviously taking a nap may not always be an option. I've been working from home since February 2020 and my favorite thing about working from home is being able to take quick naps between meetings that keep me energized for the rest of the work day." %}option{% endfootnoteref %}
+for you).
 
 # How I fall asleep
 
@@ -101,8 +103,9 @@ weekdays when I'm not working out. I've found that I need 8 hours of sleep to fe
 well rested the next day, which means that I need to be asleep (asleep, not just in bed)
 by 10:30pm. It takes me about 15 minutes to fall asleep so my goal is to be in bed
 by 10pm (but I don't go to bed until I'm tired, see above). On weekends I'm usually
-going out and staying up much later (I go to bed between 12-3am) so I let myself sleep
-in on Saturday and Sunday.<a href="#footnote-3" class="footnote">[3]</a>
+going out and staying up much later (I go to bed between 12-3am) so I let myself
+{% footnoteref "consistency", "Because I'm so used to waking up at 6:30am, on weekends I'll usually wake up at around 7:30am even without an alarm. This can be problematic because if I went to bed at 3am the night before but wake up at 7:30am, that's only 4.5 hrs of sleep which may not be enough to get me through the day let alone the following night if I'm going out again. So I'll usually try to nap during the day to make up for it. It would obviously be better for my sleep health if I went to bed earlier on weekends, but that's not worth it to me and I can usually get back on a normal sleep schedule by Monday or Tuesday." %}sleep in{% endfootnoteref %}
+on Saturday and Sunday.
 
 Based on all this, the sleep schedule I've come up with is: On M-F start preparing to
 go to sleep at 9pm, go to bed at 10pm, alarm goes off at 6:30am, snooze 0-2 times,
@@ -110,8 +113,8 @@ wake up and get out of bed. On weekends I go to bed whenever I want and don't se
 an alarm.
 
 You might think there wouldn't be much to say about setting an alarm, but I actually
-have a pretty complicated alarm system configured on my iPhone.
-Since iOS 14<a href="#footnote-4" class="footnote">[4]</a>
+have a pretty complicated alarm system configured on my iPhone. Since
+{% footnoteref "Bedtime", "Earlier versions of iOS had a feature called <a href=\"https://support.apple.com/en-us/HT208655\">Bedtime</a> which was similar to Sleep but with a different interface and fewer features." %}iOS 14{% endfootnoteref %}
 iPhones have had a feature called Sleep that includes an alarm for waking you up,
 a reminder when it's time to go to sleep, and sleep tracking through your Apple Watch.
 
@@ -125,8 +128,9 @@ This is the sleep schedule I have configured through the Health app:
 
 My Sleep Goal is 8 hrs and I have Wind Down set to 1 hr, which will remind me to go to sleep
 at 9pm every week night. I also have it set up so all notifications on my phone are silenced
-while my phone is in Sleep mode, except for Slack notifications which are important
-for my job.<a href="#footnote-5" class="footnote">[5]</a>
+while my phone is in Sleep mode, except for
+{% footnoteref "Slack", "This isn't as bad as it sounds because I have a Do Not Disturb schedule configured in Slack that prevents all Slack notifications outside of my working hours. But when I'm on-call I'll turn off my Do Not Disturb schedule which will allow notifications to get through 24x7 since I make an exception for Slack notifications in my Sleep Focus settings." %}Slack notifications{% endfootnoteref %}
+which are important for my job.
 
 Another feature I love in Sleep is the ability to skip my alarm for one day.
 In the old days if I wanted to sleep in the next day I would turn off my alarm
@@ -224,7 +228,8 @@ because it's kind of weird. For me to be comfortable I need to have a blanket
 or sheet covering my torso. But if I just put a full blanket over my whole body
 I get too hot and I can't sleep. So I'll either fold up the bottom corner of the
 blanket so my legs are exposed or rotate the whole blanket by 30° so my torso
-is covered but my legs are exposed.<a href="#footnote-6" class="footnote">[6]</a>
+is covered but my legs are
+{% footnoteref "sheets", "In the summer I just often use only a top sheet while in the winter I use a top sheet and duvet/comforter. If I'm just sleeping under a sheet I'll cover my torso with the sheet and leave my legs or feet exposed to the air. If I'm using a sheet and duvet I'll cover my full body with the sheet and position the duvet so it's only covering my torso." %}exposed.{% endfootnoteref %}
 This seems like as good as time as any
 to mention that I currently don't share my bed with anyone, which, if you do,
 can definitely complicate some of these things 😅
@@ -283,54 +288,3 @@ Sleep is really important. Something I picked up on recently is that on days whe
 depressed, I'm usually just tired. Since I started sleeping 8 hours a day I've had
 a lot more energy and have been a lot more positive and upbeat. I hope this guide was helpful.
 Good luck!
-
----
-
-<p id="footnote-1">
-[1]: Throughout this post I use terminology implying that you go to sleep
-     at night and wake up in the morning. But if you work a night shift
-     then you may be going to sleep in the morning and waking up at night.
-     I've never worked nights so I don't know if my advice is applicable to
-     a nocturnal schedule.
-</p>
-
-<p id="footnote-2">
-[2]: Obviously taking a nap may not always be an option. I've been working
-     from home since February 2020 and my favorite thing about working from
-     home is being able to take quick naps between meetings that keep me
-     energized for the rest of the work day.
-</p>
-
-<p id="footnote-3">
-[3]: Because I'm so used to waking up at 6:30am, on weekends  
-     I'll usually wake up at around 7:30am even without an alarm.
-     This can be problematic because if I went to bed at 3am the night
-     before but wake up at 7:30am, that's only 4.5 hrs of sleep which
-     may not be enough to get me through the day let alone the following night
-     if I'm going out again. So I'll usually try to nap during the day to make
-     up for it. It would obviously be better for my sleep health if I went to bed
-     earlier on weekends, but that's not worth it to me and I can usually get
-     back on a normal sleep schedule by Monday or Tuesday.
-</p>
-
-<p id="footnote-4">
-[4]: Earlier versions of iOS had a feature called
-     <a href="https://support.apple.com/en-us/HT208655">Bedtime</a>
-     which was similar to Sleep but with a different interface and fewer features.
-</p>
-
-<p id="footnote-5">
-[5]: This isn't as bad as it sounds because I have a Do Not Disturb schedule
-     configured in Slack that prevents all Slack notifications outside of my
-     working hours. But when I'm on-call I'll turn off my Do Not Disturb schedule
-     which will allow notifications to get through 24x7 since I make an exception
-     for Slack notifications in my Sleep Focus settings.
-</p>
-
-<p id="footnote-6">
-[6]: In the summer I just often use only a top sheet while in the winter
-     I use a top sheet and duvet/comforter. If I'm just sleeping under a sheet
-     I'll cover my torso with the sheet and leave my legs or feet exposed to the
-     air. If I'm using a sheet and duvet I'll cover my full body with the sheet
-     and position the duvet so it's only covering my torso.
-</p>
