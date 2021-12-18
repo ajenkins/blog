@@ -2,7 +2,7 @@
 layout: layouts/post.njk
 title: Achieving a perfect PageSpeed score with Eleventy
 description: >-
-    How I optimized page load times for my Eleventy website.
+  How I optimized page load times for my Eleventy website.
 tags: ['story', 'web development', 'eleventy', '11ty', 'software engineering']
 date: 2020-10-11 15:34:00 -04:00
 ---
@@ -18,7 +18,8 @@ you just want the quick tips on how to make your Eleventy website faster,
 
 As a web developer, I was feeling a little guilty about the performance of my blog.
 Just so we're on the same page, when I'm talking about "performance" in this post,
-I'm referring to how quickly the page loads.<a href="#footnote-1" class="footnote">[1]</a>
+I'm referring to
+{% footnoteref "page-load", "There's actually a bit more to website performance than just how fast the page loads. That's certainly one important metric, but there are other things to consider too, like how long before a user can start interacting with the page. The way developers measure performance has also evolved over time. The current state-of-the-art comes from Google, who boiled it down to three key metrics they refer to as <a href=\"https://web.dev/vitals/\">Core Web Vitals</a>." %}how quickly the page loads.{% endfootnoteref %}
 
 My site was already pretty fast to begin with because of the tools I used to build
 my website, like a static-site generator (Eleventy), and a CDN for caching static assets (Netlify).
@@ -79,18 +80,18 @@ And that's a website that Google made, and they made the test!
 After giving myself a pat on the back, I dug into the specific suggestions they gave.
 Here's what they suggested:
 
-1. Remove unused JavaScript*
+1. Remove unused JavaScript\*
 1. Properly size images
 1. Serve images in next-gen formats
-1. Remove unused CSS*
+1. Remove unused CSS\*
 1. Eliminate render-blocking resources
 1. Defer offscreen images
-1. Ensure text remains visible during webfont load*
-1. Reduce the impact of third-party code*
-1. Does not use passive listeners to improve scrolling performance*
+1. Ensure text remains visible during webfont load\*
+1. Reduce the impact of third-party code\*
+1. Does not use passive listeners to improve scrolling performance\*
 
 But here's the kicker: five of those suggestions are solely the result of embedding
-that YouTube video (the issues caused by YouTube are indicated with an asterisk*).
+that YouTube video (the issues caused by YouTube are indicated with an asterisk\*).
 Come on, Google, that's not fair. You can't yell
 at me for how slow my website is when the only reason it's slow is because I'm
 embedding a video from the site that _you_ made!
@@ -236,8 +237,12 @@ Come on Apple, you're better than this. Don't have different features in Safari 
 which OS you're running. That's not how versions are supposed to work. Just give the versions different names,
 like 14.0-catalina and 14.0-bigsur or something 😞
 
-Anyway, after all of that, I decided not to use WebP for any of my images until Mac OS Big Sur
-has been out for a while and most people have upgraded to it.<a href="#footnote-2" class="footnote">[2]</a>
+Anyway, after all of that, I decided
+{% footnoteref "webp", "My other option is to use the <code>&lt;picture&gt;</code> tag which supports multiple image formats for a single image, so you can implement a fallback image if your browser can't load an image. While technically feasible, it seemed like a lot of effort just to get WebP images working in Safari. Most of my images are using JPEG anyway, which is nearly as good as WebP as long as you don't need transparency." %}not to use WebP{% endfootnoteref %}
+for any of my images until Mac OS Big Sur
+has been out for a while and most people have upgraded to it.
+
+**UPDATE (11/21/21):** I'm now using WebP (and SVG) for all of the images on my website.
 
 ## Defer offscreen images
 
@@ -323,22 +328,3 @@ contained files regardless of file type, use the `addPassthroughCopy` function.
 
 Ta da! Adding that one line fixed my YouTube problem _and_ resolved other issues too, like
 some of my favicon files not being copied over correctly 🎉
-
----
-
-<p id="footnote-1">
-[1]: There's actually a bit more to website performance than just how fast the page loads.
-     That's certainly one important metric, but there are other things to consider too, like
-     how long before a user can start interacting with the page. The way developers measure
-     performance has also evolved over time. The current state-of-the-art
-     comes from Google, who boiled it down to three key metrics they refer to as
-     <a href="https://web.dev/vitals/">Core Web Vitals</a>.
-</p>
-
-<p id="footnote-2">
-[2]: My other option is to use the &lt;picture&gt; tag which supports multiple image formats
-     for a single image, so you can implement a fallback image if your browser can't load
-     an image. While technically feasible, it seemed like a lot of effort just to get
-     WebP images working in Safari. Most of my images are using JPEG anyway, which is
-     nearly as good as WebP as long as you don't need transparency.
-</p>

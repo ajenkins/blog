@@ -51,7 +51,8 @@ you just want the quick tips on how to make your Eleventy website faster,
 <h2>Intro</h2>
 <p>As a web developer, I was feeling a little guilty about the performance of my blog.
 Just so we're on the same page, when I'm talking about &quot;performance&quot; in this post,
-I'm referring to how quickly the page loads.<a href="#footnote-1" class="footnote">[1]</a></p>
+I'm referring to
+<a class="Footnotes__ref" href="#page-load-note" id="page-load-ref" aria-describedby="footnotes-label" role="doc-noteref">how quickly the page loads.</a></p>
 <p>My site was already pretty fast to begin with because of the tools I used to build
 my website, like a static-site generator (Eleventy), and a CDN for caching static assets (Netlify).
 I also don't use any client-side Javascript on my website or large CSS libraries like Bootstrap.
@@ -235,8 +236,11 @@ images <em>was</em> added in Safari 14. But I'm using Safari 14 and it's not wor
 Come on Apple, you're better than this. Don't have different features in Safari 14 depending on
 which OS you're running. That's not how versions are supposed to work. Just give the versions different names,
 like 14.0-catalina and 14.0-bigsur or something 😞</p>
-<p>Anyway, after all of that, I decided not to use WebP for any of my images until Mac OS Big Sur
-has been out for a while and most people have upgraded to it.<a href="#footnote-2" class="footnote">[2]</a></p>
+<p>Anyway, after all of that, I decided
+<a class="Footnotes__ref" href="#webp-note" id="webp-ref" aria-describedby="footnotes-label" role="doc-noteref">not to use WebP</a>
+for any of my images until Mac OS Big Sur
+has been out for a while and most people have upgraded to it.</p>
+<p><strong>UPDATE (11/21/21):</strong> I'm now using WebP (and SVG) for all of the images on my website.</p>
 <h2>Defer offscreen images</h2>
 <p>This sounded hard, so I decided not to do it. Next!</p>
 <h2>Fixing all of the YouTube-induced performance issues</h2>
@@ -301,24 +305,14 @@ contained files regardless of file type, use the <code>addPassthroughCopy</code>
 <p><a href="https://github.com/ajenkins/blog/blob/master/.eleventy.js">You can see how I use it in my .eleventy.js file here</a>.</p>
 <p>Ta da! Adding that one line fixed my YouTube problem <em>and</em> resolved other issues too, like
 some of my favicon files not being copied over correctly 🎉</p>
-<hr>
-<p id="footnote-1">
-[1]: There's actually a bit more to website performance than just how fast the page loads.
-     That's certainly one important metric, but there are other things to consider too, like
-     how long before a user can start interacting with the page. The way developers measure
-     performance has also evolved over time. The current state-of-the-art
-     comes from Google, who boiled it down to three key metrics they refer to as
-     <a href="https://web.dev/vitals/">Core Web Vitals</a>.
-</p>
-<p id="footnote-2">
-[2]: My other option is to use the &lt;picture&gt; tag which supports multiple image formats
-     for a single image, so you can implement a fallback image if your browser can't load
-     an image. While technically feasible, it seemed like a lot of effort just to get
-     WebP images working in Safari. Most of my images are using JPEG anyway, which is
-     nearly as good as WebP as long as you don't need transparency.
-</p>
+
   <hr>
   
+  <footer role="doc-endnotes" class="Footnotes">
+    <h2 id="footnotes-label" class="Footnotes__title">Footnotes</h2>
+    <ol class="Footnotes__list"><li id="page-load-note" class="Footnotes__list-item" role="doc-endnote">There's actually a bit more to website performance than just how fast the page loads. That's certainly one important metric, but there are other things to consider too, like how long before a user can start interacting with the page. The way developers measure performance has also evolved over time. The current state-of-the-art comes from Google, who boiled it down to three key metrics they refer to as <a href="https://web.dev/vitals/">Core Web Vitals</a>. <a class="Footnotes__back-link" href="#page-load-ref" aria-label="Back to reference 1" role="doc-backlink">↩</a></li>
+<li id="webp-note" class="Footnotes__list-item" role="doc-endnote">My other option is to use the <code>&lt;picture&gt;</code> tag which supports multiple image formats for a single image, so you can implement a fallback image if your browser can't load an image. While technically feasible, it seemed like a lot of effort just to get WebP images working in Safari. Most of my images are using JPEG anyway, which is nearly as good as WebP as long as you don't need transparency. <a class="Footnotes__back-link" href="#webp-ref" aria-label="Back to reference 2" role="doc-backlink">↩</a></li></ol>
+  </footer>
 </article>
 
 <section id="comments-section">
