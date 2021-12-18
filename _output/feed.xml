@@ -4,7 +4,7 @@
   <subtitle>A blog about technology, politics, video games, and movies</subtitle>
   <link href="https://ajenkins.me/feed.xml" rel="self" />
   <link href="https://ajenkins.me/" />
-  <updated>2021-11-28T05:15:00Z</updated>
+  <updated>2021-12-18T20:50:00Z</updated>
   <id>https://ajenkins.me/</id>
   <author>
     <name>AJ Jenkins</name>
@@ -3206,6 +3206,49 @@ VR would require technological breakthroughs, but I view that as a separate
 problem from building the metaverse&lt;/p&gt;
 &lt;p&gt;If you have questions or you think I missed an important aspect of how
 the metaverse should work, leave a comment below.&lt;/p&gt;
+</content>
+  </entry>
+  
+  <entry>
+    <title>How to stay motivated when working on a big project</title>
+    <link href="https://ajenkins.me/post/stay_motivated/" />
+    <updated>2021-12-18T20:50:00Z</updated>
+    <id>https://ajenkins.me/post/stay_motivated/</id>
+    <content type="html">&lt;p&gt;Last winter I started working on a &lt;a href=&quot;https://ajenkins.me/post/making_a_dating_app&quot;&gt;dating app&lt;/a&gt;
+and continued working on it through the spring. But after getting my
+Covid vaccine and when things started opening back up during the summer,
+I took a break and stopped working on my app. A few weeks ago I picked
+it back up, but it was really hard to get back into it.&lt;/p&gt;
+&lt;p&gt;I&#39;ve been working on this project for almost a year now and I&#39;ve picked
+up some tricks on how to stay motivated on a long-term project and to
+see it through to completion. I guess I haven&#39;t actually finished yet,
+but I feel confident that I will. Anyway, here are some tricks that I
+use to stay motivated and to stick with a big project.&lt;/p&gt;
+&lt;h1&gt;General tips&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;Make a commitment that you&#39;re going to finish your project, no matter what.&lt;/li&gt;
+&lt;li&gt;Tell as many people about it as you can so you feel guilty if they ask &amp;quot;how&#39;s that thing going?&amp;quot; and you haven&#39;t made any progress since the last time they asked about it.&lt;/li&gt;
+&lt;li&gt;Stay &lt;a class=&quot;Footnotes__ref&quot; href=&quot;https://ajenkins.me/post/stay_motivated/#caffeine-note&quot; id=&quot;caffeine-ref&quot; aria-describedby=&quot;footnotes-label&quot; role=&quot;doc-noteref&quot;&gt;caffeinated.&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Make a playlist of songs that &lt;a class=&quot;Footnotes__ref&quot; href=&quot;https://ajenkins.me/post/stay_motivated/#trigger-note&quot; id=&quot;trigger-ref&quot; aria-describedby=&quot;footnotes-label&quot; role=&quot;doc-noteref&quot;&gt;motivate you.&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Play your music through (good) speakers, not headphones, if you don&#39;t have roommates. You want to keep working as long as possible, and headphones get uncomfortable if you wear them for too long.&lt;/li&gt;
+&lt;li&gt;Make a to-do list. I use &lt;a href=&quot;https://trello.com/&quot;&gt;Trello&lt;/a&gt;. Check things off as you go.&lt;/li&gt;
+&lt;li&gt;Focus on one thing at a time. Just focus on that one thing and don&#39;t worry about anything else.&lt;/li&gt;
+&lt;li&gt;Work like a sculptor. Get the general shape of the whole thing done before you start refining the details.&lt;/li&gt;
+&lt;li&gt;If working on something is sapping your motivation (like
+&lt;a class=&quot;Footnotes__ref&quot; href=&quot;https://ajenkins.me/post/stay_motivated/#tests-note&quot; id=&quot;tests-ref&quot; aria-describedby=&quot;footnotes-label&quot; role=&quot;doc-noteref&quot;&gt;writing tests&lt;/a&gt;),
+stop. Work on something else, even if it&#39;s less important.&lt;/li&gt;
+&lt;li&gt;Work on the most fun stuff first. If you look at something on your to-do list and it makes you groan or gives you a sense of dread, skip it. Another day you&#39;ll feel up to it, but today is not that day.&lt;/li&gt;
+&lt;li&gt;The #1 goal is to keep working at all costs. As long as you&#39;re constantly making progress, that&#39;s all that matters. Everything needs to get done eventually, but the order you do things in matters less than you think it does.&lt;/li&gt;
+&lt;li&gt;Items on your to-do list must be as small as possible. Don&#39;t write full user stories. Each item on my to-do list can be completed in about 30 minutes. This will ensure that you always feel like you&#39;re making progress. I think of each item on my to-do list as one git commit.&lt;/li&gt;
+&lt;li&gt;If starting/picking back up your project seems daunting, work on a &amp;quot;gateway&amp;quot; project for a bit to get yourself (back) in the right mindset. For me, working on my dating app seemed scary, so I wrote a few blog posts instead. Didn&#39;t gain me any progress on my dating app, but got me used to sitting at my computer outside of working and tapping on my keyboard.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1&gt;Software Engineering-specific tips&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;Don&#39;t worry about writing perfect code. Just get something working ASAP. Make the code nice later.&lt;/li&gt;
+&lt;li&gt;Don&#39;t refactor code prematurely, even if you&#39;ll need to do it eventually. Wait until it gets annoying.&lt;/li&gt;
+&lt;li&gt;Don&#39;t worry about handling edge cases. Make to-do list items for those as you think of them.&lt;/li&gt;
+&lt;li&gt;Make the UI pretty (i.e., styling, CSS) last. You can spend an eternity improving the look and feel of your app, so don&#39;t do anything more than the bare minimum until the functionality is 100% complete.&lt;/li&gt;
+&lt;/ul&gt;
 </content>
   </entry>
 </feed>

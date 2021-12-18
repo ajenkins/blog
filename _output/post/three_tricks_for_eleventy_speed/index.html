@@ -236,6 +236,35 @@ return `&lt;img src=&quot;${props.url}&quot; width=&quot;${props.width}&quot; he
 Is that just a built in property you get with the plug-in?</p>
     </div>
   
+    <div class="comment-entry">
+      <h4 class="comment-author">By: AJ (Author)</h4>
+      <time class="comment-date" datetime="2021-12-18T16:41:35.383Z">
+        December 18, 2021, 11:41 AM EST
+      </time>
+      <p class="comment-body">Sorry David, just read your comment. Not sure if this is helpful, but I&#39;ve actually since upgraded to the latest version of the plugin, which is a lot easier to use. With the latest version of the plugin, here&#39;s what I have in my .eleventy.js file:
+
+eleventyConfig.addNunjucksAsyncShortcode(
+  &#39;image&#39;,
+  async function imageShortcode(src, alt, sizes) {
+    let metadata = await Image(src, {
+      widths: [640],
+      formats: [&#39;webp&#39;],
+      urlPath: &#39;/static/&#39;,
+      outputDir: &#39;./_output/static/&#39;
+    });
+
+    let imageAttributes = {
+      alt,
+      sizes,
+      loading: &#39;lazy&#39;,
+      decoding: &#39;async&#39;
+    };
+
+    return Image.generateHTML(metadata, imageAttributes);
+  }
+);</p>
+    </div>
+  
 
 
 <h2>Leave a comment</h2>
