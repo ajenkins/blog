@@ -58,11 +58,6 @@ a:hover {
   text-decoration: underline;
 }
 
-a.footnote {
-  vertical-align: super;
-  font-size: 0.8em;
-}
-
 /* Footnotes */
 [role='doc-noteref'] {
   /* Prevent reference from wrapping onto next line */
