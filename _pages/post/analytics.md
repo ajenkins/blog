@@ -2,8 +2,8 @@
 layout: layouts/post.njk
 title: Why I don't have analytics on my website
 description: >-
-    An explanation for why I don't use Google Analytics or any other analytics tool
-    (even a privacy-focused analytics tools) on my website.
+  An explanation for why I don't use Google Analytics or any other analytics tool
+  (even a privacy-focused analytics tools) on my website.
 tags: ['opinion', 'technology', 'privacy', 'web design']
 date: 2020-10-04 12:00:00 -04:00
 ---
@@ -13,8 +13,9 @@ for analytics on my website. I was going to go over the pros and cons of each se
 I considered and then dramatically tell you the one, best web analytics service.
 
 But after a lot of thought, I made the unconventional decision to not use any
-analytics service _at all_ for my website. I haven't heard of anyone else who's
-done this, so I decided to write why _I_ decided to do this.<a href="#footnote-1" class="footnote">[1]</a>
+analytics service _at all_ for my website. I haven't heard of
+{% footnoteref "no-analytics", "I'm sure there are plenty of other websites that don't use analytics. I just don't know of any, and I've definitely never read a justification from someone explaining why they didn't put analytics on their website." %}anyone else{% endfootnoteref %}
+who's done this, so I decided to write why _I_ decided to do this.
 
 ## Wait, what do you mean "analytics"?
 
@@ -27,12 +28,14 @@ referred from, and what they click on in each page.
 
 By far, the most popular user analytics tool is Google Analytics.
 Not only is Google Analytics one of the most advanced user analytics tools available,
-it's also very easy to set up and completely free
-(at least the basic version).<a href="#footnote-2" class="footnote">[2]</a>
+it's also very easy to set up and completely free (at least the
+{% footnoteref "ga360", "The standard version of Google Analytics is free, but Google also offers an enterprise-grade version of the tool called Google Analytics 360 which costs money. But my impression is that nearly all websites use the free version of Google Analytics and 360 is only used by large companies. According to a quick search online, Google Analytics 360 starts at $150,000/year." %}basic version{% endfootnoteref %}).
 Google makes this free because when a website uses Google Analytics, they agree
-to share all of their usage data and traffic patterns with Google, and the more Google
+to share
+{% footnoteref "sharing-data", "Google actually does let you <a href=\"https://support.google.com/analytics/answer/1011397?hl=en\">customize what data you share with them</a>. However, I believe the defaults make it so most of your website data is shared with Google. Also, when you go into your settings to opt-out of sharing your data with Google, every single toggle has a paragraph listing all of the reasons you should agree to share your site's data with Google. Clearly, Google really wants your data." %}all{% endfootnoteref %}
+of their usage data and traffic patterns with Google, and the more Google
 knows about how people use the internet,
-the better they can serve targeted ads.<a href="#footnote-3" class="footnote">[3]</a>
+the better they can serve targeted ads.
 One cool/creepy feature of Google Analytics is it gives you very detailed information
 about the demographics of your users. It will show you the age, gender, and location
 of everyone who visits your website. It can even show you what types of things they're
@@ -67,8 +70,9 @@ you about how they share your data with third-parties and give you the option to
 
 The passage of GDPR is the reason that all websites you visit now have that annoying
 banner at the bottom with some fine print about sharing data with third-parties
-and a giant button that usually says ACCEPT ALL COOKIES, which most people click because
-it's the easiest way to make it go away.<a href="#footnote-4" class="footnote">[4]</a>
+and a giant button that usually says ACCEPT ALL COOKIES, which
+{% footnoteref "cookie-banners", "I don't actually know how often people click the Accept All Cookies button. It's always the biggest button, and I know that people tend to click big buttons on websites. What I can tell you is that <em>I</em> usually click that button when I'm on a website because I just want the banner to leave me alone, even if it means compromising my privacy." %}most people{% endfootnoteref %}
+click because it's the easiest way to make it go away.
 
 Ok, that's pretty much everything you need to know about web analytics. Now I'll
 explain why I decided not to add analytics to my website. Before that though,
@@ -247,37 +251,3 @@ And that's something that no analytics tool can help me with.
 #### _Closing-closing thought_
 
 Actually, this post _is_ a rallying-cry against something. Cookie banners. Cookie banners suck 😅
-
----
-
-<p id="footnote-1">
-[1]: I'm sure there are plenty of other websites that don't use analytics.
-     I just don't know of any, and I've definitely never read a justification
-     from someone explaining why they didn't put analytics on their website.
-</p>
-
-<p id="footnote-2">
-[2]: The standard version of Google Analytics is free, but Google also offers
-     an enterprise-grade version of the tool called Google Analytics 360 which costs money.
-     But my impression is that nearly all websites use the free version of Google Analytics
-     and 360 is only used by large companies. According to a quick search online,
-     Google Analytics 360 starts at $150,000/year.
-</p>
-
-<p id="footnote-3">
-[3]: Google actually does let you
-     <a href="https://support.google.com/analytics/answer/1011397?hl=en">customize
-     what data you share with them</a>. However, I believe the defaults make it so
-     most of your website data is shared with Google. Also, when you go into your settings
-     to opt-out of sharing your data with Google, every single toggle has a paragraph listing
-     all of the reasons you should agree to share your site's data with Google. Clearly,
-     Google really wants your data.
-</p>
-
-<p id="footnote-4">
-[4]: I don't actually know how often people click the Accept All Cookies button.
-     It's always the biggest button, and I know that people tend to click big buttons
-     on websites. What I <em>can</em> tell you is that <em>I</em> usually click that button
-     when I'm on a website because I just want the banner to leave me alone, even
-     if it means compromising my privacy.
-</p>

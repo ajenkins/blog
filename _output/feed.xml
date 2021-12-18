@@ -349,8 +349,9 @@ I had moved on to caring about other things.&lt;/p&gt;
 for analytics on my website. I was going to go over the pros and cons of each service
 I considered and then dramatically tell you the one, best web analytics service.&lt;/p&gt;
 &lt;p&gt;But after a lot of thought, I made the unconventional decision to not use any
-analytics service &lt;em&gt;at all&lt;/em&gt; for my website. I haven&#39;t heard of anyone else who&#39;s
-done this, so I decided to write why &lt;em&gt;I&lt;/em&gt; decided to do this.&lt;a href=&quot;https://ajenkins.me/post/analytics/#footnote-1&quot; class=&quot;footnote&quot;&gt;[1]&lt;/a&gt;&lt;/p&gt;
+analytics service &lt;em&gt;at all&lt;/em&gt; for my website. I haven&#39;t heard of
+&lt;a class=&quot;Footnotes__ref&quot; href=&quot;https://ajenkins.me/post/analytics/#no-analytics-note&quot; id=&quot;no-analytics-ref&quot; aria-describedby=&quot;footnotes-label&quot; role=&quot;doc-noteref&quot;&gt;anyone else&lt;/a&gt;
+who&#39;s done this, so I decided to write why &lt;em&gt;I&lt;/em&gt; decided to do this.&lt;/p&gt;
 &lt;h2&gt;Wait, what do you mean &amp;quot;analytics&amp;quot;?&lt;/h2&gt;
 &lt;p&gt;&lt;em&gt;If the title of my post is self-explanatory to you, feel free to skip this section.&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;So, here&#39;s the deal: on basically every single website you visit
@@ -359,12 +360,14 @@ This code can track how many users view each page, what other website they were
 referred from, and what they click on in each page.&lt;/p&gt;
 &lt;p&gt;By far, the most popular user analytics tool is Google Analytics.
 Not only is Google Analytics one of the most advanced user analytics tools available,
-it&#39;s also very easy to set up and completely free
-(at least the basic version).&lt;a href=&quot;https://ajenkins.me/post/analytics/#footnote-2&quot; class=&quot;footnote&quot;&gt;[2]&lt;/a&gt;
+it&#39;s also very easy to set up and completely free (at least the
+&lt;a class=&quot;Footnotes__ref&quot; href=&quot;https://ajenkins.me/post/analytics/#ga360-note&quot; id=&quot;ga360-ref&quot; aria-describedby=&quot;footnotes-label&quot; role=&quot;doc-noteref&quot;&gt;basic version&lt;/a&gt;).
 Google makes this free because when a website uses Google Analytics, they agree
-to share all of their usage data and traffic patterns with Google, and the more Google
+to share
+&lt;a class=&quot;Footnotes__ref&quot; href=&quot;https://ajenkins.me/post/analytics/#sharing-data-note&quot; id=&quot;sharing-data-ref&quot; aria-describedby=&quot;footnotes-label&quot; role=&quot;doc-noteref&quot;&gt;all&lt;/a&gt;
+of their usage data and traffic patterns with Google, and the more Google
 knows about how people use the internet,
-the better they can serve targeted ads.&lt;a href=&quot;https://ajenkins.me/post/analytics/#footnote-3&quot; class=&quot;footnote&quot;&gt;[3]&lt;/a&gt;
+the better they can serve targeted ads.
 One cool/creepy feature of Google Analytics is it gives you very detailed information
 about the demographics of your users. It will show you the age, gender, and location
 of everyone who visits your website. It can even show you what types of things they&#39;re
@@ -396,8 +399,9 @@ websites are required to inform
 you about how they share your data with third-parties and give you the option to opt-out.&lt;/p&gt;
 &lt;p&gt;The passage of GDPR is the reason that all websites you visit now have that annoying
 banner at the bottom with some fine print about sharing data with third-parties
-and a giant button that usually says ACCEPT ALL COOKIES, which most people click because
-it&#39;s the easiest way to make it go away.&lt;a href=&quot;https://ajenkins.me/post/analytics/#footnote-4&quot; class=&quot;footnote&quot;&gt;[4]&lt;/a&gt;&lt;/p&gt;
+and a giant button that usually says ACCEPT ALL COOKIES, which
+&lt;a class=&quot;Footnotes__ref&quot; href=&quot;https://ajenkins.me/post/analytics/#cookie-banners-note&quot; id=&quot;cookie-banners-ref&quot; aria-describedby=&quot;footnotes-label&quot; role=&quot;doc-noteref&quot;&gt;most people&lt;/a&gt;
+click because it&#39;s the easiest way to make it go away.&lt;/p&gt;
 &lt;p&gt;Ok, that&#39;s pretty much everything you need to know about web analytics. Now I&#39;ll
 explain why I decided not to add analytics to my website. Before that though,
 I&#39;ll briefly go over why I would even want analytics on my personal blog to begin with.&lt;/p&gt;
@@ -538,35 +542,7 @@ data-driven decisions on the best way to improve their website, product, or serv
 And that&#39;s something that no analytics tool can help me with.&lt;/p&gt;
 &lt;h4&gt;&lt;em&gt;Closing-closing thought&lt;/em&gt;&lt;/h4&gt;
 &lt;p&gt;Actually, this post &lt;em&gt;is&lt;/em&gt; a rallying-cry against something. Cookie banners. Cookie banners suck 😅&lt;/p&gt;
-&lt;hr /&gt;
-&lt;p id=&quot;footnote-1&quot;&gt;
-[1]: I&#39;m sure there are plenty of other websites that don&#39;t use analytics.
-     I just don&#39;t know of any, and I&#39;ve definitely never read a justification
-     from someone explaining why they didn&#39;t put analytics on their website.
-&lt;/p&gt;
-&lt;p id=&quot;footnote-2&quot;&gt;
-[2]: The standard version of Google Analytics is free, but Google also offers
-     an enterprise-grade version of the tool called Google Analytics 360 which costs money.
-     But my impression is that nearly all websites use the free version of Google Analytics
-     and 360 is only used by large companies. According to a quick search online,
-     Google Analytics 360 starts at $150,000/year.
-&lt;/p&gt;
-&lt;p id=&quot;footnote-3&quot;&gt;
-[3]: Google actually does let you
-     &lt;a href=&quot;https://support.google.com/analytics/answer/1011397?hl=en&quot;&gt;customize
-     what data you share with them&lt;/a&gt;. However, I believe the defaults make it so
-     most of your website data is shared with Google. Also, when you go into your settings
-     to opt-out of sharing your data with Google, every single toggle has a paragraph listing
-     all of the reasons you should agree to share your site&#39;s data with Google. Clearly,
-     Google really wants your data.
-&lt;/p&gt;
-&lt;p id=&quot;footnote-4&quot;&gt;
-[4]: I don&#39;t actually know how often people click the Accept All Cookies button.
-     It&#39;s always the biggest button, and I know that people tend to click big buttons
-     on websites. What I &lt;em&gt;can&lt;/em&gt; tell you is that &lt;em&gt;I&lt;/em&gt; usually click that button
-     when I&#39;m on a website because I just want the banner to leave me alone, even
-     if it means compromising my privacy.
-&lt;/p&gt;</content>
+</content>
   </entry>
   
   <entry>
