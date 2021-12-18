@@ -41,10 +41,14 @@ Or you might not even know what Ranked Choice Voting is
 (&lt;a href=&quot;https://www.wbur.org/news/2020/08/12/wbur-poll-ranked-choice-voting-ballot-question&quot;&gt;according to a recent poll, 32% of MA residents don&#39;t understand it&lt;/a&gt;).
 In this essay I&#39;ll explain what Ranked Choice
 Voting is, how it works, and how it could save our political system.&lt;/p&gt;
-&lt;p&gt;Ranked Choice Voting (RCV) is an alternative method for electing political candidates that
-replaces plurality voting.&lt;a href=&quot;https://ajenkins.me/post/rcv/#footnote-1&quot; class=&quot;footnote&quot;&gt;[1]&lt;/a&gt; If you&#39;ve never heard of plurality voting, it&#39;s the basic voting system that you
+&lt;p&gt;Ranked Choice Voting (RCV) is an alternative method for
+&lt;a class=&quot;Footnotes__ref&quot; href=&quot;https://ajenkins.me/post/rcv/#other-votes-note&quot; id=&quot;other-votes-ref&quot; aria-describedby=&quot;footnotes-label&quot; role=&quot;doc-noteref&quot;&gt;electing political candidates&lt;/a&gt;
+that replaces plurality voting.
+If you&#39;ve never heard of plurality voting, it&#39;s the basic voting system that you
 probably just think of as &amp;quot;voting.&amp;quot; First I&#39;ll explain how plurality voting works so you can see how RCV is different.
-In plurality voting voters pick their one, favorite&lt;a href=&quot;https://ajenkins.me/post/rcv/#footnote-2&quot; class=&quot;footnote&quot;&gt;[2]&lt;/a&gt; candidate from a list of possible candidates. The winner is whoever
+In plurality voting voters pick their one,
+&lt;a class=&quot;Footnotes__ref&quot; href=&quot;https://ajenkins.me/post/rcv/#tactical-voting-note&quot; id=&quot;tactical-voting-ref&quot; aria-describedby=&quot;footnotes-label&quot; role=&quot;doc-noteref&quot;&gt;favorite&lt;/a&gt;
+candidate from a list of possible candidates. The winner is whoever
 receives the most votes (a plurality of the votes), but they don&#39;t need a majority (more than half).&lt;/p&gt;
 &lt;p&gt;RCV works a little bit differently. Instead of only choosing your one, favorite candidate, you rank all (or some) of the
 candidates in the order of who you most want to win. So you would rank your first-choice candidate first, your
@@ -80,7 +84,9 @@ Tallying the votes by hand is a little tedious, but should be something that any
 process.&lt;/p&gt;
 &lt;p&gt;So, why is Ranked Choice Voting better than plurality voting? Rather than go into a technical deep dive of all the
 benefits of RCV, in this article I&#39;ll just talk about the biggest advantage: it eliminates the &amp;quot;spoiler effect&amp;quot;
-when similar candidates run against each other.&lt;a href=&quot;https://ajenkins.me/post/rcv/#footnote-3&quot; class=&quot;footnote&quot;&gt;[3]&lt;/a&gt;
+when
+&lt;a class=&quot;Footnotes__ref&quot; href=&quot;https://ajenkins.me/post/rcv/#clones-note&quot; id=&quot;clones-ref&quot; aria-describedby=&quot;footnotes-label&quot; role=&quot;doc-noteref&quot;&gt;similar candidates&lt;/a&gt;
+run against each other.
 When political pundits talk about a &amp;quot;spoiler candidate&amp;quot;, they
 mean a candidate that runs in an election (usually a third-candidate entering a two-candidate race) and then
 &amp;quot;spoiling&amp;quot; the election for whichever candidate they&#39;re more similar to, thus handing the election to the
@@ -122,7 +128,8 @@ Republicans to throw their weight behind to beat Trump, so their votes were spli
 thus clearing the way for Trump to take the nomination. I believe that if voters were able to vote in that primary
 using RCV, many would have ranked Trump last on their ballot (I&#39;m thinking of the &amp;quot;never Trumpers&amp;quot;) and perhaps a
 candidate that was actually preferred by a majority of Republican voters would&#39;ve been nominated instead.&lt;/p&gt;
-&lt;p&gt;Another cool thing about RCV is that primaries themselves are actually unnecessary.&lt;a href=&quot;https://ajenkins.me/post/rcv/#footnote-4&quot; class=&quot;footnote&quot;&gt;[4]&lt;/a&gt;
+&lt;p&gt;Another cool thing about RCV is that primaries themselves are actually
+&lt;a class=&quot;Footnotes__ref&quot; href=&quot;https://ajenkins.me/post/rcv/#primaries-note&quot; id=&quot;primaries-ref&quot; aria-describedby=&quot;footnotes-label&quot; role=&quot;doc-noteref&quot;&gt;unnecessary.&lt;/a&gt;
 If you&#39;ve ever wondered why we
 have to have primary elections before the main election, the main reason is because if multiple candidates from
 the same party ran against each other in the main election, the vote would be split across all of the candidates in
@@ -146,7 +153,8 @@ to their true preferences and feel confident that their vote will automatically 
 who is capable of winning.&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;The country is more divided than ever&lt;/strong&gt; - I actually don&#39;t believe this is true. I think that most of the
 country falls somewhere in the middle on most issues, but people are forced to pick a side in the battle
-between Democrats and Republicans which makes us feel divided.&lt;a href=&quot;https://ajenkins.me/post/rcv/#footnote-5&quot; class=&quot;footnote&quot;&gt;[5]&lt;/a&gt;
+between Democrats and Republicans which makes us feel
+&lt;a class=&quot;Footnotes__ref&quot; href=&quot;https://ajenkins.me/post/rcv/#division-note&quot; id=&quot;division-ref&quot; aria-describedby=&quot;footnotes-label&quot; role=&quot;doc-noteref&quot;&gt;divided.&lt;/a&gt;
 I know many Democrats who can&#39;t imagine how
 someone could have voted for Trump, but I bet that many Trump voters are more moderate than they might expect.
 I think many people voted for Trump, not because they support his agenda or even like him, but because they
@@ -175,31 +183,6 @@ also by ensuring that the representatives who get elected actually reflect the p
 &lt;p&gt;Thanks for reading, and if you live in MA I hope you vote YES on Choice 2 on November 3! If you&#39;d like to get
 involved with
 &lt;a href=&quot;https://www.yeson2rcv.com/&quot;&gt;the RCV campaign in MA, you can learn more here&lt;/a&gt;.&lt;/p&gt;
-&lt;hr /&gt;
-&lt;p id=&quot;footnote-1&quot;&gt;
-[1]: Technically RCV and plurality voting can be used for voting on anything, not just candidates.
-     But for simplicity, I only mention voting on political representatives since that&#39;s what people
-     are most used to voting on in elections.
-&lt;/p&gt;
-&lt;p id=&quot;footnote-2&quot;&gt;
-[2]: People often &lt;em&gt;don&#39;t&lt;/em&gt; vote for their favorite candidate, but instead vote for different candidate.
-     This is known as tactical voting, which is explained later.
-&lt;/p&gt;
-&lt;p name=&quot;footnote-3&quot;&gt;
-[3]: This is known also known as
-     &lt;a href=&quot;https://en.wikipedia.org/wiki/Independence_of_clones_criterion&quot;&gt;the &quot;clone&quot; problem&lt;/a&gt;
-     by mathematicians who study electoral systems. The idea is that similar candidates (i.e., clones) won&#39;t
-     steal votes from each other.
-&lt;/p&gt;
-&lt;p id=&quot;footnote-4&quot;&gt;
-[4]: Of course, you would still need some way of qualifying candidates for the election so voters
-     aren&#39;t overwhelmed with too many options. Ranking more than 5 or so candidates would probably
-     be tough for most voters.
-&lt;/p&gt;
-&lt;p name=&quot;footnote-5&quot;&gt;
-[5]: This isn&#39;t something I came up with own my own.
-     &lt;a href=&quot;https://en.wikipedia.org/wiki/Political_polarization_in_the_United_States#Party_polarization&quot;&gt;You can read more about the theory here&lt;/a&gt;.
-&lt;/p&gt;
 </content>
   </entry>
   

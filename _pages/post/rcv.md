@@ -2,10 +2,10 @@
 layout: layouts/post.njk
 title: Why you should care about Ranked Choice Voting
 description: >-
-    An assessment of why our current political system in the United States is broken,
-    an explanation of ranked choice voting (RCV) and how it works,
-    and an explanation of how ranked choice voting would fix the problems we're currently facing
-    in our political system.
+  An assessment of why our current political system in the United States is broken,
+  an explanation of ranked choice voting (RCV) and how it works,
+  and an explanation of how ranked choice voting would fix the problems we're currently facing
+  in our political system.
 tags: ['essay', 'politics', 'voting']
 date: 2020-08-29 12:00:00 -04:00
 ---
@@ -38,10 +38,14 @@ Or you might not even know what Ranked Choice Voting is
 In this essay I'll explain what Ranked Choice
 Voting is, how it works, and how it could save our political system.
 
-Ranked Choice Voting (RCV) is an alternative method for electing political candidates that 
-replaces plurality voting.<a href="#footnote-1" class="footnote">[1]</a> If you've never heard of plurality voting, it's the basic voting system that you 
-probably just think of as "voting." First I'll explain how plurality voting works so you can see how RCV is different. 
-In plurality voting voters pick their one, favorite<a href="#footnote-2" class="footnote">[2]</a> candidate from a list of possible candidates. The winner is whoever
+Ranked Choice Voting (RCV) is an alternative method for
+{% footnoteref "other-votes", "Technically RCV and plurality voting can be used for voting on anything, not just candidates. But for simplicity, I only mention voting on political representatives since that's what people are most used to voting on in elections." %}electing political candidates{% endfootnoteref %}
+that replaces plurality voting.
+If you've never heard of plurality voting, it's the basic voting system that you
+probably just think of as "voting." First I'll explain how plurality voting works so you can see how RCV is different.
+In plurality voting voters pick their one,
+{% footnoteref "tactical-voting", "People often <em>don't</em> vote for their favorite candidate, but instead vote for different candidate. This is known as tactical voting, which is explained later." %}favorite{% endfootnoteref %}
+candidate from a list of possible candidates. The winner is whoever
 receives the most votes (a plurality of the votes), but they don't need a majority (more than half).
 
 RCV works a little bit differently. Instead of only choosing your one, favorite candidate, you rank all (or some) of the
@@ -53,6 +57,7 @@ you just count up the votes and you're done, to determine the winner in RCV you 
 over several rounds. Don't worry, it's easier than it sounds.
 
 Ok, so here are the steps for figuring out the winner:
+
 1. In the first round you only look at voters' first-choice candidate.
    If one candidate receives more than half of all of the first-choice votes, that candidate is declared the winner!
 1. However, if there are more than two candidates running, there probably won't be a single candidate with more
@@ -80,7 +85,9 @@ process.
 
 So, why is Ranked Choice Voting better than plurality voting? Rather than go into a technical deep dive of all the
 benefits of RCV, in this article I'll just talk about the biggest advantage: it eliminates the "spoiler effect"
-when similar candidates run against each other.<a href="#footnote-3" class="footnote">[3]</a>
+when
+{% footnoteref "clones", "This is also known as <a href=\"https://en.wikipedia.org/wiki/Independence_of_clones_criterion\">the &quot;clone&quot; problem</a> by mathematicians who study electoral systems. The idea is that similar candidates (i.e., clones) won't steal votes from each other." %}similar candidates{% endfootnoteref %}
+run against each other.
 When political pundits talk about a "spoiler candidate", they
 mean a candidate that runs in an election (usually a third-candidate entering a two-candidate race) and then
 "spoiling" the election for whichever candidate they're more similar to, thus handing the election to the
@@ -126,7 +133,8 @@ thus clearing the way for Trump to take the nomination. I believe that if voters
 using RCV, many would have ranked Trump last on their ballot (I'm thinking of the "never Trumpers") and perhaps a
 candidate that was actually preferred by a majority of Republican voters would've been nominated instead.
 
-Another cool thing about RCV is that primaries themselves are actually unnecessary.<a href="#footnote-4" class="footnote">[4]</a>
+Another cool thing about RCV is that primaries themselves are actually
+{% footnoteref "primaries", "Of course, you would still need some way of qualifying candidates for the election so voters aren't overwhelmed with too many options. Ranking more than 5 or so candidates would probably be tough for most voters." %}unnecessary.{% endfootnoteref %}
 If you've ever wondered why we
 have to have primary elections before the main election, the main reason is because if multiple candidates from
 the same party ran against each other in the main election, the vote would be split across all of the candidates in
@@ -142,6 +150,7 @@ states start using RCV to elect members of Congress, I believe that we'll start 
 represent _us_ instead of their party. Anyway, time to deliver on that promise.
 
 Here's how RCV will address the issues I mentioned in the introduction:
+
 1. **Voters are forced to vote for the "lesser of two evils"** - Plurality voting does not permit more than
    two candidates to run in a general election because other candidates could "spoil" the election. Voters must
    vote tactically in a primary, and vote for the candidate they think is most likely to beat their opponent rather
@@ -151,7 +160,8 @@ Here's how RCV will address the issues I mentioned in the introduction:
    who is capable of winning.
 1. **The country is more divided than ever** - I actually don't believe this is true. I think that most of the
    country falls somewhere in the middle on most issues, but people are forced to pick a side in the battle
-   between Democrats and Republicans which makes us feel divided.<a href="#footnote-5" class="footnote">[5]</a>
+   between Democrats and Republicans which makes us feel
+   {% footnoteref "division", "This isn't something I came up with own my own. <a href=\"https://en.wikipedia.org/wiki/Political_polarization_in_the_United_States#Party_polarization\">You can read more about the theory here</a>." %}divided.{% endfootnoteref %}
    I know many Democrats who can't imagine how
    someone could have voted for Trump, but I bet that many Trump voters are more moderate than they might expect.
    I think many people voted for Trump, not because they support his agenda or even like him, but because they
@@ -161,7 +171,7 @@ Here's how RCV will address the issues I mentioned in the introduction:
    other political parties put representatives in Congress and end the tug-of-war. RCV would make it more likely for
    third-party candidates to win elections because voters could safely vote for those candidates without feeling like
    they're throwing away their vote. As an example, many Americans politically identify as libertarian, but
-   neither of the main parties fully supports a libertarian agenda. With RCV, true libertarian candidates would likely 
+   neither of the main parties fully supports a libertarian agenda. With RCV, true libertarian candidates would likely
    be elected to office in some races. If there were true libertarians in Congress, they could vote with Democrats
    in some votes while voting with Republicans in others. This would make it easier for a majority vote to be achieved
    (even overcome a [filibuster](https://en.wikipedia.org/wiki/Filibuster_in_the_United_States_Senate))
@@ -180,34 +190,3 @@ Here's how RCV will address the issues I mentioned in the introduction:
 Thanks for reading, and if you live in MA I hope you vote YES on Choice 2 on November 3! If you'd like to get
 involved with
 [the RCV campaign in MA, you can learn more here](https://www.yeson2rcv.com).
-
----
-
-<p id="footnote-1">
-[1]: Technically RCV and plurality voting can be used for voting on anything, not just candidates.
-     But for simplicity, I only mention voting on political representatives since that's what people
-     are most used to voting on in elections.
-</p>
-
-<p id="footnote-2">
-[2]: People often <em>don't</em> vote for their favorite candidate, but instead vote for different candidate.
-     This is known as tactical voting, which is explained later.
-</p>
-
-<p name="footnote-3">
-[3]: This is known also known as
-     <a href="https://en.wikipedia.org/wiki/Independence_of_clones_criterion">the "clone" problem</a>
-     by mathematicians who study electoral systems. The idea is that similar candidates (i.e., clones) won't
-     steal votes from each other.
-</p>
-
-<p id="footnote-4">
-[4]: Of course, you would still need some way of qualifying candidates for the election so voters
-     aren't overwhelmed with too many options. Ranking more than 5 or so candidates would probably
-     be tough for most voters.
-</p>
-
-<p name="footnote-5">
-[5]: This isn't something I came up with own my own.
-     <a href="https://en.wikipedia.org/wiki/Political_polarization_in_the_United_States#Party_polarization">You can read more about the theory here</a>.
-</p>
