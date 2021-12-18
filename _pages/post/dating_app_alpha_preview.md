@@ -5,7 +5,8 @@ tags: ['dating app', 'software engineering', 'react native', 'app development']
 date: 2021-1-25 21:00:00 -05:00
 ---
 
-Sorry for the extended hiatus.<a href="#footnote-1" class="footnote">[1]</a>
+{% footnoteref "apology", "I'm not really sure who I'm apologizing to. As far as I know, no one is regularly checking my blog anyway 🤷🏼‍♂️" %}Sorry{% endfootnoteref %}
+for the extended hiatus.
 I haven't had time to write much on here recently because I've been spending
 all of my free time working on my dating app. I also took a break to take
 a crash course in how to get better at _using_ dating apps, but that's a story
@@ -57,10 +58,3 @@ form below. I promise I won't use it for anything not related to the dating app.
         message="If you want to receive updates on the progress of the dating app or if you are interested in being an early user, enter your email address below. I'll only contact you about the dating app."
     )
 }}
-
----
-
-<p id="footnote-1">
-[1]: I'm not really sure who I'm apologizing to. As far as I know,
-     no one is regularly checking my blog anyway 🤷🏼‍♂️
-</p>
