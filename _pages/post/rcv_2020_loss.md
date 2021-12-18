@@ -1,6 +1,6 @@
 ---
 layout: layouts/post.njk
-title: "Ranked Choice Voting: Why we lost in 2020"
+title: 'Ranked Choice Voting: Why we lost in 2020'
 tags: ['essay', 'politics', 'voting']
 date: 2020-11-04 16:00:00 -04:00
 ---
@@ -25,7 +25,7 @@ have made a difference. At least now I don't have to wonder and I have no regret
 When I realized that the initiative had failed, my first question was "How did this fail?"
 Massachusetts is a very progressive state and I thought that if RCV could pass anywhere,
 it would be here. Plus, a similar measure passed in Maine in 2016, so I knew a victory was possible.
-[Early voter polls](https://ballotpedia.org/Massachusetts_Question_2,_Ranked-Choice_Voting_Initiative_(2020)#Polls)
+[Early voter polls](<https://ballotpedia.org/Massachusetts_Question_2,_Ranked-Choice_Voting_Initiative_(2020)#Polls>)
 also showed a nearly 10-point lead of Yes-voters over No-voters. What went wrong?
 
 Regarding the early poll results, I don't actually think they were wrong. They were just misleading.
@@ -58,7 +58,8 @@ that resulted in an unpopular governor. In 2010, Paul LePage was elected governo
 with only 38.1% of the vote due to a split election where he ran against four other
 candidates. And in 2014, he won re-election with only 48.2% of the vote. While in
 office his approval rating was only 41%, which was one of the lowest of any governor
-in the country.<a href="#footnote-1" class="footnote">[1]</a>
+in the country
+([Wikipedia](https://en.wikipedia.org/wiki/Paul_LePage)).
 
 Having such an unpopular governor win two consecutive elections without majority
 support provided a simple narrative for ranked choice voting: if Maine had RCV,
@@ -91,39 +92,16 @@ imagine anyone you'd rather see in power, then changing the voting system could 
 make things worse. And boy are people happy with the politicians in MA: Charlie Baker's
 approval rating sits at 80% and he consistently had the highest
 approval rating of any governor in the US for nearly three
-years!<a href="#footnote-2" class="footnote">[2]</a>
+years!
+([Wikipedia](https://en.wikipedia.org/wiki/Charlie_Baker))
 
 When you compare the favorability of Paul LePage in Maine with Charlie Baker,
 it makes total sense why more voters weren't itching for RCV in Massachusetts.
-Why adopt a new voting system when our current system is giving us wonderful politicians
-like Baker?<a href="#footnote-3" class="footnote">[3]</a>
+Why adopt a new voting system when our current system is
+{% footnoteref "changes", "Of course, if a politician has more than 50% of the vote, they would still win the election even under RCV. So, in all likelihood, even with RCV Baker's governorship would be safe. So it's not like switching to RCV would get rid of the politicians people like. That being said, there's also no advantage to using RCV is candidates are consistently winning with more than 50% of the vote, so why bother changing the system?" %}already giving us{% endfootnoteref %}
+wonderful politicians like Baker?
 
 I'm still very much in favor of ranked choice voting, but I'm skeptical that it can
 pass in a state unless there's deep dissatisfaction with their current politicians
 like there was in Maine. Perhaps we'll just have to wait for voters to realize the flaws with plurality voting
 before we can get traction for ranked choice voting. I just hope we can afford to wait.
-
----
-
-Sorry, but you'll have to make do with Wikipedia links. 
-
-<p id="footnote-1">
-[1]: <a href="https://en.wikipedia.org/wiki/Paul_LePage">
-        https://en.wikipedia.org/wiki/Paul_LePage
-    </a>
-</p>
-
-<p id="footnote-2">
-[2]: <a href="https://en.wikipedia.org/wiki/Charlie_Baker">
-        https://en.wikipedia.org/wiki/Charlie_Baker
-    </a>
-</p>
-
-<p id="footnote-3">
-[3]: Of course, if a politician has more than 50% of the vote, they would still
-     win the election even under RCV. So, in all likelihood, even with RCV Baker's
-     governorship would be safe. So it's not like switching to RCV would get rid of
-     the politicians people like. That being said, there's also no advantage to using
-     RCV is candidates are consistently winning with more than 50% of the vote, so why
-     bother changing the system?
-</p>
