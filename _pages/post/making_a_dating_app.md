@@ -108,7 +108,7 @@ fizzle out and never lead to a date, or end when they're asked for the
 umpteenth time to "send nudes."
 
 And if you do manage to actually make it through the swiping-and-messaging
-tar pits<a href="#footnote-1" class="footnote">[1]</a>
+{% footnoteref "tar-pit", "Is the idea of a <a href=\"https://en.wikipedia.org/wiki/Tar_pit\">&quot;tar pit&quot;</a> a well-known metaphor? I don't know. But the idea is that it's a really sticky thing that animals get stuck in. I know it from <a href=\"https://en.wikipedia.org/wiki/The_Mythical_Man-Month\">The Mythical Man-Month</a>, but that's not a well-known book outside of software engineering." %}tar pits{% endfootnoteref %}
 and go on a date, there's a high likelihood that the the person
 will turn out to not be as great as you had hoped. And now you've wasted
 one of your precious free nights on that person.
@@ -155,19 +155,9 @@ it will address some of these problems. I'll link to it here once I've written i
 [Read next: I'm making a pandemic dating app, Part 2](/post/making_a_dating_app_part2)
 
 {% import "forms.njk" as forms %}
-{{ 
+{{
     forms.email_signup(
         'dating_app_subscribers',
         message="If you want to receive updates on the progress of the dating app or if you are interested in being an early user, enter your email address below. I'll only contact you about the dating app."
     )
 }}
-
----
-
-<p id="footnote-1">
-[1]: Is the idea of a <a href="https://en.wikipedia.org/wiki/Tar_pit">"tar pit"</a>
-     a well-known metaphor? I don't know. But the idea is that it's a really sticky
-     thing that animals get stuck in. I know it from
-     <a href="https://en.wikipedia.org/wiki/The_Mythical_Man-Month">The Mythical Man-Month</a>,
-     but that's not a well-known book outside of software engineering.
-</p>
