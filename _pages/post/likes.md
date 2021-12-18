@@ -3,9 +3,9 @@ layout: layouts/post.njk
 title: Doing It for the Likes
 subtitle: Trying to get Recon Armor in 2007
 description: >-
-    A personal story of how I tried (and failed) to earn Recon Armor in Halo 3 in 2007.
-    I also talk about how this experience has shaped me as a person and has made me wary
-    of activities that feel like a popularity contest, such as social media.
+  A personal story of how I tried (and failed) to earn Recon Armor in Halo 3 in 2007.
+  I also talk about how this experience has shaped me as a person and has made me wary
+  of activities that feel like a popularity contest, such as social media.
 tags: ['story', 'video games']
 date: 2020-09-27 12:00:00 -04:00
 ---
@@ -17,7 +17,9 @@ approval from strangers on the internet.
 
 In 2007 I was 15 years old and Halo 3 was my favorite video game. The campaign mode wasn't great
 (especially compared to Halo 2),
-but it was the best multiplayer experience I had ever played.<a href="#footnote-1" class="footnote">[1]</a>
+but it was the
+{% footnoteref "best-multiplayer", "Not only did Halo 3 have the best multiplayer of any Halo game yet, but I think it has the best multiplayer of any game ever made. To this day, my friends and I still play Team Slayer on Guardian whenever we're together." %}best{% endfootnoteref %}
+multiplayer experience I had ever played.
 I spent almost every afternoon after school playing local multiplayer with my friends, and I spent
 a bit of time playing online too. I was the worst player among my friends, but I still loved it.
 
@@ -164,11 +166,3 @@ I tried to complete the challenges. But in 2012 another update for the game was 
 the Recon Armor to _all_ players. But since my obsession with the armor stemmed only from its
 exclusivity and not the actual aesthetics, I don't think I even used the Recon Armor at that point.
 I had moved on to caring about other things.
-
----
-
-<p id="footnote-1">
-[1]: Not only did Halo 3 have the best multiplayer of any Halo game yet, but I think
-     it has the best multiplayer of any Halo game ever made. To this day, my friends
-     and I still play Team Slayer on Guardian whenever we're together.
-</p>
