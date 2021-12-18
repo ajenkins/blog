@@ -26,12 +26,11 @@ concept for this app was born out of the circumstances of the current pandemic, 
 that <span class="redacted">XXXXXXX</span> will offer a superior user experience
 over existing dating apps even when things go back to normal.
 
-
-
 ## How it works
 
-After you create your account, you're brought to a list of all users who match
-your preferences<a href="#footnote-1" class="footnote">[1]</a> and are currently
+After you create your account, you're brought to a list of all users who
+{% footnoteref "mutual-preferences", "Technically, the filter is actually a bit more specific than just the users who match your preferences. You'll only see the users that meet all of your preferences and who <em>you</em> fulfill the preferences of. For example, if you set your search radius to 50 miles, someone who's 30 miles away from you won't be in your list if they set their search radius to 25 miles." %}match your preferences{% endfootnoteref %}
+and are currently
 online. Rather than swiping through profiles one at a time, you'll
 scroll through a list of users.
 
@@ -200,7 +199,7 @@ the first place, and making sure that people who are caught flashing are
 prevented from doing it again.
 
 There's no bulletproof way to prevent people from flashing other users,
-but I've seen some technical solutions to the problem. 
+but I've seen some technical solutions to the problem.
 One measure some apps use is they require your face to be in frame at all times, otherwise it
 blurs your video. This would definitely make it harder to flash someone,
 but I'm sure any system like that could be outsmarted.
@@ -263,24 +262,13 @@ Thanks for reading, and let me know what you think about
 <span class="redacted">XXXXXXX</span> in the comments!
 
 {% import "forms.njk" as forms %}
-{{ 
+{{
     forms.email_signup(
         'dating_app_subscribers',
         message="If you want to receive updates on the progress of the dating app or if you are interested in being an early user, enter your email address below. I'll only contact you about the dating app."
     )
 }}
 
----
-
-<p id="footnote-1">
-[1]: Technically, the filter is actually a bit more specific than just the users
-     who match your preferences. You'll only see the users that meet all of your
-     preferences and who <em>you</em> fulfill the preferences of. For example,
-     if you set your search radius to 50 miles, someone who's 30 miles away from
-     you won't be in your list if they set their search radius to 25 miles.
-</p>
-
 <script>
     console.log("Nice try, but the HTML source doesn't have the name of the app either 😉")
 </script>
-

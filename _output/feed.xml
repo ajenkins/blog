@@ -1356,8 +1356,9 @@ concept for this app was born out of the circumstances of the current pandemic, 
 that &lt;span class=&quot;redacted&quot;&gt;XXXXXXX&lt;/span&gt; will offer a superior user experience
 over existing dating apps even when things go back to normal.&lt;/p&gt;
 &lt;h2&gt;How it works&lt;/h2&gt;
-&lt;p&gt;After you create your account, you&#39;re brought to a list of all users who match
-your preferences&lt;a href=&quot;https://ajenkins.me/post/making_a_dating_app_part2/#footnote-1&quot; class=&quot;footnote&quot;&gt;[1]&lt;/a&gt; and are currently
+&lt;p&gt;After you create your account, you&#39;re brought to a list of all users who
+&lt;a class=&quot;Footnotes__ref&quot; href=&quot;https://ajenkins.me/post/making_a_dating_app_part2/#mutual-preferences-note&quot; id=&quot;mutual-preferences-ref&quot; aria-describedby=&quot;footnotes-label&quot; role=&quot;doc-noteref&quot;&gt;match your preferences&lt;/a&gt;
+and are currently
 online. Rather than swiping through profiles one at a time, you&#39;ll
 scroll through a list of users.&lt;/p&gt;
 &lt;p&gt;When a user&#39;s profile catches your eye, just tap the 📞 button to start a video call with them 😱&lt;/p&gt;
@@ -1558,14 +1559,6 @@ you can subscribe to if you want to be notified when there&#39;s a new post.&lt;
     &lt;input type=&quot;submit&quot; value=&quot;Sign Up&quot; /&gt;
   &lt;/form&gt;
 &lt;/div&gt;
-&lt;hr /&gt;
-&lt;p id=&quot;footnote-1&quot;&gt;
-[1]: Technically, the filter is actually a bit more specific than just the users
-     who match your preferences. You&#39;ll only see the users that meet all of your
-     preferences and who &lt;em&gt;you&lt;/em&gt; fulfill the preferences of. For example,
-     if you set your search radius to 50 miles, someone who&#39;s 30 miles away from
-     you won&#39;t be in your list if they set their search radius to 25 miles.
-&lt;/p&gt;
 &lt;script&gt;
     console.log(&quot;Nice try, but the HTML source doesn&#39;t have the name of the app either 😉&quot;)
 &lt;/script&gt;
