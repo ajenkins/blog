@@ -2069,9 +2069,10 @@ but it seems like it&#39;s evolved a lot since I last used it. Using Amplify als
 the easiest way to integrate Cognito into a React Native app. The even have specific
 instructions on how to use Amplfiy with an app managed with Expo, which I was using
 in the beginning until I had to eject (more on ejecting later).
-Also, you can now
+Also, you can
+&lt;a class=&quot;Footnotes__ref&quot; href=&quot;https://ajenkins.me/post/dating_app_update_1/#amplify-auth-note&quot; id=&quot;amplify-auth-ref&quot; aria-describedby=&quot;footnotes-label&quot; role=&quot;doc-noteref&quot;&gt;now&lt;/a&gt;
 use Amplify just for one function, like auth, and you don&#39;t need to use Amplify
-for your API if you don&#39;t want to.&lt;a href=&quot;https://ajenkins.me/post/dating_app_update_1/#footnote-1&quot; class=&quot;footnote&quot;&gt;[1]&lt;/a&gt;
+for your API if you don&#39;t want to.
 I go into more detail about my experience using Amplify at the end of this post.&lt;/p&gt;
 &lt;h2&gt;The frontend&lt;/h2&gt;
 &lt;p&gt;Once I got the backend working, the next step was to build the mobile app
@@ -2311,11 +2312,6 @@ workflow, so this is yet another reason to avoid ejecting if you can.&lt;/p&gt;
     &lt;input type=&quot;submit&quot; value=&quot;Sign Up&quot; /&gt;
   &lt;/form&gt;
 &lt;/div&gt;
-&lt;hr /&gt;
-&lt;p id=&quot;footnote-1&quot;&gt;
-[1]: Maybe it was always possible to use Amplify just for auth,
-     but at the very least, they&#39;ve definitely made this much clearer in the UI now.
-&lt;/p&gt;
 </content>
   </entry>
   
