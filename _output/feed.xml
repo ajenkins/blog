@@ -2493,8 +2493,10 @@ the car that can only be exceeded via a manual override.&lt;/p&gt;
 I got the basic Macbook Air but with 16 GB of RAM if you&#39;re wondering.
 I heard that there were some issues with software compatibility with
 software built for Intel-based Macs, but I figured all of that would
-have been smoothed out by now given that these Macs have been out for
-a full year.&lt;a href=&quot;https://ajenkins.me/post/m1_npm_install/#footnote-1&quot; class=&quot;footnote&quot;&gt;[1]&lt;/a&gt;
+have been smoothed out
+&lt;a class=&quot;Footnotes__ref&quot; href=&quot;https://ajenkins.me/post/m1_npm_install/#fixes-note&quot; id=&quot;fixes-ref&quot; aria-describedby=&quot;footnotes-label&quot; role=&quot;doc-noteref&quot;&gt;by now&lt;/a&gt;
+given that these Macs have been out for
+a full year.
 However, when I re-cloned the repo for this blog and
 ran &lt;code&gt;npm install&lt;/code&gt; I kept getting errors. I&#39;ll tell you how I fixed
 it so you know what to do if this happens to you.&lt;/p&gt;
@@ -2619,10 +2621,7 @@ else ran into that same error and was able to find a solution.&lt;/p&gt;
 &lt;p&gt;Hope this helped and good luck!&lt;/p&gt;
 &lt;hr /&gt;
 &lt;p id=&quot;footnote-1&quot;&gt;
-[1]: They actually &lt;em&gt;have&lt;/em&gt; fixed these issues. But if you don&#39;t regularly
-     update your npm packages (does anyone?) then there&#39;s a good chance
-     one or more of your packages won&#39;t be compatible with the new ARM-based
-     Macs.
+[1]: 
 &lt;/p&gt;
 </content>
   </entry>

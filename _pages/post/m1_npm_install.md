@@ -10,8 +10,10 @@ I just bought a new Macbook with an M1 chip to work on my
 I got the basic Macbook Air but with 16 GB of RAM if you're wondering.
 I heard that there were some issues with software compatibility with
 software built for Intel-based Macs, but I figured all of that would
-have been smoothed out by now given that these Macs have been out for
-a full year.<a href="#footnote-1" class="footnote">[1]</a>
+have been smoothed out
+{% footnoteref "fixes", "They actually <em>have</em> fixed these issues. But if you don't regularly update your npm packages (does anyone?) then there's a good chance one or more of your packages won't be compatible with the new ARM-based Macs." %}by now{% endfootnoteref %}
+given that these Macs have been out for
+a full year.
 However, when I re-cloned the repo for this blog and
 ran `npm install` I kept getting errors. I'll tell you how I fixed
 it so you know what to do if this happens to you.
@@ -154,8 +156,5 @@ Hope this helped and good luck!
 ---
 
 <p id="footnote-1">
-[1]: They actually <em>have</em> fixed these issues. But if you don't regularly
-     update your npm packages (does anyone?) then there's a good chance
-     one or more of your packages won't be compatible with the new ARM-based
-     Macs.
+[1]: 
 </p>
