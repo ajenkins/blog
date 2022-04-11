@@ -4,7 +4,7 @@
   <subtitle>A blog about technology, politics, video games, and movies</subtitle>
   <link href="https://ajenkins.me/feed.xml" rel="self" />
   <link href="https://ajenkins.me/" />
-  <updated>2021-12-18T20:50:00Z</updated>
+  <updated>2022-04-11T15:45:00Z</updated>
   <id>https://ajenkins.me/</id>
   <author>
     <name>AJ Jenkins</name>
@@ -3249,6 +3249,167 @@ stop. Work on something else, even if it&#39;s less important.&lt;/li&gt;
 &lt;li&gt;Don&#39;t worry about handling edge cases. Make to-do list items for those as you think of them.&lt;/li&gt;
 &lt;li&gt;Make the UI pretty (i.e., styling, CSS) last. You can spend an eternity improving the look and feel of your app, so don&#39;t do anything more than the bare minimum until the functionality is 100% complete.&lt;/li&gt;
 &lt;/ul&gt;
+</content>
+  </entry>
+  
+  <entry>
+    <title>Why I changed my mind about Ranked Choice Voting</title>
+    <link href="https://ajenkins.me/post/rcv_to_approval_voting/" />
+    <updated>2022-04-11T15:45:00Z</updated>
+    <id>https://ajenkins.me/post/rcv_to_approval_voting/</id>
+    <content type="html">&lt;p&gt;In &lt;a href=&quot;https://ajenkins.me/post/rcv&quot;&gt;my very first post on this blog&lt;/a&gt; I endorsed Ranked Choice Voting.
+At the time, I was campaigning for Question 2 in Massachusetts to replace
+our current voting system (plurality voting) with Ranked Choice Voting (RCV).
+That initiative ultimately failed though.
+You can read &lt;a href=&quot;https://ajenkins.me/post/rcv_2020_loss&quot;&gt;my theory on why it failed here&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;I still wish RCV had passed in MA, I still think RCV is way better
+than our current voting system (plurality voting), and I still
+stand by most of what I wrote in my original blog post.&lt;/p&gt;
+&lt;p&gt;However, going forward, I will no longer be pushing for adoption of
+RCV. I&#39;ll be supporting approval voting instead. First I&#39;ll explain
+what I think is wrong with RCV, then explain why approval voting is better.&lt;/p&gt;
+&lt;h1&gt;What&#39;s wrong with RCV&lt;/h1&gt;
+&lt;p&gt;There are lots of resources online that compare the mathematical
+pros and cons of different voting systems
+(&lt;a href=&quot;https://en.wikipedia.org/wiki/Comparison_of_electoral_systems&quot;&gt;here&#39;s a good starting point&lt;/a&gt;). However, my main problem
+with RCV doesn&#39;t have anything to do with math, or whether
+it picks the best candidate.&lt;/p&gt;
+&lt;p&gt;My problem with RCV is that I think it&#39;s
+&lt;a class=&quot;Footnotes__ref&quot; href=&quot;https://ajenkins.me/post/rcv_to_approval_voting/#confusing-note&quot; id=&quot;confusing-ref&quot; aria-describedby=&quot;footnotes-label&quot; role=&quot;doc-noteref&quot;&gt;too confusing for most Americans&lt;/a&gt;,
+and people wouldn&#39;t trust/respect the outcome of an
+RCV election.&lt;/p&gt;
+&lt;p&gt;This wasn&#39;t something I used to worry about. But that changed
+in the aftermath of the 2020 presidential election. I&#39;m specifically
+referring to the
+&lt;a href=&quot;https://en.wikipedia.org/wiki/Attempts_to_overturn_the_2020_United_States_presidential_election#Stop_the_Steal&quot;&gt;&amp;quot;Stop the Steal&amp;quot;&lt;/a&gt;
+movement, and the
+&lt;a href=&quot;https://en.wikipedia.org/wiki/2021_United_States_Capitol_attack&quot;&gt;January 6, 2021 attack on the US Capitol&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Here&#39;s my summary of what happened:
+Joe Biden won the presidential election,
+Donald Trump couldn&#39;t accept that he lost
+(or chose to pretend that he didn&#39;t lose),
+Trump said that the election was rigged and he should have actually won the election,
+other people believed Trump/couldn&#39;t accept that he lost either,
+some people tried to overturn the election either through
+&amp;quot;legal&amp;quot; means (suing, recounting ballots) or force (storming the Capitol).&lt;/p&gt;
+&lt;p&gt;The statistic that blows my mind is that 30% of Americans think
+that the 2020 election was rigged and Joe Biden won the election
+illegitimately
+(&lt;a href=&quot;https://www.politifact.com/factchecks/2022/feb/02/viral-image/no-most-americans-dont-believe-2020-election-was-f/&quot;&gt;article with lots of polls that back this up&lt;/a&gt;).&lt;/p&gt;
+&lt;p&gt;I&#39;m not sure how much support you need to stage a successful coup,
+but I&#39;d guess it&#39;s around 30%, so I&#39;m very worried about this
+and the potential for something like this to happen again.&lt;/p&gt;
+&lt;p&gt;Now, all of what I just said happened with &lt;em&gt;plurality voting&lt;/em&gt;.
+That&#39;s the voting system we&#39;ve been using since the Constitution
+was ratified. Imagine if the 2020 presidential election had
+been using RCV instead. Of course, I don&#39;t think using RCV
+would have made the outcome of the election illegitimate.
+But I &lt;em&gt;do&lt;/em&gt; think that even more people would have &lt;strong&gt;felt&lt;/strong&gt;
+that the election was illegitimate if we had used RCV.&lt;/p&gt;
+&lt;p&gt;That&#39;s the gist of what I think is wrong with RCV. Even though
+it&#39;s a pretty good voting system (miles better than plurality voting),
+the way the winner is determined is more complicated than plurality voting
+so I think it has a &amp;quot;trustworthiness&amp;quot; problem.&lt;/p&gt;
+&lt;p&gt;So even if RCV would be better than what we have now, I fear
+RCV could just be one more tool that conservatives could use
+to question the outcome of an election and create doubt in people&#39;s
+mind that the election was fair and legitimate.&lt;/p&gt;
+&lt;p&gt;It&#39;s sad that we now have to factor in whether this would
+be likely to fuel conspiracy theories, but I think it&#39;s unavoidable
+and it&#39;s dangerous to ignore conspiracy theorists.&lt;/p&gt;
+&lt;p&gt;I&#39;d rather keep using a broken voting system than something
+that would probably just get overruled (either &amp;quot;legally&amp;quot; or by force)
+by people who don&#39;t like the outcome of the election.&lt;/p&gt;
+&lt;h1&gt;Why Approval Voting is better&lt;/h1&gt;
+&lt;p&gt;First I need to explain what approval voting is. Here&#39;s how it works:
+you know how &amp;quot;regular&amp;quot; voting (plurality voting) works, right? Ok,
+now imagine that, except you can vote for more than one person.
+Then the person with the most votes wins. That&#39;s it.&lt;/p&gt;
+&lt;p&gt;Literally the only difference between approval voting and plurality
+voting is that you can vote for more than one candidate.
+Same ballots, same voting machines
+(just need to be updated to not reject ballots
+with more than one choice filled in),
+same ballot counting system.&lt;/p&gt;
+&lt;p&gt;You really can&#39;t beat it in terms of simplicity. I&#39;d
+say it&#39;s equally simple to plurality voting. I think the only
+reason plurality voting seems a bit simpler is because that&#39;s
+what we&#39;re used to. If you think about it, limiting people
+to only voting for one candidate feels like an almost arbitrary
+restriction.&lt;/p&gt;
+&lt;p&gt;And what&#39;s most amazing about approval voting is how much you
+get from this one little tweak. In fact, all of
+&lt;a href=&quot;https://ajenkins.me/post/rcv&quot;&gt;the benefits I talked about with RCV&lt;/a&gt;
+apply to approval voting too. Reducing strategic voting,
+allowing third-party candidates to run without spoiling the election,
+electing candidates who better represent &lt;em&gt;all&lt;/em&gt; of the voters, etc.
+Approval voting is actually even &lt;em&gt;better&lt;/em&gt; than RCV at achieving
+these things.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.equal.vote/accuracy&quot;&gt;Here&#39;s a chart from equal.vote&lt;/a&gt;
+that compares the &amp;quot;goodness&amp;quot; of different voting systems:&lt;/p&gt;
+&lt;p&gt;
+    &lt;img alt=&quot;A chart showing election accuracy of different voting methods. 3-2-1 voting and STAR voting are at the top with ~95%, approval voting is ~90%, IRV/RCV is ~85% and plurality voting is at the bottom with ~80%.&quot; loading=&quot;lazy&quot; decoding=&quot;async&quot; src=&quot;https://ajenkins.me/static/9tv9x1GOm3-640.webp&quot; width=&quot;640&quot; height=&quot;362&quot; /&gt;
+&lt;/p&gt;
+&lt;p&gt;If you&#39;re curious about the math behind the chart, just follow that link.
+But the point of this post is not to compare the mathematical pros and cons
+of RCV and approval voting. If you want that though, you can read
+&lt;a href=&quot;https://www.fairvote.org/electoral_systems_rcv_vs_approval_voting&quot;&gt;what the RCV people say about approval voting here&lt;/a&gt;,
+and you can read
+&lt;a href=&quot;https://electionscience.org/library/approval-voting-versus-irv/&quot;&gt;what the approval voting people say about RCV here&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;But, again, the math has nothing to do with why I switched my support from RCV
+to approval voting. The real reason I think approval voting is better than
+RCV is because it&#39;s simpler and stands a better shot of not having its results
+overturned because it &amp;quot;doesn&#39;t feel right.&amp;quot;&lt;/p&gt;
+&lt;p&gt;Of course, approval voting is not completely immune to conspiratorial attacks.
+If I was an unscrupulous politician that lost an election that used approval
+voting, I would assert that approval voting is anti-democratic and demand
+that all ballots with more than one candidate selected are invalid
+(i.e., probably most of them). That would of course throw the whole
+election into limbo (assuming enough people sided with me and were
+equally delusional or immoral), and in the chaos I&#39;d try to seize power.&lt;/p&gt;
+&lt;p&gt;I know that sounds really bad, and makes our current voting system sound kind
+of good in comparison. But I think the only way we get out of this mess
+(toxic factionalism and extreme polarization) is by fixing our voting system.
+I really believe that the root cause of polarization in US politics is
+the plurality voting system
+(&lt;a href=&quot;https://ajenkins.me/post/rcv&quot;&gt;see my original post for why&lt;/a&gt;). We need to fix our voting
+system, and I believe the safest (least likely to facilitate a coup)
+alternative is approval voting.&lt;/p&gt;
+&lt;h1&gt;Summary&lt;/h1&gt;
+&lt;p&gt;RCV is a great voting system (much better than what we have now),
+but the way the winner is determined is honestly a little confusing
+and we don&#39;t need that right now. Approval voting is also a great
+voting system, and the way the winner is determined couldn&#39;t be simpler,
+which makes it very attractive in a world where conspiracy theories
+drive politics.&lt;/p&gt;
+&lt;h1&gt;Extra: Okay, but how would RCV &lt;em&gt;actually&lt;/em&gt; lead to a coup?&lt;/h1&gt;
+&lt;p&gt;For brevity, I didn&#39;t dig into how using RCV would lead to a coup.
+If you&#39;re pro-RCV, you might think the idea that RCV could be the cause
+of a coup a bit fantastical. And it kind of is. I was making an
+unrealistic assumption that RCV would be used to decide the outcome
+of a presidential election. But if you&#39;re familiar with the current
+spread of RCV, you know that that&#39;s nowhere close to happening. Well,
+Maine does use it to choose their presidential electors, but that&#39;s just
+one state. Even if the RCV movement is successful even beyond the imagination
+of its leaders, we&#39;re still at least 15-20 years away from the day when
+all or most Americans are using RCV to vote for president.&lt;/p&gt;
+&lt;p&gt;The strategy of the RCV movement is to get people using RCV at the
+state and local level. Then once lots of people are using it in lots
+of places, it will seem less weird and it will be easier to get
+even more people to use it in other places. Until eventually everyone
+uses RCV for all elections.&lt;/p&gt;
+&lt;p&gt;The reason why my critique of RCV is probably unfair is because
+I&#39;m imagining us using RCV in a presidential election &lt;em&gt;right now&lt;/em&gt;.
+Of course people wouldn&#39;t understand or trust RCV now. But maybe
+in the 15-20 years it takes to build up to the point where
+most people are actually voting for the president using RCV,
+it won&#39;t seem strange and opaque to people.&lt;/p&gt;
+&lt;p&gt;Maybe. But on the other hand, even in 20 years I still think
+there will be politicians and people who will use any tool
+available to them to cast doubt on an election that they don&#39;t like
+the outcome of. And I think even in this imagined world where
+RCV is well-known and normal, it would still be an easy target
+for people who want to paint an election as illegitimate.&lt;/p&gt;
 </content>
   </entry>
 </feed>
