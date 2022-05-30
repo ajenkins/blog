@@ -37,7 +37,7 @@ I'm accomplishing those goals with my posts. If my posts
 are getting a lot of engagement, that will motivate me to post
 more frequently.
 
-**Important note:** I still am _strongly_ opposed to cookie banners
+**Important note:** I'm still _strongly_ opposed to cookie banners
 so I will not be adding tracking cookies or any other client-side
 tracking to my website. Instead, I will be using
 [Netlify's server-side analytics solution](https://www.netlify.com/products/analytics/),
