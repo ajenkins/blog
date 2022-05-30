@@ -4,7 +4,7 @@
   <subtitle>A blog about technology, politics, video games, and movies</subtitle>
   <link href="https://ajenkins.me/feed.xml" rel="self" />
   <link href="https://ajenkins.me/" />
-  <updated>2022-04-11T15:45:00Z</updated>
+  <updated>2022-05-30T12:30:00Z</updated>
   <id>https://ajenkins.me/</id>
   <author>
     <name>AJ Jenkins</name>
@@ -325,7 +325,10 @@ I had moved on to caring about other things.&lt;/p&gt;
     <link href="https://ajenkins.me/post/analytics/" />
     <updated>2020-10-04T16:00:00Z</updated>
     <id>https://ajenkins.me/post/analytics/</id>
-    <content type="html">&lt;p&gt;Originally I was planning on writing a blog post about how I chose &amp;quot;X&amp;quot; service
+    <content type="html">&lt;p&gt;&lt;em&gt;&lt;strong&gt;UPDATE (5/30/22):&lt;/strong&gt; Since writing this post, I&#39;ve reversed
+my decision and added analytics to my website. You can read why
+&lt;a href=&quot;https://ajenkins.me/post/added_analytics&quot;&gt;here&lt;/a&gt;.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Originally I was planning on writing a blog post about how I chose &amp;quot;X&amp;quot; service
 for analytics on my website. I was going to go over the pros and cons of each service
 I considered and then dramatically tell you the one, best web analytics service.&lt;/p&gt;
 &lt;p&gt;But after a lot of thought, I made the unconventional decision to not use any
@@ -3410,6 +3413,45 @@ available to them to cast doubt on an election that they don&#39;t like
 the outcome of. And I think even in this imagined world where
 RCV is well-known and normal, it would still be an easy target
 for people who want to paint an election as illegitimate.&lt;/p&gt;
+</content>
+  </entry>
+  
+  <entry>
+    <title>Never mind, I added analytics to my blog</title>
+    <link href="https://ajenkins.me/post/added_analytics/" />
+    <updated>2022-05-30T12:30:00Z</updated>
+    <id>https://ajenkins.me/post/added_analytics/</id>
+    <content type="html">&lt;p&gt;A while back I posted about
+&lt;a href=&quot;https://ajenkins.me/post/analytics&quot;&gt;why I don&#39;t have page view tracking on my blog&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Well, I decided to add analytics to my blog and figured
+I should explain why.&lt;/p&gt;
+&lt;p&gt;I thought of two situations where I should probably care about how many
+people are reading my posts:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;I recently wrote a post about &lt;a href=&quot;https://ajenkins.me/post/rcv_to_approval_voting&quot;&gt;approval voting&lt;/a&gt;.
+I&#39;m volunteering in an organization that&#39;s pushing for the use of approval
+voting for elections in Massachusetts. They liked the post and asked me
+how many people have read it. I obviously don&#39;t know, because I don&#39;t
+have analytics on my blog.&lt;/li&gt;
+&lt;li&gt;I post infrequent updates about the dating app that I&#39;m building.
+So far, I&#39;ve mostly been sharing them because I thought people might
+find the updates interesting or helpful, but at some point I&#39;ll probably
+start using my blog as a platform for promoting my dating app. I&#39;d
+like to know whether or not blogging is an effective marketing tool
+for my app and if it&#39;s worth my time.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;The common thread between these two example is that I&#39;m starting
+to use my blog to try to motivate people to do something
+(support approval voting or download my dating app).
+With analytics, I&#39;ll be able to determine how successfully
+I&#39;m accomplishing those goals with my posts. If my posts
+are getting a lot of engagement, that will motivate me to post
+more frequently.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Important note:&lt;/strong&gt; I still am &lt;em&gt;strongly&lt;/em&gt; opposed to cookie banners
+so I will not be adding tracking cookies or any other client-side
+tracking to my website. Instead, I will be using
+&lt;a href=&quot;https://www.netlify.com/products/analytics/&quot;&gt;Netlify&#39;s server-side analytics solution&lt;/a&gt;,
+which currently costs $9/month.&lt;/p&gt;
 </content>
   </entry>
 </feed>

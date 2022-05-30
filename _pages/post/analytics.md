@@ -8,6 +8,10 @@ tags: ['opinion', 'technology', 'privacy', 'web design']
 date: 2020-10-04 12:00:00 -04:00
 ---
 
+<em><strong>UPDATE (5/30/22):</strong> Since writing this post, I've reversed
+my decision and added analytics to my website. You can read why
+[here](/post/added_analytics).</em>
+
 Originally I was planning on writing a blog post about how I chose "X" service
 for analytics on my website. I was going to go over the pros and cons of each service
 I considered and then dramatically tell you the one, best web analytics service.
