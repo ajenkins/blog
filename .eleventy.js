@@ -19,7 +19,8 @@ module.exports = function (eleventyConfig) {
     'png',
     'svg',
     'woff',
-    'woff2'
+    'woff2',
+    'txt'
   ]);
 
   // Copy all files in static/ into _output/, regardless of file extension
