@@ -1,5 +1,5 @@
 [build]
-  command = "npm run build"
+  command = "snowpack build"
   publish = "_output"
 
 [build.environment]
